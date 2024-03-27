@@ -47,7 +47,7 @@ jobs:
         # if: ${{ success() || failure() }}
         with:
           filename: GitHub_Stats_B_GitHub_Languages.svg
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN_PERSONAL }}
           base: header
           base_indepth: yes
           config_order: base.header, isocalendar, languages, notable, discussions, topics
@@ -70,7 +70,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Achievements.svg
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN_PERSONAL }}
           base: ""
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
@@ -369,7 +369,7 @@ jobs:
 #
 #        with:
 #          filename: splatoon.svg
-#          token: ${{ secrets.TOKEN }}
+#          token: ${{ secrets.METRICS_TOKEN_PERSONAL }}
 #          base: ""
 #          output_action: gist
 #          committer_gist: ${{ secrets.GIST }}
@@ -387,7 +387,7 @@ jobs:
 #      - uses: lowlighter/metrics@latest
 #        with:
 #          filename: medias.svg
-#          token: ${{ secrets.TOKEN }}
+#          token: ${{ secrets.METRICS_TOKEN_PERSONAL }}
 #          base: ""
 #          config_order: anilist, music
 #          output_action: gist
@@ -405,7 +405,7 @@ jobs:
 #      - uses: lowlighter/metrics@latest
 #        with:
 #          filename: sponsors.svg
-#          token: ${{ secrets.TOKEN }}
+#          token: ${{ secrets.METRICS_TOKEN_PERSONAL }}
 #          base: ""
 #          output_action: gist
 #          committer_gist: ${{ secrets.GIST }}
@@ -415,4 +415,4 @@ jobs:
 #          plugin_sponsorships_sections: amount
 
 # File info
-# File version: 5 (2024, Tuesday, March 26th at 11:26 pm PST)
+# File version: 5 (2024, Wednesday, March 27th at 04:50 pm PST)
