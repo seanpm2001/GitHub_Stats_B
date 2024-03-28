@@ -6,7 +6,8 @@ on:
   # 🌏 Think about the planet! No need to update stats too frequently (this will run once per day at 1:00 pm PST)
   schedule: [{cron: "0 13 * * *"}]
   # 💡 The following line lets you run workflow manually from the action tab!
-  workflow_dispatch: # Not needed
+  workflow_dispatch:
+  # Not needed
 # 25 steps
 # ⚙️ @seanpm2001 GitHub General
 # 💫️ @seanpm2001 GitHub Achievements
@@ -37,18 +38,18 @@ on:
 # Future todo: keep an updated fork and switch: uses: lowlighter/metrics@latest to seanpm2001/Lowlighter_Metrics@latest
 # Should export to 25 separate SVG files
 jobs:
-  github-metrics:
-    runs-on: ubuntu-latest
-    environment: 
-      name: production
-    permissions:
-      contents: write
+  metrics:
+#    runs-on: ubuntu-latest
+#    environment: 
+#      name: production
+#    permissions:
+#      contents: write
     steps:
+
       # Step 1
-      - uses: lowlighter/metrics@latest
       - name: ⚙️ @seanpm2001 GitHub General   
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
-        # if: ${{ success() || failure() }}
         with:
           filename: GitHub_Stats_B_GitHub_Languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -69,8 +70,8 @@ jobs:
           plugin_notable: yes
           plugin_discussions: yes
       # Step 2
-      - uses: lowlighter/metrics@latest
       - name: 💫️ @seanpm2001 GitHub Achievements
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Achievements.svg
@@ -82,8 +83,8 @@ jobs:
           plugin_achievements_display: compact
           plugin_fortune: yes
       # Step 3
-      - uses: lowlighter/metrics@latest
       - name: 📈️ @seanpm2001 GitHub Stargazer graph ⭐️
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Stargazers_Graph.svg
@@ -92,8 +93,8 @@ jobs:
           plugin_stargazers: yes
           plugin_stargazers_charts_type: graph
       # Step 4
-      - uses: lowlighter/metrics@latest
       - name: 📊️ @seanpm2001 GitHub Stargazers chart ⭐️
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Stargazers_Chart.svg
@@ -101,8 +102,8 @@ jobs:
           base: ""
           plugin_stargazers: yes
       # Step 5
-      - uses: lowlighter/metrics@latest
       - name: 💳️ @seanpm2001 GitHub Licenses and permissions
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Licenses_Overview.svg
@@ -113,8 +114,8 @@ jobs:
           plugin_licenses: yes
           plugin_licenses_setup: bash -c '[[ -f package.json ]] && npm ci || true'
       # Step 6
-      - uses: lowlighter/metrics@latest
       - name: 📈️ @seanpm2001 GitHub Licenses with open-source ratio graphs 💳️
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Licenses_Ratio.svg
@@ -127,8 +128,8 @@ jobs:
           plugin_licenses_legal: no
           plugin_licenses_ratio: yes
       # Step 7
-      - uses: lowlighter/metrics@latest
       - name: 💝 @seanpm2001 GitHub Sponsorships
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Sponsorships.svg
@@ -136,8 +137,8 @@ jobs:
           base: ""
           plugin_sponsorships: yes
       # Step 8
-      - uses: lowlighter/metrics@latest
       - name: 🗓️ @seanpm2001 GitHub heatmap Current year calendar
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Calendar_2024.svg
@@ -145,8 +146,8 @@ jobs:
           base: ""
           plugin_calendar: yes
       # Step 9
-      - uses: lowlighter/metrics@latest
       - name: 🗓️ @seanpm2001 GitHub heatmap Full history calendar
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Calendar_2020-Present.svg
@@ -155,8 +156,8 @@ jobs:
           plugin_calendar: yes
           plugin_calendar_limit: 0
       # Step 10
-      - uses: lowlighter/metrics@latest
       - name: 🚦️ @Seanpm2001 GitHub Repositories traffic
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Repository_Traffic.svg
@@ -164,8 +165,8 @@ jobs:
           base: repositories
           plugin_traffic: yes
       # Step 11
-      - uses: lowlighter/metrics@latest
       - name: 🌆️ @seanpm2001 GitHub Skyline (2020)
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2020.svg
@@ -176,8 +177,8 @@ jobs:
           plugin_skyline_frames: 6
           plugin_skyline_quality: 1
       # Step 12
-      - uses: lowlighter/metrics@latest
       - name: 🌆️ @seanpm2001 GitHub Skyline (2021)
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2021.svg
@@ -188,8 +189,8 @@ jobs:
           plugin_skyline_frames: 6
           plugin_skyline_quality: 1
       # Step 13
-      - uses: lowlighter/metrics@latest
       - name: 🌆️ @seanpm2001 GitHub Skyline (2022)
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2022.svg
@@ -200,8 +201,8 @@ jobs:
           plugin_skyline_frames: 6
           plugin_skyline_quality: 1
       # Step 14
-      - uses: lowlighter/metrics@latest
       - name: 🌆️ @seanpm2001 GitHub Skyline (2023)
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2023.svg
@@ -212,8 +213,8 @@ jobs:
           plugin_skyline_frames: 6
           plugin_skyline_quality: 1
       # Step 15
-      - uses: lowlighter/metrics@latest
       - name: 🌆️ @seanpm2001 GitHub Skyline (2024)
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2024.svg
@@ -224,8 +225,8 @@ jobs:
           plugin_skyline_frames: 6
           plugin_skyline_quality: 1
       # Step 16
-      - uses: lowlighter/metrics@latest
       - name: 🏙️ @seanpm2001 GitHub City (2020)
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2020.svg
@@ -243,8 +244,8 @@ jobs:
               "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
             }
       # Step 17
-      - uses: lowlighter/metrics@latest
       - name: 🏙️ @seanpm2001 GitHub City (2021)
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2021.svg
@@ -262,8 +263,8 @@ jobs:
               "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
             }
       # Step 18
-      - uses: lowlighter/metrics@latest
       - name: 🏙️ @seanpm2001 GitHub City (2022)
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2022.svg
@@ -281,8 +282,8 @@ jobs:
               "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
             }
       # Step 19
-      - uses: lowlighter/metrics@latest
       - name: 🏙️ @seanpm2001 GitHub City (2023)
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2023.svg
@@ -300,8 +301,8 @@ jobs:
               "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
             }
       # Step 20
-      - uses: lowlighter/metrics@latest
       - name: 🏙️ @seanpm2001 GitHub City (2024)
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2024.svg
@@ -319,8 +320,8 @@ jobs:
               "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
             }
       # Step 21
-      - uses: lowlighter/metrics@latest
       - name: 🏷️ @seanpm2001 GitHub starred Labels ⭐️
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_StarredTopics_Labels_20.svg
@@ -329,8 +330,8 @@ jobs:
           plugin_topics: yes
           plugin_topics_limit: 20
       # Step 22
-      - uses: lowlighter/metrics@latest
       - name: 🐍️ @seanpm2001 GitHub starred topics Icons ⭐️
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_StarredTopics_Icons_60.svg
@@ -340,8 +341,8 @@ jobs:
           plugin_topics_limit: 60
           plugin_topics_mode: icons
       # Step 23
-      - uses: lowlighter/metrics@latest
       - name: 📅️ @seanpm2001 GitHub Half-year isometric calendar 🔳️
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_HalfYear_IsometricCalendar.svg
@@ -349,8 +350,8 @@ jobs:
           base: ""
           plugin_isocalendar: yes
       # Step 24
-      - uses: lowlighter/metrics@latest
       - name: 📅️ @seanpm2001 GitHub Full-year isometric calendar 🔳️
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_FullYear_IsometricCalendar.svg
@@ -359,8 +360,8 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
       # Step 25
-      - uses: lowlighter/metrics@latest
       - name: 💬️ @seanpm2001 GitHub Discussions 🗨️
+        if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001-GitHub-Discussions.svg
@@ -419,4 +420,4 @@ jobs:
 #          plugin_sponsorships_sections: amount
 
 # File info
-# File version: 7 (2024, Wednesday, March 27th at 05:07 pm PST)
+# File version: 8 (2024, Wednesday, March 27th at 05:43 pm PST)
