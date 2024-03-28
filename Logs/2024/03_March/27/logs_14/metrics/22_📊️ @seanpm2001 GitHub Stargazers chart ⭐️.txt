@@ -1,0 +1,1578 @@
+﻿2024-03-28T04:56:52.0733878Z ##[group]Run lowlighter/metrics@latest
+2024-03-28T04:56:52.0734241Z with:
+2024-03-28T04:56:52.0734532Z   filename: GitHub_Stats_B_GitHub_Stargazers_Chart.svg
+2024-03-28T04:56:52.0735021Z   token: ***
+2024-03-28T04:56:52.0735255Z   plugin_stargazers: yes
+2024-03-28T04:56:52.0735539Z   base_indepth: <default-value>
+2024-03-28T04:56:52.0735853Z   base_hireable: <default-value>
+2024-03-28T04:56:52.0736154Z   base_skip: <default-value>
+2024-03-28T04:56:52.0736445Z   repositories: <default-value>
+2024-03-28T04:56:52.0736757Z   repositories_batch: <default-value>
+2024-03-28T04:56:52.0737100Z   repositories_forks: <default-value>
+2024-03-28T04:56:52.0737444Z   repositories_affiliations: <default-value>
+2024-03-28T04:56:52.0737820Z   repositories_skipped: <default-value>
+2024-03-28T04:56:52.0738158Z   users_ignored: <default-value>
+2024-03-28T04:56:52.0738468Z   commits_authoring: <default-value>
+2024-03-28T04:56:52.0738781Z   user: <default-value>
+2024-03-28T04:56:52.0739042Z   repo: <default-value>
+2024-03-28T04:56:52.0739455Z   committer_token: ***
+2024-03-28T04:56:52.0739722Z   committer_branch: <default-value>
+2024-03-28T04:56:52.0740047Z   committer_message: <default-value>
+2024-03-28T04:56:52.0740371Z   committer_gist: <default-value>
+2024-03-28T04:56:52.0740676Z   markdown: <default-value>
+2024-03-28T04:56:52.0740958Z   markdown_cache: <default-value>
+2024-03-28T04:56:52.0741266Z   output_action: <default-value>
+2024-03-28T04:56:52.0741572Z   output_condition: <default-value>
+2024-03-28T04:56:52.0741887Z   optimize: <default-value>
+2024-03-28T04:56:52.0742192Z   setup_community_templates: <default-value>
+2024-03-28T04:56:52.0742542Z   template: <default-value>
+2024-03-28T04:56:52.0742816Z   query: <default-value>
+2024-03-28T04:56:52.0743084Z   extras_css: <default-value>
+2024-03-28T04:56:52.0743381Z   extras_js: <default-value>
+2024-03-28T04:56:52.0743677Z   github_api_rest: <default-value>
+2024-03-28T04:56:52.0743996Z   github_api_graphql: <default-value>
+2024-03-28T04:56:52.0744325Z   config_order: <default-value>
+2024-03-28T04:56:52.0744635Z   config_twemoji: <default-value>
+2024-03-28T04:56:52.0744944Z   config_gemoji: <default-value>
+2024-03-28T04:56:52.0745264Z   config_octicon: <default-value>
+2024-03-28T04:56:52.0745563Z   config_display: <default-value>
+2024-03-28T04:56:52.0745872Z   config_animations: <default-value>
+2024-03-28T04:56:52.0746210Z   config_base64: <default-value>
+2024-03-28T04:56:52.0746519Z   config_padding: <default-value>
+2024-03-28T04:56:52.0746814Z   config_output: <default-value>
+2024-03-28T04:56:52.0747112Z   retries: <default-value>
+2024-03-28T04:56:52.0747392Z   retries_delay: <default-value>
+2024-03-28T04:56:52.0747705Z   retries_output_action: <default-value>
+2024-03-28T04:56:52.0748074Z   retries_delay_output_action: <default-value>
+2024-03-28T04:56:52.0748441Z   clean_workflows: <default-value>
+2024-03-28T04:56:52.0748748Z   delay: <default-value>
+2024-03-28T04:56:52.0749023Z   quota_required_rest: <default-value>
+2024-03-28T04:56:52.0749377Z   quota_required_graphql: <default-value>
+2024-03-28T04:56:52.0749735Z   quota_required_search: <default-value>
+2024-03-28T04:56:52.0750360Z   notice_releases: <default-value>
+2024-03-28T04:56:52.0750665Z   use_prebuilt_image: yes
+2024-03-28T04:56:52.0750956Z   plugins_errors_fatal: <default-value>
+2024-03-28T04:56:52.0751284Z   debug: <default-value>
+2024-03-28T04:56:52.0751551Z   verify: <default-value>
+2024-03-28T04:56:52.0751824Z   debug_flags: <default-value>
+2024-03-28T04:56:52.0752130Z   debug_print: <default-value>
+2024-03-28T04:56:52.0752422Z   dryrun: <default-value>
+2024-03-28T04:56:52.0752720Z   experimental_features: <default-value>
+2024-03-28T04:56:52.0753060Z   use_mocked_data: <default-value>
+2024-03-28T04:56:52.0753402Z   plugin_isocalendar: <default-value>
+2024-03-28T04:56:52.0753773Z   plugin_isocalendar_duration: <default-value>
+2024-03-28T04:56:52.0754141Z   plugin_languages: <default-value>
+2024-03-28T04:56:52.0754487Z   plugin_languages_ignored: <default-value>
+2024-03-28T04:56:52.0755075Z   plugin_languages_skipped: <default-value>
+2024-03-28T04:56:52.0755629Z   plugin_languages_limit: <default-value>
+2024-03-28T04:56:52.0756000Z   plugin_languages_threshold: <default-value>
+2024-03-28T04:56:52.0756365Z   plugin_languages_other: <default-value>
+2024-03-28T04:56:52.0756717Z   plugin_languages_colors: <default-value>
+2024-03-28T04:56:52.0757084Z   plugin_languages_aliases: <default-value>
+2024-03-28T04:56:52.0757452Z   plugin_languages_sections: <default-value>
+2024-03-28T04:56:52.0757822Z   plugin_languages_details: <default-value>
+2024-03-28T04:56:52.0758194Z   plugin_languages_indepth: <default-value>
+2024-03-28T04:56:52.0758594Z   plugin_languages_indepth_custom: <default-value>
+2024-03-28T04:56:52.0759028Z   plugin_languages_analysis_timeout: <default-value>
+2024-03-28T04:56:52.0759511Z   plugin_languages_analysis_timeout_repositories: <default-value>
+2024-03-28T04:56:52.0759981Z   plugin_languages_categories: <default-value>
+2024-03-28T04:56:52.0760398Z   plugin_languages_recent_categories: <default-value>
+2024-03-28T04:56:52.0760829Z   plugin_languages_recent_load: <default-value>
+2024-03-28T04:56:52.0761218Z   plugin_languages_recent_days: <default-value>
+2024-03-28T04:56:52.0761596Z   plugin_stargazers_days: <default-value>
+2024-03-28T04:56:52.0761959Z   plugin_stargazers_charts: <default-value>
+2024-03-28T04:56:52.0762349Z   plugin_stargazers_charts_type: <default-value>
+2024-03-28T04:56:52.0762741Z   plugin_stargazers_worldmap: <default-value>
+2024-03-28T04:56:52.0763142Z   plugin_stargazers_worldmap_token: <default-value>
+2024-03-28T04:56:52.0763577Z   plugin_stargazers_worldmap_sample: <default-value>
+2024-03-28T04:56:52.0763964Z   plugin_lines: <default-value>
+2024-03-28T04:56:52.0764276Z   plugin_lines_skipped: <default-value>
+2024-03-28T04:56:52.0764627Z   plugin_lines_sections: <default-value>
+2024-03-28T04:56:52.0765012Z   plugin_lines_repositories_limit: <default-value>
+2024-03-28T04:56:52.0765419Z   plugin_lines_history_limit: <default-value>
+2024-03-28T04:56:52.0765777Z   plugin_lines_delay: <default-value>
+2024-03-28T04:56:52.0766115Z   plugin_topics: <default-value>
+2024-03-28T04:56:52.0766432Z   plugin_topics_mode: <default-value>
+2024-03-28T04:56:52.0766763Z   plugin_topics_sort: <default-value>
+2024-03-28T04:56:52.0767090Z   plugin_topics_limit: <default-value>
+2024-03-28T04:56:52.0767423Z   plugin_stars: <default-value>
+2024-03-28T04:56:52.0767730Z   plugin_stars_limit: <default-value>
+2024-03-28T04:56:52.0768049Z   plugin_licenses: <default-value>
+2024-03-28T04:56:52.0768386Z   plugin_licenses_setup: <default-value>
+2024-03-28T04:56:52.0768734Z   plugin_licenses_ratio: <default-value>
+2024-03-28T04:56:52.0769082Z   plugin_licenses_legal: <default-value>
+2024-03-28T04:56:52.0769415Z   plugin_habits: <default-value>
+2024-03-28T04:56:52.0769725Z   plugin_habits_from: <default-value>
+2024-03-28T04:56:52.0770056Z   plugin_habits_skipped: <default-value>
+2024-03-28T04:56:52.0770397Z   plugin_habits_days: <default-value>
+2024-03-28T04:56:52.0770722Z   plugin_habits_facts: <default-value>
+2024-03-28T04:56:52.0771068Z   plugin_habits_charts: <default-value>
+2024-03-28T04:56:52.0771446Z   plugin_habits_charts_type: <default-value>
+2024-03-28T04:56:52.0771959Z   plugin_habits_trim: <default-value>
+2024-03-28T04:56:52.0772331Z   plugin_habits_languages_limit: <default-value>
+2024-03-28T04:56:52.0772761Z   plugin_habits_languages_threshold: <default-value>
+2024-03-28T04:56:52.0773159Z   plugin_contributors: <default-value>
+2024-03-28T04:56:52.0773522Z   plugin_contributors_base: <default-value>
+2024-03-28T04:56:52.0773888Z   plugin_contributors_head: <default-value>
+2024-03-28T04:56:52.0774271Z   plugin_contributors_ignored: <default-value>
+2024-03-28T04:56:52.0774684Z   plugin_contributors_contributions: <default-value>
+2024-03-28T04:56:52.0775106Z   plugin_contributors_sections: <default-value>
+2024-03-28T04:56:52.0775511Z   plugin_contributors_categories: <default-value>
+2024-03-28T04:56:52.0775887Z   plugin_followup: <default-value>
+2024-03-28T04:56:52.0776226Z   plugin_followup_sections: <default-value>
+2024-03-28T04:56:52.0776860Z   plugin_followup_indepth: <default-value>
+2024-03-28T04:56:52.0777223Z   plugin_followup_archived: <default-value>
+2024-03-28T04:56:52.0777572Z   plugin_reactions: <default-value>
+2024-03-28T04:56:52.0777906Z   plugin_reactions_limit: <default-value>
+2024-03-28T04:56:52.0778283Z   plugin_reactions_limit_issues: <default-value>
+2024-03-28T04:56:52.0778703Z   plugin_reactions_limit_discussions: <default-value>
+2024-03-28T04:56:52.0779178Z   plugin_reactions_limit_discussions_comments: <default-value>
+2024-03-28T04:56:52.0779760Z   plugin_reactions_days: <default-value>
+2024-03-28T04:56:52.0780124Z   plugin_reactions_display: <default-value>
+2024-03-28T04:56:52.0780486Z   plugin_reactions_details: <default-value>
+2024-03-28T04:56:52.0780856Z   plugin_reactions_ignored: <default-value>
+2024-03-28T04:56:52.0781218Z   plugin_people: <default-value>
+2024-03-28T04:56:52.0781537Z   plugin_people_limit: <default-value>
+2024-03-28T04:56:52.0781885Z   plugin_people_identicons: <default-value>
+2024-03-28T04:56:52.0782275Z   plugin_people_identicons_hide: <default-value>
+2024-03-28T04:56:52.0782652Z   plugin_people_size: <default-value>
+2024-03-28T04:56:52.0782990Z   plugin_people_types: <default-value>
+2024-03-28T04:56:52.0783323Z   plugin_people_thanks: <default-value>
+2024-03-28T04:56:52.0783694Z   plugin_people_sponsors_custom: <default-value>
+2024-03-28T04:56:52.0784076Z   plugin_people_shuffle: <default-value>
+2024-03-28T04:56:52.0784424Z   plugin_sponsorships: <default-value>
+2024-03-28T04:56:52.0784784Z   plugin_sponsorships_sections: <default-value>
+2024-03-28T04:56:52.0785166Z   plugin_sponsorships_size: <default-value>
+2024-03-28T04:56:52.0785518Z   plugin_sponsors: <default-value>
+2024-03-28T04:56:52.0785855Z   plugin_sponsors_sections: <default-value>
+2024-03-28T04:56:52.0786203Z   plugin_sponsors_past: <default-value>
+2024-03-28T04:56:52.0786546Z   plugin_sponsors_size: <default-value>
+2024-03-28T04:56:52.0786889Z   plugin_sponsors_title: <default-value>
+2024-03-28T04:56:52.0787240Z   plugin_repositories: <default-value>
+2024-03-28T04:56:52.0787603Z   plugin_repositories_featured: <default-value>
+2024-03-28T04:56:52.0787999Z   plugin_repositories_pinned: <default-value>
+2024-03-28T04:56:52.0788386Z   plugin_repositories_starred: <default-value>
+2024-03-28T04:56:52.0788776Z   plugin_repositories_random: <default-value>
+2024-03-28T04:56:52.0789156Z   plugin_repositories_order: <default-value>
+2024-03-28T04:56:52.0789533Z   plugin_repositories_forks: <default-value>
+2024-03-28T04:56:52.0790150Z   plugin_repositories_affiliations: <default-value>
+2024-03-28T04:56:52.0790784Z   plugin_discussions: <default-value>
+2024-03-28T04:56:52.0791230Z   plugin_discussions_categories: <default-value>
+2024-03-28T04:56:52.0791677Z   plugin_discussions_categories_limit: <default-value>
+2024-03-28T04:56:52.0792081Z   plugin_starlists: <default-value>
+2024-03-28T04:56:52.0792425Z   plugin_starlists_limit: <default-value>
+2024-03-28T04:56:52.0792818Z   plugin_starlists_limit_repositories: <default-value>
+2024-03-28T04:56:52.0793242Z   plugin_starlists_languages: <default-value>
+2024-03-28T04:56:52.0793647Z   plugin_starlists_limit_languages: <default-value>
+2024-03-28T04:56:52.0794082Z   plugin_starlists_languages_ignored: <default-value>
+2024-03-28T04:56:52.0794512Z   plugin_starlists_languages_aliases: <default-value>
+2024-03-28T04:56:52.0794966Z   plugin_starlists_shuffle_repositories: <default-value>
+2024-03-28T04:56:52.0795395Z   plugin_starlists_ignored: <default-value>
+2024-03-28T04:56:52.0795757Z   plugin_starlists_only: <default-value>
+2024-03-28T04:56:52.0796094Z   plugin_calendar: <default-value>
+2024-03-28T04:56:52.0796423Z   plugin_calendar_limit: <default-value>
+2024-03-28T04:56:52.0796770Z   plugin_achievements: <default-value>
+2024-03-28T04:56:52.0797139Z   plugin_achievements_threshold: <default-value>
+2024-03-28T04:56:52.0797536Z   plugin_achievements_secrets: <default-value>
+2024-03-28T04:56:52.0797928Z   plugin_achievements_display: <default-value>
+2024-03-28T04:56:52.0798493Z   plugin_achievements_limit: <default-value>
+2024-03-28T04:56:52.0799010Z   plugin_achievements_ignored: <default-value>
+2024-03-28T04:56:52.0799375Z   plugin_achievements_only: <default-value>
+2024-03-28T04:56:52.0799727Z   plugin_notable: <default-value>
+2024-03-28T04:56:52.0800052Z   plugin_notable_filter: <default-value>
+2024-03-28T04:56:52.0800404Z   plugin_notable_skipped: <default-value>
+2024-03-28T04:56:52.0800741Z   plugin_notable_from: <default-value>
+2024-03-28T04:56:52.0801099Z   plugin_notable_repositories: <default-value>
+2024-03-28T04:56:52.0801468Z   plugin_notable_indepth: <default-value>
+2024-03-28T04:56:52.0801826Z   plugin_notable_types: <default-value>
+2024-03-28T04:56:52.0802162Z   plugin_notable_self: <default-value>
+2024-03-28T04:56:52.0802491Z   plugin_activity: <default-value>
+2024-03-28T04:56:52.0802820Z   plugin_activity_limit: <default-value>
+2024-03-28T04:56:52.0803155Z   plugin_activity_load: <default-value>
+2024-03-28T04:56:52.0803495Z   plugin_activity_days: <default-value>
+2024-03-28T04:56:52.0803853Z   plugin_activity_visibility: <default-value>
+2024-03-28T04:56:52.0804243Z   plugin_activity_timestamps: <default-value>
+2024-03-28T04:56:52.0804603Z   plugin_activity_skipped: <default-value>
+2024-03-28T04:56:52.0804968Z   plugin_activity_ignored: <default-value>
+2024-03-28T04:56:52.0805329Z   plugin_activity_filter: <default-value>
+2024-03-28T04:56:52.0805668Z   plugin_traffic: <default-value>
+2024-03-28T04:56:52.0805988Z   plugin_traffic_skipped: <default-value>
+2024-03-28T04:56:52.0806325Z   plugin_code: <default-value>
+2024-03-28T04:56:52.0806626Z   plugin_code_lines: <default-value>
+2024-03-28T04:56:52.0806956Z   plugin_code_load: <default-value>
+2024-03-28T04:56:52.0807272Z   plugin_code_days: <default-value>
+2024-03-28T04:56:52.0807607Z   plugin_code_visibility: <default-value>
+2024-03-28T04:56:52.0807950Z   plugin_code_skipped: <default-value>
+2024-03-28T04:56:52.0808298Z   plugin_code_languages: <default-value>
+2024-03-28T04:56:52.0808633Z   plugin_gists: <default-value>
+2024-03-28T04:56:52.0808945Z   plugin_projects: <default-value>
+2024-03-28T04:56:52.0809279Z   plugin_projects_limit: <default-value>
+2024-03-28T04:56:52.0809652Z   plugin_projects_repositories: <default-value>
+2024-03-28T04:56:52.0810049Z   plugin_projects_descriptions: <default-value>
+2024-03-28T04:56:52.0810426Z   plugin_introduction: <default-value>
+2024-03-28T04:56:52.0810785Z   plugin_introduction_title: <default-value>
+2024-03-28T04:56:52.0811140Z   plugin_skyline: <default-value>
+2024-03-28T04:56:52.0811453Z   plugin_skyline_year: <default-value>
+2024-03-28T04:56:52.0811797Z   plugin_skyline_frames: <default-value>
+2024-03-28T04:56:52.0812143Z   plugin_skyline_quality: <default-value>
+2024-03-28T04:56:52.0812520Z   plugin_skyline_compatibility: <default-value>
+2024-03-28T04:56:52.0812895Z   plugin_skyline_settings: <default-value>
+2024-03-28T04:56:52.0813242Z   plugin_support: <default-value>
+2024-03-28T04:56:52.0813554Z   plugin_pagespeed: <default-value>
+2024-03-28T04:56:52.0813894Z   plugin_pagespeed_token: <default-value>
+2024-03-28T04:56:52.0814244Z   plugin_pagespeed_url: <default-value>
+2024-03-28T04:56:52.0814611Z   plugin_pagespeed_detailed: <default-value>
+2024-03-28T04:56:52.0814997Z   plugin_pagespeed_screenshot: <default-value>
+2024-03-28T04:56:52.0815375Z   plugin_pagespeed_pwa: <default-value>
+2024-03-28T04:56:52.0815719Z   plugin_tweets: <default-value>
+2024-03-28T04:56:52.0816040Z   plugin_tweets_token: <default-value>
+2024-03-28T04:56:52.0816378Z   plugin_tweets_user: <default-value>
+2024-03-28T04:56:52.0816731Z   plugin_tweets_attachments: <default-value>
+2024-03-28T04:56:52.0817089Z   plugin_tweets_limit: <default-value>
+2024-03-28T04:56:52.0817427Z   plugin_stackoverflow: <default-value>
+2024-03-28T04:56:52.0817787Z   plugin_stackoverflow_user: <default-value>
+2024-03-28T04:56:52.0818170Z   plugin_stackoverflow_sections: <default-value>
+2024-03-28T04:56:52.0818570Z   plugin_stackoverflow_limit: <default-value>
+2024-03-28T04:56:52.0818957Z   plugin_stackoverflow_lines: <default-value>
+2024-03-28T04:56:52.0819522Z   plugin_stackoverflow_lines_snippet: <default-value>
+2024-03-28T04:56:52.0820026Z   plugin_anilist: <default-value>
+2024-03-28T04:56:52.0820342Z   plugin_anilist_user: <default-value>
+2024-03-28T04:56:52.0820690Z   plugin_anilist_medias: <default-value>
+2024-03-28T04:56:52.0821044Z   plugin_anilist_sections: <default-value>
+2024-03-28T04:56:52.0821393Z   plugin_anilist_limit: <default-value>
+2024-03-28T04:56:52.0821769Z   plugin_anilist_limit_characters: <default-value>
+2024-03-28T04:56:52.0822164Z   plugin_anilist_shuffle: <default-value>
+2024-03-28T04:56:52.0822501Z   plugin_music: <default-value>
+2024-03-28T04:56:52.0822811Z   plugin_music_provider: <default-value>
+2024-03-28T04:56:52.0823153Z   plugin_music_token: <default-value>
+2024-03-28T04:56:52.0823482Z   plugin_music_user: <default-value>
+2024-03-28T04:56:52.0823811Z   plugin_music_mode: <default-value>
+2024-03-28T04:56:52.0824143Z   plugin_music_playlist: <default-value>
+2024-03-28T04:56:52.0824479Z   plugin_music_limit: <default-value>
+2024-03-28T04:56:52.0824832Z   plugin_music_played_at: <default-value>
+2024-03-28T04:56:52.0825192Z   plugin_music_time_range: <default-value>
+2024-03-28T04:56:52.0825544Z   plugin_music_top_type: <default-value>
+2024-03-28T04:56:52.0825875Z   plugin_posts: <default-value>
+2024-03-28T04:56:52.0826184Z   plugin_posts_source: <default-value>
+2024-03-28T04:56:52.0826516Z   plugin_posts_user: <default-value>
+2024-03-28T04:56:52.0826859Z   plugin_posts_descriptions: <default-value>
+2024-03-28T04:56:52.0827223Z   plugin_posts_covers: <default-value>
+2024-03-28T04:56:52.0827556Z   plugin_posts_limit: <default-value>
+2024-03-28T04:56:52.0827874Z   plugin_rss: <default-value>
+2024-03-28T04:56:52.0828165Z   plugin_rss_source: <default-value>
+2024-03-28T04:56:52.0828486Z   plugin_rss_limit: <default-value>
+2024-03-28T04:56:52.0828813Z   plugin_wakatime: <default-value>
+2024-03-28T04:56:52.0829141Z   plugin_wakatime_token: <default-value>
+2024-03-28T04:56:52.0829476Z   plugin_wakatime_url: <default-value>
+2024-03-28T04:56:52.0829811Z   plugin_wakatime_user: <default-value>
+2024-03-28T04:56:52.0830473Z   plugin_wakatime_sections: <default-value>
+2024-03-28T04:56:52.0830835Z   plugin_wakatime_days: <default-value>
+2024-03-28T04:56:52.0831176Z   plugin_wakatime_limit: <default-value>
+2024-03-28T04:56:52.0831563Z   plugin_wakatime_languages_other: <default-value>
+2024-03-28T04:56:52.0831991Z   plugin_wakatime_languages_ignored: <default-value>
+2024-03-28T04:56:52.0832449Z   plugin_wakatime_repositories_visibility: <default-value>
+2024-03-28T04:56:52.0832857Z   plugin_leetcode: <default-value>
+2024-03-28T04:56:52.0833181Z   plugin_leetcode_user: <default-value>
+2024-03-28T04:56:52.0833535Z   plugin_leetcode_sections: <default-value>
+2024-03-28T04:56:52.0833920Z   plugin_leetcode_limit_skills: <default-value>
+2024-03-28T04:56:52.0834324Z   plugin_leetcode_ignored_skills: <default-value>
+2024-03-28T04:56:52.0834731Z   plugin_leetcode_limit_recent: <default-value>
+2024-03-28T04:56:52.0835093Z   plugin_steam: <default-value>
+2024-03-28T04:56:52.0835409Z   plugin_steam_token: <default-value>
+2024-03-28T04:56:52.0835743Z   plugin_steam_sections: <default-value>
+2024-03-28T04:56:52.0836105Z   plugin_steam_games_ignored: <default-value>
+2024-03-28T04:56:52.0836482Z   plugin_steam_games_limit: <default-value>
+2024-03-28T04:56:52.0836871Z   plugin_steam_recent_games_limit: <default-value>
+2024-03-28T04:56:52.0837283Z   plugin_steam_achievements_limit: <default-value>
+2024-03-28T04:56:52.0837700Z   plugin_steam_playtime_threshold: <default-value>
+2024-03-28T04:56:52.0838094Z   plugin_16personalities: <default-value>
+2024-03-28T04:56:52.0838465Z   plugin_16personalities_url: <default-value>
+2024-03-28T04:56:52.0838853Z   plugin_16personalities_sections: <default-value>
+2024-03-28T04:56:52.0839260Z   plugin_16personalities_scores: <default-value>
+2024-03-28T04:56:52.0839632Z   plugin_chess: <default-value>
+2024-03-28T04:56:52.0839945Z   plugin_chess_token: <default-value>
+2024-03-28T04:56:52.0840267Z   plugin_chess_user: <default-value>
+2024-03-28T04:56:52.0840895Z   plugin_chess_platform: <default-value>
+2024-03-28T04:56:52.0841246Z   plugin_chess_animation: <default-value>
+2024-03-28T04:56:52.0841579Z   plugin_fortune: <default-value>
+2024-03-28T04:56:52.0841895Z   plugin_nightscout: <default-value>
+2024-03-28T04:56:52.0842240Z   plugin_nightscout_url: <default-value>
+2024-03-28T04:56:52.0842612Z   plugin_nightscout_datapoints: <default-value>
+2024-03-28T04:56:52.0842998Z   plugin_nightscout_lowalert: <default-value>
+2024-03-28T04:56:52.0843378Z   plugin_nightscout_highalert: <default-value>
+2024-03-28T04:56:52.0843789Z   plugin_nightscout_urgentlowalert: <default-value>
+2024-03-28T04:56:52.0844230Z   plugin_nightscout_urgenthighalert: <default-value>
+2024-03-28T04:56:52.0844626Z   plugin_poopmap: <default-value>
+2024-03-28T04:56:52.0844963Z   plugin_poopmap_token: <default-value>
+2024-03-28T04:56:52.0845306Z   plugin_poopmap_days: <default-value>
+2024-03-28T04:56:52.0845641Z   plugin_screenshot: <default-value>
+2024-03-28T04:56:52.0845985Z   plugin_screenshot_title: <default-value>
+2024-03-28T04:56:52.0846347Z   plugin_screenshot_url: <default-value>
+2024-03-28T04:56:52.0846709Z   plugin_screenshot_selector: <default-value>
+2024-03-28T04:56:52.0847072Z   plugin_screenshot_mode: <default-value>
+2024-03-28T04:56:52.0847429Z   plugin_screenshot_viewport: <default-value>
+2024-03-28T04:56:52.0847849Z   plugin_screenshot_wait: <default-value>
+2024-03-28T04:56:52.0848425Z   plugin_screenshot_background: <default-value>
+2024-03-28T04:56:52.0848954Z   plugin_splatoon: <default-value>
+2024-03-28T04:56:52.0849283Z   plugin_splatoon_token: <default-value>
+2024-03-28T04:56:52.0849645Z   plugin_splatoon_sections: <default-value>
+2024-03-28T04:56:52.0850031Z   plugin_splatoon_versus_limit: <default-value>
+2024-03-28T04:56:52.0850420Z   plugin_splatoon_salmon_limit: <default-value>
+2024-03-28T04:56:52.0850797Z   plugin_splatoon_statink: <default-value>
+2024-03-28T04:56:52.0851182Z   plugin_splatoon_statink_token: <default-value>
+2024-03-28T04:56:52.0851567Z   plugin_splatoon_source: <default-value>
+2024-03-28T04:56:52.0851911Z   plugin_stock: <default-value>
+2024-03-28T04:56:52.0852216Z   plugin_stock_token: <default-value>
+2024-03-28T04:56:52.0852551Z   plugin_stock_symbol: <default-value>
+2024-03-28T04:56:52.0852891Z   plugin_stock_duration: <default-value>
+2024-03-28T04:56:52.0853241Z   plugin_stock_interval: <default-value>
+2024-03-28T04:56:52.0853555Z ##[endgroup]
+2024-03-28T04:56:52.0874685Z ##[group]Run # Check runner compatibility
+2024-03-28T04:56:52.0875174Z [36;1m# Check runner compatibility[0m
+2024-03-28T04:56:52.0875562Z [36;1mecho "::group::Metrics docker image setup"[0m
+2024-03-28T04:56:52.0876083Z [36;1mecho "GitHub action: $METRICS_ACTION ($METRICS_ACTION_PATH)"[0m
+2024-03-28T04:56:52.0876550Z [36;1mcd $METRICS_ACTION_PATH[0m
+2024-03-28T04:56:52.0876887Z [36;1mfor DEPENDENCY in docker jq; do[0m
+2024-03-28T04:56:52.0877295Z [36;1m  if ! which $DEPENDENCY > /dev/null 2>&1; then[0m
+2024-03-28T04:56:52.0877963Z [36;1m    echo "::error::\"$DEPENDENCY\" is not installed on current runner but is needed to run metrics"[0m
+2024-03-28T04:56:52.0878589Z [36;1m    MISSING_DEPENDENCIES=1[0m
+2024-03-28T04:56:52.0878892Z [36;1m  fi[0m
+2024-03-28T04:56:52.0879104Z [36;1mdone[0m
+2024-03-28T04:56:52.0879428Z [36;1mif [[ $MISSING_DEPENDENCIES == "1" ]]; then[0m
+2024-03-28T04:56:52.0879898Z [36;1m  echo "Runner compatibility: missing dependencies"[0m
+2024-03-28T04:56:52.0880298Z [36;1m  exit 1[0m
+2024-03-28T04:56:52.0880518Z [36;1melse[0m
+2024-03-28T04:56:52.0880802Z [36;1m  echo "Runner compatibility: compatible"[0m
+2024-03-28T04:56:52.0881162Z [36;1mfi[0m
+2024-03-28T04:56:52.0881364Z [36;1m[0m
+2024-03-28T04:56:52.0881710Z [36;1m# Create environment file from inputs and GitHub variables[0m
+2024-03-28T04:56:52.0882148Z [36;1mtouch .env[0m
+2024-03-28T04:56:52.0882703Z [36;1mfor INPUT in $(echo $INPUTS | jq -r 'to_entries|map("INPUT_\(.key|ascii_upcase)=\(.value|@uri)")|.[]'); do[0m
+2024-03-28T04:56:52.0883323Z [36;1m  echo $INPUT >> .env[0m
+2024-03-28T04:56:52.0883913Z [36;1mdone[0m
+2024-03-28T04:56:52.0884214Z [36;1menv | grep -E '^(GITHUB|ACTIONS|CI|TZ)' >> .env[0m
+2024-03-28T04:56:52.0884648Z [36;1mecho "Environment variables: loaded"[0m
+2024-03-28T04:56:52.0884981Z [36;1m[0m
+2024-03-28T04:56:52.0885208Z [36;1m# Renders output folder[0m
+2024-03-28T04:56:52.0885546Z [36;1mMETRICS_RENDERS="/metrics_renders"[0m
+2024-03-28T04:56:52.0885916Z [36;1msudo mkdir -p $METRICS_RENDERS[0m
+2024-03-28T04:56:52.0886319Z [36;1mecho "Renders output folder: $METRICS_RENDERS"[0m
+2024-03-28T04:56:52.0886694Z [36;1m[0m
+2024-03-28T04:56:52.0886982Z [36;1m# Source repository (picked from action name)[0m
+2024-03-28T04:56:52.0887583Z [36;1mMETRICS_SOURCE=$(echo $METRICS_ACTION | sed -E 's/metrics.*?$//g' | sed -E 's/_//g')[0m
+2024-03-28T04:56:52.0888133Z [36;1mecho "Source: $METRICS_SOURCE"[0m
+2024-03-28T04:56:52.0888446Z [36;1m[0m
+2024-03-28T04:56:52.0888704Z [36;1m# Version (picked from package.json)[0m
+2024-03-28T04:56:52.0889213Z [36;1mMETRICS_VERSION=$(grep -Po '(?<="version": ").*(?=")' package.json)[0m
+2024-03-28T04:56:52.0889703Z [36;1mecho "Version: $METRICS_VERSION"[0m
+2024-03-28T04:56:52.0890026Z [36;1m[0m
+2024-03-28T04:56:52.0890331Z [36;1m# Image tag (extracted from version or from env)[0m
+2024-03-28T04:56:52.0890898Z [36;1mMETRICS_TAG=v$(echo $METRICS_VERSION | sed -r 's/^([0-9]+[.][0-9]+).*/\1/')[0m
+2024-03-28T04:56:52.0891408Z [36;1mecho "Image tag: $METRICS_TAG"[0m
+2024-03-28T04:56:52.0891727Z [36;1m[0m
+2024-03-28T04:56:52.0891938Z [36;1m# Image name[0m
+2024-03-28T04:56:52.0892197Z [36;1m# Official action[0m
+2024-03-28T04:56:52.0892541Z [36;1mif [[ $METRICS_SOURCE == "lowlighter" ]]; then[0m
+2024-03-28T04:56:52.0892966Z [36;1m  # Use registry with pre-built images[0m
+2024-03-28T04:56:52.0893487Z [36;1m  if [[ ! $METRICS_USE_PREBUILT_IMAGE =~ ^([Ff]alse|[Oo]ff|[Nn]o|0)$ ]]; then[0m
+2024-03-28T04:56:52.0893983Z [36;1m    # Is released version[0m
+2024-03-28T04:56:52.0894284Z [36;1m    set +e[0m
+2024-03-28T04:56:52.0894705Z [36;1m    METRICS_IS_RELEASED=$(expr $(expr match $METRICS_VERSION .*-beta) == 0)[0m
+2024-03-28T04:56:52.0895185Z [36;1m    set -e[0m
+2024-03-28T04:56:52.0895525Z [36;1m    echo "Is released version: $METRICS_IS_RELEASED"[0m
+2024-03-28T04:56:52.0895995Z [36;1m    if [[ "$METRICS_IS_RELEASED" -eq "0" ]]; then[0m
+2024-03-28T04:56:52.0896414Z [36;1m      METRICS_TAG="$METRICS_TAG-beta"[0m
+2024-03-28T04:56:52.0896824Z [36;1m      echo "Image tag (updated): $METRICS_TAG"[0m
+2024-03-28T04:56:52.0897185Z [36;1m    fi[0m
+2024-03-28T04:56:52.0897529Z [36;1m    METRICS_IMAGE=ghcr.io/lowlighter/metrics:$METRICS_TAG[0m
+2024-03-28T04:56:52.0898225Z [36;1m    echo "Using pre-built version $METRICS_TAG, will pull docker image from GitHub registry"[0m
+2024-03-28T04:56:52.0898885Z [36;1m    if ! docker image pull $METRICS_IMAGE; then[0m
+2024-03-28T04:56:52.0899506Z [36;1m      echo "Failed to fetch docker image from GitHub registry, will rebuild it locally"[0m
+2024-03-28T04:56:52.0900119Z [36;1m      METRICS_IMAGE=metrics:$METRICS_VERSION[0m
+2024-03-28T04:56:52.0900476Z [36;1m    fi[0m
+2024-03-28T04:56:52.0900708Z [36;1m  # Rebuild image[0m
+2024-03-28T04:56:52.0900974Z [36;1m  else[0m
+2024-03-28T04:56:52.0901323Z [36;1m    echo "Using an unreleased version ($METRICS_VERSION)"[0m
+2024-03-28T04:56:52.0901799Z [36;1m    METRICS_IMAGE=metrics:$METRICS_VERSION[0m
+2024-03-28T04:56:52.0902154Z [36;1m  fi[0m
+2024-03-28T04:56:52.0902383Z [36;1m# Forked action[0m
+2024-03-28T04:56:52.0902637Z [36;1melse[0m
+2024-03-28T04:56:52.0902883Z [36;1m  echo "Using a forked version"[0m
+2024-03-28T04:56:52.0903288Z [36;1m  METRICS_IMAGE=metrics:forked-$METRICS_VERSION[0m
+2024-03-28T04:56:52.0903655Z [36;1mfi[0m
+2024-03-28T04:56:52.0903899Z [36;1mecho "Image name: $METRICS_IMAGE"[0m
+2024-03-28T04:56:52.0904225Z [36;1m[0m
+2024-03-28T04:56:52.0904450Z [36;1m# Build image if necessary[0m
+2024-03-28T04:56:52.0904754Z [36;1mset +e[0m
+2024-03-28T04:56:52.0905153Z [36;1mdocker image inspect $METRICS_IMAGE[0m
+2024-03-28T04:56:52.0905706Z [36;1mMETRICS_IMAGE_NEEDS_BUILD="$?"[0m
+2024-03-28T04:56:52.0906022Z [36;1mset -e[0m
+2024-03-28T04:56:52.0906335Z [36;1mif [[ "$METRICS_IMAGE_NEEDS_BUILD" -gt "0" ]]; then[0m
+2024-03-28T04:56:52.0906959Z [36;1m  echo "Image $METRICS_IMAGE is not present locally, rebuilding it from Dockerfile"[0m
+2024-03-28T04:56:52.0907541Z [36;1m  docker build -t $METRICS_IMAGE .[0m
+2024-03-28T04:56:52.0907872Z [36;1melse[0m
+2024-03-28T04:56:52.0908177Z [36;1m  echo "Image $METRICS_IMAGE is present locally"[0m
+2024-03-28T04:56:52.0908553Z [36;1mfi[0m
+2024-03-28T04:56:52.0908777Z [36;1mecho "::endgroup::"[0m
+2024-03-28T04:56:52.0909047Z [36;1m[0m
+2024-03-28T04:56:52.0909323Z [36;1m# Run docker image with current environment[0m
+2024-03-28T04:56:52.0910368Z [36;1mdocker run --init --rm --volume $GITHUB_EVENT_PATH:$GITHUB_EVENT_PATH --volume $METRICS_RENDERS:/renders --env-file .env $METRICS_IMAGE[0m
+2024-03-28T04:56:52.0911095Z [36;1mrm .env[0m
+2024-03-28T04:56:52.0934440Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2024-03-28T04:56:52.0934852Z env:
+2024-03-28T04:56:52.0935093Z   METRICS_ACTION: __lowlighter_metrics_21
+2024-03-28T04:56:52.0935580Z   METRICS_ACTION_PATH: /home/runner/work/_actions/lowlighter/metrics/latest
+2024-03-28T04:56:52.0936070Z   METRICS_USE_PREBUILT_IMAGE: yes
+2024-03-28T04:56:52.0988154Z   INPUTS: {
+  "filename": "GitHub_Stats_B_GitHub_Stargazers_Chart.svg",
+  "token": "***",
+  "base": "",
+  "plugin_stargazers": "yes",
+  "base_indepth": "<default-value>",
+  "base_hireable": "<default-value>",
+  "base_skip": "<default-value>",
+  "repositories": "<default-value>",
+  "repositories_batch": "<default-value>",
+  "repositories_forks": "<default-value>",
+  "repositories_affiliations": "<default-value>",
+  "repositories_skipped": "<default-value>",
+  "users_ignored": "<default-value>",
+  "commits_authoring": "<default-value>",
+  "user": "<default-value>",
+  "repo": "<default-value>",
+  "committer_token": "***",
+  "committer_branch": "<default-value>",
+  "committer_message": "<default-value>",
+  "committer_gist": "<default-value>",
+  "markdown": "<default-value>",
+  "markdown_cache": "<default-value>",
+  "output_action": "<default-value>",
+  "output_condition": "<default-value>",
+  "optimize": "<default-value>",
+  "setup_community_templates": "<default-value>",
+  "template": "<default-value>",
+  "query": "<default-value>",
+  "extras_css": "<default-value>",
+  "extras_js": "<default-value>",
+  "github_api_rest": "<default-value>",
+  "github_api_graphql": "<default-value>",
+  "config_timezone": "",
+  "config_order": "<default-value>",
+  "config_twemoji": "<default-value>",
+  "config_gemoji": "<default-value>",
+  "config_octicon": "<default-value>",
+  "config_display": "<default-value>",
+  "config_animations": "<default-value>",
+  "config_base64": "<default-value>",
+  "config_padding": "<default-value>",
+  "config_output": "<default-value>",
+  "config_presets": "",
+  "retries": "<default-value>",
+  "retries_delay": "<default-value>",
+  "retries_output_action": "<default-value>",
+  "retries_delay_output_action": "<default-value>",
+  "clean_workflows": "<default-value>",
+  "delay": "<default-value>",
+  "quota_required_rest": "<default-value>",
+  "quota_required_graphql": "<default-value>",
+  "quota_required_search": "<default-value>",
+  "notice_releases": "<default-value>",
+  "use_prebuilt_image": "yes",
+  "plugins_errors_fatal": "<default-value>",
+  "debug": "<default-value>",
+  "verify": "<default-value>",
+  "debug_flags": "<default-value>",
+  "debug_print": "<default-value>",
+  "dryrun": "<default-value>",
+  "experimental_features": "<default-value>",
+  "use_mocked_data": "<default-value>",
+  "plugin_isocalendar": "<default-value>",
+  "plugin_isocalendar_duration": "<default-value>",
+  "plugin_languages": "<default-value>",
+  "plugin_languages_ignored": "<default-value>",
+  "plugin_languages_skipped": "<default-value>",
+  "plugin_languages_limit": "<default-value>",
+  "plugin_languages_threshold": "<default-value>",
+  "plugin_languages_other": "<default-value>",
+  "plugin_languages_colors": "<default-value>",
+  "plugin_languages_aliases": "<default-value>",
+  "plugin_languages_sections": "<default-value>",
+  "plugin_languages_details": "<default-value>",
+  "plugin_languages_indepth": "<default-value>",
+  "plugin_languages_indepth_custom": "<default-value>",
+  "plugin_languages_analysis_timeout": "<default-value>",
+  "plugin_languages_analysis_timeout_repositories": "<default-value>",
+  "plugin_languages_categories": "<default-value>",
+  "plugin_languages_recent_categories": "<default-value>",
+  "plugin_languages_recent_load": "<default-value>",
+  "plugin_languages_recent_days": "<default-value>",
+  "plugin_stargazers_days": "<default-value>",
+  "plugin_stargazers_charts": "<default-value>",
+  "plugin_stargazers_charts_type": "<default-value>",
+  "plugin_stargazers_worldmap": "<default-value>",
+  "plugin_stargazers_worldmap_token": "<default-value>",
+  "plugin_stargazers_worldmap_sample": "<default-value>",
+  "plugin_lines": "<default-value>",
+  "plugin_lines_skipped": "<default-value>",
+  "plugin_lines_sections": "<default-value>",
+  "plugin_lines_repositories_limit": "<default-value>",
+  "plugin_lines_history_limit": "<default-value>",
+  "plugin_lines_delay": "<default-value>",
+  "plugin_topics": "<default-value>",
+  "plugin_topics_mode": "<default-value>",
+  "plugin_topics_sort": "<default-value>",
+  "plugin_topics_limit": "<default-value>",
+  "plugin_stars": "<default-value>",
+  "plugin_stars_limit": "<default-value>",
+  "plugin_licenses": "<default-value>",
+  "plugin_licenses_setup": "<default-value>",
+  "plugin_licenses_ratio": "<default-value>",
+  "plugin_licenses_legal": "<default-value>",
+  "plugin_habits": "<default-value>",
+  "plugin_habits_from": "<default-value>",
+  "plugin_habits_skipped": "<default-value>",
+  "plugin_habits_days": "<default-value>",
+  "plugin_habits_facts": "<default-value>",
+  "plugin_habits_charts": "<default-value>",
+  "plugin_habits_charts_type": "<default-value>",
+  "plugin_habits_trim": "<default-value>",
+  "plugin_habits_languages_limit": "<default-value>",
+  "plugin_habits_languages_threshold": "<default-value>",
+  "plugin_contributors": "<default-value>",
+  "plugin_contributors_base": "<default-value>",
+  "plugin_contributors_head": "<default-value>",
+  "plugin_contributors_ignored": "<default-value>",
+  "plugin_contributors_contributions": "<default-value>",
+  "plugin_contributors_sections": "<default-value>",
+  "plugin_contributors_categories": "<default-value>",
+  "plugin_followup": "<default-value>",
+  "plugin_followup_sections": "<default-value>",
+  "plugin_followup_indepth": "<default-value>",
+  "plugin_followup_archived": "<default-value>",
+  "plugin_reactions": "<default-value>",
+  "plugin_reactions_limit": "<default-value>",
+  "plugin_reactions_limit_issues": "<default-value>",
+  "plugin_reactions_limit_discussions": "<default-value>",
+  "plugin_reactions_limit_discussions_comments": "<default-value>",
+  "plugin_reactions_days": "<default-value>",
+  "plugin_reactions_display": "<default-value>",
+  "plugin_reactions_details": "<default-value>",
+  "plugin_reactions_ignored": "<default-value>",
+  "plugin_people": "<default-value>",
+  "plugin_people_limit": "<default-value>",
+  "plugin_people_identicons": "<default-value>",
+  "plugin_people_identicons_hide": "<default-value>",
+  "plugin_people_size": "<default-value>",
+  "plugin_people_types": "<default-value>",
+  "plugin_people_thanks": "<default-value>",
+  "plugin_people_sponsors_custom": "<default-value>",
+  "plugin_people_shuffle": "<default-value>",
+  "plugin_sponsorships": "<default-value>",
+  "plugin_sponsorships_sections": "<default-value>",
+  "plugin_sponsorships_size": "<default-value>",
+  "plugin_sponsors": "<default-value>",
+  "plugin_sponsors_sections": "<default-value>",
+  "plugin_sponsors_past": "<default-value>",
+  "plugin_sponsors_size": "<default-value>",
+  "plugin_sponsors_title": "<default-value>",
+  "plugin_repositories": "<default-value>",
+  "plugin_repositories_featured": "<default-value>",
+  "plugin_repositories_pinned": "<default-value>",
+  "plugin_repositories_starred": "<default-value>",
+  "plugin_repositories_random": "<default-value>",
+  "plugin_repositories_order": "<default-value>",
+  "plugin_repositories_forks": "<default-value>",
+  "plugin_repositories_affiliations": "<default-value>",
+  "plugin_discussions": "<default-value>",
+  "plugin_discussions_categories": "<default-value>",
+  "plugin_discussions_categories_limit": "<default-value>",
+  "plugin_starlists": "<default-value>",
+  "plugin_starlists_limit": "<default-value>",
+  "plugin_starlists_limit_repositories": "<default-value>",
+  "plugin_starlists_languages": "<default-value>",
+  "plugin_starlists_limit_languages": "<default-value>",
+  "plugin_starlists_languages_ignored": "<default-value>",
+  "plugin_starlists_languages_aliases": "<default-value>",
+  "plugin_starlists_shuffle_repositories": "<default-value>",
+  "plugin_starlists_ignored": "<default-value>",
+  "plugin_starlists_only": "<default-value>",
+  "plugin_calendar": "<default-value>",
+  "plugin_calendar_limit": "<default-value>",
+  "plugin_achievements": "<default-value>",
+  "plugin_achievements_threshold": "<default-value>",
+  "plugin_achievements_secrets": "<default-value>",
+  "plugin_achievements_display": "<default-value>",
+  "plugin_achievements_limit": "<default-value>",
+  "plugin_achievements_ignored": "<default-value>",
+  "plugin_achievements_only": "<default-value>",
+  "plugin_notable": "<default-value>",
+  "plugin_notable_filter": "<default-value>",
+  "plugin_notable_skipped": "<default-value>",
+  "plugin_notable_from": "<default-value>",
+  "plugin_notable_repositories": "<default-value>",
+  "plugin_notable_indepth": "<default-value>",
+  "plugin_notable_types": "<default-value>",
+  "plugin_notable_self": "<default-value>",
+  "plugin_activity": "<default-value>",
+  "plugin_activity_limit": "<default-value>",
+  "plugin_activity_load": "<default-value>",
+  "plugin_activity_days": "<default-value>",
+  "plugin_activity_visibility": "<default-value>",
+  "plugin_activity_timestamps": "<default-value>",
+  "plugin_activity_skipped": "<default-value>",
+  "plugin_activity_ignored": "<default-value>",
+  "plugin_activity_filter": "<default-value>",
+  "plugin_traffic": "<default-value>",
+  "plugin_traffic_skipped": "<default-value>",
+  "plugin_code": "<default-value>",
+  "plugin_code_lines": "<default-value>",
+  "plugin_code_load": "<default-value>",
+  "plugin_code_days": "<default-value>",
+  "plugin_code_visibility": "<default-value>",
+  "plugin_code_skipped": "<default-value>",
+  "plugin_code_languages": "<default-value>",
+  "plugin_gists": "<default-value>",
+  "plugin_projects": "<default-value>",
+  "plugin_projects_limit": "<default-value>",
+  "plugin_projects_repositories": "<default-value>",
+  "plugin_projects_descriptions": "<default-value>",
+  "plugin_introduction": "<default-value>",
+  "plugin_introduction_title": "<default-value>",
+  "plugin_skyline": "<default-value>",
+  "plugin_skyline_year": "<default-value>",
+  "plugin_skyline_frames": "<default-value>",
+  "plugin_skyline_quality": "<default-value>",
+  "plugin_skyline_compatibility": "<default-value>",
+  "plugin_skyline_settings": "<default-value>",
+  "plugin_support": "<default-value>",
+  "plugin_pagespeed": "<default-value>",
+  "plugin_pagespeed_token": "<default-value>",
+  "plugin_pagespeed_url": "<default-value>",
+  "plugin_pagespeed_detailed": "<default-value>",
+  "plugin_pagespeed_screenshot": "<default-value>",
+  "plugin_pagespeed_pwa": "<default-value>",
+  "plugin_tweets": "<default-value>",
+  "plugin_tweets_token": "<default-value>",
+  "plugin_tweets_user": "<default-value>",
+  "plugin_tweets_attachments": "<default-value>",
+  "plugin_tweets_limit": "<default-value>",
+  "plugin_stackoverflow": "<default-value>",
+  "plugin_stackoverflow_user": "<default-value>",
+  "plugin_stackoverflow_sections": "<default-value>",
+  "plugin_stackoverflow_limit": "<default-value>",
+  "plugin_stackoverflow_lines": "<default-value>",
+  "plugin_stackoverflow_lines_snippet": "<default-value>",
+  "plugin_anilist": "<default-value>",
+  "plugin_anilist_user": "<default-value>",
+  "plugin_anilist_medias": "<default-value>",
+  "plugin_anilist_sections": "<default-value>",
+  "plugin_anilist_limit": "<default-value>",
+  "plugin_anilist_limit_characters": "<default-value>",
+  "plugin_anilist_shuffle": "<default-value>",
+  "plugin_music": "<default-value>",
+  "plugin_music_provider": "<default-value>",
+  "plugin_music_token": "<default-value>",
+  "plugin_music_user": "<default-value>",
+  "plugin_music_mode": "<default-value>",
+  "plugin_music_playlist": "<default-value>",
+  "plugin_music_limit": "<default-value>",
+  "plugin_music_played_at": "<default-value>",
+  "plugin_music_time_range": "<default-value>",
+  "plugin_music_top_type": "<default-value>",
+  "plugin_posts": "<default-value>",
+  "plugin_posts_source": "<default-value>",
+  "plugin_posts_user": "<default-value>",
+  "plugin_posts_descriptions": "<default-value>",
+  "plugin_posts_covers": "<default-value>",
+  "plugin_posts_limit": "<default-value>",
+  "plugin_rss": "<default-value>",
+  "plugin_rss_source": "<default-value>",
+  "plugin_rss_limit": "<default-value>",
+  "plugin_wakatime": "<default-value>",
+  "plugin_wakatime_token": "<default-value>",
+  "plugin_wakatime_url": "<default-value>",
+  "plugin_wakatime_user": "<default-value>",
+  "plugin_wakatime_sections": "<default-value>",
+  "plugin_wakatime_days": "<default-value>",
+  "plugin_wakatime_limit": "<default-value>",
+  "plugin_wakatime_languages_other": "<default-value>",
+  "plugin_wakatime_languages_ignored": "<default-value>",
+  "plugin_wakatime_repositories_visibility": "<default-value>",
+  "plugin_leetcode": "<default-value>",
+  "plugin_leetcode_user": "<default-value>",
+  "plugin_leetcode_sections": "<default-value>",
+  "plugin_leetcode_limit_skills": "<default-value>",
+  "plugin_leetcode_ignored_skills": "<default-value>",
+  "plugin_leetcode_limit_recent": "<default-value>",
+  "plugin_steam": "<default-value>",
+  "plugin_steam_token": "<default-value>",
+  "plugin_steam_sections": "<default-value>",
+  "plugin_steam_user": "",
+  "plugin_steam_games_ignored": "<default-value>",
+  "plugin_steam_games_limit": "<default-value>",
+  "plugin_steam_recent_games_limit": "<default-value>",
+  "plugin_steam_achievements_limit": "<default-value>",
+  "plugin_steam_playtime_threshold": "<default-value>",
+  "plugin_16personalities": "<default-value>",
+  "plugin_16personalities_url": "<default-value>",
+  "plugin_16personalities_sections": "<default-value>",
+  "plugin_16personalities_scores": "<default-value>",
+  "plugin_chess": "<default-value>",
+  "plugin_chess_token": "<default-value>",
+  "plugin_chess_user": "<default-value>",
+  "plugin_chess_platform": "<default-value>",
+  "plugin_chess_animation": "<default-value>",
+  "plugin_fortune": "<default-value>",
+  "plugin_nightscout": "<default-value>",
+  "plugin_nightscout_url": "<default-value>",
+  "plugin_nightscout_datapoints": "<default-value>",
+  "plugin_nightscout_lowalert": "<default-value>",
+  "plugin_nightscout_highalert": "<default-value>",
+  "plugin_nightscout_urgentlowalert": "<default-value>",
+  "plugin_nightscout_urgenthighalert": "<default-value>",
+  "plugin_poopmap": "<default-value>",
+  "plugin_poopmap_token": "<default-value>",
+  "plugin_poopmap_days": "<default-value>",
+  "plugin_screenshot": "<default-value>",
+  "plugin_screenshot_title": "<default-value>",
+  "plugin_screenshot_url": "<default-value>",
+  "plugin_screenshot_selector": "<default-value>",
+  "plugin_screenshot_mode": "<default-value>",
+  "plugin_screenshot_viewport": "<default-value>",
+  "plugin_screenshot_wait": "<default-value>",
+  "plugin_screenshot_background": "<default-value>",
+  "plugin_splatoon": "<default-value>",
+  "plugin_splatoon_token": "<default-value>",
+  "plugin_splatoon_sections": "<default-value>",
+  "plugin_splatoon_versus_limit": "<default-value>",
+  "plugin_splatoon_salmon_limit": "<default-value>",
+  "plugin_splatoon_statink": "<default-value>",
+  "plugin_splatoon_statink_token": "<default-value>",
+  "plugin_splatoon_source": "<default-value>",
+  "plugin_stock": "<default-value>",
+  "plugin_stock_token": "<default-value>",
+  "plugin_stock_symbol": "<default-value>",
+  "plugin_stock_duration": "<default-value>",
+  "plugin_stock_interval": "<default-value>"
+}
+2024-03-28T04:56:52.1043277Z   TZ: 
+2024-03-28T04:56:52.1043491Z ##[endgroup]
+2024-03-28T04:56:52.1088305Z ##[group]Metrics docker image setup
+2024-03-28T04:56:52.1089283Z GitHub action: __lowlighter_metrics_21 (/home/runner/work/_actions/lowlighter/metrics/latest)
+2024-03-28T04:56:52.1110394Z Runner compatibility: compatible
+2024-03-28T04:56:52.1632089Z Environment variables: loaded
+2024-03-28T04:56:52.1716460Z Renders output folder: /metrics_renders
+2024-03-28T04:56:52.1742796Z Source: lowlighter
+2024-03-28T04:56:52.1760793Z Version: 3.34.0
+2024-03-28T04:56:52.1782673Z Image tag: v3.34
+2024-03-28T04:56:52.1811407Z Is released version: 1
+2024-03-28T04:56:52.1812300Z Using pre-built version v3.34, will pull docker image from GitHub registry
+2024-03-28T04:56:52.3429289Z v3.34: Pulling from lowlighter/metrics
+2024-03-28T04:56:52.3439211Z Digest: sha256:257392f90340f916cb8b815026f259399f6b246d3eb7de38b58bfe7a07bd5b65
+2024-03-28T04:56:52.3440155Z Status: Image is up to date for ghcr.io/lowlighter/metrics:v3.34
+2024-03-28T04:56:52.3449068Z ghcr.io/lowlighter/metrics:v3.34
+2024-03-28T04:56:52.3461862Z Image name: ghcr.io/lowlighter/metrics:v3.34
+2024-03-28T04:56:52.3572152Z [
+2024-03-28T04:56:52.3572530Z     {
+2024-03-28T04:56:52.3573254Z         "Id": "sha256:540609b0db04df4859a52809225568daef6f1ad4ecb031bd6f4854961fc965aa",
+2024-03-28T04:56:52.3573969Z         "RepoTags": [
+2024-03-28T04:56:52.3574279Z             "ghcr.io/lowlighter/metrics:v3.34"
+2024-03-28T04:56:52.3574635Z         ],
+2024-03-28T04:56:52.3574859Z         "RepoDigests": [
+2024-03-28T04:56:52.3575440Z             "ghcr.io/lowlighter/metrics@sha256:257392f90340f916cb8b815026f259399f6b246d3eb7de38b58bfe7a07bd5b65"
+2024-03-28T04:56:52.3576046Z         ],
+2024-03-28T04:56:52.3576269Z         "Parent": "",
+2024-03-28T04:56:52.3576572Z         "Comment": "buildkit.dockerfile.v0",
+2024-03-28T04:56:52.3577194Z         "Created": "2023-09-12T22:32:04.433116016Z",
+2024-03-28T04:56:52.3577574Z         "Container": "",
+2024-03-28T04:56:52.3577846Z         "ContainerConfig": {
+2024-03-28T04:56:52.3578127Z             "Hostname": "",
+2024-03-28T04:56:52.3578404Z             "Domainname": "",
+2024-03-28T04:56:52.3578680Z             "User": "",
+2024-03-28T04:56:52.3578945Z             "AttachStdin": false,
+2024-03-28T04:56:52.3579249Z             "AttachStdout": false,
+2024-03-28T04:56:52.3579557Z             "AttachStderr": false,
+2024-03-28T04:56:52.3579855Z             "Tty": false,
+2024-03-28T04:56:52.3580120Z             "OpenStdin": false,
+2024-03-28T04:56:52.3580403Z             "StdinOnce": false,
+2024-03-28T04:56:52.3580682Z             "Env": null,
+2024-03-28T04:56:52.3580935Z             "Cmd": null,
+2024-03-28T04:56:52.3581178Z             "Image": "",
+2024-03-28T04:56:52.3581421Z             "Volumes": null,
+2024-03-28T04:56:52.3581699Z             "WorkingDir": "",
+2024-03-28T04:56:52.3581981Z             "Entrypoint": null,
+2024-03-28T04:56:52.3582289Z             "OnBuild": null,
+2024-03-28T04:56:52.3582672Z             "Labels": null
+2024-03-28T04:56:52.3582927Z         },
+2024-03-28T04:56:52.3583202Z         "DockerVersion": "",
+2024-03-28T04:56:52.3583509Z         "Author": "",
+2024-03-28T04:56:52.3583751Z         "Config": {
+2024-03-28T04:56:52.3583987Z             "Hostname": "",
+2024-03-28T04:56:52.3584259Z             "Domainname": "",
+2024-03-28T04:56:52.3584521Z             "User": "",
+2024-03-28T04:56:52.3584777Z             "AttachStdin": false,
+2024-03-28T04:56:52.3585077Z             "AttachStdout": false,
+2024-03-28T04:56:52.3585373Z             "AttachStderr": false,
+2024-03-28T04:56:52.3585665Z             "Tty": false,
+2024-03-28T04:56:52.3585924Z             "OpenStdin": false,
+2024-03-28T04:56:52.3586353Z             "StdinOnce": false,
+2024-03-28T04:56:52.3586807Z             "Env": [
+2024-03-28T04:56:52.3587442Z                 "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+2024-03-28T04:56:52.3588585Z                 "NODE_VERSION=20.6.1",
+2024-03-28T04:56:52.3589432Z                 "YARN_VERSION=1.22.19",
+2024-03-28T04:56:52.3590502Z                 "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true",
+2024-03-28T04:56:52.3591054Z                 "PUPPETEER_BROWSER_PATH=google-chrome-stable"
+2024-03-28T04:56:52.3591430Z             ],
+2024-03-28T04:56:52.3591650Z             "Cmd": null,
+2024-03-28T04:56:52.3591896Z             "Image": "",
+2024-03-28T04:56:52.3592151Z             "Volumes": null,
+2024-03-28T04:56:52.3592438Z             "WorkingDir": "/metrics",
+2024-03-28T04:56:52.3592743Z             "Entrypoint": [
+2024-03-28T04:56:52.3593007Z                 "/bin/sh",
+2024-03-28T04:56:52.3593285Z                 "-c",
+2024-03-28T04:56:52.3593587Z                 "node /metrics/source/app/action/index.mjs"
+2024-03-28T04:56:52.3593942Z             ],
+2024-03-28T04:56:52.3594166Z             "OnBuild": null,
+2024-03-28T04:56:52.3594438Z             "Labels": null
+2024-03-28T04:56:52.3594689Z         },
+2024-03-28T04:56:52.3594915Z         "Architecture": "amd64",
+2024-03-28T04:56:52.3595199Z         "Os": "linux",
+2024-03-28T04:56:52.3595442Z         "Size": 2384506652,
+2024-03-28T04:56:52.3595705Z         "VirtualSize": 2384506652,
+2024-03-28T04:56:52.3596002Z         "GraphDriver": {
+2024-03-28T04:56:52.3596257Z             "Data": {
+2024-03-28T04:56:52.3599701Z                 "LowerDir": "/var/lib/docker/overlay2/6d02d963ceada3c9d6ba3dbd0bb0433f56e2a4899734c516863a19ca22c7d906/diff:/var/lib/docker/overlay2/2110aced117fef7aef25f8bf803ec80b3915b573f62dc07df3d45e819a073523/diff:/var/lib/docker/overlay2/6f286d0c3cc552a697151b0af4f84817dbd979a4cec017dde9cf7c9be5fdbf7a/diff:/var/lib/docker/overlay2/a1a461706ec7de2ebf81633282d1f2b93294a460d26a763abd5895968cfacb74/diff:/var/lib/docker/overlay2/079239d783fd995dc41ff3805c9abb405c2804c790cce2bdd8b0fcfe5cc07989/diff:/var/lib/docker/overlay2/9ae72663247ec10a28e9da369f944e5319756c1a511458cb4de924d7ce03f657/diff:/var/lib/docker/overlay2/8c1ac06a4834b6c964c4e979ab2642e3e668936fa08b40114ca3b6c55c1b992e/diff",
+2024-03-28T04:56:52.3603607Z                 "MergedDir": "/var/lib/docker/overlay2/85cebdc3fe0b6a76bddf54d7927c70fdd8061b6a2fd38b197582eb21c6bbc144/merged",
+2024-03-28T04:56:52.3604696Z                 "UpperDir": "/var/lib/docker/overlay2/85cebdc3fe0b6a76bddf54d7927c70fdd8061b6a2fd38b197582eb21c6bbc144/diff",
+2024-03-28T04:56:52.3605769Z                 "WorkDir": "/var/lib/docker/overlay2/85cebdc3fe0b6a76bddf54d7927c70fdd8061b6a2fd38b197582eb21c6bbc144/work"
+2024-03-28T04:56:52.3606433Z             },
+2024-03-28T04:56:52.3606666Z             "Name": "overlay2"
+2024-03-28T04:56:52.3606953Z         },
+2024-03-28T04:56:52.3607178Z         "RootFS": {
+2024-03-28T04:56:52.3607418Z             "Type": "layers",
+2024-03-28T04:56:52.3607689Z             "Layers": [
+2024-03-28T04:56:52.3608126Z                 "sha256:a2d7501dfb3541f3d736125cdfd748618194f60cbb5c63f4de67a92530899628",
+2024-03-28T04:56:52.3608817Z                 "sha256:9a2a56d458ec3995558ce9da3f0d8c7fd4cbc4ea039dcac8a778faee26bb9787",
+2024-03-28T04:56:52.3609501Z                 "sha256:508bcd84547eb5a0418e3b2efbaf647c2b3e4e1671f58ebb81d5ec1e8c786eac",
+2024-03-28T04:56:52.3610180Z                 "sha256:5fe14a445b97fed5eb00a421d1b931a0d2da455000a4db073de09cc98e264971",
+2024-03-28T04:56:52.3610856Z                 "sha256:95db10d2666e11f72298fe18ba7cf28836d40778aa8844f9420668e2dcddc823",
+2024-03-28T04:56:52.3611537Z                 "sha256:fcebc26c326d62cb51b7f7782823af0fd3e6fdc68af0fec9ac99f5989336932f",
+2024-03-28T04:56:52.3612206Z                 "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+2024-03-28T04:56:52.3612855Z                 "sha256:60b9b0e78db62f369d082ede1651154e620c33199afca076b2159cdb288fecff"
+2024-03-28T04:56:52.3613329Z             ]
+2024-03-28T04:56:52.3613536Z         },
+2024-03-28T04:56:52.3613740Z         "Metadata": {
+2024-03-28T04:56:52.3614087Z             "LastTagTime": "0001-01-01T00:00:00Z"
+2024-03-28T04:56:52.3614417Z         }
+2024-03-28T04:56:52.3614801Z     }
+2024-03-28T04:56:52.3615114Z ]
+2024-03-28T04:56:52.3615467Z Image ghcr.io/lowlighter/metrics:v3.34 is present locally
+2024-03-28T04:56:52.3616152Z ##[endgroup]
+2024-03-28T04:56:54.2721808Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-03-28T04:56:54.2723442Z [36mMetrics[0m                                                         │  
+2024-03-28T04:56:54.5716670Z Setup                                                           │ complete
+2024-03-28T04:56:54.5717783Z Version                                                         │ 3.34.0
+2024-03-28T04:56:54.7288349Z Using prebuilt image                                            │ true
+2024-03-28T04:56:54.7290699Z Debug mode                                                      │ false
+2024-03-28T04:56:54.7291810Z Debug flags                                                     │ (none)
+2024-03-28T04:56:54.7292567Z GitHub token                                                    │ (provided)
+2024-03-28T04:56:54.7293358Z GitHub token format                                             │ classic
+2024-03-28T04:56:54.7294165Z GitHub GraphQL API                                              │ ok
+2024-03-28T04:56:54.7294860Z GitHub GraphQL API endpoint                                     │ (default)
+2024-03-28T04:56:54.7367532Z GitHub REST API                                                 │ ok
+2024-03-28T04:56:54.7368641Z GitHub REST API endpoint                                        │ (default)
+2024-03-28T04:56:54.8162521Z API requests (REST)                                             │ 4990/5000 (200+ required)
+2024-03-28T04:56:54.8163801Z API requests (GraphQL)                                          │ 4700/5000 (200+ required)
+2024-03-28T04:56:54.8164628Z API requests (Search)                                           │ 30/30
+2024-03-28T04:56:54.8487181Z Token validity                                                  │ seems ok
+2024-03-28T04:56:54.9417121Z GitHub account                                                  │ seanpm2001
+2024-03-28T04:56:54.9418951Z Current repository                                              │ seanpm2001/GitHub_Stats_B
+2024-03-28T04:56:54.9421676Z Committer token                                                 │ (provided)
+2024-03-28T04:56:54.9422465Z Committer branch                                                │ GitHub_Stats_B_Main-dev
+2024-03-28T04:56:54.9423228Z Committer head branch                                           │ GitHub_Stats_B_Main-dev
+2024-03-28T04:56:54.9448035Z Committer REST API                                              │ ok
+2024-03-28T04:56:54.9906985Z Committer account                                               │ (github-actions)
+2024-03-28T04:56:55.0525927Z Committer head branch status                                    │ ok
+2024-03-28T04:56:55.2212385Z Previous render sha                                             │ (none)
+2024-03-28T04:56:55.2213768Z SVG output                                                      │ GitHub_Stats_B_GitHub_Stargazers_Chart.svg
+2024-03-28T04:56:55.2215060Z SVG optimization                                                │ css, xml
+2024-03-28T04:56:55.2217354Z SVG verification after generation                               │ false
+2024-03-28T04:56:55.2218650Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-03-28T04:56:55.2219802Z [36mTemplates[0m                                                       │  
+2024-03-28T04:56:55.2220923Z Community templates                                             │ (none)
+2024-03-28T04:56:55.2222040Z Template used                                                   │ classic
+2024-03-28T04:56:55.2223141Z Query additional params                                         │ {}
+2024-03-28T04:56:55.2224376Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-03-28T04:56:55.2225496Z [36mCore[0m                                                            │  
+2024-03-28T04:56:55.2226591Z Markdown template path                                          │ TEMPLATE.md
+2024-03-28T04:56:55.2228492Z Extra CSS                                                       │ 
+2024-03-28T04:56:55.2229473Z Extra JavaScript                                                │ 
+2024-03-28T04:56:55.2230808Z Timezone for dates                                              │ 
+2024-03-28T04:56:55.2231843Z Plugin order                                                    │ 
+2024-03-28T04:56:55.2232873Z Use twemojis                                                    │ false
+2024-03-28T04:56:55.2233936Z Use GitHub custom emojis                                        │ true
+2024-03-28T04:56:55.2235056Z Use GitHub octicons                                             │ false
+2024-03-28T04:56:55.2236176Z Display width (for image output formats)                        │ regular
+2024-03-28T04:56:55.2237315Z Use CSS animations                                              │ true
+2024-03-28T04:56:55.2238419Z Base64-encoded images                                           │ true
+2024-03-28T04:56:55.2239540Z Output padding                                                  │ 0, 8 + 11%
+2024-03-28T04:56:55.2240585Z Output format                                                   │ auto
+2024-03-28T04:56:55.2241659Z Configuration presets                                           │ 
+2024-03-28T04:56:55.2242785Z Notice about new releases of metrics                            │ true
+2024-03-28T04:56:55.2243894Z Experimental features                                           │ 
+2024-03-28T04:56:55.2245065Z Plugin errors                                                   │ (displayed in generated image)
+2024-03-28T04:56:55.2246331Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-03-28T04:56:55.2247521Z [36mBase content[0m                                                    │  
+2024-03-28T04:56:55.2248679Z Fetched repositories                                            │ 100
+2024-03-28T04:56:55.2249731Z Indepth mode                                                    │ false
+2024-03-28T04:56:55.2250875Z Show `Available for hire!` in header section                    │ false
+2024-03-28T04:56:55.2252005Z Skip base content                                               │ false
+2024-03-28T04:56:55.2253120Z Fetched repositories per query                                  │ 100
+2024-03-28T04:56:55.2254228Z Include forks                                                   │ false
+2024-03-28T04:56:55.2255334Z Repositories affiliations                                       │ owner
+2024-03-28T04:56:55.2256462Z Default skipped repositories                                    │ 
+2024-03-28T04:56:55.2258097Z Default ignored users                                           │ github-actions[bot],dependabot[bot],dependabot-preview[bot],actions-user,action@github.com
+2024-03-28T04:56:55.2259766Z Identifiers that has been used for authoring commits            │ .user.login
+2024-03-28T04:56:55.2260952Z Base sections                                                   │ (none)
+2024-03-28T04:56:55.2268088Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-03-28T04:56:55.2269569Z [36mStargazers[0m                                                      │  
+2024-03-28T04:56:55.2271287Z Time range                                                      │ 14
+2024-03-28T04:56:55.2272467Z Charts                                                          │ true
+2024-03-28T04:56:55.2273521Z Charts display type                                             │ classic
+2024-03-28T04:56:55.2274624Z Stargazers worldmap                                             │ false
+2024-03-28T04:56:55.2275815Z Stargazers worldmap token                                       │ (missing)
+2024-03-28T04:56:55.2277032Z Stargazers worldmap sample                                      │ 0
+2024-03-28T04:56:55.2278286Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-03-28T04:56:55.2280758Z [36mRendering[0m                                                       │  
+2024-03-28T04:57:35.7102397Z Status                                                          │ complete
+2024-03-28T04:57:35.7104237Z MIME type                                                       │ image/svg+xml
+2024-03-28T04:57:35.7106083Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-03-28T04:57:35.7107673Z [36mSaving[0m                                                          │  
+2024-03-28T04:57:35.7109229Z Output condition                                                │ always
+2024-03-28T04:57:35.7122009Z Save to /metrics_renders/GitHub_Stats_B_GitHub_Stargazers_Chart.svg │ ok
+2024-03-28T04:57:35.7123226Z Output action                                                   │ commit
+2024-03-28T04:57:35.7218118Z Current render sha                                              │ 81540e0b2f7a317cc3788c2a6524b527d5ef82a7
+2024-03-28T05:07:36.3571245Z RequestError [HttpError]: Resource not accessible by integration
+2024-03-28T05:07:36.3579186Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-03-28T05:07:36.3580436Z undefined
+2024-03-28T05:07:36.3580877Z An error occurred, logging debug message :
+2024-03-28T05:07:36.3582113Z TypeError: Cannot read properties of null (reading 'oid')
+2024-03-28T05:07:36.3583104Z     at file:///metrics/source/app/action/index.mjs:307:38
+2024-03-28T05:07:36.3584487Z     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-03-28T05:07:36.3586258Z ##[group]Attempt 1/3
+2024-03-28T05:07:36.3586704Z metrics/compute/seanpm2001 > start
+2024-03-28T05:07:36.3587387Z {
+2024-03-28T05:07:36.3587983Z   template: 'classic',
+2024-03-28T05:07:36.3588643Z   'debug.flags': '',
+2024-03-28T05:07:36.3589110Z   markdown: 'TEMPLATE.md',
+2024-03-28T05:07:36.3589772Z   'extras.css': '',
+2024-03-28T05:07:36.3590547Z   'extras.js': '',
+2024-03-28T05:07:36.3591170Z   'config.timezone': '',
+2024-03-28T05:07:36.3591858Z   'config.order': [],
+2024-03-28T05:07:36.3592941Z   'config.twemoji': false,
+2024-03-28T05:07:36.3593673Z   'config.gemoji': true,
+2024-03-28T05:07:36.3594416Z   'config.octicon': false,
+2024-03-28T05:07:36.3595151Z   'config.display': 'regular',
+2024-03-28T05:07:36.3595759Z   'config.animations': true,
+2024-03-28T05:07:36.3596496Z   'config.base64': true,
+2024-03-28T05:07:36.3597213Z   'config.padding': '0, 8 + 11%',
+2024-03-28T05:07:36.3597998Z   'config.output': 'auto',
+2024-03-28T05:07:36.3598736Z   'config.presets': [],
+2024-03-28T05:07:36.3599432Z   'notice.releases': true,
+2024-03-28T05:07:36.3600179Z   'experimental.features': [],
+2024-03-28T05:07:36.3600680Z   hireable: false,
+2024-03-28T05:07:36.3601220Z   skip: false,
+2024-03-28T05:07:36.3601892Z   'repositories.batch': 100,
+2024-03-28T05:07:36.3602729Z   'repositories.forks': false,
+2024-03-28T05:07:36.3604315Z   'repositories.affiliations': [ 'owner' ],
+2024-03-28T05:07:36.3605243Z   'repositories.skipped': [],
+2024-03-28T05:07:36.3605981Z   'users.ignored': [
+2024-03-28T05:07:36.3606502Z     'github-actions[bot]',
+2024-03-28T05:07:36.3607661Z     'dependabot[bot]',
+2024-03-28T05:07:36.3608366Z     'dependabot-preview[bot]',
+2024-03-28T05:07:36.3608924Z     'actions-user',
+2024-03-28T05:07:36.3609582Z     'action@github.com'
+2024-03-28T05:07:36.3610172Z   ],
+2024-03-28T05:07:36.3610640Z   'commits.authoring': [ '.user.login' ],
+2024-03-28T05:07:36.3611391Z   base: false,
+2024-03-28T05:07:36.3612021Z   'base.header': false,
+2024-03-28T05:07:36.3612719Z   'base.activity': false,
+2024-03-28T05:07:36.3613421Z   'base.community': false,
+2024-03-28T05:07:36.3614146Z   'base.repositories': false,
+2024-03-28T05:07:36.3614703Z   'base.metadata': false,
+2024-03-28T05:07:36.3615396Z   'base.indepth': false,
+2024-03-28T05:07:36.3616027Z   stargazers: true,
+2024-03-28T05:07:36.3616703Z   'stargazers.days': 14,
+2024-03-28T05:07:36.3617406Z   'stargazers.charts': true,
+2024-03-28T05:07:36.3618025Z   'stargazers.charts.type': 'classic',
+2024-03-28T05:07:36.3618852Z   'stargazers.worldmap': false,
+2024-03-28T05:07:36.3619476Z   'stargazers.worldmap.sample': 0
+2024-03-28T05:07:36.3620176Z }
+2024-03-28T05:07:36.3620644Z metrics/compute/seanpm2001 > output format set to svg
+2024-03-28T05:07:36.3628675Z metrics/compute/seanpm2001 > content order : base.header,introduction,base.activity+community,base.repositories,lines,followup,discussions,languages,notable,projects,repositories,gists,pagespeed,habits,topics,music,nightscout,posts,rss,tweets,isocalendar,calendar,stars,starlists,stargazers,people,activity,reactions,anilist,wakatime,skyline,support,stackoverflow,leetcode,stock,achievements,screenshot,code,chess,sponsors,sponsorships,poopmap,16personalities,fortune,splatoon,steam
+2024-03-28T05:07:36.3666780Z metrics/compute/seanpm2001 > compute
+2024-03-28T05:07:36.3667455Z metrics/compute/seanpm2001/base > started
+2024-03-28T05:07:36.3668581Z metrics/compute/seanpm2001/base > affiliations constraints , ownerAffiliations: [OWNER], affiliations: [OWNER]
+2024-03-28T05:07:36.3669738Z metrics/compute/seanpm2001/base > account user
+2024-03-28T05:07:36.3670727Z metrics/compute/seanpm2001/base > applying postprocessing
+2024-03-28T05:07:36.3671547Z metrics/compute/seanpm2001/base > successfully loaded bulk query
+2024-03-28T05:07:36.3672421Z metrics/compute/seanpm2001/base > loading user commits history
+2024-03-28T05:07:36.3673339Z metrics/compute/seanpm2001/base > retrieving repositories after null
+2024-03-28T05:07:36.3674795Z metrics/compute/seanpm2001/base > retrieved 100 repositories after Y3Vyc29yOnYyOpK5MjAyNC0wMy0xNFQxNDo1ODozMC0wNzowMM4uAaFF
+2024-03-28T05:07:36.3676206Z metrics/compute/seanpm2001/base > keeping only 100 repositories
+2024-03-28T05:07:36.3677045Z metrics/compute/seanpm2001/base > loaded 100 repositories
+2024-03-28T05:07:36.3678015Z metrics/compute/seanpm2001/base > retrieving repositoriesContributedTo after null
+2024-03-28T05:07:36.3679647Z metrics/compute/seanpm2001/base > retrieved 1 repositoriesContributedTo after Y3Vyc29yOnYyOpK5MjAyNC0wMy0yN1QwNzoyMTozNy0wNzowMM4d6CQ4
+2024-03-28T05:07:36.3682351Z     at /metrics/node_modules/@octokit/request/dist-node/index.js:86:21
+2024-03-28T05:07:36.3683474Z     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-03-28T05:07:36.3684656Z     at async retry.retries (file:///metrics/source/app/action/index.mjs:553:11)
+2024-03-28T05:07:36.3685702Z     at async retry (file:///metrics/source/app/action/index.mjs:57:22)
+2024-03-28T05:07:36.3686632Z     at async file:///metrics/source/app/action/index.mjs:552:9 {
+2024-03-28T05:07:36.3687328Z   status: 403,
+2024-03-28T05:07:36.3687685Z   response: {
+2024-03-28T05:07:36.3688849Z     url: 'https://api.github.com/repos/seanpm2001/GitHub_Stats_B/contents/GitHub_Stats_B_GitHub_Stargazers_Chart.svg',
+2024-03-28T05:07:36.3690005Z     status: 403,
+2024-03-28T05:07:36.3690376Z     headers: {
+2024-03-28T05:07:36.3690860Z       'access-control-allow-origin': '*',
+2024-03-28T05:07:36.3693970Z       'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
+2024-03-28T05:07:36.3697016Z       'content-encoding': 'gzip',
+2024-03-28T05:07:36.3697649Z       'content-security-policy': "default-src 'none'",
+2024-03-28T05:07:36.3698424Z       'content-type': 'application/json; charset=utf-8',
+2024-03-28T05:07:36.3699151Z       date: 'Thu, 28 Mar 2024 05:05:36 GMT',
+2024-03-28T05:07:36.3700173Z       'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+2024-03-28T05:07:36.3701099Z       server: 'GitHub.com',
+2024-03-28T05:07:36.3701975Z       'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+2024-03-28T05:07:36.3702940Z       'transfer-encoding': 'chunked',
+2024-03-28T05:07:36.3703670Z       vary: 'Accept-Encoding, Accept, X-Requested-With',
+2024-03-28T05:07:36.3704533Z       'x-accepted-github-permissions': 'contents=write',
+2024-03-28T05:07:36.3705318Z       'x-content-type-options': 'nosniff',
+2024-03-28T05:07:36.3705948Z       'x-frame-options': 'deny',
+2024-03-28T05:07:36.3706624Z       'x-github-api-version-selected': '2022-11-28',
+2024-03-28T05:07:36.3707430Z       'x-github-media-type': 'github.v3; format=json',
+2024-03-28T05:07:36.3708366Z       'x-github-request-id': '4C40:86C6:1573D25:2439BFD:6604FAA0',
+2024-03-28T05:07:36.3709147Z       'x-ratelimit-limit': '5000',
+2024-03-28T05:07:36.3709742Z       'x-ratelimit-remaining': '4989',
+2024-03-28T05:07:36.3710590Z       'x-ratelimit-reset': '1711604931',
+2024-03-28T05:07:36.3711227Z       'x-ratelimit-resource': 'core',
+2024-03-28T05:07:36.3711820Z       'x-ratelimit-used': '11',
+2024-03-28T05:07:36.3712405Z       'x-xss-protection': '0'
+2024-03-28T05:07:36.3712850Z     },
+2024-03-28T05:07:36.3713165Z     data: {
+2024-03-28T05:07:36.3713706Z       message: 'Resource not accessible by integration',
+2024-03-28T05:07:36.3714981Z       documentation_url: 'https://docs.github.com/rest/repos/contents#create-or-update-file-contents'
+2024-03-28T05:07:36.3715994Z     }
+2024-03-28T05:07:36.3716296Z   },
+2024-03-28T05:07:36.3716599Z   request: {
+2024-03-28T05:07:36.3717000Z     method: 'PUT',
+2024-03-28T05:07:36.3718179Z     url: 'https://api.github.com/repos/seanpm2001/GitHub_Stats_B/contents/GitHub_Stats_B_GitHub_Stargazers_Chart.svg',
+2024-03-28T05:07:36.3719324Z     headers: {
+2024-03-28T05:07:36.3719848Z       accept: 'application/vnd.github.v3+json',
+2024-03-28T05:07:36.3720772Z       'user-agent': 'octokit-core.js/3.6.0 Node.js/20.6.1 (linux; x64)',
+2024-03-28T05:07:36.3721628Z       authorization: 'token [REDACTED]',
+2024-03-28T05:07:36.3722355Z       'content-type': 'application/json; charset=utf-8'
+2024-03-28T05:07:36.3722970Z     },
+2024-03-28T05:07:36.5138001Z     body: '{"message":"Update GitHub_Stats_B_GitHub_Stargazers_Chart.svg - [Skip GitHub Action]","content":"PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0ODAiIGhlaWdodD0iMTc3IiBjbGFzcz0iIj4KICAgIDxkZWZzPgogICAgICAgIDxzdHlsZS8+CiAgICA8L2RlZnM+CiAgICA8c3R5bGU+QGtleWZyYW1lcyBhbmltYXRpb24tZ2F1Z2V7MCV7c3Ryb2tlLWRhc2hhcnJheTowIDMyOX19QGtleWZyYW1lcyBhbmltYXRpb24tcmFpbmJvd3swJSx0b3tjb2xvcjojN2YwMGZmO2ZpbGw6IzdmMDBmZn0xNCV7Y29sb3I6I2E5MzNmZjtmaWxsOiNhOTMzZmZ9Mjkle2NvbG9yOiMwMDdmZmY7ZmlsbDojMDA3ZmZmfTQzJXtjb2xvcjojMDBmZjdmO2ZpbGw6IzAwZmY3Zn01NyV7Y29sb3I6I2ZmMDtmaWxsOiNmZjB9NzEle2NvbG9yOiNmZjdmMDA7ZmlsbDojZmY3ZjAwfTg2JXtjb2xvcjpyZWQ7ZmlsbDpyZWR9fXN2Z3tmb250LWZhbWlseTotYXBwbGUtc3lzdGVtLEJsaW5rTWFjU3lzdGVtRm9udCxTZWdvZSBVSSxIZWx2ZXRpY2EsQXJpYWwsc2Fucy1zZXJpZixBcHBsZSBDb2xvciBFbW9qaSxTZWdvZSBVSSBFbW9qaTtjb2xvcjojNzc3fWgyLGgze21hcmdpbjo4cHggMCAycHg7cGFkZGluZzowO2NvbG9yOiMwMzY2ZDY7Zm9udC13ZWlnaHQ6NDAwfWgyIHN2ZyxoMyBzdmd7ZmlsbDpjdXJyZW50Q29sb3J9aDJ7Zm9udC1zaXplOjE2cHh9aDMsc3Zne2ZvbnQtc2l6ZToxNHB4fXNlY3Rpb24mZ3Q7LmZpZWxke21hcmdpbi1sZWZ0OjVweDttYXJnaW4tcmlnaHQ6NXB4fS5maWVsZHtkaXNwbGF5OmZsZXg7YWxpZ24taXRlbXM6Y2VudGVyO21hcmdpbi1ib3R0b206MnB4O3doaXRlLXNwYWNlOm5vd3JhcH0uZmllbGQgc3Zne21hcmdpbjowIDhweDtmaWxsOiM5NTlkYTU7ZmxleC1zaHJpbms6MH0ucm93e2Rpc3BsYXk6ZmxleDtmbGV4LXdyYXA6d3JhcH0ucm93IHNlY3Rpb257ZmxleDoxIDEgMH0uY2hhcnQtYmFycyAuZW50cnksLmNvbHVtbntkaXNwbGF5OmZsZXg7ZmxleC1kaXJlY3Rpb246Y29sdW1uO2FsaWduLWl0ZW1zOmNlbnRlcn0ubWFyZ2luLWJvdHRvbXttYXJnaW4tYm90dG9tOjE2cHh9c3ZnLmJhcnttYXJnaW46NHB4IDB9LmNoYXJ0e3BhZGRpbmc6MCA4cHh9LmNoYXJ0LWJhcnN7ZGlzcGxheTpmbGV4O2p1c3RpZnktY29udGVudDpzcGFjZS1iZXR3ZWVuO2FsaWduLWl0ZW1zOmZsZXgtZW5kO3dpZHRoOjEwMCU7bWFyZ2luOjhweCAwIDRweDtmbGV4LWdyb3c6MTttaW4taGVpZ2h0OjcwcHh9LmNoYXJ0LWJhcnMgLmVudHJ5e2ZsZXgtZ3JvdzoxO2ZvbnQtc2l6ZToxMHB4O2NvbG9yOiM2NjZ9LmNoYXJ0LWJhcnMgLmVudHJ5IC52YWx1ZXtmb250LXNpemU6NnB4fS5jaGFydC1iYXJzIC5iYXJ7d2lkdGg6N3B4O2JhY2tncm91bmQtY29sb3I6dmFyKC0tY29sb3ItY2FsZW5kYXItZ3JhcGgtZGF5LWJnKTtib3JkZXI6MXB4IHNvbGlkIHZhcigtLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1ib3JkZXIpO2JvcmRlci1yYWRpdXM6NXB4fS5jaGFydC1iYXJzIC5lbnRyeSAuYm90dG9te21hcmdpbi1ib3R0b206LTFyZW07bGluZS1oZWlnaHQ6MXJlbX06cm9vdHstLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1iZzojZWJlZGYwOy0tY29sb3ItY2FsZW5kYXItZ3JhcGgtZGF5LWJvcmRlcjpyZ2JhKDI3LDMxLDM1LDAuMDYpOy0tY29sb3ItY2FsZW5kYXItZ3JhcGgtZGF5LUwxLWJnOiM5YmU5YTg7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDItYmc6IzQwYzQ2MzstLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1MMy1iZzojMzBhMTRlOy0tY29sb3ItY2FsZW5kYXItZ3JhcGgtZGF5LUw0LWJnOiMyMTZlMzk7LS1jb2xvci1jYWxlbmRhci1oYWxsb3dlZW4tZ3JhcGgtZGF5LUwxLWJnOiNmZmVlNGE7LS1jb2xvci1jYWxlbmRhci1oYWxsb3dlZW4tZ3JhcGgtZGF5LUwyLWJnOiNmZmM1MDE7LS1jb2xvci1jYWxlbmRhci1oYWxsb3dlZW4tZ3JhcGgtZGF5LUwzLWJnOiNmZTk2MDA7LS1jb2xvci1jYWxlbmRhci1oYWxsb3dlZW4tZ3JhcGgtZGF5LUw0LWJnOiMwMzAwMWM7LS1jb2xvci1jYWxlbmRhci13aW50ZXItZ3JhcGgtZGF5LUwxLWJnOiMwYTMwNjk7LS1jb2xvci1jYWxlbmRhci13aW50ZXItZ3JhcGgtZGF5LUwyLWJnOiMwOTY5ZGE7LS1jb2xvci1jYWxlbmRhci13aW50ZXItZ3JhcGgtZGF5LUwzLWJnOiM1NGFlZmY7LS1jb2xvci1jYWxlbmRhci13aW50ZXItZ3JhcGgtZGF5LUw0LWJnOiNiNmUzZmY7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDQtYm9yZGVyOnJnYmEoMjcsMzEsMzUsMC4wNik7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDMtYm9yZGVyOnJnYmEoMjcsMzEsMzUsMC4wNik7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDItYm9yZGVyOnJnYmEoMjcsMzEsMzUsMC4wNik7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDEtYm9yZGVyOnJnYmEoMjcsMzEsMzUsMC4wNil9I21ldHJpY3MtZW5ke3dpZHRoOjEwMCV9PC9zdHlsZT4KICAgIDxzdHlsZS8+CiAgICA8Zm9yZWlnbk9iamVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIj4KICAgICAgICA8ZGl2IHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgY2xhc3M9Iml0ZW1zLXdyYXBwZXIiPgogICAgICAgICAgICA8c2VjdGlvbiBjbGFzcz0ic3RhcmdhemVycyI+CiAgICAgICAgICAgICAgICA8aDIgY2xhc3M9ImZpZWxkIj4KICAgICAgICAgICAgICAgICAgICA8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDE2IDE2IiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiPgogICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik04IC4yNWEuNzUuNzUgMCAwMS42NzMuNDE4bDEuODgyIDMuODE1IDQuMjEuNjEyYS43NS43NSAwIDAxLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1Ljc1IDAgMDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAxLTEuMDg4LS43OWwuNzItNC4xOTRMLjgxOCA2LjM3NGEuNzUuNzUgMCAwMS40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAxOCAuMjV6bTAgMi40NDVMNi42MTUgNS41YS43NS43NSAwIDAxLS41NjQuNDFsLTMuMDk3LjQ1IDIuMjQgMi4xODRhLjc1Ljc1IDAgMDEuMjE2LjY2NGwtLjUyOCAzLjA4NCAyLjc2OS0xLjQ1NmEuNzUuNzUgMCAwMS42OTggMGwyLjc3IDEuNDU2LS41My0zLjA4NGEuNzUuNzUgMCAwMS4yMTYtLjY2NGwyLjI0LTIuMTgzLTMuMDk2LS40NWEuNzUuNzUgMCAwMS0uNTY0LS40MUw4IDIuNjk0di4wMDF6Ii8+CiAgICAgICAgICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICAgICAgICAgICAgU3RhcmdhemVycwogICAgICAgICAgICAgICAgPC9oMj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InJvdyBtYXJnaW4tYm90dG9tIj4KICAgICAgICAgICAgICAgICAgICA8c2VjdGlvbiBjbGFzcz0iY29sdW1uIGNoYXJ0Ij4KICAgICAgICAgICAgICAgICAgICAgICAgPGgzPlRvdGFsIHN0YXJnYXplcnM8L2gzPgogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJjaGFydC1iYXJzIj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImVudHJ5Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0idmFsdWUiPjEzNzwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJiYXIiIHN0eWxlPSJoZWlnaHQ6IDIuNXB4OyBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDEtYmcpIj48L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAxNQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImJvdHRvbSI+TWFyLjwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJlbnRyeSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9InZhbHVlIj4xNDA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iYmFyIiBzdHlsZT0iaGVpZ2h0OiAzLjk1NDA4MTYzMjY1MzA2MTVweDsgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tY29sb3ItY2FsZW5kYXItZ3JhcGgtZGF5LUwxLWJnKSI+PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMTYKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZW50cnkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ2YWx1ZSI+MTQ3PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImJhciIgc3R5bGU9ImhlaWdodDogNy4zNDY5Mzg3NzU1MTAyMDNweDsgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tY29sb3ItY2FsZW5kYXItZ3JhcGgtZGF5LUwxLWJnKSI+PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMTcKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZW50cnkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ2YWx1ZSI+MTU0PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImJhciIgc3R5bGU9ImhlaWdodDogMTAuNzM5Nzk1OTE4MzY3MzQ2cHg7IGJhY2tncm91bmQtY29sb3I6IHZhcigtLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1MMS1iZykiPjwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDE4CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImVudHJ5Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0idmFsdWUiPjE2Njwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJiYXIiIHN0eWxlPSJoZWlnaHQ6IDE2LjU1NjEyMjQ0ODk3OTU5cHg7IGJhY2tncm91bmQtY29sb3I6IHZhcigtLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1MMi1iZykiPjwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDE5CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImVudHJ5Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0idmFsdWUiPjE3Njwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJiYXIiIHN0eWxlPSJoZWlnaHQ6IDIxLjQwMzA2MTIyNDQ4OTc5M3B4OyBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDItYmcpIj48L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAyMAogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJlbnRyeSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9InZhbHVlIj4xODY8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iYmFyIiBzdHlsZT0iaGVpZ2h0OiAyNi4yNXB4OyBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDMtYmcpIj48L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAyMQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJlbnRyeSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9InZhbHVlIj4xOTU8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iYmFyIiBzdHlsZT0iaGVpZ2h0OiAzMC42MTIyNDQ4OTc5NTkxODNweDsgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tY29sb3ItY2FsZW5kYXItZ3JhcGgtZGF5LUwzLWJnKSI+PC9kaXY+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMjIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZW50cnkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ2YWx1ZSI+MjA0PC9zcGFuPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImJhciIgc3R5bGU9ImhlaWdodDogMzQuOTc0NDg5Nzk1OTE4MzY2cHg7IGJhY2tncm91bmQtY29sb3I6IHZhcigtLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1MMy1iZykiPjwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDIzCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImVudHJ5Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0idmFsdWUiPjIxMzwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJiYXIiIHN0eWxlPSJoZWlnaHQ6IDM5LjMzNjczNDY5Mzg3NzU2cHg7IGJhY2tncm91bmQtY29sb3I6IHZhcigtLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1MNC1iZykiPjwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDI0CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImVudHJ5Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0idmFsdWUiPjIxNTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJiYXIiIHN0eWxlPSJoZWlnaHQ6IDQwLjMwNjEyMjQ0ODk3OTU5cHg7IGJhY2tncm91bmQtY29sb3I6IHZhcigtLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1MNC1iZykiPjwvZGl2PgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDI1CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImVudHJ5Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0idmFsdWUiPjIyNDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJiYXIiIHN'... 7790 more characters,
+2024-03-28T05:07:36.6431043Z     request: { agent: [Agent], hook: [Function: bound bound register] }
+2024-03-28T05:07:36.6431518Z   }
+2024-03-28T05:07:36.6431705Z }
+2024-03-28T05:07:36.6432234Z metrics/compute/seanpm2001/base > retrieved less repositories than expected, probably no more to fetch
+2024-03-28T05:07:36.6433049Z metrics/compute/seanpm2001/base > keeping only 100 repositoriesContributedTo
+2024-03-28T05:07:36.6433745Z metrics/compute/seanpm2001/base > loaded 1 repositoriesContributedTo
+2024-03-28T05:07:36.6434364Z metrics/compute/seanpm2001/base > patching packages count if possible
+2024-03-28T05:07:36.6435058Z metrics/compute/seanpm2001/base > patched packages count (added 0 from ghcr.io)
+2024-03-28T05:07:36.6436780Z metrics/compute/seanpm2001/base > shared options > {"repositories.skipped":[],"users.ignored":["github-actions[bot]","dependabot[bot]","dependabot-preview[bot]","actions-user","action@github.com"],"commits.authoring":["seanpm2001"],"repositories.batch":100}
+2024-03-28T05:07:36.6438155Z metrics/compute/seanpm2001/base > graphql query > account user > success
+2024-03-28T05:07:36.6438711Z metrics/compute/seanpm2001 > formatting common metrics
+2024-03-28T05:07:36.6439147Z metrics/compute/seanpm2001 > animations enabled
+2024-03-28T05:07:36.6439531Z metrics/compute/seanpm2001 > extras > true
+2024-03-28T05:07:36.6439978Z metrics/compute/seanpm2001/plugins > stargazers > started
+2024-03-28T05:07:36.6440525Z metrics/compute/seanpm2001/plugins > stargazers > querying api
+2024-03-28T05:07:36.6441187Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of GitHub_Stats_B
+2024-03-28T05:07:36.6442037Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of GitHub_Stats_B after null
+2024-03-28T05:07:36.6443209Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of GitHub_Stats_B after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yNlQyMjoyMjowMy0wNzowMADOHSB_4g==
+2024-03-28T05:07:36.6444321Z metrics/compute/seanpm2001/plugins > stargazers > loaded 1 stargazers for GitHub_Stats_B
+2024-03-28T05:07:36.6445281Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_MotorWorld_CarFactory_Y2024_V4
+2024-03-28T05:07:36.6446498Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_MotorWorld_CarFactory_Y2024_V4 after null
+2024-03-28T05:07:36.6447999Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_MotorWorld_CarFactory_Y2024_V4 after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yNlQyMjoyMDo0My0wNzowMADOHSB_HQ==
+2024-03-28T05:07:36.6449733Z metrics/compute/seanpm2001/plugins > stargazers > loaded 2 stargazers for SeansLifeArchive_Images_MotorWorld_CarFactory_Y2024_V4
+2024-03-28T05:07:36.6450863Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_ModernSmurfsVillage_Y2024_V4
+2024-03-28T05:07:36.6453866Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_ModernSmurfsVillage_Y2024_V4 after null
+2024-03-28T05:07:36.6455522Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_ModernSmurfsVillage_Y2024_V4 after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yNlQyMjoxOToyNS0wNzowMADOHSB-VQ==
+2024-03-28T05:07:36.6456952Z metrics/compute/seanpm2001/plugins > stargazers > loaded 3 stargazers for SeansLifeArchive_Images_ModernSmurfsVillage_Y2024_V4
+2024-03-28T05:07:36.6458145Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Docs
+2024-03-28T05:07:36.6459041Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Docs after null
+2024-03-28T05:07:36.6460259Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yNlQyMjoxODoxOS0wNzowMADOHSB90g==
+2024-03-28T05:07:36.6461429Z metrics/compute/seanpm2001/plugins > stargazers > loaded 4 stargazers for BlueberryOS_Apps_Docs
+2024-03-28T05:07:36.6462314Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Desktop_Docs
+2024-03-28T05:07:36.6463229Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Desktop_Docs after null
+2024-03-28T05:07:36.6464460Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Desktop_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yNlQyMjoxNzoxNy0wNzowMADOHSB9Og==
+2024-03-28T05:07:36.6465655Z metrics/compute/seanpm2001/plugins > stargazers > loaded 5 stargazers for BlueberryOS_Desktop_Docs
+2024-03-28T05:07:36.6466570Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_JSONiq
+2024-03-28T05:07:36.6467576Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_JSONiq after null
+2024-03-28T05:07:36.6468882Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_JSONiq after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yNlQyMjoxNjowNS0wNzowMADOHSB7_w==
+2024-03-28T05:07:36.6470479Z metrics/compute/seanpm2001/plugins > stargazers > loaded 6 stargazers for SNU_2D_ProgrammingTools_IDE_JSONiq
+2024-03-28T05:07:36.6471464Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-JSONiq
+2024-03-28T05:07:36.6472358Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-JSONiq after null
+2024-03-28T05:07:36.6473631Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-JSONiq after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yNlQyMjoxNDo1My0wNzowMADOHSB7WA==
+2024-03-28T05:07:36.6474788Z metrics/compute/seanpm2001/plugins > stargazers > loaded 7 stargazers for Learn-JSONiq
+2024-03-28T05:07:36.6475727Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of PDNet-Plus-Plus_Channels_Docs
+2024-03-28T05:07:36.6476814Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of PDNet-Plus-Plus_Channels_Docs after null
+2024-03-28T05:07:36.6478247Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of PDNet-Plus-Plus_Channels_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yN1QxNTowOToxNS0wNzowMADOHSPFuQ==
+2024-03-28T05:07:36.6479563Z metrics/compute/seanpm2001/plugins > stargazers > loaded 9 stargazers for PDNet-Plus-Plus_Channels_Docs
+2024-03-28T05:07:36.6480496Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Degoogle-your-life
+2024-03-28T05:07:36.6481576Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Degoogle-your-life after null
+2024-03-28T05:07:36.6482898Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Degoogle-your-life after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yN1QwMDowODozMS0wNzowMADOHSDTeg==
+2024-03-28T05:07:36.6484117Z metrics/compute/seanpm2001/plugins > stargazers > loaded 55 stargazers for Degoogle-your-life
+2024-03-28T05:07:36.6485045Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Bliss-Browser-Anklebar_Docs
+2024-03-28T05:07:36.6486267Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Bliss-Browser-Anklebar_Docs after null
+2024-03-28T05:07:36.6487675Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Bliss-Browser-Anklebar_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yNVQyMjozNDo0Ni0wNzowMADOHRwrig==
+2024-03-28T05:07:36.6488972Z metrics/compute/seanpm2001/plugins > stargazers > loaded 56 stargazers for Bliss-Browser-Anklebar_Docs
+2024-03-28T05:07:36.6490068Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Bliss-Browser-Anklebar
+2024-03-28T05:07:36.6491044Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Bliss-Browser-Anklebar after null
+2024-03-28T05:07:36.6492398Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Bliss-Browser-Anklebar after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yNVQyMjozMzowOS0wNzowMADOHRwqiw==
+2024-03-28T05:07:36.6493658Z metrics/compute/seanpm2001/plugins > stargazers > loaded 57 stargazers for Bliss-Browser-Anklebar
+2024-03-28T05:07:36.6494556Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001-Radio
+2024-03-28T05:07:36.6495473Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001-Radio after null
+2024-03-28T05:07:36.6496751Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001-Radio after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yNVQyMjoxODowNC0wNzowMADOHRwhtA==
+2024-03-28T05:07:36.6497949Z metrics/compute/seanpm2001/plugins > stargazers > loaded 58 stargazers for Seanpm2001-Radio
+2024-03-28T05:07:36.6498862Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of PDNet-Plus-Plus_Channels
+2024-03-28T05:07:36.6499867Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of PDNet-Plus-Plus_Channels after null
+2024-03-28T05:07:36.6501221Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of PDNet-Plus-Plus_Channels after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yNlQyMDowMDo0My0wNzowMADOHSAjtg==
+2024-03-28T05:07:36.6502493Z metrics/compute/seanpm2001/plugins > stargazers > loaded 60 stargazers for PDNet-Plus-Plus_Channels
+2024-03-28T05:07:36.6503515Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_Visual-Basic
+2024-03-28T05:07:36.6504655Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_Visual-Basic after null
+2024-03-28T05:07:36.6506155Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_Visual-Basic after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yNVQyMjoxMjowMy0wNzowMADOHRwdpQ==
+2024-03-28T05:07:36.6507556Z metrics/compute/seanpm2001/plugins > stargazers > loaded 61 stargazers for SNU_2D_ProgrammingTools_IDE_Visual-Basic
+2024-03-28T05:07:36.6508540Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-Visual-Basic
+2024-03-28T05:07:36.6509487Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-Visual-Basic after null
+2024-03-28T05:07:36.6511220Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-Visual-Basic after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yNVQyMjowOTo1OC0wNzowMADOHRwcbw==
+2024-03-28T05:07:36.6512459Z metrics/compute/seanpm2001/plugins > stargazers > loaded 62 stargazers for Learn-Visual-Basic
+2024-03-28T05:07:36.6513420Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Android-x64_Android9_Heavy_Edition
+2024-03-28T05:07:36.6514635Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Android-x64_Android9_Heavy_Edition after null
+2024-03-28T05:07:36.6516078Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Android-x64_Android9_Heavy_Edition after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yNlQxOTozNDoyNi0wNzowMADOHSAOHQ==
+2024-03-28T05:07:36.6517426Z metrics/compute/seanpm2001/plugins > stargazers > loaded 65 stargazers for Android-x64_Android9_Heavy_Edition
+2024-03-28T05:07:36.6518358Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SimZonns
+2024-03-28T05:07:36.6519138Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SimZonns after null
+2024-03-28T05:07:36.6520253Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SimZonns after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMFQwMDoxOToxMy0wNzowMADOHQWSfQ==
+2024-03-28T05:07:36.6521310Z metrics/compute/seanpm2001/plugins > stargazers > loaded 93 stargazers for SimZonns
+2024-03-28T05:07:36.6522230Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of seanpm2001
+2024-03-28T05:07:36.6523027Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of seanpm2001 after null
+2024-03-28T05:07:36.6524142Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of seanpm2001 after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yNlQxMTowMjozMS0wNzowMADOHR7tRQ==
+2024-03-28T05:07:36.6525249Z metrics/compute/seanpm2001/plugins > stargazers > loaded 110 stargazers for seanpm2001
+2024-03-28T05:07:36.6526130Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of PDNet-Plus-Plus_Docs
+2024-03-28T05:07:36.6527095Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of PDNet-Plus-Plus_Docs after null
+2024-03-28T05:07:36.6528420Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of PDNet-Plus-Plus_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yNVQxOTozNzoyMy0wNzowMADOHRu1MQ==
+2024-03-28T05:07:36.6529669Z metrics/compute/seanpm2001/plugins > stargazers > loaded 112 stargazers for PDNet-Plus-Plus_Docs
+2024-03-28T05:07:36.6530573Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Saltine-Cracker-Award
+2024-03-28T05:07:36.6531541Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Saltine-Cracker-Award after null
+2024-03-28T05:07:36.6532880Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Saltine-Cracker-Award after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yNVQxNjo0NToxMS0wNzowMADOHRtKIw==
+2024-03-28T05:07:36.6534142Z metrics/compute/seanpm2001/plugins > stargazers > loaded 115 stargazers for Saltine-Cracker-Award
+2024-03-28T05:07:36.6535077Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-BrightScript
+2024-03-28T05:07:36.6536019Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-BrightScript after null
+2024-03-28T05:07:36.6537338Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-BrightScript after Y3Vyc29yOnYyOpO5MjAyMy0xMS0yNlQyMDozMDoxNC0wODowMADOG3bZhQ==
+2024-03-28T05:07:36.6538563Z metrics/compute/seanpm2001/plugins > stargazers > loaded 118 stargazers for Learn-BrightScript
+2024-03-28T05:07:36.6539430Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of PDNet-Plus-Plus
+2024-03-28T05:07:36.6540345Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of PDNet-Plus-Plus after null
+2024-03-28T05:07:36.6541655Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of PDNet-Plus-Plus after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yNFQxODozNjoxOS0wNzowMADOHRd-7A==
+2024-03-28T05:07:36.6542873Z metrics/compute/seanpm2001/plugins > stargazers > loaded 120 stargazers for PDNet-Plus-Plus
+2024-03-28T05:07:36.6543792Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of WacOS_Apple-Picker_Docs
+2024-03-28T05:07:36.6544865Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of WacOS_Apple-Picker_Docs after null
+2024-03-28T05:07:36.6546228Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of WacOS_Apple-Picker_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yM1QyMjoxNToxOS0wNzowMADOHRRehA==
+2024-03-28T05:07:36.6547490Z metrics/compute/seanpm2001/plugins > stargazers > loaded 121 stargazers for WacOS_Apple-Picker_Docs
+2024-03-28T05:07:36.6548404Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of WacOS_Apple-Picker
+2024-03-28T05:07:36.6549409Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of WacOS_Apple-Picker after null
+2024-03-28T05:07:36.6551036Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of WacOS_Apple-Picker after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yM1QyMjoxNDowNy0wNzowMADOHRRd_g==
+2024-03-28T05:07:36.6552275Z metrics/compute/seanpm2001/plugins > stargazers > loaded 122 stargazers for WacOS_Apple-Picker
+2024-03-28T05:07:36.6553208Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of WacOS_Big-Cat-Picker_Docs
+2024-03-28T05:07:36.6554386Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of WacOS_Big-Cat-Picker_Docs after null
+2024-03-28T05:07:36.6555757Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of WacOS_Big-Cat-Picker_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yM1QyMjoxMjoyNS0wNzowMADOHRRdUQ==
+2024-03-28T05:07:36.6557043Z metrics/compute/seanpm2001/plugins > stargazers > loaded 123 stargazers for WacOS_Big-Cat-Picker_Docs
+2024-03-28T05:07:36.6557975Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of WacOS_Big-Cat-Picker
+2024-03-28T05:07:36.6558933Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of WacOS_Big-Cat-Picker after null
+2024-03-28T05:07:36.6560263Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of WacOS_Big-Cat-Picker after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yM1QyMjoxMTowOS0wNzowMADOHRRcvQ==
+2024-03-28T05:07:36.6561507Z metrics/compute/seanpm2001/plugins > stargazers > loaded 124 stargazers for WacOS_Big-Cat-Picker
+2024-03-28T05:07:36.6562284Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Radio
+2024-03-28T05:07:36.6563043Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Radio after null
+2024-03-28T05:07:36.6564144Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Radio after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yM1QyMjoxMDoxMS0wNzowMADOHRRcTg==
+2024-03-28T05:07:36.6565184Z metrics/compute/seanpm2001/plugins > stargazers > loaded 125 stargazers for Radio
+2024-03-28T05:07:36.6566002Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of DISK-O_Jockey
+2024-03-28T05:07:36.6566904Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of DISK-O_Jockey after null
+2024-03-28T05:07:36.6568165Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of DISK-O_Jockey after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yM1QyMzo1MToyNi0wNzowMADOHRSMNQ==
+2024-03-28T05:07:36.6569339Z metrics/compute/seanpm2001/plugins > stargazers > loaded 128 stargazers for DISK-O_Jockey
+2024-03-28T05:07:36.6570183Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Zelyonka_Square_Discussions8
+2024-03-28T05:07:36.6571148Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Zelyonka_Square_Discussions8 after null
+2024-03-28T05:07:36.6572421Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Zelyonka_Square_Discussions8 after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMlQyMjo0MzoxMi0wNzowMADOHRFebQ==
+2024-03-28T05:07:36.6573660Z metrics/compute/seanpm2001/plugins > stargazers > loaded 129 stargazers for Zelyonka_Square_Discussions8
+2024-03-28T05:07:36.6574633Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of VRedroomOS_Horny-Jail_Docs
+2024-03-28T05:07:36.6575637Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of VRedroomOS_Horny-Jail_Docs after null
+2024-03-28T05:07:36.6577100Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of VRedroomOS_Horny-Jail_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMlQyMjo0MTo0OC0wNzowMADOHRFdsA==
+2024-03-28T05:07:36.6578392Z metrics/compute/seanpm2001/plugins > stargazers > loaded 130 stargazers for VRedroomOS_Horny-Jail_Docs
+2024-03-28T05:07:36.6579308Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_BNF
+2024-03-28T05:07:36.6580359Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_BNF after null
+2024-03-28T05:07:36.6581655Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_BNF after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMlQyMjo0MDoyOS0wNzowMADOHRFc9g==
+2024-03-28T05:07:36.6582910Z metrics/compute/seanpm2001/plugins > stargazers > loaded 131 stargazers for SNU_2D_ProgrammingTools_IDE_BNF
+2024-03-28T05:07:36.6583820Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-BNF
+2024-03-28T05:07:36.6584795Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-BNF after null
+2024-03-28T05:07:36.6586003Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-BNF after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMlQyMjozOTowNy0wNzowMADOHRFcPQ==
+2024-03-28T05:07:36.6587144Z metrics/compute/seanpm2001/plugins > stargazers > loaded 132 stargazers for Learn-BNF
+2024-03-28T05:07:36.6587989Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Weather_Docs
+2024-03-28T05:07:36.6588950Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Weather_Docs after null
+2024-03-28T05:07:36.6590486Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Weather_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMlQyMjozNzo1Ny0wNzowMADOHRFbvQ==
+2024-03-28T05:07:36.6591741Z metrics/compute/seanpm2001/plugins > stargazers > loaded 133 stargazers for BlueberryOS_Apps_Weather_Docs
+2024-03-28T05:07:36.6592679Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Wallpapers_Docs
+2024-03-28T05:07:36.6593680Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Wallpapers_Docs after null
+2024-03-28T05:07:36.6594996Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Wallpapers_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMlQyMjozNjo1MC0wNzowMADOHRFbOw==
+2024-03-28T05:07:36.6596270Z metrics/compute/seanpm2001/plugins > stargazers > loaded 134 stargazers for BlueberryOS_Apps_Wallpapers_Docs
+2024-03-28T05:07:36.6597217Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_SocialFeeds_Docs
+2024-03-28T05:07:36.6598220Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_SocialFeeds_Docs after null
+2024-03-28T05:07:36.6599544Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_SocialFeeds_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMlQyMjozNTozNi0wNzowMADOHRFaqA==
+2024-03-28T05:07:36.6600822Z metrics/compute/seanpm2001/plugins > stargazers > loaded 135 stargazers for BlueberryOS_Apps_SocialFeeds_Docs
+2024-03-28T05:07:36.6601669Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Redacted
+2024-03-28T05:07:36.6602446Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Redacted after null
+2024-03-28T05:07:36.6603566Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Redacted after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yM1QyMDo1MDoxNS0wNzowMADOHRQ5bQ==
+2024-03-28T05:07:36.6604633Z metrics/compute/seanpm2001/plugins > stargazers > loaded 137 stargazers for Redacted
+2024-03-28T05:07:36.6605364Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Virg.io
+2024-03-28T05:07:36.6606140Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Virg.io after null
+2024-03-28T05:07:36.6607347Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Virg.io after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yM1QxMToyMjoyMS0wNzowMADOHRMsTw==
+2024-03-28T05:07:36.6608402Z metrics/compute/seanpm2001/plugins > stargazers > loaded 140 stargazers for Virg.io
+2024-03-28T05:07:36.6609136Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of LANChair
+2024-03-28T05:07:36.6609919Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of LANChair after null
+2024-03-28T05:07:36.6611106Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of LANChair after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMlQxMzo0ODo1NS0wNzowMADOHRBdhg==
+2024-03-28T05:07:36.6612173Z metrics/compute/seanpm2001/plugins > stargazers > loaded 143 stargazers for LANChair
+2024-03-28T05:07:36.6612993Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of ChaccaronMaccaronType_Docs
+2024-03-28T05:07:36.6614068Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of ChaccaronMaccaronType_Docs after null
+2024-03-28T05:07:36.6615342Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of ChaccaronMaccaronType_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMVQyMjo0OTo1OC0wNzowMADOHQ3JXg==
+2024-03-28T05:07:36.6616554Z metrics/compute/seanpm2001/plugins > stargazers > loaded 144 stargazers for ChaccaronMaccaronType_Docs
+2024-03-28T05:07:36.6617432Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of ChaccaronMaccaronType
+2024-03-28T05:07:36.6618341Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of ChaccaronMaccaronType after null
+2024-03-28T05:07:36.6619585Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of ChaccaronMaccaronType after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMVQyMjo0ODo0Ni0wNzowMADOHQ3IkQ==
+2024-03-28T05:07:36.6620768Z metrics/compute/seanpm2001/plugins > stargazers > loaded 145 stargazers for ChaccaronMaccaronType
+2024-03-28T05:07:36.6621888Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_MultiDimensional-eXpressions
+2024-03-28T05:07:36.6623187Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_MultiDimensional-eXpressions after null
+2024-03-28T05:07:36.6624835Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_MultiDimensional-eXpressions after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMVQyMjo0Njo1OS0wNzowMADOHQ3HZQ==
+2024-03-28T05:07:36.6626392Z metrics/compute/seanpm2001/plugins > stargazers > loaded 146 stargazers for SNU_2D_ProgrammingTools_IDE_MultiDimensional-eXpressions
+2024-03-28T05:07:36.6627529Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-MultiDimensional-eXpressions
+2024-03-28T05:07:36.6628636Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-MultiDimensional-eXpressions after null
+2024-03-28T05:07:36.6630442Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-MultiDimensional-eXpressions after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMVQyMjo0NTozMC0wNzowMADOHQ3GXQ==
+2024-03-28T05:07:36.6631876Z metrics/compute/seanpm2001/plugins > stargazers > loaded 147 stargazers for Learn-MultiDimensional-eXpressions
+2024-03-28T05:07:36.6632829Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Media_Docs
+2024-03-28T05:07:36.6633777Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Media_Docs after null
+2024-03-28T05:07:36.6635073Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Media_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMVQyMjo0MzoyNC0wNzowMADOHQ3E7Q==
+2024-03-28T05:07:36.6636294Z metrics/compute/seanpm2001/plugins > stargazers > loaded 148 stargazers for BlueberryOS_Apps_Media_Docs
+2024-03-28T05:07:36.6637216Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Messages_Docs
+2024-03-28T05:07:36.6638318Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Messages_Docs after null
+2024-03-28T05:07:36.6639733Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Messages_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMVQyMjo0MjowMi0wNzowMADOHQ3D-A==
+2024-03-28T05:07:36.6640974Z metrics/compute/seanpm2001/plugins > stargazers > loaded 149 stargazers for BlueberryOS_Apps_Messages_Docs
+2024-03-28T05:07:36.6642004Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Options_Docs
+2024-03-28T05:07:36.6642991Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Options_Docs after null
+2024-03-28T05:07:36.6644273Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Options_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMVQyMjo0MDo0NS0wNzowMADOHQ3C_A==
+2024-03-28T05:07:36.6645638Z metrics/compute/seanpm2001/plugins > stargazers > loaded 150 stargazers for BlueberryOS_Apps_Options_Docs
+2024-03-28T05:07:36.6646639Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of WacOS_Apple-Valley-Picker_Docs
+2024-03-28T05:07:36.6647699Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of WacOS_Apple-Valley-Picker_Docs after null
+2024-03-28T05:07:36.6649120Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of WacOS_Apple-Valley-Picker_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMFQyMjowNDo1NC0wNzowMADOHQlKiw==
+2024-03-28T05:07:36.6650464Z metrics/compute/seanpm2001/plugins > stargazers > loaded 151 stargazers for WacOS_Apple-Valley-Picker_Docs
+2024-03-28T05:07:36.6651456Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of WacOS_Apple-Valley-Picker
+2024-03-28T05:07:36.6652466Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of WacOS_Apple-Valley-Picker after null
+2024-03-28T05:07:36.6653842Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of WacOS_Apple-Valley-Picker after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMFQyMjowMzoxOC0wNzowMADOHQlJiQ==
+2024-03-28T05:07:36.6655134Z metrics/compute/seanpm2001/plugins > stargazers > loaded 152 stargazers for WacOS_Apple-Valley-Picker
+2024-03-28T05:07:36.6656052Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_Zot
+2024-03-28T05:07:36.6657030Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_Zot after null
+2024-03-28T05:07:36.6658331Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_Zot after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMFQyMjowMjowMi0wNzowMADOHQlIzg==
+2024-03-28T05:07:36.6659588Z metrics/compute/seanpm2001/plugins > stargazers > loaded 153 stargazers for SNU_2D_ProgrammingTools_IDE_Zot
+2024-03-28T05:07:36.6660490Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-Zot
+2024-03-28T05:07:36.6661366Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-Zot after null
+2024-03-28T05:07:36.6662586Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-Zot after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMFQyMjowMDo0Mi0wNzowMADOHQlIAQ==
+2024-03-28T05:07:36.6663720Z metrics/compute/seanpm2001/plugins > stargazers > loaded 154 stargazers for Learn-Zot
+2024-03-28T05:07:36.6664557Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Contacts_Docs
+2024-03-28T05:07:36.6665530Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Contacts_Docs after null
+2024-03-28T05:07:36.6666823Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Contacts_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMFQyMTo1OToyMi0wNzowMADOHQlHKQ==
+2024-03-28T05:07:36.6668064Z metrics/compute/seanpm2001/plugins > stargazers > loaded 155 stargazers for BlueberryOS_Apps_Contacts_Docs
+2024-03-28T05:07:36.6669081Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Podcasts_Docs
+2024-03-28T05:07:36.6670290Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Podcasts_Docs after null
+2024-03-28T05:07:36.6671597Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Podcasts_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMFQyMTo1Nzo1MC0wNzowMADOHQlGMg==
+2024-03-28T05:07:36.6672952Z metrics/compute/seanpm2001/plugins > stargazers > loaded 156 stargazers for BlueberryOS_Apps_Podcasts_Docs
+2024-03-28T05:07:36.6673976Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Voice-Notes_Docs
+2024-03-28T05:07:36.6675063Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Voice-Notes_Docs after null
+2024-03-28T05:07:36.6676503Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Voice-Notes_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMFQyMTo1NjozMy0wNzowMADOHQlFhA==
+2024-03-28T05:07:36.6677985Z metrics/compute/seanpm2001/plugins > stargazers > loaded 157 stargazers for BlueberryOS_Apps_Voice-Notes_Docs
+2024-03-28T05:07:36.6678821Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of MailOS
+2024-03-28T05:07:36.6679577Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of MailOS after null
+2024-03-28T05:07:36.6680771Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of MailOS after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMVQxNTo0OTo0MS0wNzowMADOHQy-xQ==
+2024-03-28T05:07:36.6681815Z metrics/compute/seanpm2001/plugins > stargazers > loaded 159 stargazers for MailOS
+2024-03-28T05:07:36.6682640Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Code-distancing
+2024-03-28T05:07:36.6683547Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Code-distancing after null
+2024-03-28T05:07:36.6684833Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Code-distancing after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMVQxMToxMjozNS0wNzowMADOHQvS3Q==
+2024-03-28T05:07:36.6686028Z metrics/compute/seanpm2001/plugins > stargazers > loaded 171 stargazers for Code-distancing
+2024-03-28T05:07:36.6686875Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-CSound
+2024-03-28T05:07:36.6687768Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-CSound after null
+2024-03-28T05:07:36.6689020Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-CSound after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMVQwNToyNDo0Ni0wNzowMADOHQqzKg==
+2024-03-28T05:07:36.6690182Z metrics/compute/seanpm2001/plugins > stargazers > loaded 175 stargazers for Learn-CSound
+2024-03-28T05:07:36.6690925Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Zag
+2024-03-28T05:07:36.6691678Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Zag after null
+2024-03-28T05:07:36.6692748Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Zag after Y3Vyc29yOnYyOpO5MjAyMy0wNC0yNVQxNTozNDowMS0wNzowMADOGJVq2w==
+2024-03-28T05:07:36.6693768Z metrics/compute/seanpm2001/plugins > stargazers > loaded 177 stargazers for Zag
+2024-03-28T05:07:36.6694503Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS
+2024-03-28T05:07:36.6695326Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS after null
+2024-03-28T05:07:36.6696480Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMFQxNDo1MjoxMi0wNzowMADOHQhCpg==
+2024-03-28T05:07:36.6697570Z metrics/compute/seanpm2001/plugins > stargazers > loaded 179 stargazers for BlueberryOS
+2024-03-28T05:07:36.6698559Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of DeGoogle-your-Life_Google-Carbon-language
+2024-03-28T05:07:36.6699822Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of DeGoogle-your-Life_Google-Carbon-language after null
+2024-03-28T05:07:36.6701364Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of DeGoogle-your-Life_Google-Carbon-language after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xOVQyMjoyODoxOC0wNzowMADOHQU2-A==
+2024-03-28T05:07:36.6702823Z metrics/compute/seanpm2001/plugins > stargazers > loaded 180 stargazers for DeGoogle-your-Life_Google-Carbon-language
+2024-03-28T05:07:36.6703887Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of VRedroomOS_Horny-Jail
+2024-03-28T05:07:36.6704846Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of VRedroomOS_Horny-Jail after null
+2024-03-28T05:07:36.6706185Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of VRedroomOS_Horny-Jail after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xOVQyMjoyNjowOC0wNzowMADOHQU1yA==
+2024-03-28T05:07:36.6707538Z metrics/compute/seanpm2001/plugins > stargazers > loaded 181 stargazers for VRedroomOS_Horny-Jail
+2024-03-28T05:07:36.6708440Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_Jot
+2024-03-28T05:07:36.6709421Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_Jot after null
+2024-03-28T05:07:36.6711052Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_Jot after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xOVQyMjoyMzo0My0wNzowMADOHQU0mA==
+2024-03-28T05:07:36.6712311Z metrics/compute/seanpm2001/plugins > stargazers > loaded 182 stargazers for SNU_2D_ProgrammingTools_IDE_Jot
+2024-03-28T05:07:36.6713257Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Pictures_Docs
+2024-03-28T05:07:36.6714223Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Pictures_Docs after null
+2024-03-28T05:07:36.6715520Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Pictures_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0yMFQxNDo0NDoyOS0wNzowMADOHQg_Gg==
+2024-03-28T05:07:36.6716775Z metrics/compute/seanpm2001/plugins > stargazers > loaded 184 stargazers for BlueberryOS_Apps_Pictures_Docs
+2024-03-28T05:07:36.6717696Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-Jot
+2024-03-28T05:07:36.6718554Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-Jot after null
+2024-03-28T05:07:36.6719776Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-Jot after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xOVQyMjoyMjowOS0wNzowMADOHQUzkA==
+2024-03-28T05:07:36.6720914Z metrics/compute/seanpm2001/plugins > stargazers > loaded 185 stargazers for Learn-Jot
+2024-03-28T05:07:36.6721742Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Videos_Docs
+2024-03-28T05:07:36.6722707Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Videos_Docs after null
+2024-03-28T05:07:36.6723989Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Videos_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xOVQyMjoyMDo1OC0wNzowMADOHQUy0g==
+2024-03-28T05:07:36.6725214Z metrics/compute/seanpm2001/plugins > stargazers > loaded 186 stargazers for BlueberryOS_Apps_Videos_Docs
+2024-03-28T05:07:36.6726152Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Ringtones_Docs
+2024-03-28T05:07:36.6727134Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Ringtones_Docs after null
+2024-03-28T05:07:36.6728442Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Ringtones_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xOVQyMjoxOTo0NC0wNzowMADOHQUx3g==
+2024-03-28T05:07:36.6729699Z metrics/compute/seanpm2001/plugins > stargazers > loaded 187 stargazers for BlueberryOS_Apps_Ringtones_Docs
+2024-03-28T05:07:36.6730787Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_HayDay_Website
+2024-03-28T05:07:36.6731826Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_HayDay_Website after null
+2024-03-28T05:07:36.6733205Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_HayDay_Website after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xOFQyMjoyNDoyMy0wNzowMADOHQBmKA==
+2024-03-28T05:07:36.6734596Z metrics/compute/seanpm2001/plugins > stargazers > loaded 188 stargazers for SeansLifeArchive_Images_HayDay_Website
+2024-03-28T05:07:36.6735599Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_Iota
+2024-03-28T05:07:36.6736585Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_Iota after null
+2024-03-28T05:07:36.6737895Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_Iota after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xOFQyMjoyMjoyMC0wNzowMADOHQBkrw==
+2024-03-28T05:07:36.6739288Z metrics/compute/seanpm2001/plugins > stargazers > loaded 189 stargazers for SNU_2D_ProgrammingTools_IDE_Iota
+2024-03-28T05:07:36.6740207Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-Iota
+2024-03-28T05:07:36.6741075Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-Iota after null
+2024-03-28T05:07:36.6742302Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-Iota after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xOFQyMjoyMToxMy0wNzowMADOHQBkCQ==
+2024-03-28T05:07:36.6743453Z metrics/compute/seanpm2001/plugins > stargazers > loaded 190 stargazers for Learn-Iota
+2024-03-28T05:07:36.6744340Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_BurnTheTurkey
+2024-03-28T05:07:36.6745389Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_BurnTheTurkey after null
+2024-03-28T05:07:36.6746758Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_BurnTheTurkey after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xOFQyMjoxOTo1My0wNzowMADOHQBhlQ==
+2024-03-28T05:07:36.6748062Z metrics/compute/seanpm2001/plugins > stargazers > loaded 191 stargazers for SeansLifeArchive_Images_BurnTheTurkey
+2024-03-28T05:07:36.6749018Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Phone_Docs
+2024-03-28T05:07:36.6750174Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Phone_Docs after null
+2024-03-28T05:07:36.6751506Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Phone_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xOFQyMjoxODoxOS0wNzowMADOHQBgig==
+2024-03-28T05:07:36.6752736Z metrics/compute/seanpm2001/plugins > stargazers > loaded 192 stargazers for BlueberryOS_Apps_Phone_Docs
+2024-03-28T05:07:36.6753657Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Notepad_Docs
+2024-03-28T05:07:36.6754634Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Notepad_Docs after null
+2024-03-28T05:07:36.6755926Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Notepad_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xOFQyMjoxNjo0OS0wNzowMADOHQBfiA==
+2024-03-28T05:07:36.6757164Z metrics/compute/seanpm2001/plugins > stargazers > loaded 193 stargazers for BlueberryOS_Apps_Notepad_Docs
+2024-03-28T05:07:36.6758087Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Market_Docs
+2024-03-28T05:07:36.6759042Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Market_Docs after null
+2024-03-28T05:07:36.6760310Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Market_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xOFQyMjoxNToyNC0wNzowMADOHQBetA==
+2024-03-28T05:07:36.6761668Z metrics/compute/seanpm2001/plugins > stargazers > loaded 194 stargazers for BlueberryOS_Apps_Market_Docs
+2024-03-28T05:07:36.6762673Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001_Elixir_Style-Guide
+2024-03-28T05:07:36.6763704Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001_Elixir_Style-Guide after null
+2024-03-28T05:07:36.6765183Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001_Elixir_Style-Guide after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xOVQxNDozNTowOS0wNzowMADOHQQVEA==
+2024-03-28T05:07:36.6766495Z metrics/compute/seanpm2001/plugins > stargazers > loaded 196 stargazers for Seanpm2001_Elixir_Style-Guide
+2024-03-28T05:07:36.6767352Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Meadows_WebMode
+2024-03-28T05:07:36.6768202Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Meadows_WebMode after null
+2024-03-28T05:07:36.6769506Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Meadows_WebMode after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xOFQyMzo1MzoxOS0wNzowMADOHQDBFQ==
+2024-03-28T05:07:36.6770638Z metrics/compute/seanpm2001/plugins > stargazers > loaded 199 stargazers for Meadows_WebMode
+2024-03-28T05:07:36.6771500Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Awesome-AI2001
+2024-03-28T05:07:36.6772405Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Awesome-AI2001 after null
+2024-03-28T05:07:36.6773692Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Awesome-AI2001 after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xOFQyMjo0NDo0Ni0wNzowMADOHQB2iA==
+2024-03-28T05:07:36.6774868Z metrics/compute/seanpm2001/plugins > stargazers > loaded 202 stargazers for Awesome-AI2001
+2024-03-28T05:07:36.6775821Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001_JavaScript_Style-Guide
+2024-03-28T05:07:36.6776904Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001_JavaScript_Style-Guide after null
+2024-03-28T05:07:36.6778335Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001_JavaScript_Style-Guide after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xOFQyMDoxODo0OC0wNzowMADOHQAJeg==
+2024-03-28T05:07:36.6779677Z metrics/compute/seanpm2001/plugins > stargazers > loaded 204 stargazers for Seanpm2001_JavaScript_Style-Guide
+2024-03-28T05:07:36.6780675Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001_HTML_Style-Guide
+2024-03-28T05:07:36.6781691Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001_HTML_Style-Guide after null
+2024-03-28T05:07:36.6783067Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001_HTML_Style-Guide after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xOFQyMDoxODoyOS0wNzowMADOHQAJMQ==
+2024-03-28T05:07:36.6784364Z metrics/compute/seanpm2001/plugins > stargazers > loaded 206 stargazers for Seanpm2001_HTML_Style-Guide
+2024-03-28T05:07:36.6785294Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Favicon-Pages_Docs
+2024-03-28T05:07:36.6786228Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Favicon-Pages_Docs after null
+2024-03-28T05:07:36.6787539Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Favicon-Pages_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xN1QyMjoxOTo1Mi0wNzowMADOHPrxQw==
+2024-03-28T05:07:36.6788761Z metrics/compute/seanpm2001/plugins > stargazers > loaded 207 stargazers for Favicon-Pages_Docs
+2024-03-28T05:07:36.6789626Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Favicon-Pages
+2024-03-28T05:07:36.6790738Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Favicon-Pages after null
+2024-03-28T05:07:36.6792116Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Favicon-Pages after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xN1QyMjoxNzo0Ni0wNzowMADOHPrv6Q==
+2024-03-28T05:07:36.6793298Z metrics/compute/seanpm2001/plugins > stargazers > loaded 208 stargazers for Favicon-Pages
+2024-03-28T05:07:36.6794119Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of MCPYE_mcfunction_Docs
+2024-03-28T05:07:36.6795013Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of MCPYE_mcfunction_Docs after null
+2024-03-28T05:07:36.6796300Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of MCPYE_mcfunction_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xN1QyMjoxNjoyNy0wNzowMADOHPrvCg==
+2024-03-28T05:07:36.6797487Z metrics/compute/seanpm2001/plugins > stargazers > loaded 209 stargazers for MCPYE_mcfunction_Docs
+2024-03-28T05:07:36.6798318Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of MCPYE_mcfunction
+2024-03-28T05:07:36.6799169Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of MCPYE_mcfunction after null
+2024-03-28T05:07:36.6800479Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of MCPYE_mcfunction after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xN1QyMjoxNDo1MC0wNzowMADOHPruAw==
+2024-03-28T05:07:36.6801595Z metrics/compute/seanpm2001/plugins > stargazers > loaded 210 stargazers for MCPYE_mcfunction
+2024-03-28T05:07:36.6802459Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Browser_Docs
+2024-03-28T05:07:36.6803434Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Browser_Docs after null
+2024-03-28T05:07:36.6804718Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Browser_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xN1QyMjoxMjozNy0wNzowMADOHPrspw==
+2024-03-28T05:07:36.6805961Z metrics/compute/seanpm2001/plugins > stargazers > loaded 211 stargazers for BlueberryOS_Apps_Browser_Docs
+2024-03-28T05:07:36.6807002Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Visual-Voicemail_Docs
+2024-03-28T05:07:36.6808132Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Visual-Voicemail_Docs after null
+2024-03-28T05:07:36.6809609Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Visual-Voicemail_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xN1QyMjoxMDozMy0wNzowMADOHPrrNQ==
+2024-03-28T05:07:36.6811007Z metrics/compute/seanpm2001/plugins > stargazers > loaded 212 stargazers for BlueberryOS_Apps_Visual-Voicemail_Docs
+2024-03-28T05:07:36.6811955Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Maps_Docs
+2024-03-28T05:07:36.6812891Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Maps_Docs after null
+2024-03-28T05:07:36.6814143Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_Maps_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xN1QyMjowOToxMy0wNzowMADOHPrqRA==
+2024-03-28T05:07:36.6815359Z metrics/compute/seanpm2001/plugins > stargazers > loaded 213 stargazers for BlueberryOS_Apps_Maps_Docs
+2024-03-28T05:07:36.6816286Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_FileManager_Docs
+2024-03-28T05:07:36.6817284Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_FileManager_Docs after null
+2024-03-28T05:07:36.6818608Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_FileManager_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xNlQyMToyMDozNi0wNzowMADOHPW4BQ==
+2024-03-28T05:07:36.6819880Z metrics/compute/seanpm2001/plugins > stargazers > loaded 214 stargazers for BlueberryOS_Apps_FileManager_Docs
+2024-03-28T05:07:36.6820872Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_BlueberryMessenger_Docs
+2024-03-28T05:07:36.6822024Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_BlueberryMessenger_Docs after null
+2024-03-28T05:07:36.6823399Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of BlueberryOS_Apps_BlueberryMessenger_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xNlQyMToxNzo0MC0wNzowMADOHPW2vw==
+2024-03-28T05:07:36.6824731Z metrics/compute/seanpm2001/plugins > stargazers > loaded 215 stargazers for BlueberryOS_Apps_BlueberryMessenger_Docs
+2024-03-28T05:07:36.6825882Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_V8-Torque
+2024-03-28T05:07:36.6826996Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_V8-Torque after null
+2024-03-28T05:07:36.6828455Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_V8-Torque after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xNlQyMToxNjoyNi0wNzowMADOHPW2Sg==
+2024-03-28T05:07:36.6829837Z metrics/compute/seanpm2001/plugins > stargazers > loaded 216 stargazers for SNU_2D_ProgrammingTools_IDE_V8-Torque
+2024-03-28T05:07:36.6831075Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-V8-Torque
+2024-03-28T05:07:36.6831996Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-V8-Torque after null
+2024-03-28T05:07:36.6833274Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-V8-Torque after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xNlQyMToxNTowNi0wNzowMADOHPW1vQ==
+2024-03-28T05:07:36.6834470Z metrics/compute/seanpm2001/plugins > stargazers > loaded 217 stargazers for Learn-V8-Torque
+2024-03-28T05:07:36.6835381Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_Simula
+2024-03-28T05:07:36.6836384Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_Simula after null
+2024-03-28T05:07:36.6837709Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_Simula after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xNlQyMToxMzozNS0wNzowMADOHPW1Kw==
+2024-03-28T05:07:36.6838996Z metrics/compute/seanpm2001/plugins > stargazers > loaded 218 stargazers for SNU_2D_ProgrammingTools_IDE_Simula
+2024-03-28T05:07:36.6839922Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-Simula
+2024-03-28T05:07:36.6840806Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-Simula after null
+2024-03-28T05:07:36.6842062Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-Simula after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xNlQyMToxMjoxOC0wNzowMADOHPW0ug==
+2024-03-28T05:07:36.6843227Z metrics/compute/seanpm2001/plugins > stargazers > loaded 219 stargazers for Learn-Simula
+2024-03-28T05:07:36.6844224Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_Clash-Royale_Website
+2024-03-28T05:07:36.6845406Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_Clash-Royale_Website after null
+2024-03-28T05:07:36.6846946Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_Clash-Royale_Website after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xNlQyMToyOToyMC0wNzowMADOHPW7uA==
+2024-03-28T05:07:36.6848397Z metrics/compute/seanpm2001/plugins > stargazers > loaded 220 stargazers for SeansLifeArchive_Images_Clash-Royale_Website
+2024-03-28T05:07:36.6849435Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001_R_Style-Guide
+2024-03-28T05:07:36.6850432Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001_R_Style-Guide after null
+2024-03-28T05:07:36.6851780Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001_R_Style-Guide after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xNlQxNjoxODo0Mi0wNzowMADOHPU13w==
+2024-03-28T05:07:36.6853034Z metrics/compute/seanpm2001/plugins > stargazers > loaded 222 stargazers for Seanpm2001_R_Style-Guide
+2024-03-28T05:07:36.6853923Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of UTPM
+2024-03-28T05:07:36.6854674Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of UTPM after null
+2024-03-28T05:07:36.6855753Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of UTPM after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xNlQxMjo0Mzo0Ny0wNzowMADOHPTELA==
+2024-03-28T05:07:36.6856786Z metrics/compute/seanpm2001/plugins > stargazers > loaded 225 stargazers for UTPM
+2024-03-28T05:07:36.6857728Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001_Nim_Style-Guide
+2024-03-28T05:07:36.6858725Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001_Nim_Style-Guide after null
+2024-03-28T05:07:36.6860093Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001_Nim_Style-Guide after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xNVQyMjowNTozNC0wNzowMADOHPFuaA==
+2024-03-28T05:07:36.6861519Z metrics/compute/seanpm2001/plugins > stargazers > loaded 227 stargazers for Seanpm2001_Nim_Style-Guide
+2024-03-28T05:07:36.6862471Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001_Lua_Style-Guide
+2024-03-28T05:07:36.6863471Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001_Lua_Style-Guide after null
+2024-03-28T05:07:36.6864840Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Seanpm2001_Lua_Style-Guide after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xNFQyMjoyODowNy0wNzowMADOHO366g==
+2024-03-28T05:07:36.6866127Z metrics/compute/seanpm2001/plugins > stargazers > loaded 229 stargazers for Seanpm2001_Lua_Style-Guide
+2024-03-28T05:07:36.6866990Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of LocksmithOS_USB_Docs
+2024-03-28T05:07:36.6867873Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of LocksmithOS_USB_Docs after null
+2024-03-28T05:07:36.6883655Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of LocksmithOS_USB_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xM1QyMTozNzoxNC0wNzowMADOHOl3RA==
+2024-03-28T05:07:36.6884956Z metrics/compute/seanpm2001/plugins > stargazers > loaded 230 stargazers for LocksmithOS_USB_Docs
+2024-03-28T05:07:36.6885857Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of LocksmithOS_Passkey_Docs
+2024-03-28T05:07:36.6886799Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of LocksmithOS_Passkey_Docs after null
+2024-03-28T05:07:36.6888065Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of LocksmithOS_Passkey_Docs after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xM1QyMTozNjowNS0wNzowMADOHOl2tw==
+2024-03-28T05:07:36.6889273Z metrics/compute/seanpm2001/plugins > stargazers > loaded 231 stargazers for LocksmithOS_Passkey_Docs
+2024-03-28T05:07:36.6890192Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_VRML
+2024-03-28T05:07:36.6891190Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_VRML after null
+2024-03-28T05:07:36.6892498Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SNU_2D_ProgrammingTools_IDE_VRML after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xM1QyMTozNDo1MS0wNzowMADOHOl2Ig==
+2024-03-28T05:07:36.6893766Z metrics/compute/seanpm2001/plugins > stargazers > loaded 232 stargazers for SNU_2D_ProgrammingTools_IDE_VRML
+2024-03-28T05:07:36.6894727Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-VRML
+2024-03-28T05:07:36.6895591Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-VRML after null
+2024-03-28T05:07:36.6896828Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of Learn-VRML after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xM1QyMTozMzoyNy0wNzowMADOHOl1Ww==
+2024-03-28T05:07:36.6897982Z metrics/compute/seanpm2001/plugins > stargazers > loaded 233 stargazers for Learn-VRML
+2024-03-28T05:07:36.6899075Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_ModernSmurfsVillage_Y2024_V3
+2024-03-28T05:07:36.6900242Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_ModernSmurfsVillage_Y2024_V3 after null
+2024-03-28T05:07:36.6901727Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_ModernSmurfsVillage_Y2024_V3 after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xM1QyMTozODo1My0wNzowMADOHOl4KA==
+2024-03-28T05:07:36.6903245Z metrics/compute/seanpm2001/plugins > stargazers > loaded 234 stargazers for SeansLifeArchive_Images_ModernSmurfsVillage_Y2024_V3
+2024-03-28T05:07:36.6904381Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_MotorWorld_CarFactory_Y2024_V3
+2024-03-28T05:07:36.6905538Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_MotorWorld_CarFactory_Y2024_V3 after null
+2024-03-28T05:07:36.6907147Z metrics/compute/seanpm2001/plugins > stargazers > retrieving stargazers of SeansLifeArchive_Images_MotorWorld_CarFactory_Y2024_V3 after Y3Vyc29yOnYyOpO5MjAyNC0wMy0xM1QyMTo0MDoyMi0wNzowMADOHOl5Cw==
+2024-03-28T05:07:36.6908576Z metrics/compute/seanpm2001/plugins > stargazers > loaded 235 stargazers for SeansLifeArchive_Images_MotorWorld_CarFactory_Y2024_V3
+2024-03-28T05:07:36.6909487Z metrics/compute/seanpm2001/plugins > stargazers > loaded 235 stargazers in total
+2024-03-28T05:07:36.6910265Z metrics/compute/seanpm2001/plugins > stargazers > completed
+2024-03-28T05:07:36.6910661Z {
+2024-03-28T05:07:36.6910900Z   name: 'stargazers',
+2024-03-28T05:07:36.6911147Z   result: {
+2024-03-28T05:07:36.6911350Z     total: {
+2024-03-28T05:07:36.6911560Z       dates: {
+2024-03-28T05:07:36.6911822Z         '2024-03-15': 137,
+2024-03-28T05:07:36.6912107Z         '2024-03-16': 140,
+2024-03-28T05:07:36.6912378Z         '2024-03-17': 147,
+2024-03-28T05:07:36.6912652Z         '2024-03-18': 154,
+2024-03-28T05:07:36.6912932Z         '2024-03-19': 166,
+2024-03-28T05:07:36.6913206Z         '2024-03-20': 176,
+2024-03-28T05:07:36.6913475Z         '2024-03-21': 186,
+2024-03-28T05:07:36.6913743Z         '2024-03-22': 195,
+2024-03-28T05:07:36.6914013Z         '2024-03-23': 204,
+2024-03-28T05:07:36.6914280Z         '2024-03-24': 213,
+2024-03-28T05:07:36.6914555Z         '2024-03-25': 215,
+2024-03-28T05:07:36.6914822Z         '2024-03-26': 224,
+2024-03-28T05:07:36.6915091Z         '2024-03-27': 235,
+2024-03-28T05:07:36.6915356Z         '2024-03-28': 235
+2024-03-28T05:07:36.6915596Z       },
+2024-03-28T05:07:36.6915793Z       max: 235,
+2024-03-28T05:07:36.6916004Z       min: 137
+2024-03-28T05:07:36.6916211Z     },
+2024-03-28T05:07:36.6916407Z     increments: {
+2024-03-28T05:07:36.6916634Z       dates: {
+2024-03-28T05:07:36.6916874Z         '2024-03-15': 1,
+2024-03-28T05:07:36.6917155Z         '2024-03-16': 3,
+2024-03-28T05:07:36.6917423Z         '2024-03-17': 7,
+2024-03-28T05:07:36.6917688Z         '2024-03-18': 7,
+2024-03-28T05:07:36.6917950Z         '2024-03-19': 12,
+2024-03-28T05:07:36.6918225Z         '2024-03-20': 10,
+2024-03-28T05:07:36.6918497Z         '2024-03-21': 10,
+2024-03-28T05:07:36.6918761Z         '2024-03-22': 9,
+2024-03-28T05:07:36.6919023Z         '2024-03-23': 9,
+2024-03-28T05:07:36.6919282Z         '2024-03-24': 9,
+2024-03-28T05:07:36.6919540Z         '2024-03-25': 2,
+2024-03-28T05:07:36.6919793Z         '2024-03-26': 9,
+2024-03-28T05:07:36.6920063Z         '2024-03-27': 11,
+2024-03-28T05:07:36.6920331Z         '2024-03-28': 0
+2024-03-28T05:07:36.6920562Z       },
+2024-03-28T05:07:36.6920759Z       max: 12,
+2024-03-28T05:07:36.6920969Z       min: 0
+2024-03-28T05:07:36.6921168Z     },
+2024-03-28T05:07:36.6921356Z     months: [
+2024-03-28T05:07:36.6921614Z       '',     'Jan.', 'Feb.',
+2024-03-28T05:07:36.6921924Z       'Mar.', 'Apr.', 'May',
+2024-03-28T05:07:36.6922219Z       'June', 'July', 'Aug.',
+2024-03-28T05:07:36.6922517Z       'Sep.', 'Oct.', 'Nov.',
+2024-03-28T05:07:36.6922896Z       'Dec.'
+2024-03-28T05:07:36.6923100Z     ],
+2024-03-28T05:07:36.6923287Z     charts: true,
+2024-03-28T05:07:36.6923518Z     worldmap: null,
+2024-03-28T05:07:36.6923748Z     days: 14
+2024-03-28T05:07:36.6923941Z   }
+2024-03-28T05:07:36.6924122Z }
+2024-03-28T05:07:36.6924330Z metrics/compute/seanpm2001 > render
+2024-03-28T05:07:36.6924664Z metrics/svg/gemojis > rendering gemojis
+2024-03-28T05:07:36.6925007Z metrics/svg/optimize/css > optimizing
+2024-03-28T05:07:36.6925339Z metrics/svg/optimize/xml > optimizing
+2024-03-28T05:07:36.6925785Z metrics/svg/resize > started Chrome/117.0.5938.62
+2024-03-28T05:07:36.6926222Z metrics/svg/resize > padding width*1+0, height*1.11+8
+2024-03-28T05:07:36.6926604Z metrics/svg/resize > loading svg
+2024-03-28T05:07:36.6926942Z metrics/svg/resize > loaded svg successfully
+2024-03-28T05:07:36.6927300Z metrics/svg/resize > resizing svg
+2024-03-28T05:07:36.6927688Z metrics/svg/resize > puppeteer > animations are enabled
+2024-03-28T05:07:36.6928186Z metrics/svg/resize > puppeteer > bounds width=480, height=152
+2024-03-28T05:07:36.6929027Z metrics/svg/resize > puppeteer > bounds after applying padding width=480 (*1+0), height=177 (*1.11+8)
+2024-03-28T05:07:36.6929638Z metrics/svg/resize > rendering complete
+2024-03-28T05:07:36.6929976Z metrics/compute/seanpm2001 > success
+2024-03-28T05:07:36.6930546Z ##[endgroup]
+2024-03-28T05:07:36.6930935Z ##[group]Attempt 1/5
+2024-03-28T05:07:36.6931330Z ##[endgroup]
+2024-03-28T05:07:36.6932049Z ##[warning]Resource not accessible by integration
+2024-03-28T05:07:36.6932570Z ##[group]Attempt 2/5
+2024-03-28T05:07:36.6932954Z ##[endgroup]
+2024-03-28T05:07:36.6933617Z ##[warning]Resource not accessible by integration
+2024-03-28T05:07:36.6934118Z ##[group]Attempt 3/5
+2024-03-28T05:07:36.6934497Z ##[endgroup]
+2024-03-28T05:07:36.6935192Z ##[warning]Resource not accessible by integration
+2024-03-28T05:07:36.6935686Z ##[group]Attempt 4/5
+2024-03-28T05:07:36.6936061Z ##[endgroup]
+2024-03-28T05:07:36.6936716Z ##[warning]Resource not accessible by integration
+2024-03-28T05:07:36.6937211Z ##[group]Attempt 5/5
+2024-03-28T05:07:36.6937587Z ##[endgroup]
+2024-03-28T05:07:36.6938241Z ##[warning]Resource not accessible by integration
+2024-03-28T05:07:36.6939039Z ##[error]Resource not accessible by integration
+2024-03-28T05:07:36.6940154Z ##[error]Process completed with exit code 1.

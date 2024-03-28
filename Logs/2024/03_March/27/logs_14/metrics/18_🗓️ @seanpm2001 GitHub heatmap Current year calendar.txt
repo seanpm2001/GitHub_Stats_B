@@ -1,0 +1,1617 @@
+﻿2024-03-28T04:13:40.5514684Z ##[group]Run lowlighter/metrics@latest
+2024-03-28T04:13:40.5515041Z with:
+2024-03-28T04:13:40.5515321Z   filename: GitHub_Stats_B_GitHub_Calendar_2024.svg
+2024-03-28T04:13:40.5515808Z   token: ***
+2024-03-28T04:13:40.5516044Z   plugin_calendar: yes
+2024-03-28T04:13:40.5516322Z   base_indepth: <default-value>
+2024-03-28T04:13:40.5516629Z   base_hireable: <default-value>
+2024-03-28T04:13:40.5516931Z   base_skip: <default-value>
+2024-03-28T04:13:40.5517225Z   repositories: <default-value>
+2024-03-28T04:13:40.5517537Z   repositories_batch: <default-value>
+2024-03-28T04:13:40.5517886Z   repositories_forks: <default-value>
+2024-03-28T04:13:40.5518247Z   repositories_affiliations: <default-value>
+2024-03-28T04:13:40.5518634Z   repositories_skipped: <default-value>
+2024-03-28T04:13:40.5518968Z   users_ignored: <default-value>
+2024-03-28T04:13:40.5519286Z   commits_authoring: <default-value>
+2024-03-28T04:13:40.5519604Z   user: <default-value>
+2024-03-28T04:13:40.5519862Z   repo: <default-value>
+2024-03-28T04:13:40.5520263Z   committer_token: ***
+2024-03-28T04:13:40.5520534Z   committer_branch: <default-value>
+2024-03-28T04:13:40.5520859Z   committer_message: <default-value>
+2024-03-28T04:13:40.5521199Z   committer_gist: <default-value>
+2024-03-28T04:13:40.5521504Z   markdown: <default-value>
+2024-03-28T04:13:40.5521793Z   markdown_cache: <default-value>
+2024-03-28T04:13:40.5522116Z   output_action: <default-value>
+2024-03-28T04:13:40.5522419Z   output_condition: <default-value>
+2024-03-28T04:13:40.5522734Z   optimize: <default-value>
+2024-03-28T04:13:40.5523043Z   setup_community_templates: <default-value>
+2024-03-28T04:13:40.5523395Z   template: <default-value>
+2024-03-28T04:13:40.5523659Z   query: <default-value>
+2024-03-28T04:13:40.5523928Z   extras_css: <default-value>
+2024-03-28T04:13:40.5524218Z   extras_js: <default-value>
+2024-03-28T04:13:40.5524507Z   github_api_rest: <default-value>
+2024-03-28T04:13:40.5524825Z   github_api_graphql: <default-value>
+2024-03-28T04:13:40.5525164Z   config_order: <default-value>
+2024-03-28T04:13:40.5525473Z   config_twemoji: <default-value>
+2024-03-28T04:13:40.5525782Z   config_gemoji: <default-value>
+2024-03-28T04:13:40.5526089Z   config_octicon: <default-value>
+2024-03-28T04:13:40.5526398Z   config_display: <default-value>
+2024-03-28T04:13:40.5526703Z   config_animations: <default-value>
+2024-03-28T04:13:40.5527021Z   config_base64: <default-value>
+2024-03-28T04:13:40.5527323Z   config_padding: <default-value>
+2024-03-28T04:13:40.5527625Z   config_output: <default-value>
+2024-03-28T04:13:40.5527920Z   retries: <default-value>
+2024-03-28T04:13:40.5528197Z   retries_delay: <default-value>
+2024-03-28T04:13:40.5528511Z   retries_output_action: <default-value>
+2024-03-28T04:13:40.5528882Z   retries_delay_output_action: <default-value>
+2024-03-28T04:13:40.5529245Z   clean_workflows: <default-value>
+2024-03-28T04:13:40.5529547Z   delay: <default-value>
+2024-03-28T04:13:40.5529831Z   quota_required_rest: <default-value>
+2024-03-28T04:13:40.5530180Z   quota_required_graphql: <default-value>
+2024-03-28T04:13:40.5530537Z   quota_required_search: <default-value>
+2024-03-28T04:13:40.5530871Z   notice_releases: <default-value>
+2024-03-28T04:13:40.5531365Z   use_prebuilt_image: yes
+2024-03-28T04:13:40.5531655Z   plugins_errors_fatal: <default-value>
+2024-03-28T04:13:40.5531985Z   debug: <default-value>
+2024-03-28T04:13:40.5532243Z   verify: <default-value>
+2024-03-28T04:13:40.5532518Z   debug_flags: <default-value>
+2024-03-28T04:13:40.5532814Z   debug_print: <default-value>
+2024-03-28T04:13:40.5533140Z   dryrun: <default-value>
+2024-03-28T04:13:40.5533426Z   experimental_features: <default-value>
+2024-03-28T04:13:40.5533768Z   use_mocked_data: <default-value>
+2024-03-28T04:13:40.5534091Z   plugin_isocalendar: <default-value>
+2024-03-28T04:13:40.5534449Z   plugin_isocalendar_duration: <default-value>
+2024-03-28T04:13:40.5534811Z   plugin_languages: <default-value>
+2024-03-28T04:13:40.5535154Z   plugin_languages_ignored: <default-value>
+2024-03-28T04:13:40.5535523Z   plugin_languages_skipped: <default-value>
+2024-03-28T04:13:40.5536046Z   plugin_languages_limit: <default-value>
+2024-03-28T04:13:40.5536412Z   plugin_languages_threshold: <default-value>
+2024-03-28T04:13:40.5536791Z   plugin_languages_other: <default-value>
+2024-03-28T04:13:40.5537142Z   plugin_languages_colors: <default-value>
+2024-03-28T04:13:40.5537506Z   plugin_languages_aliases: <default-value>
+2024-03-28T04:13:40.5537878Z   plugin_languages_sections: <default-value>
+2024-03-28T04:13:40.5538252Z   plugin_languages_details: <default-value>
+2024-03-28T04:13:40.5538609Z   plugin_languages_indepth: <default-value>
+2024-03-28T04:13:40.5538993Z   plugin_languages_indepth_custom: <default-value>
+2024-03-28T04:13:40.5539429Z   plugin_languages_analysis_timeout: <default-value>
+2024-03-28T04:13:40.5539923Z   plugin_languages_analysis_timeout_repositories: <default-value>
+2024-03-28T04:13:40.5540394Z   plugin_languages_categories: <default-value>
+2024-03-28T04:13:40.5540807Z   plugin_languages_recent_categories: <default-value>
+2024-03-28T04:13:40.5541235Z   plugin_languages_recent_load: <default-value>
+2024-03-28T04:13:40.5541632Z   plugin_languages_recent_days: <default-value>
+2024-03-28T04:13:40.5542009Z   plugin_stargazers: <default-value>
+2024-03-28T04:13:40.5542354Z   plugin_stargazers_days: <default-value>
+2024-03-28T04:13:40.5542717Z   plugin_stargazers_charts: <default-value>
+2024-03-28T04:13:40.5543103Z   plugin_stargazers_charts_type: <default-value>
+2024-03-28T04:13:40.5543501Z   plugin_stargazers_worldmap: <default-value>
+2024-03-28T04:13:40.5543901Z   plugin_stargazers_worldmap_token: <default-value>
+2024-03-28T04:13:40.5544333Z   plugin_stargazers_worldmap_sample: <default-value>
+2024-03-28T04:13:40.5544718Z   plugin_lines: <default-value>
+2024-03-28T04:13:40.5545034Z   plugin_lines_skipped: <default-value>
+2024-03-28T04:13:40.5545382Z   plugin_lines_sections: <default-value>
+2024-03-28T04:13:40.5545766Z   plugin_lines_repositories_limit: <default-value>
+2024-03-28T04:13:40.5546169Z   plugin_lines_history_limit: <default-value>
+2024-03-28T04:13:40.5546538Z   plugin_lines_delay: <default-value>
+2024-03-28T04:13:40.5546862Z   plugin_topics: <default-value>
+2024-03-28T04:13:40.5547179Z   plugin_topics_mode: <default-value>
+2024-03-28T04:13:40.5547509Z   plugin_topics_sort: <default-value>
+2024-03-28T04:13:40.5547833Z   plugin_topics_limit: <default-value>
+2024-03-28T04:13:40.5548159Z   plugin_stars: <default-value>
+2024-03-28T04:13:40.5548470Z   plugin_stars_limit: <default-value>
+2024-03-28T04:13:40.5548794Z   plugin_licenses: <default-value>
+2024-03-28T04:13:40.5549126Z   plugin_licenses_setup: <default-value>
+2024-03-28T04:13:40.5549473Z   plugin_licenses_ratio: <default-value>
+2024-03-28T04:13:40.5549822Z   plugin_licenses_legal: <default-value>
+2024-03-28T04:13:40.5550542Z   plugin_habits: <default-value>
+2024-03-28T04:13:40.5550864Z   plugin_habits_from: <default-value>
+2024-03-28T04:13:40.5551202Z   plugin_habits_skipped: <default-value>
+2024-03-28T04:13:40.5551549Z   plugin_habits_days: <default-value>
+2024-03-28T04:13:40.5551908Z   plugin_habits_facts: <default-value>
+2024-03-28T04:13:40.5552249Z   plugin_habits_charts: <default-value>
+2024-03-28T04:13:40.5552621Z   plugin_habits_charts_type: <default-value>
+2024-03-28T04:13:40.5553155Z   plugin_habits_trim: <default-value>
+2024-03-28T04:13:40.5553514Z   plugin_habits_languages_limit: <default-value>
+2024-03-28T04:13:40.5553934Z   plugin_habits_languages_threshold: <default-value>
+2024-03-28T04:13:40.5554326Z   plugin_contributors: <default-value>
+2024-03-28T04:13:40.5554682Z   plugin_contributors_base: <default-value>
+2024-03-28T04:13:40.5555054Z   plugin_contributors_head: <default-value>
+2024-03-28T04:13:40.5555437Z   plugin_contributors_ignored: <default-value>
+2024-03-28T04:13:40.5555846Z   plugin_contributors_contributions: <default-value>
+2024-03-28T04:13:40.5556261Z   plugin_contributors_sections: <default-value>
+2024-03-28T04:13:40.5556665Z   plugin_contributors_categories: <default-value>
+2024-03-28T04:13:40.5557035Z   plugin_followup: <default-value>
+2024-03-28T04:13:40.5557371Z   plugin_followup_sections: <default-value>
+2024-03-28T04:13:40.5557894Z   plugin_followup_indepth: <default-value>
+2024-03-28T04:13:40.5558268Z   plugin_followup_archived: <default-value>
+2024-03-28T04:13:40.5558610Z   plugin_reactions: <default-value>
+2024-03-28T04:13:40.5558951Z   plugin_reactions_limit: <default-value>
+2024-03-28T04:13:40.5559327Z   plugin_reactions_limit_issues: <default-value>
+2024-03-28T04:13:40.5559751Z   plugin_reactions_limit_discussions: <default-value>
+2024-03-28T04:13:40.5560225Z   plugin_reactions_limit_discussions_comments: <default-value>
+2024-03-28T04:13:40.5560668Z   plugin_reactions_days: <default-value>
+2024-03-28T04:13:40.5561029Z   plugin_reactions_display: <default-value>
+2024-03-28T04:13:40.5561401Z   plugin_reactions_details: <default-value>
+2024-03-28T04:13:40.5561763Z   plugin_reactions_ignored: <default-value>
+2024-03-28T04:13:40.5562106Z   plugin_people: <default-value>
+2024-03-28T04:13:40.5562423Z   plugin_people_limit: <default-value>
+2024-03-28T04:13:40.5562782Z   plugin_people_identicons: <default-value>
+2024-03-28T04:13:40.5563166Z   plugin_people_identicons_hide: <default-value>
+2024-03-28T04:13:40.5563553Z   plugin_people_size: <default-value>
+2024-03-28T04:13:40.5563889Z   plugin_people_types: <default-value>
+2024-03-28T04:13:40.5564231Z   plugin_people_thanks: <default-value>
+2024-03-28T04:13:40.5564598Z   plugin_people_sponsors_custom: <default-value>
+2024-03-28T04:13:40.5564980Z   plugin_people_shuffle: <default-value>
+2024-03-28T04:13:40.5565332Z   plugin_sponsorships: <default-value>
+2024-03-28T04:13:40.5565701Z   plugin_sponsorships_sections: <default-value>
+2024-03-28T04:13:40.5566082Z   plugin_sponsorships_size: <default-value>
+2024-03-28T04:13:40.5566435Z   plugin_sponsors: <default-value>
+2024-03-28T04:13:40.5566770Z   plugin_sponsors_sections: <default-value>
+2024-03-28T04:13:40.5567121Z   plugin_sponsors_past: <default-value>
+2024-03-28T04:13:40.5567457Z   plugin_sponsors_size: <default-value>
+2024-03-28T04:13:40.5567805Z   plugin_sponsors_title: <default-value>
+2024-03-28T04:13:40.5568157Z   plugin_repositories: <default-value>
+2024-03-28T04:13:40.5568522Z   plugin_repositories_featured: <default-value>
+2024-03-28T04:13:40.5568918Z   plugin_repositories_pinned: <default-value>
+2024-03-28T04:13:40.5569314Z   plugin_repositories_starred: <default-value>
+2024-03-28T04:13:40.5569697Z   plugin_repositories_random: <default-value>
+2024-03-28T04:13:40.5570076Z   plugin_repositories_order: <default-value>
+2024-03-28T04:13:40.5570447Z   plugin_repositories_forks: <default-value>
+2024-03-28T04:13:40.5570850Z   plugin_repositories_affiliations: <default-value>
+2024-03-28T04:13:40.5571239Z   plugin_discussions: <default-value>
+2024-03-28T04:13:40.5571601Z   plugin_discussions_categories: <default-value>
+2024-03-28T04:13:40.5572024Z   plugin_discussions_categories_limit: <default-value>
+2024-03-28T04:13:40.5572420Z   plugin_starlists: <default-value>
+2024-03-28T04:13:40.5572757Z   plugin_starlists_limit: <default-value>
+2024-03-28T04:13:40.5573153Z   plugin_starlists_limit_repositories: <default-value>
+2024-03-28T04:13:40.5573564Z   plugin_starlists_languages: <default-value>
+2024-03-28T04:13:40.5573964Z   plugin_starlists_limit_languages: <default-value>
+2024-03-28T04:13:40.5574520Z   plugin_starlists_languages_ignored: <default-value>
+2024-03-28T04:13:40.5574950Z   plugin_starlists_languages_aliases: <default-value>
+2024-03-28T04:13:40.5575386Z   plugin_starlists_shuffle_repositories: <default-value>
+2024-03-28T04:13:40.5575817Z   plugin_starlists_ignored: <default-value>
+2024-03-28T04:13:40.5576182Z   plugin_starlists_only: <default-value>
+2024-03-28T04:13:40.5576533Z   plugin_calendar_limit: <default-value>
+2024-03-28T04:13:40.5576874Z   plugin_achievements: <default-value>
+2024-03-28T04:13:40.5577243Z   plugin_achievements_threshold: <default-value>
+2024-03-28T04:13:40.5577644Z   plugin_achievements_secrets: <default-value>
+2024-03-28T04:13:40.5578035Z   plugin_achievements_display: <default-value>
+2024-03-28T04:13:40.5578422Z   plugin_achievements_limit: <default-value>
+2024-03-28T04:13:40.5578920Z   plugin_achievements_ignored: <default-value>
+2024-03-28T04:13:40.5579298Z   plugin_achievements_only: <default-value>
+2024-03-28T04:13:40.5579651Z   plugin_notable: <default-value>
+2024-03-28T04:13:40.5579967Z   plugin_notable_filter: <default-value>
+2024-03-28T04:13:40.5580320Z   plugin_notable_skipped: <default-value>
+2024-03-28T04:13:40.5580670Z   plugin_notable_from: <default-value>
+2024-03-28T04:13:40.5581029Z   plugin_notable_repositories: <default-value>
+2024-03-28T04:13:40.5581397Z   plugin_notable_indepth: <default-value>
+2024-03-28T04:13:40.5581747Z   plugin_notable_types: <default-value>
+2024-03-28T04:13:40.5582091Z   plugin_notable_self: <default-value>
+2024-03-28T04:13:40.5582421Z   plugin_activity: <default-value>
+2024-03-28T04:13:40.5582743Z   plugin_activity_limit: <default-value>
+2024-03-28T04:13:40.5583086Z   plugin_activity_load: <default-value>
+2024-03-28T04:13:40.5583425Z   plugin_activity_days: <default-value>
+2024-03-28T04:13:40.5583784Z   plugin_activity_visibility: <default-value>
+2024-03-28T04:13:40.5584162Z   plugin_activity_timestamps: <default-value>
+2024-03-28T04:13:40.5584538Z   plugin_activity_skipped: <default-value>
+2024-03-28T04:13:40.5584941Z   plugin_activity_ignored: <default-value>
+2024-03-28T04:13:40.5585300Z   plugin_activity_filter: <default-value>
+2024-03-28T04:13:40.5585635Z   plugin_traffic: <default-value>
+2024-03-28T04:13:40.5585963Z   plugin_traffic_skipped: <default-value>
+2024-03-28T04:13:40.5586300Z   plugin_code: <default-value>
+2024-03-28T04:13:40.5586595Z   plugin_code_lines: <default-value>
+2024-03-28T04:13:40.5586924Z   plugin_code_load: <default-value>
+2024-03-28T04:13:40.5587245Z   plugin_code_days: <default-value>
+2024-03-28T04:13:40.5587578Z   plugin_code_visibility: <default-value>
+2024-03-28T04:13:40.5587938Z   plugin_code_skipped: <default-value>
+2024-03-28T04:13:40.5588295Z   plugin_code_languages: <default-value>
+2024-03-28T04:13:40.5588631Z   plugin_gists: <default-value>
+2024-03-28T04:13:40.5588942Z   plugin_projects: <default-value>
+2024-03-28T04:13:40.5589271Z   plugin_projects_limit: <default-value>
+2024-03-28T04:13:40.5589646Z   plugin_projects_repositories: <default-value>
+2024-03-28T04:13:40.5590336Z   plugin_projects_descriptions: <default-value>
+2024-03-28T04:13:40.5590716Z   plugin_introduction: <default-value>
+2024-03-28T04:13:40.5591067Z   plugin_introduction_title: <default-value>
+2024-03-28T04:13:40.5591423Z   plugin_skyline: <default-value>
+2024-03-28T04:13:40.5591742Z   plugin_skyline_year: <default-value>
+2024-03-28T04:13:40.5592087Z   plugin_skyline_frames: <default-value>
+2024-03-28T04:13:40.5592430Z   plugin_skyline_quality: <default-value>
+2024-03-28T04:13:40.5592818Z   plugin_skyline_compatibility: <default-value>
+2024-03-28T04:13:40.5593195Z   plugin_skyline_settings: <default-value>
+2024-03-28T04:13:40.5593548Z   plugin_support: <default-value>
+2024-03-28T04:13:40.5593859Z   plugin_pagespeed: <default-value>
+2024-03-28T04:13:40.5594205Z   plugin_pagespeed_token: <default-value>
+2024-03-28T04:13:40.5594562Z   plugin_pagespeed_url: <default-value>
+2024-03-28T04:13:40.5594926Z   plugin_pagespeed_detailed: <default-value>
+2024-03-28T04:13:40.5595525Z   plugin_pagespeed_screenshot: <default-value>
+2024-03-28T04:13:40.5595900Z   plugin_pagespeed_pwa: <default-value>
+2024-03-28T04:13:40.5596239Z   plugin_tweets: <default-value>
+2024-03-28T04:13:40.5596573Z   plugin_tweets_token: <default-value>
+2024-03-28T04:13:40.5596906Z   plugin_tweets_user: <default-value>
+2024-03-28T04:13:40.5597260Z   plugin_tweets_attachments: <default-value>
+2024-03-28T04:13:40.5597618Z   plugin_tweets_limit: <default-value>
+2024-03-28T04:13:40.5597959Z   plugin_stackoverflow: <default-value>
+2024-03-28T04:13:40.5598316Z   plugin_stackoverflow_user: <default-value>
+2024-03-28T04:13:40.5598712Z   plugin_stackoverflow_sections: <default-value>
+2024-03-28T04:13:40.5599111Z   plugin_stackoverflow_limit: <default-value>
+2024-03-28T04:13:40.5599494Z   plugin_stackoverflow_lines: <default-value>
+2024-03-28T04:13:40.5600045Z   plugin_stackoverflow_lines_snippet: <default-value>
+2024-03-28T04:13:40.5600760Z   plugin_anilist: <default-value>
+2024-03-28T04:13:40.5601204Z   plugin_anilist_user: <default-value>
+2024-03-28T04:13:40.5601563Z   plugin_anilist_medias: <default-value>
+2024-03-28T04:13:40.5601919Z   plugin_anilist_sections: <default-value>
+2024-03-28T04:13:40.5602274Z   plugin_anilist_limit: <default-value>
+2024-03-28T04:13:40.5602650Z   plugin_anilist_limit_characters: <default-value>
+2024-03-28T04:13:40.5603049Z   plugin_anilist_shuffle: <default-value>
+2024-03-28T04:13:40.5603581Z   plugin_music: <default-value>
+2024-03-28T04:13:40.5603906Z   plugin_music_provider: <default-value>
+2024-03-28T04:13:40.5604372Z   plugin_music_token: <default-value>
+2024-03-28T04:13:40.5604724Z   plugin_music_user: <default-value>
+2024-03-28T04:13:40.5605050Z   plugin_music_mode: <default-value>
+2024-03-28T04:13:40.5605437Z   plugin_music_playlist: <default-value>
+2024-03-28T04:13:40.5605786Z   plugin_music_limit: <default-value>
+2024-03-28T04:13:40.5606144Z   plugin_music_played_at: <default-value>
+2024-03-28T04:13:40.5606503Z   plugin_music_time_range: <default-value>
+2024-03-28T04:13:40.5606873Z   plugin_music_top_type: <default-value>
+2024-03-28T04:13:40.5607216Z   plugin_posts: <default-value>
+2024-03-28T04:13:40.5607544Z   plugin_posts_source: <default-value>
+2024-03-28T04:13:40.5607961Z   plugin_posts_user: <default-value>
+2024-03-28T04:13:40.5608400Z   plugin_posts_descriptions: <default-value>
+2024-03-28T04:13:40.5608764Z   plugin_posts_covers: <default-value>
+2024-03-28T04:13:40.5609104Z   plugin_posts_limit: <default-value>
+2024-03-28T04:13:40.5609418Z   plugin_rss: <default-value>
+2024-03-28T04:13:40.5609716Z   plugin_rss_source: <default-value>
+2024-03-28T04:13:40.5610038Z   plugin_rss_limit: <default-value>
+2024-03-28T04:13:40.5610371Z   plugin_wakatime: <default-value>
+2024-03-28T04:13:40.5610704Z   plugin_wakatime_token: <default-value>
+2024-03-28T04:13:40.5611053Z   plugin_wakatime_url: <default-value>
+2024-03-28T04:13:40.5611388Z   plugin_wakatime_user: <default-value>
+2024-03-28T04:13:40.5611763Z   plugin_wakatime_sections: <default-value>
+2024-03-28T04:13:40.5612117Z   plugin_wakatime_days: <default-value>
+2024-03-28T04:13:40.5612466Z   plugin_wakatime_limit: <default-value>
+2024-03-28T04:13:40.5612853Z   plugin_wakatime_languages_other: <default-value>
+2024-03-28T04:13:40.5613289Z   plugin_wakatime_languages_ignored: <default-value>
+2024-03-28T04:13:40.5613747Z   plugin_wakatime_repositories_visibility: <default-value>
+2024-03-28T04:13:40.5614160Z   plugin_leetcode: <default-value>
+2024-03-28T04:13:40.5614482Z   plugin_leetcode_user: <default-value>
+2024-03-28T04:13:40.5614839Z   plugin_leetcode_sections: <default-value>
+2024-03-28T04:13:40.5615218Z   plugin_leetcode_limit_skills: <default-value>
+2024-03-28T04:13:40.5615619Z   plugin_leetcode_ignored_skills: <default-value>
+2024-03-28T04:13:40.5616024Z   plugin_leetcode_limit_recent: <default-value>
+2024-03-28T04:13:40.5616386Z   plugin_steam: <default-value>
+2024-03-28T04:13:40.5616700Z   plugin_steam_token: <default-value>
+2024-03-28T04:13:40.5617042Z   plugin_steam_sections: <default-value>
+2024-03-28T04:13:40.5617409Z   plugin_steam_games_ignored: <default-value>
+2024-03-28T04:13:40.5617958Z   plugin_steam_games_limit: <default-value>
+2024-03-28T04:13:40.5618339Z   plugin_steam_recent_games_limit: <default-value>
+2024-03-28T04:13:40.5618813Z   plugin_steam_achievements_limit: <default-value>
+2024-03-28T04:13:40.5619232Z   plugin_steam_playtime_threshold: <default-value>
+2024-03-28T04:13:40.5619662Z   plugin_16personalities: <default-value>
+2024-03-28T04:13:40.5620028Z   plugin_16personalities_url: <default-value>
+2024-03-28T04:13:40.5620420Z   plugin_16personalities_sections: <default-value>
+2024-03-28T04:13:40.5620833Z   plugin_16personalities_scores: <default-value>
+2024-03-28T04:13:40.5621205Z   plugin_chess: <default-value>
+2024-03-28T04:13:40.5621511Z   plugin_chess_token: <default-value>
+2024-03-28T04:13:40.5621842Z   plugin_chess_user: <default-value>
+2024-03-28T04:13:40.5622304Z   plugin_chess_platform: <default-value>
+2024-03-28T04:13:40.5622653Z   plugin_chess_animation: <default-value>
+2024-03-28T04:13:40.5622989Z   plugin_fortune: <default-value>
+2024-03-28T04:13:40.5623310Z   plugin_nightscout: <default-value>
+2024-03-28T04:13:40.5623655Z   plugin_nightscout_url: <default-value>
+2024-03-28T04:13:40.5624029Z   plugin_nightscout_datapoints: <default-value>
+2024-03-28T04:13:40.5624417Z   plugin_nightscout_lowalert: <default-value>
+2024-03-28T04:13:40.5624812Z   plugin_nightscout_highalert: <default-value>
+2024-03-28T04:13:40.5625216Z   plugin_nightscout_urgentlowalert: <default-value>
+2024-03-28T04:13:40.5625662Z   plugin_nightscout_urgenthighalert: <default-value>
+2024-03-28T04:13:40.5626045Z   plugin_poopmap: <default-value>
+2024-03-28T04:13:40.5626366Z   plugin_poopmap_token: <default-value>
+2024-03-28T04:13:40.5626717Z   plugin_poopmap_days: <default-value>
+2024-03-28T04:13:40.5627056Z   plugin_screenshot: <default-value>
+2024-03-28T04:13:40.5627397Z   plugin_screenshot_title: <default-value>
+2024-03-28T04:13:40.5627765Z   plugin_screenshot_url: <default-value>
+2024-03-28T04:13:40.5628128Z   plugin_screenshot_selector: <default-value>
+2024-03-28T04:13:40.5628505Z   plugin_screenshot_mode: <default-value>
+2024-03-28T04:13:40.5628864Z   plugin_screenshot_viewport: <default-value>
+2024-03-28T04:13:40.5629230Z   plugin_screenshot_wait: <default-value>
+2024-03-28T04:13:40.5629605Z   plugin_screenshot_background: <default-value>
+2024-03-28T04:13:40.5630121Z   plugin_splatoon: <default-value>
+2024-03-28T04:13:40.5630462Z   plugin_splatoon_token: <default-value>
+2024-03-28T04:13:40.5630819Z   plugin_splatoon_sections: <default-value>
+2024-03-28T04:13:40.5631207Z   plugin_splatoon_versus_limit: <default-value>
+2024-03-28T04:13:40.5631611Z   plugin_splatoon_salmon_limit: <default-value>
+2024-03-28T04:13:40.5631989Z   plugin_splatoon_statink: <default-value>
+2024-03-28T04:13:40.5632377Z   plugin_splatoon_statink_token: <default-value>
+2024-03-28T04:13:40.5632763Z   plugin_splatoon_source: <default-value>
+2024-03-28T04:13:40.5633131Z   plugin_stock: <default-value>
+2024-03-28T04:13:40.5633443Z   plugin_stock_token: <default-value>
+2024-03-28T04:13:40.5633783Z   plugin_stock_symbol: <default-value>
+2024-03-28T04:13:40.5634128Z   plugin_stock_duration: <default-value>
+2024-03-28T04:13:40.5634475Z   plugin_stock_interval: <default-value>
+2024-03-28T04:13:40.5634792Z ##[endgroup]
+2024-03-28T04:13:40.5655199Z ##[group]Run # Check runner compatibility
+2024-03-28T04:13:40.5655643Z [36;1m# Check runner compatibility[0m
+2024-03-28T04:13:40.5656034Z [36;1mecho "::group::Metrics docker image setup"[0m
+2024-03-28T04:13:40.5656543Z [36;1mecho "GitHub action: $METRICS_ACTION ($METRICS_ACTION_PATH)"[0m
+2024-03-28T04:13:40.5656999Z [36;1mcd $METRICS_ACTION_PATH[0m
+2024-03-28T04:13:40.5657326Z [36;1mfor DEPENDENCY in docker jq; do[0m
+2024-03-28T04:13:40.5657740Z [36;1m  if ! which $DEPENDENCY > /dev/null 2>&1; then[0m
+2024-03-28T04:13:40.5658406Z [36;1m    echo "::error::\"$DEPENDENCY\" is not installed on current runner but is needed to run metrics"[0m
+2024-03-28T04:13:40.5659031Z [36;1m    MISSING_DEPENDENCIES=1[0m
+2024-03-28T04:13:40.5659488Z [36;1m  fi[0m
+2024-03-28T04:13:40.5659701Z [36;1mdone[0m
+2024-03-28T04:13:40.5659983Z [36;1mif [[ $MISSING_DEPENDENCIES == "1" ]]; then[0m
+2024-03-28T04:13:40.5660451Z [36;1m  echo "Runner compatibility: missing dependencies"[0m
+2024-03-28T04:13:40.5660855Z [36;1m  exit 1[0m
+2024-03-28T04:13:40.5661074Z [36;1melse[0m
+2024-03-28T04:13:40.5661354Z [36;1m  echo "Runner compatibility: compatible"[0m
+2024-03-28T04:13:40.5661711Z [36;1mfi[0m
+2024-03-28T04:13:40.5661913Z [36;1m[0m
+2024-03-28T04:13:40.5662255Z [36;1m# Create environment file from inputs and GitHub variables[0m
+2024-03-28T04:13:40.5662693Z [36;1mtouch .env[0m
+2024-03-28T04:13:40.5663249Z [36;1mfor INPUT in $(echo $INPUTS | jq -r 'to_entries|map("INPUT_\(.key|ascii_upcase)=\(.value|@uri)")|.[]'); do[0m
+2024-03-28T04:13:40.5663860Z [36;1m  echo $INPUT >> .env[0m
+2024-03-28T04:13:40.5664287Z [36;1mdone[0m
+2024-03-28T04:13:40.5664595Z [36;1menv | grep -E '^(GITHUB|ACTIONS|CI|TZ)' >> .env[0m
+2024-03-28T04:13:40.5665034Z [36;1mecho "Environment variables: loaded"[0m
+2024-03-28T04:13:40.5665368Z [36;1m[0m
+2024-03-28T04:13:40.5665590Z [36;1m# Renders output folder[0m
+2024-03-28T04:13:40.5665930Z [36;1mMETRICS_RENDERS="/metrics_renders"[0m
+2024-03-28T04:13:40.5666299Z [36;1msudo mkdir -p $METRICS_RENDERS[0m
+2024-03-28T04:13:40.5666700Z [36;1mecho "Renders output folder: $METRICS_RENDERS"[0m
+2024-03-28T04:13:40.5667080Z [36;1m[0m
+2024-03-28T04:13:40.5667366Z [36;1m# Source repository (picked from action name)[0m
+2024-03-28T04:13:40.5667973Z [36;1mMETRICS_SOURCE=$(echo $METRICS_ACTION | sed -E 's/metrics.*?$//g' | sed -E 's/_//g')[0m
+2024-03-28T04:13:40.5668515Z [36;1mecho "Source: $METRICS_SOURCE"[0m
+2024-03-28T04:13:40.5668831Z [36;1m[0m
+2024-03-28T04:13:40.5669102Z [36;1m# Version (picked from package.json)[0m
+2024-03-28T04:13:40.5669606Z [36;1mMETRICS_VERSION=$(grep -Po '(?<="version": ").*(?=")' package.json)[0m
+2024-03-28T04:13:40.5670411Z [36;1mecho "Version: $METRICS_VERSION"[0m
+2024-03-28T04:13:40.5670750Z [36;1m[0m
+2024-03-28T04:13:40.5671047Z [36;1m# Image tag (extracted from version or from env)[0m
+2024-03-28T04:13:40.5671619Z [36;1mMETRICS_TAG=v$(echo $METRICS_VERSION | sed -r 's/^([0-9]+[.][0-9]+).*/\1/')[0m
+2024-03-28T04:13:40.5672135Z [36;1mecho "Image tag: $METRICS_TAG"[0m
+2024-03-28T04:13:40.5672449Z [36;1m[0m
+2024-03-28T04:13:40.5672666Z [36;1m# Image name[0m
+2024-03-28T04:13:40.5672923Z [36;1m# Official action[0m
+2024-03-28T04:13:40.5673276Z [36;1mif [[ $METRICS_SOURCE == "lowlighter" ]]; then[0m
+2024-03-28T04:13:40.5673715Z [36;1m  # Use registry with pre-built images[0m
+2024-03-28T04:13:40.5674238Z [36;1m  if [[ ! $METRICS_USE_PREBUILT_IMAGE =~ ^([Ff]alse|[Oo]ff|[Nn]o|0)$ ]]; then[0m
+2024-03-28T04:13:40.5674733Z [36;1m    # Is released version[0m
+2024-03-28T04:13:40.5675031Z [36;1m    set +e[0m
+2024-03-28T04:13:40.5675453Z [36;1m    METRICS_IS_RELEASED=$(expr $(expr match $METRICS_VERSION .*-beta) == 0)[0m
+2024-03-28T04:13:40.5675930Z [36;1m    set -e[0m
+2024-03-28T04:13:40.5676278Z [36;1m    echo "Is released version: $METRICS_IS_RELEASED"[0m
+2024-03-28T04:13:40.5676750Z [36;1m    if [[ "$METRICS_IS_RELEASED" -eq "0" ]]; then[0m
+2024-03-28T04:13:40.5677183Z [36;1m      METRICS_TAG="$METRICS_TAG-beta"[0m
+2024-03-28T04:13:40.5677592Z [36;1m      echo "Image tag (updated): $METRICS_TAG"[0m
+2024-03-28T04:13:40.5677957Z [36;1m    fi[0m
+2024-03-28T04:13:40.5678300Z [36;1m    METRICS_IMAGE=ghcr.io/lowlighter/metrics:$METRICS_TAG[0m
+2024-03-28T04:13:40.5678999Z [36;1m    echo "Using pre-built version $METRICS_TAG, will pull docker image from GitHub registry"[0m
+2024-03-28T04:13:40.5679650Z [36;1m    if ! docker image pull $METRICS_IMAGE; then[0m
+2024-03-28T04:13:40.5680273Z [36;1m      echo "Failed to fetch docker image from GitHub registry, will rebuild it locally"[0m
+2024-03-28T04:13:40.5680884Z [36;1m      METRICS_IMAGE=metrics:$METRICS_VERSION[0m
+2024-03-28T04:13:40.5681245Z [36;1m    fi[0m
+2024-03-28T04:13:40.5681478Z [36;1m  # Rebuild image[0m
+2024-03-28T04:13:40.5681926Z [36;1m  else[0m
+2024-03-28T04:13:40.5682262Z [36;1m    echo "Using an unreleased version ($METRICS_VERSION)"[0m
+2024-03-28T04:13:40.5682750Z [36;1m    METRICS_IMAGE=metrics:$METRICS_VERSION[0m
+2024-03-28T04:13:40.5683109Z [36;1m  fi[0m
+2024-03-28T04:13:40.5683335Z [36;1m# Forked action[0m
+2024-03-28T04:13:40.5683586Z [36;1melse[0m
+2024-03-28T04:13:40.5683840Z [36;1m  echo "Using a forked version"[0m
+2024-03-28T04:13:40.5684243Z [36;1m  METRICS_IMAGE=metrics:forked-$METRICS_VERSION[0m
+2024-03-28T04:13:40.5684617Z [36;1mfi[0m
+2024-03-28T04:13:40.5684862Z [36;1mecho "Image name: $METRICS_IMAGE"[0m
+2024-03-28T04:13:40.5685191Z [36;1m[0m
+2024-03-28T04:13:40.5685418Z [36;1m# Build image if necessary[0m
+2024-03-28T04:13:40.5685729Z [36;1mset +e[0m
+2024-03-28T04:13:40.5685999Z [36;1mdocker image inspect $METRICS_IMAGE[0m
+2024-03-28T04:13:40.5686514Z [36;1mMETRICS_IMAGE_NEEDS_BUILD="$?"[0m
+2024-03-28T04:13:40.5686836Z [36;1mset -e[0m
+2024-03-28T04:13:40.5687157Z [36;1mif [[ "$METRICS_IMAGE_NEEDS_BUILD" -gt "0" ]]; then[0m
+2024-03-28T04:13:40.5687783Z [36;1m  echo "Image $METRICS_IMAGE is not present locally, rebuilding it from Dockerfile"[0m
+2024-03-28T04:13:40.5688368Z [36;1m  docker build -t $METRICS_IMAGE .[0m
+2024-03-28T04:13:40.5688705Z [36;1melse[0m
+2024-03-28T04:13:40.5689014Z [36;1m  echo "Image $METRICS_IMAGE is present locally"[0m
+2024-03-28T04:13:40.5689388Z [36;1mfi[0m
+2024-03-28T04:13:40.5689612Z [36;1mecho "::endgroup::"[0m
+2024-03-28T04:13:40.5689884Z [36;1m[0m
+2024-03-28T04:13:40.5690158Z [36;1m# Run docker image with current environment[0m
+2024-03-28T04:13:40.5690950Z [36;1mdocker run --init --rm --volume $GITHUB_EVENT_PATH:$GITHUB_EVENT_PATH --volume $METRICS_RENDERS:/renders --env-file .env $METRICS_IMAGE[0m
+2024-03-28T04:13:40.5691669Z [36;1mrm .env[0m
+2024-03-28T04:13:40.5715066Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2024-03-28T04:13:40.5715475Z env:
+2024-03-28T04:13:40.5715716Z   METRICS_ACTION: __lowlighter_metrics_17
+2024-03-28T04:13:40.5716216Z   METRICS_ACTION_PATH: /home/runner/work/_actions/lowlighter/metrics/latest
+2024-03-28T04:13:40.5716697Z   METRICS_USE_PREBUILT_IMAGE: yes
+2024-03-28T04:13:40.5768222Z   INPUTS: {
+  "filename": "GitHub_Stats_B_GitHub_Calendar_2024.svg",
+  "token": "***",
+  "base": "",
+  "plugin_calendar": "yes",
+  "base_indepth": "<default-value>",
+  "base_hireable": "<default-value>",
+  "base_skip": "<default-value>",
+  "repositories": "<default-value>",
+  "repositories_batch": "<default-value>",
+  "repositories_forks": "<default-value>",
+  "repositories_affiliations": "<default-value>",
+  "repositories_skipped": "<default-value>",
+  "users_ignored": "<default-value>",
+  "commits_authoring": "<default-value>",
+  "user": "<default-value>",
+  "repo": "<default-value>",
+  "committer_token": "***",
+  "committer_branch": "<default-value>",
+  "committer_message": "<default-value>",
+  "committer_gist": "<default-value>",
+  "markdown": "<default-value>",
+  "markdown_cache": "<default-value>",
+  "output_action": "<default-value>",
+  "output_condition": "<default-value>",
+  "optimize": "<default-value>",
+  "setup_community_templates": "<default-value>",
+  "template": "<default-value>",
+  "query": "<default-value>",
+  "extras_css": "<default-value>",
+  "extras_js": "<default-value>",
+  "github_api_rest": "<default-value>",
+  "github_api_graphql": "<default-value>",
+  "config_timezone": "",
+  "config_order": "<default-value>",
+  "config_twemoji": "<default-value>",
+  "config_gemoji": "<default-value>",
+  "config_octicon": "<default-value>",
+  "config_display": "<default-value>",
+  "config_animations": "<default-value>",
+  "config_base64": "<default-value>",
+  "config_padding": "<default-value>",
+  "config_output": "<default-value>",
+  "config_presets": "",
+  "retries": "<default-value>",
+  "retries_delay": "<default-value>",
+  "retries_output_action": "<default-value>",
+  "retries_delay_output_action": "<default-value>",
+  "clean_workflows": "<default-value>",
+  "delay": "<default-value>",
+  "quota_required_rest": "<default-value>",
+  "quota_required_graphql": "<default-value>",
+  "quota_required_search": "<default-value>",
+  "notice_releases": "<default-value>",
+  "use_prebuilt_image": "yes",
+  "plugins_errors_fatal": "<default-value>",
+  "debug": "<default-value>",
+  "verify": "<default-value>",
+  "debug_flags": "<default-value>",
+  "debug_print": "<default-value>",
+  "dryrun": "<default-value>",
+  "experimental_features": "<default-value>",
+  "use_mocked_data": "<default-value>",
+  "plugin_isocalendar": "<default-value>",
+  "plugin_isocalendar_duration": "<default-value>",
+  "plugin_languages": "<default-value>",
+  "plugin_languages_ignored": "<default-value>",
+  "plugin_languages_skipped": "<default-value>",
+  "plugin_languages_limit": "<default-value>",
+  "plugin_languages_threshold": "<default-value>",
+  "plugin_languages_other": "<default-value>",
+  "plugin_languages_colors": "<default-value>",
+  "plugin_languages_aliases": "<default-value>",
+  "plugin_languages_sections": "<default-value>",
+  "plugin_languages_details": "<default-value>",
+  "plugin_languages_indepth": "<default-value>",
+  "plugin_languages_indepth_custom": "<default-value>",
+  "plugin_languages_analysis_timeout": "<default-value>",
+  "plugin_languages_analysis_timeout_repositories": "<default-value>",
+  "plugin_languages_categories": "<default-value>",
+  "plugin_languages_recent_categories": "<default-value>",
+  "plugin_languages_recent_load": "<default-value>",
+  "plugin_languages_recent_days": "<default-value>",
+  "plugin_stargazers": "<default-value>",
+  "plugin_stargazers_days": "<default-value>",
+  "plugin_stargazers_charts": "<default-value>",
+  "plugin_stargazers_charts_type": "<default-value>",
+  "plugin_stargazers_worldmap": "<default-value>",
+  "plugin_stargazers_worldmap_token": "<default-value>",
+  "plugin_stargazers_worldmap_sample": "<default-value>",
+  "plugin_lines": "<default-value>",
+  "plugin_lines_skipped": "<default-value>",
+  "plugin_lines_sections": "<default-value>",
+  "plugin_lines_repositories_limit": "<default-value>",
+  "plugin_lines_history_limit": "<default-value>",
+  "plugin_lines_delay": "<default-value>",
+  "plugin_topics": "<default-value>",
+  "plugin_topics_mode": "<default-value>",
+  "plugin_topics_sort": "<default-value>",
+  "plugin_topics_limit": "<default-value>",
+  "plugin_stars": "<default-value>",
+  "plugin_stars_limit": "<default-value>",
+  "plugin_licenses": "<default-value>",
+  "plugin_licenses_setup": "<default-value>",
+  "plugin_licenses_ratio": "<default-value>",
+  "plugin_licenses_legal": "<default-value>",
+  "plugin_habits": "<default-value>",
+  "plugin_habits_from": "<default-value>",
+  "plugin_habits_skipped": "<default-value>",
+  "plugin_habits_days": "<default-value>",
+  "plugin_habits_facts": "<default-value>",
+  "plugin_habits_charts": "<default-value>",
+  "plugin_habits_charts_type": "<default-value>",
+  "plugin_habits_trim": "<default-value>",
+  "plugin_habits_languages_limit": "<default-value>",
+  "plugin_habits_languages_threshold": "<default-value>",
+  "plugin_contributors": "<default-value>",
+  "plugin_contributors_base": "<default-value>",
+  "plugin_contributors_head": "<default-value>",
+  "plugin_contributors_ignored": "<default-value>",
+  "plugin_contributors_contributions": "<default-value>",
+  "plugin_contributors_sections": "<default-value>",
+  "plugin_contributors_categories": "<default-value>",
+  "plugin_followup": "<default-value>",
+  "plugin_followup_sections": "<default-value>",
+  "plugin_followup_indepth": "<default-value>",
+  "plugin_followup_archived": "<default-value>",
+  "plugin_reactions": "<default-value>",
+  "plugin_reactions_limit": "<default-value>",
+  "plugin_reactions_limit_issues": "<default-value>",
+  "plugin_reactions_limit_discussions": "<default-value>",
+  "plugin_reactions_limit_discussions_comments": "<default-value>",
+  "plugin_reactions_days": "<default-value>",
+  "plugin_reactions_display": "<default-value>",
+  "plugin_reactions_details": "<default-value>",
+  "plugin_reactions_ignored": "<default-value>",
+  "plugin_people": "<default-value>",
+  "plugin_people_limit": "<default-value>",
+  "plugin_people_identicons": "<default-value>",
+  "plugin_people_identicons_hide": "<default-value>",
+  "plugin_people_size": "<default-value>",
+  "plugin_people_types": "<default-value>",
+  "plugin_people_thanks": "<default-value>",
+  "plugin_people_sponsors_custom": "<default-value>",
+  "plugin_people_shuffle": "<default-value>",
+  "plugin_sponsorships": "<default-value>",
+  "plugin_sponsorships_sections": "<default-value>",
+  "plugin_sponsorships_size": "<default-value>",
+  "plugin_sponsors": "<default-value>",
+  "plugin_sponsors_sections": "<default-value>",
+  "plugin_sponsors_past": "<default-value>",
+  "plugin_sponsors_size": "<default-value>",
+  "plugin_sponsors_title": "<default-value>",
+  "plugin_repositories": "<default-value>",
+  "plugin_repositories_featured": "<default-value>",
+  "plugin_repositories_pinned": "<default-value>",
+  "plugin_repositories_starred": "<default-value>",
+  "plugin_repositories_random": "<default-value>",
+  "plugin_repositories_order": "<default-value>",
+  "plugin_repositories_forks": "<default-value>",
+  "plugin_repositories_affiliations": "<default-value>",
+  "plugin_discussions": "<default-value>",
+  "plugin_discussions_categories": "<default-value>",
+  "plugin_discussions_categories_limit": "<default-value>",
+  "plugin_starlists": "<default-value>",
+  "plugin_starlists_limit": "<default-value>",
+  "plugin_starlists_limit_repositories": "<default-value>",
+  "plugin_starlists_languages": "<default-value>",
+  "plugin_starlists_limit_languages": "<default-value>",
+  "plugin_starlists_languages_ignored": "<default-value>",
+  "plugin_starlists_languages_aliases": "<default-value>",
+  "plugin_starlists_shuffle_repositories": "<default-value>",
+  "plugin_starlists_ignored": "<default-value>",
+  "plugin_starlists_only": "<default-value>",
+  "plugin_calendar_limit": "<default-value>",
+  "plugin_achievements": "<default-value>",
+  "plugin_achievements_threshold": "<default-value>",
+  "plugin_achievements_secrets": "<default-value>",
+  "plugin_achievements_display": "<default-value>",
+  "plugin_achievements_limit": "<default-value>",
+  "plugin_achievements_ignored": "<default-value>",
+  "plugin_achievements_only": "<default-value>",
+  "plugin_notable": "<default-value>",
+  "plugin_notable_filter": "<default-value>",
+  "plugin_notable_skipped": "<default-value>",
+  "plugin_notable_from": "<default-value>",
+  "plugin_notable_repositories": "<default-value>",
+  "plugin_notable_indepth": "<default-value>",
+  "plugin_notable_types": "<default-value>",
+  "plugin_notable_self": "<default-value>",
+  "plugin_activity": "<default-value>",
+  "plugin_activity_limit": "<default-value>",
+  "plugin_activity_load": "<default-value>",
+  "plugin_activity_days": "<default-value>",
+  "plugin_activity_visibility": "<default-value>",
+  "plugin_activity_timestamps": "<default-value>",
+  "plugin_activity_skipped": "<default-value>",
+  "plugin_activity_ignored": "<default-value>",
+  "plugin_activity_filter": "<default-value>",
+  "plugin_traffic": "<default-value>",
+  "plugin_traffic_skipped": "<default-value>",
+  "plugin_code": "<default-value>",
+  "plugin_code_lines": "<default-value>",
+  "plugin_code_load": "<default-value>",
+  "plugin_code_days": "<default-value>",
+  "plugin_code_visibility": "<default-value>",
+  "plugin_code_skipped": "<default-value>",
+  "plugin_code_languages": "<default-value>",
+  "plugin_gists": "<default-value>",
+  "plugin_projects": "<default-value>",
+  "plugin_projects_limit": "<default-value>",
+  "plugin_projects_repositories": "<default-value>",
+  "plugin_projects_descriptions": "<default-value>",
+  "plugin_introduction": "<default-value>",
+  "plugin_introduction_title": "<default-value>",
+  "plugin_skyline": "<default-value>",
+  "plugin_skyline_year": "<default-value>",
+  "plugin_skyline_frames": "<default-value>",
+  "plugin_skyline_quality": "<default-value>",
+  "plugin_skyline_compatibility": "<default-value>",
+  "plugin_skyline_settings": "<default-value>",
+  "plugin_support": "<default-value>",
+  "plugin_pagespeed": "<default-value>",
+  "plugin_pagespeed_token": "<default-value>",
+  "plugin_pagespeed_url": "<default-value>",
+  "plugin_pagespeed_detailed": "<default-value>",
+  "plugin_pagespeed_screenshot": "<default-value>",
+  "plugin_pagespeed_pwa": "<default-value>",
+  "plugin_tweets": "<default-value>",
+  "plugin_tweets_token": "<default-value>",
+  "plugin_tweets_user": "<default-value>",
+  "plugin_tweets_attachments": "<default-value>",
+  "plugin_tweets_limit": "<default-value>",
+  "plugin_stackoverflow": "<default-value>",
+  "plugin_stackoverflow_user": "<default-value>",
+  "plugin_stackoverflow_sections": "<default-value>",
+  "plugin_stackoverflow_limit": "<default-value>",
+  "plugin_stackoverflow_lines": "<default-value>",
+  "plugin_stackoverflow_lines_snippet": "<default-value>",
+  "plugin_anilist": "<default-value>",
+  "plugin_anilist_user": "<default-value>",
+  "plugin_anilist_medias": "<default-value>",
+  "plugin_anilist_sections": "<default-value>",
+  "plugin_anilist_limit": "<default-value>",
+  "plugin_anilist_limit_characters": "<default-value>",
+  "plugin_anilist_shuffle": "<default-value>",
+  "plugin_music": "<default-value>",
+  "plugin_music_provider": "<default-value>",
+  "plugin_music_token": "<default-value>",
+  "plugin_music_user": "<default-value>",
+  "plugin_music_mode": "<default-value>",
+  "plugin_music_playlist": "<default-value>",
+  "plugin_music_limit": "<default-value>",
+  "plugin_music_played_at": "<default-value>",
+  "plugin_music_time_range": "<default-value>",
+  "plugin_music_top_type": "<default-value>",
+  "plugin_posts": "<default-value>",
+  "plugin_posts_source": "<default-value>",
+  "plugin_posts_user": "<default-value>",
+  "plugin_posts_descriptions": "<default-value>",
+  "plugin_posts_covers": "<default-value>",
+  "plugin_posts_limit": "<default-value>",
+  "plugin_rss": "<default-value>",
+  "plugin_rss_source": "<default-value>",
+  "plugin_rss_limit": "<default-value>",
+  "plugin_wakatime": "<default-value>",
+  "plugin_wakatime_token": "<default-value>",
+  "plugin_wakatime_url": "<default-value>",
+  "plugin_wakatime_user": "<default-value>",
+  "plugin_wakatime_sections": "<default-value>",
+  "plugin_wakatime_days": "<default-value>",
+  "plugin_wakatime_limit": "<default-value>",
+  "plugin_wakatime_languages_other": "<default-value>",
+  "plugin_wakatime_languages_ignored": "<default-value>",
+  "plugin_wakatime_repositories_visibility": "<default-value>",
+  "plugin_leetcode": "<default-value>",
+  "plugin_leetcode_user": "<default-value>",
+  "plugin_leetcode_sections": "<default-value>",
+  "plugin_leetcode_limit_skills": "<default-value>",
+  "plugin_leetcode_ignored_skills": "<default-value>",
+  "plugin_leetcode_limit_recent": "<default-value>",
+  "plugin_steam": "<default-value>",
+  "plugin_steam_token": "<default-value>",
+  "plugin_steam_sections": "<default-value>",
+  "plugin_steam_user": "",
+  "plugin_steam_games_ignored": "<default-value>",
+  "plugin_steam_games_limit": "<default-value>",
+  "plugin_steam_recent_games_limit": "<default-value>",
+  "plugin_steam_achievements_limit": "<default-value>",
+  "plugin_steam_playtime_threshold": "<default-value>",
+  "plugin_16personalities": "<default-value>",
+  "plugin_16personalities_url": "<default-value>",
+  "plugin_16personalities_sections": "<default-value>",
+  "plugin_16personalities_scores": "<default-value>",
+  "plugin_chess": "<default-value>",
+  "plugin_chess_token": "<default-value>",
+  "plugin_chess_user": "<default-value>",
+  "plugin_chess_platform": "<default-value>",
+  "plugin_chess_animation": "<default-value>",
+  "plugin_fortune": "<default-value>",
+  "plugin_nightscout": "<default-value>",
+  "plugin_nightscout_url": "<default-value>",
+  "plugin_nightscout_datapoints": "<default-value>",
+  "plugin_nightscout_lowalert": "<default-value>",
+  "plugin_nightscout_highalert": "<default-value>",
+  "plugin_nightscout_urgentlowalert": "<default-value>",
+  "plugin_nightscout_urgenthighalert": "<default-value>",
+  "plugin_poopmap": "<default-value>",
+  "plugin_poopmap_token": "<default-value>",
+  "plugin_poopmap_days": "<default-value>",
+  "plugin_screenshot": "<default-value>",
+  "plugin_screenshot_title": "<default-value>",
+  "plugin_screenshot_url": "<default-value>",
+  "plugin_screenshot_selector": "<default-value>",
+  "plugin_screenshot_mode": "<default-value>",
+  "plugin_screenshot_viewport": "<default-value>",
+  "plugin_screenshot_wait": "<default-value>",
+  "plugin_screenshot_background": "<default-value>",
+  "plugin_splatoon": "<default-value>",
+  "plugin_splatoon_token": "<default-value>",
+  "plugin_splatoon_sections": "<default-value>",
+  "plugin_splatoon_versus_limit": "<default-value>",
+  "plugin_splatoon_salmon_limit": "<default-value>",
+  "plugin_splatoon_statink": "<default-value>",
+  "plugin_splatoon_statink_token": "<default-value>",
+  "plugin_splatoon_source": "<default-value>",
+  "plugin_stock": "<default-value>",
+  "plugin_stock_token": "<default-value>",
+  "plugin_stock_symbol": "<default-value>",
+  "plugin_stock_duration": "<default-value>",
+  "plugin_stock_interval": "<default-value>"
+}
+2024-03-28T04:13:40.5820685Z   TZ: 
+2024-03-28T04:13:40.5820900Z ##[endgroup]
+2024-03-28T04:13:40.5864957Z ##[group]Metrics docker image setup
+2024-03-28T04:13:40.5865801Z GitHub action: __lowlighter_metrics_17 (/home/runner/work/_actions/lowlighter/metrics/latest)
+2024-03-28T04:13:40.5887296Z Runner compatibility: compatible
+2024-03-28T04:13:40.6245689Z Environment variables: loaded
+2024-03-28T04:13:40.6331184Z Renders output folder: /metrics_renders
+2024-03-28T04:13:40.6356652Z Source: lowlighter
+2024-03-28T04:13:40.6373464Z Version: 3.34.0
+2024-03-28T04:13:40.6397494Z Image tag: v3.34
+2024-03-28T04:13:40.6427733Z Is released version: 1
+2024-03-28T04:13:40.6428789Z Using pre-built version v3.34, will pull docker image from GitHub registry
+2024-03-28T04:13:40.7976743Z v3.34: Pulling from lowlighter/metrics
+2024-03-28T04:13:40.7987706Z Digest: sha256:257392f90340f916cb8b815026f259399f6b246d3eb7de38b58bfe7a07bd5b65
+2024-03-28T04:13:40.7989015Z Status: Image is up to date for ghcr.io/lowlighter/metrics:v3.34
+2024-03-28T04:13:40.7997789Z ghcr.io/lowlighter/metrics:v3.34
+2024-03-28T04:13:40.8013155Z Image name: ghcr.io/lowlighter/metrics:v3.34
+2024-03-28T04:13:40.8130514Z [
+2024-03-28T04:13:40.8130891Z     {
+2024-03-28T04:13:40.8131568Z         "Id": "sha256:540609b0db04df4859a52809225568daef6f1ad4ecb031bd6f4854961fc965aa",
+2024-03-28T04:13:40.8132472Z         "RepoTags": [
+2024-03-28T04:13:40.8133024Z             "ghcr.io/lowlighter/metrics:v3.34"
+2024-03-28T04:13:40.8133665Z         ],
+2024-03-28T04:13:40.8134032Z         "RepoDigests": [
+2024-03-28T04:13:40.8138221Z             "ghcr.io/lowlighter/metrics@sha256:257392f90340f916cb8b815026f259399f6b246d3eb7de38b58bfe7a07bd5b65"
+2024-03-28T04:13:40.8139508Z         ],
+2024-03-28T04:13:40.8140072Z         "Parent": "",
+2024-03-28T04:13:40.8140796Z         "Comment": "buildkit.dockerfile.v0",
+2024-03-28T04:13:40.8141836Z         "Created": "2023-09-12T22:32:04.433116016Z",
+2024-03-28T04:13:40.8142465Z         "Container": "",
+2024-03-28T04:13:40.8142919Z         "ContainerConfig": {
+2024-03-28T04:13:40.8143394Z             "Hostname": "",
+2024-03-28T04:13:40.8143861Z             "Domainname": "",
+2024-03-28T04:13:40.8144324Z             "User": "",
+2024-03-28T04:13:40.8144773Z             "AttachStdin": false,
+2024-03-28T04:13:40.8145302Z             "AttachStdout": false,
+2024-03-28T04:13:40.8145818Z             "AttachStderr": false,
+2024-03-28T04:13:40.8146300Z             "Tty": false,
+2024-03-28T04:13:40.8146733Z             "OpenStdin": false,
+2024-03-28T04:13:40.8147222Z             "StdinOnce": false,
+2024-03-28T04:13:40.8147699Z             "Env": null,
+2024-03-28T04:13:40.8148119Z             "Cmd": null,
+2024-03-28T04:13:40.8148554Z             "Image": "",
+2024-03-28T04:13:40.8148989Z             "Volumes": null,
+2024-03-28T04:13:40.8149660Z             "WorkingDir": "",
+2024-03-28T04:13:40.8150429Z             "Entrypoint": null,
+2024-03-28T04:13:40.8150922Z             "OnBuild": null,
+2024-03-28T04:13:40.8151391Z             "Labels": null
+2024-03-28T04:13:40.8151809Z         },
+2024-03-28T04:13:40.8152575Z         "DockerVersion": "",
+2024-03-28T04:13:40.8153060Z         "Author": "",
+2024-03-28T04:13:40.8153474Z         "Config": {
+2024-03-28T04:13:40.8153851Z             "Hostname": "",
+2024-03-28T04:13:40.8154300Z             "Domainname": "",
+2024-03-28T04:13:40.8154756Z             "User": "",
+2024-03-28T04:13:40.8155184Z             "AttachStdin": false,
+2024-03-28T04:13:40.8155688Z             "AttachStdout": false,
+2024-03-28T04:13:40.8156204Z             "AttachStderr": false,
+2024-03-28T04:13:40.8156720Z             "Tty": false,
+2024-03-28T04:13:40.8157175Z             "OpenStdin": false,
+2024-03-28T04:13:40.8157651Z             "StdinOnce": false,
+2024-03-28T04:13:40.8158103Z             "Env": [
+2024-03-28T04:13:40.8158757Z                 "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+2024-03-28T04:13:40.8159576Z                 "NODE_VERSION=20.6.1",
+2024-03-28T04:13:40.8160412Z                 "YARN_VERSION=1.22.19",
+2024-03-28T04:13:40.8161061Z                 "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true",
+2024-03-28T04:13:40.8161972Z                 "PUPPETEER_BROWSER_PATH=google-chrome-stable"
+2024-03-28T04:13:40.8162593Z             ],
+2024-03-28T04:13:40.8162955Z             "Cmd": null,
+2024-03-28T04:13:40.8163375Z             "Image": "",
+2024-03-28T04:13:40.8163796Z             "Volumes": null,
+2024-03-28T04:13:40.8164336Z             "WorkingDir": "/metrics",
+2024-03-28T04:13:40.8164883Z             "Entrypoint": [
+2024-03-28T04:13:40.8165338Z                 "/bin/sh",
+2024-03-28T04:13:40.8165827Z                 "-c",
+2024-03-28T04:13:40.8166334Z                 "node /metrics/source/app/action/index.mjs"
+2024-03-28T04:13:40.8166948Z             ],
+2024-03-28T04:13:40.8167317Z             "OnBuild": null,
+2024-03-28T04:13:40.8167783Z             "Labels": null
+2024-03-28T04:13:40.8168248Z         },
+2024-03-28T04:13:40.8168629Z         "Architecture": "amd64",
+2024-03-28T04:13:40.8169143Z         "Os": "linux",
+2024-03-28T04:13:40.8169537Z         "Size": 2384506652,
+2024-03-28T04:13:40.8169997Z         "VirtualSize": 2384506652,
+2024-03-28T04:13:40.8170510Z         "GraphDriver": {
+2024-03-28T04:13:40.8170936Z             "Data": {
+2024-03-28T04:13:40.8177346Z                 "LowerDir": "/var/lib/docker/overlay2/6d02d963ceada3c9d6ba3dbd0bb0433f56e2a4899734c516863a19ca22c7d906/diff:/var/lib/docker/overlay2/2110aced117fef7aef25f8bf803ec80b3915b573f62dc07df3d45e819a073523/diff:/var/lib/docker/overlay2/6f286d0c3cc552a697151b0af4f84817dbd979a4cec017dde9cf7c9be5fdbf7a/diff:/var/lib/docker/overlay2/a1a461706ec7de2ebf81633282d1f2b93294a460d26a763abd5895968cfacb74/diff:/var/lib/docker/overlay2/079239d783fd995dc41ff3805c9abb405c2804c790cce2bdd8b0fcfe5cc07989/diff:/var/lib/docker/overlay2/9ae72663247ec10a28e9da369f944e5319756c1a511458cb4de924d7ce03f657/diff:/var/lib/docker/overlay2/8c1ac06a4834b6c964c4e979ab2642e3e668936fa08b40114ca3b6c55c1b992e/diff",
+2024-03-28T04:13:40.8184736Z                 "MergedDir": "/var/lib/docker/overlay2/85cebdc3fe0b6a76bddf54d7927c70fdd8061b6a2fd38b197582eb21c6bbc144/merged",
+2024-03-28T04:13:40.8186740Z                 "UpperDir": "/var/lib/docker/overlay2/85cebdc3fe0b6a76bddf54d7927c70fdd8061b6a2fd38b197582eb21c6bbc144/diff",
+2024-03-28T04:13:40.8188640Z                 "WorkDir": "/var/lib/docker/overlay2/85cebdc3fe0b6a76bddf54d7927c70fdd8061b6a2fd38b197582eb21c6bbc144/work"
+2024-03-28T04:13:40.8189856Z             },
+2024-03-28T04:13:40.8191349Z             "Name": "overlay2"
+2024-03-28T04:13:40.8191846Z         },
+2024-03-28T04:13:40.8192186Z         "RootFS": {
+2024-03-28T04:13:40.8192576Z             "Type": "layers",
+2024-03-28T04:13:40.8193024Z             "Layers": [
+2024-03-28T04:13:40.8193763Z                 "sha256:a2d7501dfb3541f3d736125cdfd748618194f60cbb5c63f4de67a92530899628",
+2024-03-28T04:13:40.8194961Z                 "sha256:9a2a56d458ec3995558ce9da3f0d8c7fd4cbc4ea039dcac8a778faee26bb9787",
+2024-03-28T04:13:40.8196171Z                 "sha256:508bcd84547eb5a0418e3b2efbaf647c2b3e4e1671f58ebb81d5ec1e8c786eac",
+2024-03-28T04:13:40.8197661Z                 "sha256:5fe14a445b97fed5eb00a421d1b931a0d2da455000a4db073de09cc98e264971",
+2024-03-28T04:13:40.8198843Z                 "sha256:95db10d2666e11f72298fe18ba7cf28836d40778aa8844f9420668e2dcddc823",
+2024-03-28T04:13:40.8200030Z                 "sha256:fcebc26c326d62cb51b7f7782823af0fd3e6fdc68af0fec9ac99f5989336932f",
+2024-03-28T04:13:40.8201201Z                 "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+2024-03-28T04:13:40.8202385Z                 "sha256:60b9b0e78db62f369d082ede1651154e620c33199afca076b2159cdb288fecff"
+2024-03-28T04:13:40.8203218Z             ]
+2024-03-28T04:13:40.8203577Z         },
+2024-03-28T04:13:40.8203931Z         "Metadata": {
+2024-03-28T04:13:40.8204530Z             "LastTagTime": "0001-01-01T00:00:00Z"
+2024-03-28T04:13:40.8205079Z         }
+2024-03-28T04:13:40.8205386Z     }
+2024-03-28T04:13:40.8205946Z ]
+2024-03-28T04:13:40.8206456Z Image ghcr.io/lowlighter/metrics:v3.34 is present locally
+2024-03-28T04:13:40.8207574Z ##[endgroup]
+2024-03-28T04:13:42.7199347Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-03-28T04:13:42.7201590Z [36mMetrics[0m                                                         │  
+2024-03-28T04:13:43.0250087Z Setup                                                           │ complete
+2024-03-28T04:13:43.0251099Z Version                                                         │ 3.34.0
+2024-03-28T04:13:43.1766591Z Using prebuilt image                                            │ true
+2024-03-28T04:13:43.1770616Z Debug mode                                                      │ false
+2024-03-28T04:13:43.1772865Z Debug flags                                                     │ (none)
+2024-03-28T04:13:43.1773945Z GitHub token                                                    │ (provided)
+2024-03-28T04:13:43.1775060Z GitHub token format                                             │ classic
+2024-03-28T04:13:43.1776252Z GitHub GraphQL API                                              │ ok
+2024-03-28T04:13:43.1777461Z GitHub GraphQL API endpoint                                     │ (default)
+2024-03-28T04:13:43.1820454Z GitHub REST API                                                 │ ok
+2024-03-28T04:13:43.1824412Z GitHub REST API endpoint                                        │ (default)
+2024-03-28T04:13:43.2596150Z API requests (REST)                                             │ 4990/5000 (200+ required)
+2024-03-28T04:13:43.2597582Z API requests (GraphQL)                                          │ 5000/5000 (200+ required)
+2024-03-28T04:13:43.2598373Z API requests (Search)                                           │ 30/30
+2024-03-28T04:13:43.2896788Z Token validity                                                  │ seems ok
+2024-03-28T04:13:43.4132142Z GitHub account                                                  │ seanpm2001
+2024-03-28T04:13:43.4151795Z Current repository                                              │ seanpm2001/GitHub_Stats_B
+2024-03-28T04:13:43.4153205Z Committer token                                                 │ (provided)
+2024-03-28T04:13:43.4161832Z Committer branch                                                │ GitHub_Stats_B_Main-dev
+2024-03-28T04:13:43.4163005Z Committer head branch                                           │ GitHub_Stats_B_Main-dev
+2024-03-28T04:13:43.4178525Z Committer REST API                                              │ ok
+2024-03-28T04:13:43.4639591Z Committer account                                               │ (github-actions)
+2024-03-28T04:13:43.5311966Z Committer head branch status                                    │ ok
+2024-03-28T04:13:43.6977725Z Previous render sha                                             │ (none)
+2024-03-28T04:13:43.6979430Z SVG output                                                      │ GitHub_Stats_B_GitHub_Calendar_2024.svg
+2024-03-28T04:13:43.6986571Z SVG optimization                                                │ css, xml
+2024-03-28T04:13:43.6987761Z SVG verification after generation                               │ false
+2024-03-28T04:13:43.6989546Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-03-28T04:13:43.6991016Z [36mTemplates[0m                                                       │  
+2024-03-28T04:13:43.6992176Z Community templates                                             │ (none)
+2024-03-28T04:13:43.6998083Z Template used                                                   │ classic
+2024-03-28T04:13:43.6999210Z Query additional params                                         │ {}
+2024-03-28T04:13:43.7006148Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-03-28T04:13:43.7007302Z [36mCore[0m                                                            │  
+2024-03-28T04:13:43.7008434Z Markdown template path                                          │ TEMPLATE.md
+2024-03-28T04:13:43.7009961Z Extra CSS                                                       │ 
+2024-03-28T04:13:43.7010956Z Extra JavaScript                                                │ 
+2024-03-28T04:13:43.7012020Z Timezone for dates                                              │ 
+2024-03-28T04:13:43.7013021Z Plugin order                                                    │ 
+2024-03-28T04:13:43.7014025Z Use twemojis                                                    │ false
+2024-03-28T04:13:43.7015100Z Use GitHub custom emojis                                        │ true
+2024-03-28T04:13:43.7016224Z Use GitHub octicons                                             │ false
+2024-03-28T04:13:43.7017377Z Display width (for image output formats)                        │ regular
+2024-03-28T04:13:43.7018533Z Use CSS animations                                              │ true
+2024-03-28T04:13:43.7019638Z Base64-encoded images                                           │ true
+2024-03-28T04:13:43.7020767Z Output padding                                                  │ 0, 8 + 11%
+2024-03-28T04:13:43.7021857Z Output format                                                   │ auto
+2024-03-28T04:13:43.7022925Z Configuration presets                                           │ 
+2024-03-28T04:13:43.7024048Z Notice about new releases of metrics                            │ true
+2024-03-28T04:13:43.7025136Z Experimental features                                           │ 
+2024-03-28T04:13:43.7026295Z Plugin errors                                                   │ (displayed in generated image)
+2024-03-28T04:13:43.7027544Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-03-28T04:13:43.7028709Z [36mBase content[0m                                                    │  
+2024-03-28T04:13:43.7029807Z Fetched repositories                                            │ 100
+2024-03-28T04:13:43.7031122Z Indepth mode                                                    │ false
+2024-03-28T04:13:43.7032265Z Show `Available for hire!` in header section                    │ false
+2024-03-28T04:13:43.7033424Z Skip base content                                               │ false
+2024-03-28T04:13:43.7034955Z Fetched repositories per query                                  │ 100
+2024-03-28T04:13:43.7036143Z Include forks                                                   │ false
+2024-03-28T04:13:43.7037261Z Repositories affiliations                                       │ owner
+2024-03-28T04:13:43.7038391Z Default skipped repositories                                    │ 
+2024-03-28T04:13:43.7040048Z Default ignored users                                           │ github-actions[bot],dependabot[bot],dependabot-preview[bot],actions-user,action@github.com
+2024-03-28T04:13:43.7041731Z Identifiers that has been used for authoring commits            │ .user.login
+2024-03-28T04:13:43.7042912Z Base sections                                                   │ (none)
+2024-03-28T04:13:43.7044128Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-03-28T04:13:43.7045316Z [36mCommit calendar[0m                                                 │  
+2024-03-28T04:13:43.7046454Z Years to display                                                │ 1
+2024-03-28T04:13:43.7053502Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-03-28T04:13:43.7054724Z [36mRendering[0m                                                       │  
+2024-03-28T04:14:10.7501813Z Status                                                          │ complete
+2024-03-28T04:14:10.7502988Z MIME type                                                       │ image/svg+xml
+2024-03-28T04:14:10.7504234Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-03-28T04:14:10.7505410Z [36mSaving[0m                                                          │  
+2024-03-28T04:14:10.7509061Z Output condition                                                │ always
+2024-03-28T04:14:10.7510710Z Save to /metrics_renders/GitHub_Stats_B_GitHub_Calendar_2024.svg │ ok
+2024-03-28T04:14:10.7511776Z Output action                                                   │ commit
+2024-03-28T04:14:10.7610990Z Current render sha                                              │ f009b4307a8144ed795cae69127882ef2c58aef1
+2024-03-28T04:24:11.4399705Z RequestError [HttpError]: Resource not accessible by integration
+2024-03-28T04:24:11.4401290Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-03-28T04:24:11.4402530Z     at /metrics/node_modules/@octokit/request/dist-node/index.js:86:21
+2024-03-28T04:24:11.4403679Z     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-03-28T04:24:11.4404920Z     at async retry.retries (file:///metrics/source/app/action/index.mjs:553:11)
+2024-03-28T04:24:11.4406008Z     at async retry (file:///metrics/source/app/action/index.mjs:57:22)
+2024-03-28T04:24:11.4407003Z     at async file:///metrics/source/app/action/index.mjs:552:9 {
+2024-03-28T04:24:11.4407719Z   status: 403,
+2024-03-28T04:24:11.4408114Z   response: {
+2024-03-28T04:24:11.4409270Z     url: 'https://api.github.com/repos/seanpm2001/GitHub_Stats_B/contents/GitHub_Stats_B_GitHub_Calendar_2024.svg',
+2024-03-28T04:24:11.4415676Z     status: 403,
+2024-03-28T04:24:11.4416079Z     headers: {
+2024-03-28T04:24:11.4416629Z       'access-control-allow-origin': '*',
+2024-03-28T04:24:11.4419940Z       'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
+2024-03-28T04:24:11.4422926Z       'content-encoding': 'gzip',
+2024-03-28T04:24:11.4423635Z       'content-security-policy': "default-src 'none'",
+2024-03-28T04:24:11.4424498Z       'content-type': 'application/json; charset=utf-8',
+2024-03-28T04:24:11.4425295Z       date: 'Thu, 28 Mar 2024 04:22:11 GMT',
+2024-03-28T04:24:11.4426346Z       'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+2024-03-28T04:24:11.4428108Z       server: 'GitHub.com',
+2024-03-28T04:24:11.4429056Z       'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+2024-03-28T04:24:11.4430221Z       'transfer-encoding': 'chunked',
+2024-03-28T04:24:11.4430993Z       vary: 'Accept-Encoding, Accept, X-Requested-With',
+2024-03-28T04:24:11.4431872Z       'x-accepted-github-permissions': 'contents=write',
+2024-03-28T04:24:11.4432664Z       'x-content-type-options': 'nosniff',
+2024-03-28T04:24:11.4433312Z       'x-frame-options': 'deny',
+2024-03-28T04:24:11.4434001Z       'x-github-api-version-selected': '2022-11-28',
+2024-03-28T04:24:11.4434820Z       'x-github-media-type': 'github.v3; format=json',
+2024-03-28T04:24:11.4435741Z       'x-github-request-id': '4C40:86C6:13FC65F:21B620E:6604F073',
+2024-03-28T04:24:11.4436860Z       'x-ratelimit-limit': '5000',
+2024-03-28T04:24:11.4437477Z       'x-ratelimit-remaining': '4977',
+2024-03-28T04:24:11.4438120Z       'x-ratelimit-reset': '1711601317',
+2024-03-28T04:24:11.4438753Z       'x-ratelimit-resource': 'core',
+2024-03-28T04:24:11.4439348Z       'x-ratelimit-used': '23',
+2024-03-28T04:24:11.4439922Z       'x-xss-protection': '0'
+2024-03-28T04:24:11.4440376Z     },
+2024-03-28T04:24:11.4440691Z     data: {
+2024-03-28T04:24:11.4441243Z       message: 'Resource not accessible by integration',
+2024-03-28T04:24:11.4442500Z       documentation_url: 'https://docs.github.com/rest/repos/contents#create-or-update-file-contents'
+2024-03-28T04:24:11.4443493Z     }
+2024-03-28T04:24:11.4443799Z   },
+2024-03-28T04:24:11.4444115Z   request: {
+2024-03-28T04:24:11.4444515Z     method: 'PUT',
+2024-03-28T04:24:11.4445637Z     url: 'https://api.github.com/repos/seanpm2001/GitHub_Stats_B/contents/GitHub_Stats_B_GitHub_Calendar_2024.svg',
+2024-03-28T04:24:11.4446746Z     headers: {
+2024-03-28T04:24:11.4447272Z       accept: 'application/vnd.github.v3+json',
+2024-03-28T04:24:11.4448175Z       'user-agent': 'octokit-core.js/3.6.0 Node.js/20.6.1 (linux; x64)',
+2024-03-28T04:24:11.4449036Z       authorization: 'token [REDACTED]',
+2024-03-28T04:24:11.4449779Z       'content-type': 'application/json; charset=utf-8'
+2024-03-28T04:24:11.4450398Z     },
+2024-03-28T04:24:11.5887550Z     body: '{"message":"Update GitHub_Stats_B_GitHub_Calendar_2024.svg - [Skip GitHub Action]","content":"PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0ODAiIGhlaWdodD0iMTI5IiBjbGFzcz0iIj4KICAgIDxkZWZzPgogICAgICAgIDxzdHlsZS8+CiAgICA8L2RlZnM+CiAgICA8c3R5bGU+QGtleWZyYW1lcyBhbmltYXRpb24tZ2F1Z2V7MCV7c3Ryb2tlLWRhc2hhcnJheTowIDMyOX19QGtleWZyYW1lcyBhbmltYXRpb24tcmFpbmJvd3swJSx0b3tjb2xvcjojN2YwMGZmO2ZpbGw6IzdmMDBmZn0xNCV7Y29sb3I6I2E5MzNmZjtmaWxsOiNhOTMzZmZ9Mjkle2NvbG9yOiMwMDdmZmY7ZmlsbDojMDA3ZmZmfTQzJXtjb2xvcjojMDBmZjdmO2ZpbGw6IzAwZmY3Zn01NyV7Y29sb3I6I2ZmMDtmaWxsOiNmZjB9NzEle2NvbG9yOiNmZjdmMDA7ZmlsbDojZmY3ZjAwfTg2JXtjb2xvcjpyZWQ7ZmlsbDpyZWR9fXN2Z3tmb250LWZhbWlseTotYXBwbGUtc3lzdGVtLEJsaW5rTWFjU3lzdGVtRm9udCxTZWdvZSBVSSxIZWx2ZXRpY2EsQXJpYWwsc2Fucy1zZXJpZixBcHBsZSBDb2xvciBFbW9qaSxTZWdvZSBVSSBFbW9qaTtmb250LXNpemU6MTRweDtjb2xvcjojNzc3fWgye21hcmdpbjo4cHggMCAycHg7cGFkZGluZzowO2NvbG9yOiMwMzY2ZDY7Zm9udC13ZWlnaHQ6NDAwO2ZvbnQtc2l6ZToxNnB4fWgyIHN2Z3tmaWxsOmN1cnJlbnRDb2xvcn1zZWN0aW9uJmd0Oy5maWVsZHttYXJnaW4tbGVmdDo1cHg7bWFyZ2luLXJpZ2h0OjVweH0uZmllbGR7ZGlzcGxheTpmbGV4O2FsaWduLWl0ZW1zOmNlbnRlcjttYXJnaW4tYm90dG9tOjJweDt3aGl0ZS1zcGFjZTpub3dyYXB9LmZpZWxkIHN2Z3ttYXJnaW46MCA4cHg7ZmlsbDojOTU5ZGE1O2ZsZXgtc2hyaW5rOjB9LnJvd3tkaXNwbGF5OmZsZXg7ZmxleC13cmFwOndyYXB9LnJvdyBzZWN0aW9ue2ZsZXg6MSAxIDB9LmNhbGVuZGFyLmZpZWxke21hcmdpbjo0cHggMCA0cHggN3B4fS5jYWxlbmRhciAuZGF5e291dGxpbmU6MXB4IHNvbGlkIHJnYmEoMjcsMzEsMzUsLjA0KTtvdXRsaW5lLW9mZnNldDotMXB4fXN2Zy5jYWxlbmRhcnttYXJnaW4tbGVmdDoxM3B4O21hcmdpbi10b3A6NHB4fXN2Zy5jYWxlbmRhciB0ZXh0e2ZvbnQtc2l6ZToxOHB4O2ZpbGw6Y3VycmVudENvbG9yfTpyb290ey0tY29sb3ItY2FsZW5kYXItZ3JhcGgtZGF5LWJnOiNlYmVkZjA7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktYm9yZGVyOnJnYmEoMjcsMzEsMzUsMC4wNik7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDEtYmc6IzliZTlhODstLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1MMi1iZzojNDBjNDYzOy0tY29sb3ItY2FsZW5kYXItZ3JhcGgtZGF5LUwzLWJnOiMzMGExNGU7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDQtYmc6IzIxNmUzOTstLWNvbG9yLWNhbGVuZGFyLWhhbGxvd2Vlbi1ncmFwaC1kYXktTDEtYmc6I2ZmZWU0YTstLWNvbG9yLWNhbGVuZGFyLWhhbGxvd2Vlbi1ncmFwaC1kYXktTDItYmc6I2ZmYzUwMTstLWNvbG9yLWNhbGVuZGFyLWhhbGxvd2Vlbi1ncmFwaC1kYXktTDMtYmc6I2ZlOTYwMDstLWNvbG9yLWNhbGVuZGFyLWhhbGxvd2Vlbi1ncmFwaC1kYXktTDQtYmc6IzAzMDAxYzstLWNvbG9yLWNhbGVuZGFyLXdpbnRlci1ncmFwaC1kYXktTDEtYmc6IzBhMzA2OTstLWNvbG9yLWNhbGVuZGFyLXdpbnRlci1ncmFwaC1kYXktTDItYmc6IzA5NjlkYTstLWNvbG9yLWNhbGVuZGFyLXdpbnRlci1ncmFwaC1kYXktTDMtYmc6IzU0YWVmZjstLWNvbG9yLWNhbGVuZGFyLXdpbnRlci1ncmFwaC1kYXktTDQtYmc6I2I2ZTNmZjstLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1MNC1ib3JkZXI6cmdiYSgyNywzMSwzNSwwLjA2KTstLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1MMy1ib3JkZXI6cmdiYSgyNywzMSwzNSwwLjA2KTstLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1MMi1ib3JkZXI6cmdiYSgyNywzMSwzNSwwLjA2KTstLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1MMS1ib3JkZXI6cmdiYSgyNywzMSwzNSwwLjA2KX0jbWV0cmljcy1lbmR7d2lkdGg6MTAwJX08L3N0eWxlPgogICAgPHN0eWxlLz4KICAgIDxmb3JlaWduT2JqZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPgogICAgICAgIDxkaXYgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWwiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBjbGFzcz0iaXRlbXMtd3JhcHBlciI+CiAgICAgICAgICAgIDxzZWN0aW9uPgogICAgICAgICAgICAgICAgPGgyIGNsYXNzPSJmaWVsZCI+CiAgICAgICAgICAgICAgICAgICAgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2Ij4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNC43NSAwYS43NS43NSAwIDAxLjc1Ljc1VjJoNVYuNzVhLjc1Ljc1IDAgMDExLjUgMFYyaDEuMjVjLjk2NiAwIDEuNzUuNzg0IDEuNzUgMS43NXYxMC41QTEuNzUgMS43NSAwIDAxMTMuMjUgMTZIMi43NUExLjc1IDEuNzUgMCAwMTEgMTQuMjVWMy43NUMxIDIuNzg0IDEuNzg0IDIgMi43NSAySDRWLjc1QS43NS43NSAwIDAxNC43NSAwem0wIDMuNWg4LjVhLjI1LjI1IDAgMDEuMjUuMjVWNmgtMTFWMy43NWEuMjUuMjUgMCAwMS4yNS0uMjVoMnptLTIuMjUgNHY2Ljc1YzAgLjEzOC4xMTIuMjUuMjUuMjVoMTAuNWEuMjUuMjUgMCAwMC4yNS0uMjVWNy41aC0xMXoiLz4KICAgICAgICAgICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgICAgICAgICBDb250cmlidXRpb25zIGNhbGVuZGFyCiAgICAgICAgICAgICAgICA8L2gyPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0icm93Ij4KICAgICAgICAgICAgICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgICAgICAgICAgICAgICAgPHN2ZyBjbGFzcz0iY2FsZW5kYXIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwLDAgNzk1LDEzMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLCAxNCkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZXh0IHg9IjAiIHk9IjAiPjIwMjQ8L3RleHQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwgMCkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSIxOSIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiBmaWxsPSIjMzBhMTRlIiByeD0iMiIgcnk9IjIiLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgY2xhc3M9ImRheSIgeD0iMCIgeT0iMzQiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSIgZmlsbD0iIzMwYTE0ZSIgcng9IjIiIHJ5PSIyIi8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxyZWN0IGNsYXNzPSJkYXkiIHg9IjAiIHk9IjQ5IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiMzMGExNGUiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSI2NCIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiBmaWxsPSIjMzBhMTRlIiByeD0iMiIgcnk9IjIiLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgY2xhc3M9ImRheSIgeD0iMCIgeT0iNzkiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSIgZmlsbD0iIzMwYTE0ZSIgcng9IjIiIHJ5PSIyIi8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxyZWN0IGNsYXNzPSJkYXkiIHg9IjAiIHk9Ijk0IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiM0MGM0NjMiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNSwgMCkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSI0IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiM0MGM0NjMiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSIxOSIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiBmaWxsPSIjNDBjNDYzIiByeD0iMiIgcnk9IjIiLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgY2xhc3M9ImRheSIgeD0iMCIgeT0iMzQiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSIgZmlsbD0iIzQwYzQ2MyIgcng9IjIiIHJ5PSIyIi8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxyZWN0IGNsYXNzPSJkYXkiIHg9IjAiIHk9IjQ5IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiMyMTZlMzkiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSI2NCIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiBmaWxsPSIjMzBhMTRlIiByeD0iMiIgcnk9IjIiLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgY2xhc3M9ImRheSIgeD0iMCIgeT0iNzkiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSIgZmlsbD0iIzMwYTE0ZSIgcng9IjIiIHJ5PSIyIi8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxyZWN0IGNsYXNzPSJkYXkiIHg9IjAiIHk9Ijk0IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiMzMGExNGUiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMCwgMCkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSI0IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiMzMGExNGUiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSIxOSIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiBmaWxsPSIjMzBhMTRlIiByeD0iMiIgcnk9IjIiLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgY2xhc3M9ImRheSIgeD0iMCIgeT0iMzQiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSIgZmlsbD0iIzMwYTE0ZSIgcng9IjIiIHJ5PSIyIi8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxyZWN0IGNsYXNzPSJkYXkiIHg9IjAiIHk9IjQ5IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiMzMGExNGUiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSI2NCIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiBmaWxsPSIjMzBhMTRlIiByeD0iMiIgcnk9IjIiLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgY2xhc3M9ImRheSIgeD0iMCIgeT0iNzkiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSIgZmlsbD0iIzMwYTE0ZSIgcng9IjIiIHJ5PSIyIi8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxyZWN0IGNsYXNzPSJkYXkiIHg9IjAiIHk9Ijk0IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiMzMGExNGUiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0NSwgMCkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSI0IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiMzMGExNGUiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSIxOSIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiBmaWxsPSIjMzBhMTRlIiByeD0iMiIgcnk9IjIiLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgY2xhc3M9ImRheSIgeD0iMCIgeT0iMzQiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSIgZmlsbD0iIzMwYTE0ZSIgcng9IjIiIHJ5PSIyIi8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxyZWN0IGNsYXNzPSJkYXkiIHg9IjAiIHk9IjQ5IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiMzMGExNGUiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSI2NCIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiBmaWxsPSIjNDBjNDYzIiByeD0iMiIgcnk9IjIiLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgY2xhc3M9ImRheSIgeD0iMCIgeT0iNzkiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSIgZmlsbD0iIzIxNmUzOSIgcng9IjIiIHJ5PSIyIi8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxyZWN0IGNsYXNzPSJkYXkiIHg9IjAiIHk9Ijk0IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiMzMGExNGUiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2MCwgMCkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSI0IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiMzMGExNGUiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSIxOSIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiBmaWxsPSIjNDBjNDYzIiByeD0iMiIgcnk9IjIiLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgY2xhc3M9ImRheSIgeD0iMCIgeT0iMzQiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSIgZmlsbD0iIzQwYzQ2MyIgcng9IjIiIHJ5PSIyIi8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxyZWN0IGNsYXNzPSJkYXkiIHg9IjAiIHk9IjQ5IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiM0MGM0NjMiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSI2NCIgd2lkdG'... 10455 more characters,
+2024-03-28T04:24:11.7297417Z     request: { agent: [Agent], hook: [Function: bound bound register] }
+2024-03-28T04:24:11.7297878Z   }
+2024-03-28T04:24:11.7298065Z }
+2024-03-28T04:24:11.7298461Z undefined
+2024-03-28T04:24:11.7298715Z An error occurred, logging debug message :
+2024-03-28T04:24:11.7299354Z TypeError: Cannot read properties of null (reading 'oid')
+2024-03-28T04:24:11.7299852Z     at file:///metrics/source/app/action/index.mjs:307:38
+2024-03-28T04:24:11.7300439Z     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-03-28T04:24:11.7301237Z ##[group]Attempt 1/3
+2024-03-28T04:24:11.7301510Z metrics/compute/seanpm2001 > start
+2024-03-28T04:24:11.7301797Z {
+2024-03-28T04:24:11.7302026Z   template: 'classic',
+2024-03-28T04:24:11.7302309Z   'debug.flags': '',
+2024-03-28T04:24:11.7302900Z   markdown: 'TEMPLATE.md',
+2024-03-28T04:24:11.7303189Z   'extras.css': '',
+2024-03-28T04:24:11.7303448Z   'extras.js': '',
+2024-03-28T04:24:11.7303733Z   'config.timezone': '',
+2024-03-28T04:24:11.7304020Z   'config.order': [],
+2024-03-28T04:24:11.7304302Z   'config.twemoji': false,
+2024-03-28T04:24:11.7304599Z   'config.gemoji': true,
+2024-03-28T04:24:11.7304886Z   'config.octicon': false,
+2024-03-28T04:24:11.7305184Z   'config.display': 'regular',
+2024-03-28T04:24:11.7305510Z   'config.animations': true,
+2024-03-28T04:24:11.7305822Z   'config.base64': true,
+2024-03-28T04:24:11.7306131Z   'config.padding': '0, 8 + 11%',
+2024-03-28T04:24:11.7306465Z   'config.output': 'auto',
+2024-03-28T04:24:11.7306763Z   'config.presets': [],
+2024-03-28T04:24:11.7307062Z   'notice.releases': true,
+2024-03-28T04:24:11.7307368Z   'experimental.features': [],
+2024-03-28T04:24:11.7307683Z   hireable: false,
+2024-03-28T04:24:11.7307918Z   skip: false,
+2024-03-28T04:24:11.7308185Z   'repositories.batch': 100,
+2024-03-28T04:24:11.7308516Z   'repositories.forks': false,
+2024-03-28T04:24:11.7308885Z   'repositories.affiliations': [ 'owner' ],
+2024-03-28T04:24:11.7309279Z   'repositories.skipped': [],
+2024-03-28T04:24:11.7309589Z   'users.ignored': [
+2024-03-28T04:24:11.7309861Z     'github-actions[bot]',
+2024-03-28T04:24:11.7310406Z     'dependabot[bot]',
+2024-03-28T04:24:11.7310706Z     'dependabot-preview[bot]',
+2024-03-28T04:24:11.7311015Z     'actions-user',
+2024-03-28T04:24:11.7311277Z     'action@github.com'
+2024-03-28T04:24:11.7311536Z   ],
+2024-03-28T04:24:11.7311805Z   'commits.authoring': [ '.user.login' ],
+2024-03-28T04:24:11.7312128Z   base: false,
+2024-03-28T04:24:11.7312383Z   'base.header': false,
+2024-03-28T04:24:11.7312675Z   'base.activity': false,
+2024-03-28T04:24:11.7312973Z   'base.community': false,
+2024-03-28T04:24:11.7313282Z   'base.repositories': false,
+2024-03-28T04:24:11.7313592Z   'base.metadata': false,
+2024-03-28T04:24:11.7313908Z   'base.indepth': false,
+2024-03-28T04:24:11.7314160Z   calendar: true,
+2024-03-28T04:24:11.7314426Z   'calendar.limit': 1
+2024-03-28T04:24:11.7314661Z }
+2024-03-28T04:24:11.7314938Z metrics/compute/seanpm2001 > output format set to svg
+2024-03-28T04:24:11.7319582Z metrics/compute/seanpm2001 > content order : base.header,introduction,base.activity+community,base.repositories,lines,followup,discussions,languages,notable,projects,repositories,gists,pagespeed,habits,topics,music,nightscout,posts,rss,tweets,isocalendar,calendar,stars,starlists,stargazers,people,activity,reactions,anilist,wakatime,skyline,support,stackoverflow,leetcode,stock,achievements,screenshot,code,chess,sponsors,sponsorships,poopmap,16personalities,fortune,splatoon,steam
+2024-03-28T04:24:11.7324119Z metrics/compute/seanpm2001 > compute
+2024-03-28T04:24:11.7324464Z metrics/compute/seanpm2001/base > started
+2024-03-28T04:24:11.7325138Z metrics/compute/seanpm2001/base > affiliations constraints , ownerAffiliations: [OWNER], affiliations: [OWNER]
+2024-03-28T04:24:11.7325830Z metrics/compute/seanpm2001/base > account user
+2024-03-28T04:24:11.7326287Z metrics/compute/seanpm2001/base > applying postprocessing
+2024-03-28T04:24:11.7326817Z metrics/compute/seanpm2001/base > successfully loaded bulk query
+2024-03-28T04:24:11.7327589Z metrics/compute/seanpm2001/base > loading user commits history
+2024-03-28T04:24:11.7328181Z metrics/compute/seanpm2001/base > retrieving repositories after null
+2024-03-28T04:24:11.7329075Z metrics/compute/seanpm2001/base > retrieved 100 repositories after Y3Vyc29yOnYyOpK5MjAyNC0wMy0xNFQxNDo1ODozMC0wNzowMM4uAaFF
+2024-03-28T04:24:11.7329982Z metrics/compute/seanpm2001/base > keeping only 100 repositories
+2024-03-28T04:24:11.7330508Z metrics/compute/seanpm2001/base > loaded 100 repositories
+2024-03-28T04:24:11.7331113Z metrics/compute/seanpm2001/base > retrieving repositoriesContributedTo after null
+2024-03-28T04:24:11.7332117Z metrics/compute/seanpm2001/base > retrieved 1 repositoriesContributedTo after Y3Vyc29yOnYyOpK5MjAyNC0wMy0yN1QwNzoyMTozNy0wNzowMM4d6CQ4
+2024-03-28T04:24:11.7333380Z metrics/compute/seanpm2001/base > retrieved less repositories than expected, probably no more to fetch
+2024-03-28T04:24:11.7334175Z metrics/compute/seanpm2001/base > keeping only 100 repositoriesContributedTo
+2024-03-28T04:24:11.7334829Z metrics/compute/seanpm2001/base > loaded 1 repositoriesContributedTo
+2024-03-28T04:24:11.7335444Z metrics/compute/seanpm2001/base > patching packages count if possible
+2024-03-28T04:24:11.7336105Z metrics/compute/seanpm2001/base > patched packages count (added 0 from ghcr.io)
+2024-03-28T04:24:11.7337676Z metrics/compute/seanpm2001/base > shared options > {"repositories.skipped":[],"users.ignored":["github-actions[bot]","dependabot[bot]","dependabot-preview[bot]","actions-user","action@github.com"],"commits.authoring":["seanpm2001"],"repositories.batch":100}
+2024-03-28T04:24:11.7339020Z metrics/compute/seanpm2001/base > graphql query > account user > success
+2024-03-28T04:24:11.7339567Z metrics/compute/seanpm2001 > formatting common metrics
+2024-03-28T04:24:11.7340013Z metrics/compute/seanpm2001 > animations enabled
+2024-03-28T04:24:11.7340390Z metrics/compute/seanpm2001 > extras > true
+2024-03-28T04:24:11.7340821Z metrics/compute/seanpm2001/plugins > calendar > started
+2024-03-28T04:24:11.7341393Z metrics/compute/seanpm2001/plugins > calendar > processing years 2024 to 2024
+2024-03-28T04:24:11.7342035Z metrics/compute/seanpm2001/plugins > calendar > processing year 2024
+2024-03-28T04:24:11.7342966Z metrics/compute/seanpm2001/plugins > calendar > loading calendar from "2024-01-01T00:00:00.000Z" to "2024-01-27T23:59:59.999Z"
+2024-03-28T04:24:11.7344116Z metrics/compute/seanpm2001/plugins > calendar > loading calendar from "2024-01-28T00:00:00.000Z" to "2024-02-24T23:59:59.999Z"
+2024-03-28T04:24:11.7345243Z metrics/compute/seanpm2001/plugins > calendar > loading calendar from "2024-02-25T00:00:00.000Z" to "2024-03-23T23:59:59.999Z"
+2024-03-28T04:24:11.7346370Z metrics/compute/seanpm2001/plugins > calendar > loading calendar from "2024-03-24T00:00:00.000Z" to "2024-03-27T23:59:59.999Z"
+2024-03-28T04:24:11.7347142Z metrics/compute/seanpm2001/plugins > calendar > completed
+2024-03-28T04:24:11.7347521Z {
+2024-03-28T04:24:11.7347750Z   name: 'calendar',
+2024-03-28T04:24:11.7347982Z   result: {
+2024-03-28T04:24:11.7348180Z     years: [
+2024-03-28T04:24:11.7348385Z       {
+2024-03-28T04:24:11.7348579Z         year: 2024,
+2024-03-28T04:24:11.7348802Z         weeks: [
+2024-03-28T04:24:11.7349012Z           {
+2024-03-28T04:24:11.7349230Z             contributionDays: [
+2024-03-28T04:24:11.7349512Z               {
+2024-03-28T04:24:11.7349749Z                 contributionCount: 352,
+2024-03-28T04:24:11.7350330Z                 color: '#30a14e',
+2024-03-28T04:24:11.7350664Z                 date: '2024-01-01'
+2024-03-28T04:24:11.7350945Z               },
+2024-03-28T04:24:11.7351152Z               {
+2024-03-28T04:24:11.7351391Z                 contributionCount: 339,
+2024-03-28T04:24:11.7351745Z                 color: '#30a14e',
+2024-03-28T04:24:11.7352065Z                 date: '2024-01-02'
+2024-03-28T04:24:11.7352342Z               },
+2024-03-28T04:24:11.7352555Z               {
+2024-03-28T04:24:11.7352796Z                 contributionCount: 329,
+2024-03-28T04:24:11.7353315Z                 color: '#30a14e',
+2024-03-28T04:24:11.7353632Z                 date: '2024-01-03'
+2024-03-28T04:24:11.7353907Z               },
+2024-03-28T04:24:11.7354114Z               {
+2024-03-28T04:24:11.7354339Z                 contributionCount: 340,
+2024-03-28T04:24:11.7354693Z                 color: '#30a14e',
+2024-03-28T04:24:11.7355012Z                 date: '2024-01-04'
+2024-03-28T04:24:11.7355289Z               },
+2024-03-28T04:24:11.7355491Z               {
+2024-03-28T04:24:11.7355723Z                 contributionCount: 338,
+2024-03-28T04:24:11.7356073Z                 color: '#30a14e',
+2024-03-28T04:24:11.7356384Z                 date: '2024-01-05'
+2024-03-28T04:24:11.7356653Z               },
+2024-03-28T04:24:11.7356861Z               {
+2024-03-28T04:24:11.7357095Z                 contributionCount: 260,
+2024-03-28T04:24:11.7357584Z                 color: '#40c463',
+2024-03-28T04:24:11.7357899Z                 date: '2024-01-06'
+2024-03-28T04:24:11.7358177Z               }
+2024-03-28T04:24:11.7358380Z             ]
+2024-03-28T04:24:11.7358575Z           },
+2024-03-28T04:24:11.7358774Z           {
+2024-03-28T04:24:11.7358989Z             contributionDays: [
+2024-03-28T04:24:11.7359258Z               {
+2024-03-28T04:24:11.7359487Z                 contributionCount: 225,
+2024-03-28T04:24:11.7359835Z                 color: '#40c463',
+2024-03-28T04:24:11.7360147Z                 date: '2024-01-07'
+2024-03-28T04:24:11.7360421Z               },
+2024-03-28T04:24:11.7360628Z               {
+2024-03-28T04:24:11.7360860Z                 contributionCount: 222,
+2024-03-28T04:24:11.7361202Z                 color: '#40c463',
+2024-03-28T04:24:11.7361517Z                 date: '2024-01-08'
+2024-03-28T04:24:11.7361788Z               },
+2024-03-28T04:24:11.7361996Z               {
+2024-03-28T04:24:11.7362219Z                 contributionCount: 239,
+2024-03-28T04:24:11.7362572Z                 color: '#40c463',
+2024-03-28T04:24:11.7362888Z                 date: '2024-01-09'
+2024-03-28T04:24:11.7363164Z               },
+2024-03-28T04:24:11.7363365Z               {
+2024-03-28T04:24:11.7363597Z                 contributionCount: 569,
+2024-03-28T04:24:11.7363939Z                 color: '#216e39',
+2024-03-28T04:24:11.7364252Z                 date: '2024-01-10'
+2024-03-28T04:24:11.7364519Z               },
+2024-03-28T04:24:11.7364727Z               {
+2024-03-28T04:24:11.7364960Z                 contributionCount: 436,
+2024-03-28T04:24:11.7365296Z                 color: '#30a14e',
+2024-03-28T04:24:11.7365611Z                 date: '2024-01-11'
+2024-03-28T04:24:11.7365884Z               },
+2024-03-28T04:24:11.7366086Z               {
+2024-03-28T04:24:11.7366320Z                 contributionCount: 296,
+2024-03-28T04:24:11.7366666Z                 color: '#30a14e',
+2024-03-28T04:24:11.7366978Z                 date: '2024-01-12'
+2024-03-28T04:24:11.7367250Z               },
+2024-03-28T04:24:11.7367454Z               {
+2024-03-28T04:24:11.7367682Z                 contributionCount: 353,
+2024-03-28T04:24:11.7368030Z                 color: '#30a14e',
+2024-03-28T04:24:11.7368335Z                 date: '2024-01-13'
+2024-03-28T04:24:11.7368602Z               }
+2024-03-28T04:24:11.7368804Z             ]
+2024-03-28T04:24:11.7369000Z           },
+2024-03-28T04:24:11.7369199Z           {
+2024-03-28T04:24:11.7369413Z             contributionDays: [
+2024-03-28T04:24:11.7369691Z               {
+2024-03-28T04:24:11.7369915Z                 contributionCount: 327,
+2024-03-28T04:24:11.7370260Z                 color: '#30a14e',
+2024-03-28T04:24:11.7370576Z                 date: '2024-01-14'
+2024-03-28T04:24:11.7370842Z               },
+2024-03-28T04:24:11.7371042Z               {
+2024-03-28T04:24:11.7371272Z                 contributionCount: 365,
+2024-03-28T04:24:11.7371613Z                 color: '#30a14e',
+2024-03-28T04:24:11.7371923Z                 date: '2024-01-15'
+2024-03-28T04:24:11.7372198Z               },
+2024-03-28T04:24:11.7372404Z               {
+2024-03-28T04:24:11.7372636Z                 contributionCount: 305,
+2024-03-28T04:24:11.7373113Z                 color: '#30a14e',
+2024-03-28T04:24:11.7373428Z                 date: '2024-01-16'
+2024-03-28T04:24:11.7373696Z               },
+2024-03-28T04:24:11.7373897Z               {
+2024-03-28T04:24:11.7374126Z                 contributionCount: 368,
+2024-03-28T04:24:11.7374473Z                 color: '#30a14e',
+2024-03-28T04:24:11.7374781Z                 date: '2024-01-17'
+2024-03-28T04:24:11.7375046Z               },
+2024-03-28T04:24:11.7375253Z               {
+2024-03-28T04:24:11.7375484Z                 contributionCount: 309,
+2024-03-28T04:24:11.7375825Z                 color: '#30a14e',
+2024-03-28T04:24:11.7376128Z                 date: '2024-01-18'
+2024-03-28T04:24:11.7376396Z               },
+2024-03-28T04:24:11.7376606Z               {
+2024-03-28T04:24:11.7376827Z                 contributionCount: 333,
+2024-03-28T04:24:11.7377290Z                 color: '#30a14e',
+2024-03-28T04:24:11.7377605Z                 date: '2024-01-19'
+2024-03-28T04:24:11.7377879Z               },
+2024-03-28T04:24:11.7378079Z               {
+2024-03-28T04:24:11.7378307Z                 contributionCount: 306,
+2024-03-28T04:24:11.7378649Z                 color: '#30a14e',
+2024-03-28T04:24:11.7378967Z                 date: '2024-01-20'
+2024-03-28T04:24:11.7379234Z               }
+2024-03-28T04:24:11.7379435Z             ]
+2024-03-28T04:24:11.7379637Z           },
+2024-03-28T04:24:11.7379831Z           {
+2024-03-28T04:24:11.7380045Z             contributionDays: [
+2024-03-28T04:24:11.7380320Z               {
+2024-03-28T04:24:11.7380551Z                 contributionCount: 310,
+2024-03-28T04:24:11.7380900Z                 color: '#30a14e',
+2024-03-28T04:24:11.7381212Z                 date: '2024-01-21'
+2024-03-28T04:24:11.7381485Z               },
+2024-03-28T04:24:11.7381689Z               {
+2024-03-28T04:24:11.7381926Z                 contributionCount: 333,
+2024-03-28T04:24:11.7382289Z                 color: '#30a14e',
+2024-03-28T04:24:11.7382607Z                 date: '2024-01-22'
+2024-03-28T04:24:11.7382877Z               },
+2024-03-28T04:24:11.7383084Z               {
+2024-03-28T04:24:11.7383317Z                 contributionCount: 388,
+2024-03-28T04:24:11.7383660Z                 color: '#30a14e',
+2024-03-28T04:24:11.7383970Z                 date: '2024-01-23'
+2024-03-28T04:24:11.7384243Z               },
+2024-03-28T04:24:11.7384448Z               {
+2024-03-28T04:24:11.7384675Z                 contributionCount: 412,
+2024-03-28T04:24:11.7385020Z                 color: '#30a14e',
+2024-03-28T04:24:11.7385334Z                 date: '2024-01-24'
+2024-03-28T04:24:11.7385600Z               },
+2024-03-28T04:24:11.7385800Z               {
+2024-03-28T04:24:11.7386029Z                 contributionCount: 265,
+2024-03-28T04:24:11.7386374Z                 color: '#40c463',
+2024-03-28T04:24:11.7386687Z                 date: '2024-01-25'
+2024-03-28T04:24:11.7386954Z               },
+2024-03-28T04:24:11.7387164Z               {
+2024-03-28T04:24:11.7387393Z                 contributionCount: 586,
+2024-03-28T04:24:11.7387739Z                 color: '#216e39',
+2024-03-28T04:24:11.7388050Z                 date: '2024-01-26'
+2024-03-28T04:24:11.7388320Z               },
+2024-03-28T04:24:11.7388530Z               {
+2024-03-28T04:24:11.7388761Z                 contributionCount: 392,
+2024-03-28T04:24:11.7389096Z                 color: '#30a14e',
+2024-03-28T04:24:11.7389408Z                 date: '2024-01-27'
+2024-03-28T04:24:11.7389674Z               }
+2024-03-28T04:24:11.7389870Z             ]
+2024-03-28T04:24:11.7390187Z           },
+2024-03-28T04:24:11.7390391Z           {
+2024-03-28T04:24:11.7390601Z             contributionDays: [
+2024-03-28T04:24:11.7390876Z               {
+2024-03-28T04:24:11.7391104Z                 contributionCount: 389,
+2024-03-28T04:24:11.7391447Z                 color: '#30a14e',
+2024-03-28T04:24:11.7391751Z                 date: '2024-01-28'
+2024-03-28T04:24:11.7392035Z               },
+2024-03-28T04:24:11.7392241Z               {
+2024-03-28T04:24:11.7392465Z                 contributionCount: 295,
+2024-03-28T04:24:11.7392974Z                 color: '#40c463',
+2024-03-28T04:24:11.7393290Z                 date: '2024-01-29'
+2024-03-28T04:24:11.7393562Z               },
+2024-03-28T04:24:11.7393762Z               {
+2024-03-28T04:24:11.7393992Z                 contributionCount: 267,
+2024-03-28T04:24:11.7394334Z                 color: '#40c463',
+2024-03-28T04:24:11.7394649Z                 date: '2024-01-30'
+2024-03-28T04:24:11.7394910Z               },
+2024-03-28T04:24:11.7395120Z               {
+2024-03-28T04:24:11.7395353Z                 contributionCount: 188,
+2024-03-28T04:24:11.7395689Z                 color: '#40c463',
+2024-03-28T04:24:11.7395998Z                 date: '2024-01-31'
+2024-03-28T04:24:11.7396266Z               },
+2024-03-28T04:24:11.7396473Z               {
+2024-03-28T04:24:11.7396694Z                 contributionCount: 223,
+2024-03-28T04:24:11.7397182Z                 color: '#40c463',
+2024-03-28T04:24:11.7397497Z                 date: '2024-02-01'
+2024-03-28T04:24:11.7397772Z               },
+2024-03-28T04:24:11.7397972Z               {
+2024-03-28T04:24:11.7398199Z                 contributionCount: 544,
+2024-03-28T04:24:11.7398538Z                 color: '#216e39',
+2024-03-28T04:24:11.7398843Z                 date: '2024-02-02'
+2024-03-28T04:24:11.7399108Z               },
+2024-03-28T04:24:11.7399311Z               {
+2024-03-28T04:24:11.7399539Z                 contributionCount: 306,
+2024-03-28T04:24:11.7399872Z                 color: '#40c463',
+2024-03-28T04:24:11.7400185Z                 date: '2024-02-03'
+2024-03-28T04:24:11.7400453Z               }
+2024-03-28T04:24:11.7400654Z             ]
+2024-03-28T04:24:11.7400853Z           },
+2024-03-28T04:24:11.7401056Z           {
+2024-03-28T04:24:11.7401271Z             contributionDays: [
+2024-03-28T04:24:11.7401539Z               {
+2024-03-28T04:24:11.7401766Z                 contributionCount: 320,
+2024-03-28T04:24:11.7402118Z                 color: '#30a14e',
+2024-03-28T04:24:11.7402427Z                 date: '2024-02-04'
+2024-03-28T04:24:11.7402696Z               },
+2024-03-28T04:24:11.7402904Z               {
+2024-03-28T04:24:11.7403131Z                 contributionCount: 320,
+2024-03-28T04:24:11.7403469Z                 color: '#30a14e',
+2024-03-28T04:24:11.7403783Z                 date: '2024-02-05'
+2024-03-28T04:24:11.7404051Z               },
+2024-03-28T04:24:11.7404258Z               {
+2024-03-28T04:24:11.7404479Z                 contributionCount: 325,
+2024-03-28T04:24:11.7404818Z                 color: '#30a14e',
+2024-03-28T04:24:11.7405129Z                 date: '2024-02-06'
+2024-03-28T04:24:11.7405394Z               },
+2024-03-28T04:24:11.7405593Z               {
+2024-03-28T04:24:11.7405821Z                 contributionCount: 204,
+2024-03-28T04:24:11.7406163Z                 color: '#40c463',
+2024-03-28T04:24:11.7406469Z                 date: '2024-02-07'
+2024-03-28T04:24:11.7406743Z               },
+2024-03-28T04:24:11.7406952Z               {
+2024-03-28T04:24:11.7407180Z                 contributionCount: 398,
+2024-03-28T04:24:11.7407519Z                 color: '#30a14e',
+2024-03-28T04:24:11.7407829Z                 date: '2024-02-08'
+2024-03-28T04:24:11.7408101Z               },
+2024-03-28T04:24:11.7408300Z               {
+2024-03-28T04:24:11.7408525Z                 contributionCount: 212,
+2024-03-28T04:24:11.7408866Z                 color: '#40c463',
+2024-03-28T04:24:11.7409178Z                 date: '2024-02-09'
+2024-03-28T04:24:11.7409441Z               },
+2024-03-28T04:24:11.7409647Z               {
+2024-03-28T04:24:11.7409874Z                 contributionCount: 311,
+2024-03-28T04:24:11.7410213Z                 color: '#40c463',
+2024-03-28T04:24:11.7410516Z                 date: '2024-02-10'
+2024-03-28T04:24:11.7410780Z               }
+2024-03-28T04:24:11.7410981Z             ]
+2024-03-28T04:24:11.7411178Z           },
+2024-03-28T04:24:11.7411379Z           {
+2024-03-28T04:24:11.7411598Z             contributionDays: [
+2024-03-28T04:24:11.7411871Z               {
+2024-03-28T04:24:11.7412091Z                 contributionCount: 245,
+2024-03-28T04:24:11.7412580Z                 color: '#40c463',
+2024-03-28T04:24:11.7412891Z                 date: '2024-02-11'
+2024-03-28T04:24:11.7413153Z               },
+2024-03-28T04:24:11.7413355Z               {
+2024-03-28T04:24:11.7413582Z                 contributionCount: 390,
+2024-03-28T04:24:11.7413920Z                 color: '#30a14e',
+2024-03-28T04:24:11.7414225Z                 date: '2024-02-12'
+2024-03-28T04:24:11.7414491Z               },
+2024-03-28T04:24:11.7414696Z               {
+2024-03-28T04:24:11.7414925Z                 contributionCount: 65,
+2024-03-28T04:24:11.7415266Z                 color: '#9be9a8',
+2024-03-28T04:24:11.7415578Z                 date: '2024-02-13'
+2024-03-28T04:24:11.7415845Z               },
+2024-03-28T04:24:11.7416047Z               {
+2024-03-28T04:24:11.7416277Z                 contributionCount: 51,
+2024-03-28T04:24:11.7416749Z                 color: '#9be9a8',
+2024-03-28T04:24:11.7417062Z                 date: '2024-02-14'
+2024-03-28T04:24:11.7417336Z               },
+2024-03-28T04:24:11.7417542Z               {
+2024-03-28T04:24:11.7417772Z                 contributionCount: 151,
+2024-03-28T04:24:11.7418116Z                 color: '#9be9a8',
+2024-03-28T04:24:11.7418421Z                 date: '2024-02-15'
+2024-03-28T04:24:11.7418689Z               },
+2024-03-28T04:24:11.7418894Z               {
+2024-03-28T04:24:11.7419115Z                 contributionCount: 637,
+2024-03-28T04:24:11.7419458Z                 color: '#216e39',
+2024-03-28T04:24:11.7419773Z                 date: '2024-02-16'
+2024-03-28T04:24:11.7420040Z               },
+2024-03-28T04:24:11.7420240Z               {
+2024-03-28T04:24:11.7420467Z                 contributionCount: 210,
+2024-03-28T04:24:11.7420808Z                 color: '#40c463',
+2024-03-28T04:24:11.7421118Z                 date: '2024-02-17'
+2024-03-28T04:24:11.7421384Z               }
+2024-03-28T04:24:11.7421586Z             ]
+2024-03-28T04:24:11.7421788Z           },
+2024-03-28T04:24:11.7421980Z           {
+2024-03-28T04:24:11.7422210Z             contributionDays: [
+2024-03-28T04:24:11.7422481Z               {
+2024-03-28T04:24:11.7422707Z                 contributionCount: 141,
+2024-03-28T04:24:11.7423079Z                 color: '#9be9a8',
+2024-03-28T04:24:11.7423392Z                 date: '2024-02-18'
+2024-03-28T04:24:11.7423665Z               },
+2024-03-28T04:24:11.7423864Z               {
+2024-03-28T04:24:11.7424092Z                 contributionCount: 145,
+2024-03-28T04:24:11.7424433Z                 color: '#9be9a8',
+2024-03-28T04:24:11.7424741Z                 date: '2024-02-19'
+2024-03-28T04:24:11.7425009Z               },
+2024-03-28T04:24:11.7425216Z               {
+2024-03-28T04:24:11.7425445Z                 contributionCount: 163,
+2024-03-28T04:24:11.7425785Z                 color: '#40c463',
+2024-03-28T04:24:11.7426086Z                 date: '2024-02-20'
+2024-03-28T04:24:11.7426359Z               },
+2024-03-28T04:24:11.7426564Z               {
+2024-03-28T04:24:11.7426788Z                 contributionCount: 165,
+2024-03-28T04:24:11.7427130Z                 color: '#40c463',
+2024-03-28T04:24:11.7427440Z                 date: '2024-02-21'
+2024-03-28T04:24:11.7427705Z               },
+2024-03-28T04:24:11.7427905Z               {
+2024-03-28T04:24:11.7428135Z                 contributionCount: 260,
+2024-03-28T04:24:11.7428476Z                 color: '#40c463',
+2024-03-28T04:24:11.7428790Z                 date: '2024-02-22'
+2024-03-28T04:24:11.7429052Z               },
+2024-03-28T04:24:11.7429259Z               {
+2024-03-28T04:24:11.7429484Z                 contributionCount: 193,
+2024-03-28T04:24:11.7429847Z                 color: '#40c463',
+2024-03-28T04:24:11.7430277Z                 date: '2024-02-23'
+2024-03-28T04:24:11.7430549Z               },
+2024-03-28T04:24:11.7430755Z               {
+2024-03-28T04:24:11.7430976Z                 contributionCount: 230,
+2024-03-28T04:24:11.7431322Z                 color: '#40c463',
+2024-03-28T04:24:11.7431632Z                 date: '2024-02-24'
+2024-03-28T04:24:11.7432063Z               }
+2024-03-28T04:24:11.7432261Z             ]
+2024-03-28T04:24:11.7432474Z           },
+2024-03-28T04:24:11.7432672Z           {
+2024-03-28T04:24:11.7432883Z             contributionDays: [
+2024-03-28T04:24:11.7433156Z               {
+2024-03-28T04:24:11.7433386Z                 contributionCount: 235,
+2024-03-28T04:24:11.7433729Z                 color: '#40c463',
+2024-03-28T04:24:11.7434036Z                 date: '2024-02-25'
+2024-03-28T04:24:11.7434305Z               },
+2024-03-28T04:24:11.7434511Z               {
+2024-03-28T04:24:11.7434733Z                 contributionCount: 262,
+2024-03-28T04:24:11.7435075Z                 color: '#40c463',
+2024-03-28T04:24:11.7435386Z                 date: '2024-02-26'
+2024-03-28T04:24:11.7435652Z               },
+2024-03-28T04:24:11.7435852Z               {
+2024-03-28T04:24:11.7436082Z                 contributionCount: 259,
+2024-03-28T04:24:11.7436570Z                 color: '#40c463',
+2024-03-28T04:24:11.7436881Z                 date: '2024-02-27'
+2024-03-28T04:24:11.7437147Z               },
+2024-03-28T04:24:11.7437354Z               {
+2024-03-28T04:24:11.7437589Z                 contributionCount: 1265,
+2024-03-28T04:24:11.7437936Z                 color: '#216e39',
+2024-03-28T04:24:11.7438246Z                 date: '2024-02-28'
+2024-03-28T04:24:11.7438515Z               },
+2024-03-28T04:24:11.7438721Z               {
+2024-03-28T04:24:11.7438943Z                 contributionCount: 376,
+2024-03-28T04:24:11.7439287Z                 color: '#30a14e',
+2024-03-28T04:24:11.7439598Z                 date: '2024-02-29'
+2024-03-28T04:24:11.7439868Z               },
+2024-03-28T04:24:11.7440066Z               {
+2024-03-28T04:24:11.7440293Z                 contributionCount: 201,
+2024-03-28T04:24:11.7440633Z                 color: '#40c463',
+2024-03-28T04:24:11.7440936Z                 date: '2024-03-01'
+2024-03-28T04:24:11.7441209Z               },
+2024-03-28T04:24:11.7441416Z               {
+2024-03-28T04:24:11.7441645Z                 contributionCount: 176,
+2024-03-28T04:24:11.7441985Z                 color: '#40c463',
+2024-03-28T04:24:11.7442298Z                 date: '2024-03-02'
+2024-03-28T04:24:11.7442566Z               }
+2024-03-28T04:24:11.7442761Z             ]
+2024-03-28T04:24:11.7442964Z           },
+2024-03-28T04:24:11.7443165Z           {
+2024-03-28T04:24:11.7443383Z             contributionDays: [
+2024-03-28T04:24:11.7443650Z               {
+2024-03-28T04:24:11.7443878Z                 contributionCount: 314,
+2024-03-28T04:24:11.7444221Z                 color: '#40c463',
+2024-03-28T04:24:11.7444530Z                 date: '2024-03-03'
+2024-03-28T04:24:11.7444789Z               },
+2024-03-28T04:24:11.7444995Z               {
+2024-03-28T04:24:11.7445224Z                 contributionCount: 42,
+2024-03-28T04:24:11.7445564Z                 color: '#9be9a8',
+2024-03-28T04:24:11.7445877Z                 date: '2024-03-04'
+2024-03-28T04:24:11.7446156Z               },
+2024-03-28T04:24:11.7446363Z               {
+2024-03-28T04:24:11.7446590Z                 contributionCount: 21,
+2024-03-28T04:24:11.7446940Z                 color: '#9be9a8',
+2024-03-28T04:24:11.7447254Z                 date: '2024-03-05'
+2024-03-28T04:24:11.7447525Z               },
+2024-03-28T04:24:11.7447724Z               {
+2024-03-28T04:24:11.7447951Z                 contributionCount: 233,
+2024-03-28T04:24:11.7448291Z                 color: '#40c463',
+2024-03-28T04:24:11.7448772Z                 date: '2024-03-06'
+2024-03-28T04:24:11.7449050Z               },
+2024-03-28T04:24:11.7449261Z               {
+2024-03-28T04:24:11.7449496Z                 contributionCount: 572,
+2024-03-28T04:24:11.7449835Z                 color: '#216e39',
+2024-03-28T04:24:11.7450150Z                 date: '2024-03-07'
+2024-03-28T04:24:11.7450421Z               },
+2024-03-28T04:24:11.7450625Z               {
+2024-03-28T04:24:11.7450855Z                 contributionCount: 19,
+2024-03-28T04:24:11.7451203Z                 color: '#9be9a8',
+2024-03-28T04:24:11.7451517Z                 date: '2024-03-08'
+2024-03-28T04:24:11.7451929Z               },
+2024-03-28T04:24:11.7452137Z               {
+2024-03-28T04:24:11.7452371Z                 contributionCount: 212,
+2024-03-28T04:24:11.7452723Z                 color: '#40c463',
+2024-03-28T04:24:11.7453032Z                 date: '2024-03-09'
+2024-03-28T04:24:11.7453302Z               }
+2024-03-28T04:24:11.7453510Z             ]
+2024-03-28T04:24:11.7453715Z           },
+2024-03-28T04:24:11.7453925Z           {
+2024-03-28T04:24:11.7454143Z             contributionDays: [
+2024-03-28T04:24:11.7454416Z               {
+2024-03-28T04:24:11.7454640Z                 contributionCount: 363,
+2024-03-28T04:24:11.7454988Z                 color: '#30a14e',
+2024-03-28T04:24:11.7455303Z                 date: '2024-03-10'
+2024-03-28T04:24:11.7455574Z               },
+2024-03-28T04:24:11.7455777Z               {
+2024-03-28T04:24:11.7456012Z                 contributionCount: 452,
+2024-03-28T04:24:11.7456479Z                 color: '#30a14e',
+2024-03-28T04:24:11.7456790Z                 date: '2024-03-11'
+2024-03-28T04:24:11.7457067Z               },
+2024-03-28T04:24:11.7457274Z               {
+2024-03-28T04:24:11.7457504Z                 contributionCount: 214,
+2024-03-28T04:24:11.7457840Z                 color: '#40c463',
+2024-03-28T04:24:11.7458154Z                 date: '2024-03-12'
+2024-03-28T04:24:11.7458422Z               },
+2024-03-28T04:24:11.7458624Z               {
+2024-03-28T04:24:11.7458854Z                 contributionCount: 324,
+2024-03-28T04:24:11.7459283Z                 color: '#40c463',
+2024-03-28T04:24:11.7459758Z                 date: '2024-03-13'
+2024-03-28T04:24:11.7460030Z               },
+2024-03-28T04:24:11.7460238Z               {
+2024-03-28T04:24:11.7460469Z                 contributionCount: 17,
+2024-03-28T04:24:11.7460814Z                 color: '#9be9a8',
+2024-03-28T04:24:11.7461123Z                 date: '2024-03-14'
+2024-03-28T04:24:11.7461402Z               },
+2024-03-28T04:24:11.7461607Z               {
+2024-03-28T04:24:11.7461830Z                 contributionCount: 19,
+2024-03-28T04:24:11.7462221Z                 color: '#9be9a8',
+2024-03-28T04:24:11.7462543Z                 date: '2024-03-15'
+2024-03-28T04:24:11.7462811Z               },
+2024-03-28T04:24:11.7463012Z               {
+2024-03-28T04:24:11.7463241Z                 contributionCount: 138,
+2024-03-28T04:24:11.7463589Z                 color: '#9be9a8',
+2024-03-28T04:24:11.7463902Z                 date: '2024-03-16'
+2024-03-28T04:24:11.7464163Z               }
+2024-03-28T04:24:11.7464367Z             ]
+2024-03-28T04:24:11.7464569Z           },
+2024-03-28T04:24:11.7464762Z           {
+2024-03-28T04:24:11.7464977Z             contributionDays: [
+2024-03-28T04:24:11.7465254Z               {
+2024-03-28T04:24:11.7465481Z                 contributionCount: 247,
+2024-03-28T04:24:11.7465818Z                 color: '#40c463',
+2024-03-28T04:24:11.7466130Z                 date: '2024-03-17'
+2024-03-28T04:24:11.7466410Z               },
+2024-03-28T04:24:11.7466613Z               {
+2024-03-28T04:24:11.7466844Z                 contributionCount: 668,
+2024-03-28T04:24:11.7467199Z                 color: '#216e39',
+2024-03-28T04:24:11.7467509Z                 date: '2024-03-18'
+2024-03-28T04:24:11.7467772Z               },
+2024-03-28T04:24:11.7467977Z               {
+2024-03-28T04:24:11.7468206Z                 contributionCount: 340,
+2024-03-28T04:24:11.7468545Z                 color: '#30a14e',
+2024-03-28T04:24:11.7468851Z                 date: '2024-03-19'
+2024-03-28T04:24:11.7469122Z               },
+2024-03-28T04:24:11.7469327Z               {
+2024-03-28T04:24:11.7469549Z                 contributionCount: 307,
+2024-03-28T04:24:11.7469889Z                 color: '#40c463',
+2024-03-28T04:24:11.7470331Z                 date: '2024-03-20'
+2024-03-28T04:24:11.7470603Z               },
+2024-03-28T04:24:11.7470803Z               {
+2024-03-28T04:24:11.7471032Z                 contributionCount: 257,
+2024-03-28T04:24:11.7471381Z                 color: '#40c463',
+2024-03-28T04:24:11.7471696Z                 date: '2024-03-21'
+2024-03-28T04:24:11.7472137Z               },
+2024-03-28T04:24:11.7472346Z               {
+2024-03-28T04:24:11.7472575Z                 contributionCount: 254,
+2024-03-28T04:24:11.7472912Z                 color: '#40c463',
+2024-03-28T04:24:11.7473224Z                 date: '2024-03-22'
+2024-03-28T04:24:11.7473493Z               },
+2024-03-28T04:24:11.7473699Z               {
+2024-03-28T04:24:11.7473922Z                 contributionCount: 360,
+2024-03-28T04:24:11.7474261Z                 color: '#30a14e',
+2024-03-28T04:24:11.7474572Z                 date: '2024-03-23'
+2024-03-28T04:24:11.7474840Z               }
+2024-03-28T04:24:11.7475035Z             ]
+2024-03-28T04:24:11.7475238Z           },
+2024-03-28T04:24:11.7475439Z           {
+2024-03-28T04:24:11.7475647Z             contributionDays: [
+2024-03-28T04:24:11.7475921Z               {
+2024-03-28T04:24:11.7476149Z                 contributionCount: 295,
+2024-03-28T04:24:11.7476637Z                 color: '#216e39',
+2024-03-28T04:24:11.7476942Z                 date: '2024-03-24'
+2024-03-28T04:24:11.7477218Z               },
+2024-03-28T04:24:11.7477422Z               {
+2024-03-28T04:24:11.7477644Z                 contributionCount: 209,
+2024-03-28T04:24:11.7477986Z                 color: '#30a14e',
+2024-03-28T04:24:11.7478302Z                 date: '2024-03-25'
+2024-03-28T04:24:11.7478570Z               },
+2024-03-28T04:24:11.7478776Z               {
+2024-03-28T04:24:11.7479006Z                 contributionCount: 366,
+2024-03-28T04:24:11.7479344Z                 color: '#216e39',
+2024-03-28T04:24:11.7479652Z                 date: '2024-03-26'
+2024-03-28T04:24:11.7479913Z               },
+2024-03-28T04:24:11.7480121Z               {
+2024-03-28T04:24:11.7480349Z                 contributionCount: 105,
+2024-03-28T04:24:11.7480686Z                 color: '#40c463',
+2024-03-28T04:24:11.7480997Z                 date: '2024-03-27'
+2024-03-28T04:24:11.7481272Z               }
+2024-03-28T04:24:11.7481476Z             ]
+2024-03-28T04:24:11.7481671Z           }
+2024-03-28T04:24:11.7481871Z         ]
+2024-03-28T04:24:11.7482067Z       }
+2024-03-28T04:24:11.7482244Z     ]
+2024-03-28T04:24:11.7482438Z   }
+2024-03-28T04:24:11.7482620Z }
+2024-03-28T04:24:11.7482828Z metrics/compute/seanpm2001 > render
+2024-03-28T04:24:11.7483156Z metrics/svg/gemojis > rendering gemojis
+2024-03-28T04:24:11.7483493Z metrics/svg/optimize/css > optimizing
+2024-03-28T04:24:11.7483824Z metrics/svg/optimize/xml > optimizing
+2024-03-28T04:24:11.7484189Z metrics/svg/resize > started Chrome/117.0.5938.62
+2024-03-28T04:24:11.7484622Z metrics/svg/resize > padding width*1+0, height*1.11+8
+2024-03-28T04:24:11.7485017Z metrics/svg/resize > loading svg
+2024-03-28T04:24:11.7485354Z metrics/svg/resize > loaded svg successfully
+2024-03-28T04:24:11.7485708Z metrics/svg/resize > resizing svg
+2024-03-28T04:24:11.7486090Z metrics/svg/resize > puppeteer > animations are enabled
+2024-03-28T04:24:11.7486634Z metrics/svg/resize > puppeteer > bounds width=480, height=108.359375
+2024-03-28T04:24:11.7487363Z metrics/svg/resize > puppeteer > bounds after applying padding width=480 (*1+0), height=129 (*1.11+8)
+2024-03-28T04:24:11.7487977Z metrics/svg/resize > rendering complete
+2024-03-28T04:24:11.7488316Z metrics/compute/seanpm2001 > success
+2024-03-28T04:24:11.7488841Z ##[endgroup]
+2024-03-28T04:24:11.7489228Z ##[group]Attempt 1/5
+2024-03-28T04:24:11.7489624Z ##[endgroup]
+2024-03-28T04:24:11.7490346Z ##[warning]Resource not accessible by integration
+2024-03-28T04:24:11.7490867Z ##[group]Attempt 2/5
+2024-03-28T04:24:11.7491251Z ##[endgroup]
+2024-03-28T04:24:11.7491913Z ##[warning]Resource not accessible by integration
+2024-03-28T04:24:11.7492406Z ##[group]Attempt 3/5
+2024-03-28T04:24:11.7492783Z ##[endgroup]
+2024-03-28T04:24:11.7493434Z ##[warning]Resource not accessible by integration
+2024-03-28T04:24:11.7493925Z ##[group]Attempt 4/5
+2024-03-28T04:24:11.7494302Z ##[endgroup]
+2024-03-28T04:24:11.7494965Z ##[warning]Resource not accessible by integration
+2024-03-28T04:24:11.7495452Z ##[group]Attempt 5/5
+2024-03-28T04:24:11.7495827Z ##[endgroup]
+2024-03-28T04:24:11.7496640Z ##[warning]Resource not accessible by integration
+2024-03-28T04:24:11.7497444Z ##[error]Resource not accessible by integration
+2024-03-28T04:24:11.7498585Z ##[error]Process completed with exit code 1.
