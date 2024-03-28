@@ -37,8 +37,12 @@ on:
 # Future todo: keep an updated fork and switch: uses: lowlighter/metrics@latest to seanpm2001/Lowlighter_Metrics@latest
 # Should export to 25 separate SVG files
 jobs:
-  metrics:
+  github-metrics:
     runs-on: ubuntu-latest
+    environment: 
+      name: production
+    permissions:
+      contents: write
     steps:
       # Step 1
       - uses: lowlighter/metrics@latest
@@ -415,4 +419,4 @@ jobs:
 #          plugin_sponsorships_sections: amount
 
 # File info
-# File version: 6 (2024, Wednesday, March 27th at 04:59 pm PST)
+# File version: 7 (2024, Wednesday, March 27th at 05:07 pm PST)
