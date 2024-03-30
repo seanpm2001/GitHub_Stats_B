@@ -1,4 +1,4 @@
-# Licensed under The Unlicense
+`# Licensed under The Unlicense
 # Feel free to reuse, edit and redistribute this workflow as you wish, no credits needed
 # See https://github.com/lowlighter/metrics for documentation about how to use metrics action
 name: GitHub Metrics (Lowlighter) daily run for @seanpm2001
@@ -11,11 +11,13 @@ on:
   push:
     branches:
       - GitHub_Stats_B_Main-dev
-#     branches-ignore:
-#      - 'dependabot/**'
+    branches-ignore:
+      - 'dependabot/**'
   pull_request:
     branches:
       - GitHub_Stats_B_Main-dev
+    branches-ignore:
+      - 'dependabot/**'
 #  push: {branches: ["GitHub_Stats_B_Main-dev", "GitHub_Stats_B_Main-dev"]}
 # 25 steps
 # 🌆️ @seanpm2001 GitHub Skyline (2020)
@@ -47,17 +49,19 @@ on:
 # Future todo: keep an updated fork and switch: uses: lowlighter/metrics@latest to seanpm2001/Lowlighter_Metrics@latest
 # Should export to 25 separate SVG files
 jobs:
-  metrics:
+  github-metrics:
     runs-on: ubuntu-latest
 #    environment: 
 #      name: production
 #    permissions:
 #      contents: write
     steps:
+        uses: seanpm2001/Lowligher_Metrics@latest
       # Step 1
       - name: 🌆️ @seanpm2001 GitHub Skyline (2020)
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
 #          debug: true
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2020.svg
@@ -71,7 +75,8 @@ jobs:
       # Step 2
       - name: 🌆️ @seanpm2001 GitHub Skyline (2021)
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2021.svg
           token: NOT_NEEDED
@@ -83,7 +88,8 @@ jobs:
       # Step 3
       - name: 🌆️ @seanpm2001 GitHub Skyline (2022)
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2022.svg
           token: NOT_NEEDED
@@ -96,7 +102,8 @@ jobs:
       # Step 4
       - name: 🌆️ @seanpm2001 GitHub Skyline (2023)
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2023.svg
           token: NOT_NEEDED
@@ -109,7 +116,8 @@ jobs:
       # Step 5
       - name: 🌆️ @seanpm2001 GitHub Skyline (2024)
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2024.svg
           token: NOT_NEEDED
@@ -121,7 +129,8 @@ jobs:
       # Step 6
       - name: 🏙️ @seanpm2001 GitHub City (2020)
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2020.svg
           token: NOT_NEEDED
@@ -141,7 +150,8 @@ jobs:
       # Step 7
       - name: 🏙️ @seanpm2001 GitHub City (2021)
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2021.svg
           token: NOT_NEEDED
@@ -161,7 +171,8 @@ jobs:
       # Step 8
       - name: 🏙️ @seanpm2001 GitHub City (2022)
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2022.svg
           token: NOT_NEEDED
@@ -181,7 +192,8 @@ jobs:
       # Step 9
       - name: 🏙️ @seanpm2001 GitHub City (2023)
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2023.svg
           token: NOT_NEEDED
@@ -201,7 +213,8 @@ jobs:
       # Step 10
       - name: 🏙️ @seanpm2001 GitHub City (2024)
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2024.svg
           token: NOT_NEEDED
@@ -221,7 +234,8 @@ jobs:
       # Step 11
       - name: 💬️ @seanpm2001 GitHub Discussions 🗨️
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001-GitHub-Discussions.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -232,7 +246,8 @@ jobs:
       # Step 12
       - name: 📅️ @seanpm2001 GitHub Half-year isometric calendar 🔳️
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_HalfYear_IsometricCalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -242,7 +257,8 @@ jobs:
       # Step 13
       - name: 📅️ @seanpm2001 GitHub Full-year isometric calendar 🔳️
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_FullYear_IsometricCalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -253,7 +269,8 @@ jobs:
       # Step 14
       - name: 🏷️ @seanpm2001 GitHub starred Labels ⭐️
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_StarredTopics_Labels_20.svg
           token: NOT_NEEDED
@@ -264,7 +281,8 @@ jobs:
       # Step 15
       - name: 🐍️ @seanpm2001 GitHub starred topics Icons ⭐️
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_StarredTopics_Icons_60.svg
           token: NOT_NEEDED
@@ -276,7 +294,8 @@ jobs:
       # Step 16
       - name: 💝 @seanpm2001 GitHub Sponsorships
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Sponsorships.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -286,7 +305,8 @@ jobs:
       # Step 17
       - name: 🗓️ @seanpm2001 GitHub heatmap Current year calendar
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Calendar_2024.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -296,7 +316,8 @@ jobs:
       # Step 18
       - name: 🗓️ @seanpm2001 GitHub heatmap Full history calendar
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Calendar_2020-Present.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -307,7 +328,8 @@ jobs:
       # Step 19
       - name: 💫️ @seanpm2001 GitHub Achievements
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -321,7 +343,8 @@ jobs:
       # Step 20
       - name: 📈️ @seanpm2001 GitHub Stargazer graph ⭐️
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Stargazers_Graph.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -332,7 +355,8 @@ jobs:
       # Step 21
       - name: 📊️ @seanpm2001 GitHub Stargazers chart ⭐️
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Stargazers_Chart.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -342,7 +366,8 @@ jobs:
       # Step 22
       - name: 💳️ @seanpm2001 GitHub Licenses and permissions
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Licenses_Overview.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -356,7 +381,8 @@ jobs:
       # Step 23
       - name: 📈️ @seanpm2001 GitHub Licenses with open-source ratio graphs 💳️
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Licenses_Ratio.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -371,7 +397,8 @@ jobs:
       # Step 24
       - name: 🚦️ @Seanpm2001 GitHub Repositories traffic
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Repository_Traffic.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -381,7 +408,8 @@ jobs:
       # Step 25
       - name: ⚙️ @seanpm2001 GitHub General   
         if: ${{ success() || failure() }}
-        uses: lowlighter/metrics@latest
+#        uses: lowlighter/metrics@latest
+        uses: seanpm2001/Lowligher_Metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -469,4 +497,4 @@ jobs:
 # I plan to try and split this into several workflows, once I get the main workflow functional.
 
 # File info
-# File version: 15 (2024, Friday, March 29th at 05:59 pm PST)
+# File version: 16 (2024, Friday, March 29th at 06:21 pm PST)
