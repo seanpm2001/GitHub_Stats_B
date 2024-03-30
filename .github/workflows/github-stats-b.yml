@@ -56,12 +56,12 @@ jobs:
 #    permissions:
 #      contents: write
     steps:
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
       # Step 1
       - name: 🌆️ @seanpm2001 GitHub Skyline (2020)
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
 #          debug: true
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2020.svg
@@ -76,7 +76,7 @@ jobs:
       - name: 🌆️ @seanpm2001 GitHub Skyline (2021)
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2021.svg
           token: NOT_NEEDED
@@ -89,7 +89,7 @@ jobs:
       - name: 🌆️ @seanpm2001 GitHub Skyline (2022)
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2022.svg
           token: NOT_NEEDED
@@ -103,7 +103,7 @@ jobs:
       - name: 🌆️ @seanpm2001 GitHub Skyline (2023)
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2023.svg
           token: NOT_NEEDED
@@ -117,7 +117,7 @@ jobs:
       - name: 🌆️ @seanpm2001 GitHub Skyline (2024)
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2024.svg
           token: NOT_NEEDED
@@ -130,7 +130,7 @@ jobs:
       - name: 🏙️ @seanpm2001 GitHub City (2020)
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2020.svg
           token: NOT_NEEDED
@@ -151,7 +151,7 @@ jobs:
       - name: 🏙️ @seanpm2001 GitHub City (2021)
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2021.svg
           token: NOT_NEEDED
@@ -172,7 +172,7 @@ jobs:
       - name: 🏙️ @seanpm2001 GitHub City (2022)
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2022.svg
           token: NOT_NEEDED
@@ -193,7 +193,7 @@ jobs:
       - name: 🏙️ @seanpm2001 GitHub City (2023)
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2023.svg
           token: NOT_NEEDED
@@ -214,7 +214,7 @@ jobs:
       - name: 🏙️ @seanpm2001 GitHub City (2024)
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2024.svg
           token: NOT_NEEDED
@@ -235,7 +235,7 @@ jobs:
       - name: 💬️ @seanpm2001 GitHub Discussions 🗨️
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001-GitHub-Discussions.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -247,7 +247,7 @@ jobs:
       - name: 📅️ @seanpm2001 GitHub Half-year isometric calendar 🔳️
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_HalfYear_IsometricCalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -258,7 +258,7 @@ jobs:
       - name: 📅️ @seanpm2001 GitHub Full-year isometric calendar 🔳️
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_FullYear_IsometricCalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -270,7 +270,7 @@ jobs:
       - name: 🏷️ @seanpm2001 GitHub starred Labels ⭐️
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_StarredTopics_Labels_20.svg
           token: NOT_NEEDED
@@ -282,7 +282,7 @@ jobs:
       - name: 🐍️ @seanpm2001 GitHub starred topics Icons ⭐️
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_StarredTopics_Icons_60.svg
           token: NOT_NEEDED
@@ -295,7 +295,7 @@ jobs:
       - name: 💝 @seanpm2001 GitHub Sponsorships
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Sponsorships.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -306,7 +306,7 @@ jobs:
       - name: 🗓️ @seanpm2001 GitHub heatmap Current year calendar
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Calendar_2024.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -317,7 +317,7 @@ jobs:
       - name: 🗓️ @seanpm2001 GitHub heatmap Full history calendar
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Calendar_2020-Present.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -329,7 +329,7 @@ jobs:
       - name: 💫️ @seanpm2001 GitHub Achievements
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -344,7 +344,7 @@ jobs:
       - name: 📈️ @seanpm2001 GitHub Stargazer graph ⭐️
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Stargazers_Graph.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -356,7 +356,7 @@ jobs:
       - name: 📊️ @seanpm2001 GitHub Stargazers chart ⭐️
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Stargazers_Chart.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -367,7 +367,7 @@ jobs:
       - name: 💳️ @seanpm2001 GitHub Licenses and permissions
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Licenses_Overview.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -382,7 +382,7 @@ jobs:
       - name: 📈️ @seanpm2001 GitHub Licenses with open-source ratio graphs 💳️
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Licenses_Ratio.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -398,7 +398,7 @@ jobs:
       - name: 🚦️ @Seanpm2001 GitHub Repositories traffic
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Repository_Traffic.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -409,7 +409,7 @@ jobs:
       - name: ⚙️ @seanpm2001 GitHub General   
         if: ${{ success() || failure() }}
 #        uses: lowlighter/metrics@latest
-        uses: seanpm2001/Lowligher_Metrics@latest
+        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
           filename: GitHub_Stats_B_GitHub_Languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
@@ -497,4 +497,4 @@ jobs:
 # I plan to try and split this into several workflows, once I get the main workflow functional.
 
 # File info
-# File version: 17 (2024, Friday, March 29th at 06:24 pm PST)
+# File version: 18 (2024, Friday, March 29th at 06:26 pm PST)
