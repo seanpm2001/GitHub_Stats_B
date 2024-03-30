@@ -3,11 +3,13 @@
 # See https://github.com/lowlighter/metrics for documentation about how to use metrics action
 name: GitHub Metrics (Lowlighter) daily run for @seanpm2001
 on:
+  config_timezone: America/Portland
   # 🌏 Think about the planet! No need to update stats too frequently (this will run once per day at 6:00 am PST)
   schedule: [{cron: "0 6 * * *"}]
   # 💡 The following line lets you run workflow manually from the action tab!
   workflow_dispatch:
-  push: {branches: ["GitHub_Stats_B_Main-dev"]}
+  push: {branches: ["GitHub_Stats_B_Main-dev", "GitHub_Stats_B_Main-dev"]}
+ 
 # 25 steps
 # 🌆️ @seanpm2001 GitHub Skyline (2020)
 # 🌆️ @seanpm2001 GitHub Skyline (2021)
@@ -45,27 +47,16 @@ jobs:
 #    permissions:
 #      contents: write
     steps:
-          # Options
-          user: seanpm2001
-#          template: classic
-#          base: activity, community, repositories, metadata
-#          config_padding: 10%
-          config_timezone: America/Portland
-#          plugin_languages: yes
-#          plugin_languages_indepth_custom: ilanRosenbaum/rooms
-#          plugin_languages_sections: most-used
-#          plugin_languages_details: lines
-#          plugin_languages_colors: github
-#          plugin_languages_indepth: true
+
       # Step 1
       - name: 🌆️ @seanpm2001 GitHub Skyline (2020)
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
-
           debug: true
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2020.svg
           token: NOT_NEEDED
+          user: seanpm2001
           base: ""
           plugin_skyline: yes
           plugin_skyline_year: 2020
@@ -90,6 +81,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2022.svg
           token: NOT_NEEDED
+          user: seanpm2001
           base: ""
           plugin_skyline: yes
           plugin_skyline_year: 2022
@@ -102,6 +94,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2023.svg
           token: NOT_NEEDED
+          user: seanpm2001
           base: ""
           plugin_skyline: yes
           plugin_skyline_year: 2023
@@ -126,6 +119,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2020.svg
           token: NOT_NEEDED
+          user: seanpm2001
           base: ""
           plugin_skyline: yes
           plugin_skyline_year: 2020
@@ -145,6 +139,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2021.svg
           token: NOT_NEEDED
+          user: seanpm2001
           base: ""
           plugin_skyline: yes
           plugin_skyline_year: 2021
@@ -164,6 +159,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2022.svg
           token: NOT_NEEDED
+          user: seanpm2001
           base: ""
           plugin_skyline: yes
           plugin_skyline_year: 2022
@@ -183,6 +179,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2023.svg
           token: NOT_NEEDED
+          user: seanpm2001
           base: ""
           plugin_skyline: yes
           plugin_skyline_year: 2023
@@ -202,6 +199,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2024.svg
           token: NOT_NEEDED
+          user: seanpm2001
           base: ""
           plugin_skyline: yes
           plugin_skyline_year: 2024
@@ -221,6 +219,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_Seanpm2001-GitHub-Discussions.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          user: seanpm2001
           base: ""
           plugin_discussions: yes
           plugin_discussions_categories_limit: 0
@@ -231,6 +230,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_HalfYear_IsometricCalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          user: seanpm2001
           base: ""
           plugin_isocalendar: yes
       # Step 13
@@ -240,6 +240,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_FullYear_IsometricCalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          user: seanpm2001
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
@@ -250,6 +251,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_StarredTopics_Labels_20.svg
           token: NOT_NEEDED
+          user: seanpm2001
           base: ""
           plugin_topics: yes
           plugin_topics_limit: 20
@@ -260,6 +262,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_StarredTopics_Icons_60.svg
           token: NOT_NEEDED
+          user: seanpm2001
           base: ""
           plugin_topics: yes
           plugin_topics_limit: 60
@@ -271,6 +274,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_GitHub_Sponsorships.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          user: seanpm2001
           base: ""
           plugin_sponsorships: yes
       # Step 17
@@ -280,6 +284,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_GitHub_Calendar_2024.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          user: seanpm2001
           base: ""
           plugin_calendar: yes
       # Step 18
@@ -289,6 +294,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_GitHub_Calendar_2020-Present.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          user: seanpm2001
           base: ""
           plugin_calendar: yes
           plugin_calendar_limit: 0
@@ -299,6 +305,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_GitHub_Achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          user: seanpm2001
           base: ""
           output_action: gist
           committer_gist: ${{ secrets.GIST }}
@@ -312,6 +319,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_GitHub_Stargazers_Graph.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          user: seanpm2001
           base: ""
           plugin_stargazers: yes
           plugin_stargazers_charts_type: graph
@@ -322,6 +330,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_GitHub_Stargazers_Chart.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          user: seanpm2001
           base: ""
           plugin_stargazers: yes
       # Step 22
@@ -331,6 +340,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_GitHub_Licenses_Overview.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          user: seanpm2001
           base: ""
           template: repository
           repo: metrics
@@ -344,6 +354,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_GitHub_Licenses_Ratio.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          user: seanpm2001
           base: ""
           template: repository
           repo: metrics
@@ -358,6 +369,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_GitHub_Repository_Traffic.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          user: seanpm2001
           base: repositories
           plugin_traffic: yes
       # Step 25
@@ -367,6 +379,7 @@ jobs:
         with:
           filename: GitHub_Stats_B_GitHub_Languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          user: seanpm2001
           base: header
           base_indepth: yes
           config_order: base.header, isocalendar, languages, notable, discussions, topics
@@ -433,5 +446,19 @@ jobs:
 #          plugin_sponsorships: yes
 #          plugin_sponsorships_sections: amount
 
+          # Options
+          # uses: lowlighter/metrics@latest
+          # user: seanpm2001
+#          template: classic
+#          base: activity, community, repositories, metadata
+#          config_padding: 10%
+          # config_timezone: America/Portland
+#          plugin_languages: yes
+#          plugin_languages_indepth_custom: ilanRosenbaum/rooms
+#          plugin_languages_sections: most-used
+#          plugin_languages_details: lines
+#          plugin_languages_colors: github
+#          plugin_languages_indepth: true
+
 # File info
-# File version: 11 (2024, Friday, March 29th at 05:13 pm PST)
+# File version: 12 (2024, Friday, March 29th at 05:20 pm PST)
