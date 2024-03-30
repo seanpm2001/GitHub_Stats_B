@@ -8,8 +8,15 @@ on:
   schedule: [{cron: "0 6 * * *"}]
   # 💡 The following line lets you run workflow manually from the action tab!
   workflow_dispatch:
-  push: {branches: ["GitHub_Stats_B_Main-dev", "GitHub_Stats_B_Main-dev"]}
-
+  push:
+    branches:
+      - GitHub_Stats_B_Main-dev
+#     branches-ignore:
+#      - 'dependabot/**'
+  pull_request:
+    branches:
+      - GitHub_Stats_B_Main-dev
+#  push: {branches: ["GitHub_Stats_B_Main-dev", "GitHub_Stats_B_Main-dev"]}
 # 25 steps
 # 🌆️ @seanpm2001 GitHub Skyline (2020)
 # 🌆️ @seanpm2001 GitHub Skyline (2021)
@@ -47,7 +54,6 @@ jobs:
 #    permissions:
 #      contents: write
     steps:
-
       # Step 1
       - name: 🌆️ @seanpm2001 GitHub Skyline (2020)
         if: ${{ success() || failure() }}
@@ -463,4 +469,4 @@ jobs:
 # I plan to try and split this into several workflows, once I get the main workflow functional.
 
 # File info
-# File version: 14 (2024, Friday, March 29th at 05:25 pm PST)
+# File version: 15 (2024, Friday, March 29th at 05:59 pm PST)
