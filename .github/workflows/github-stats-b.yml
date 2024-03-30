@@ -11,9 +11,10 @@ on:
   push:
     branches:
       - GitHub_Stats_B_Main-dev
-    branches-ignore:
-      - 'dependabot/**'
-# GitHub: you may only define one of `branches` and `branches-ignore` for a single event
+# # # GitHub: you may only define one of `branches` and `branches-ignore` for a single event
+#    branches-ignore:
+#      - 'dependabot/**'
+# # GitHub: you may only define one of `branches` and `branches-ignore` for a single event
 #  pull_request:
 #    branches:
 #      - GitHub_Stats_B_Main-dev
@@ -499,4 +500,4 @@ jobs:
 # I plan to try and split this into several workflows, once I get the main workflow functional.
 
 # File info
-# File version: 21 (2024, Friday, March 29th at 06:33 pm PST)
+# File version: 22 (2024, Friday, March 29th at 06:35 pm PST)
