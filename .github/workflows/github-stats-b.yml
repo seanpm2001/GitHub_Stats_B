@@ -3,11 +3,11 @@
 # See https://github.com/lowlighter/metrics for documentation about how to use metrics action
 name: GitHub Metrics (Lowlighter) daily run for @seanpm2001
 on:
-  # 🌏 Think about the planet! No need to update stats too frequently (this will run once per day at 1:00 pm PST)
-  schedule: [{cron: "0 13 * * *"}]
+  # 🌏 Think about the planet! No need to update stats too frequently (this will run once per day at 6:00 am PST)
+  schedule: [{cron: "0 6 * * *"}]
   # 💡 The following line lets you run workflow manually from the action tab!
   workflow_dispatch:
-  # Not needed
+  push: {branches: ["GitHub_Stats_B_Main-dev"]}
 # 25 steps
 # 🌆️ @seanpm2001 GitHub Skyline (2020)
 # 🌆️ @seanpm2001 GitHub Skyline (2021)
@@ -45,11 +45,24 @@ jobs:
 #    permissions:
 #      contents: write
     steps:
-
+          # Options
+          user: seanpm2001
+#          template: classic
+#          base: activity, community, repositories, metadata
+#          config_padding: 10%
+          config_timezone: America/Portland
+#          plugin_languages: yes
+#          plugin_languages_indepth_custom: ilanRosenbaum/rooms
+#          plugin_languages_sections: most-used
+#          plugin_languages_details: lines
+#          plugin_languages_colors: github
+#          plugin_languages_indepth: true
       # Step 1
       - name: 🌆️ @seanpm2001 GitHub Skyline (2020)
         if: ${{ success() || failure() }}
         uses: lowlighter/metrics@latest
+
+          debug: true
         with:
           filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2020.svg
           token: NOT_NEEDED
@@ -421,4 +434,4 @@ jobs:
 #          plugin_sponsorships_sections: amount
 
 # File info
-# File version: 10 (2024, Wednesday, March 27th at 06:04 pm PST)
+# File version: 11 (2024, Friday, March 29th at 05:13 pm PST)
