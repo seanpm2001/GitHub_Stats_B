@@ -1,0 +1,501 @@
+# Licensed under The Unlicense
+# Feel free to reuse, edit and redistribute this workflow as you wish, no credits needed
+# See https://github.com/lowlighter/metrics for documentation about how to use metrics action
+name: GitHub Metrics (Lowlighter) daily run for @seanpm2001
+on:
+  # config_timezone: America/Portland
+  # 🌏 Think about the planet! No need to update stats too frequently (this will run once per day at 6:00 am PST)
+  schedule: [{cron: "0 6 * * *"}]
+  # 💡 The following line lets you run workflow manually from the action tab!
+  workflow_dispatch:
+  push:
+    branches:
+      - GitHub_Stats_B_Main-dev
+    branches-ignore:
+      - 'dependabot/**'
+  pull_request:
+    branches:
+      - GitHub_Stats_B_Main-dev
+    branches-ignore:
+      - 'dependabot/**'
+#  push: {branches: ["GitHub_Stats_B_Main-dev", "GitHub_Stats_B_Main-dev"]}
+# 25 steps
+# 🌆️ @seanpm2001 GitHub Skyline (2020)
+# 🌆️ @seanpm2001 GitHub Skyline (2021)
+# 🌆️ @seanpm2001 GitHub Skyline (2022)
+# 🌆️ @seanpm2001 GitHub Skyline (2023)
+# 🌆️ @seanpm2001 GitHub Skyline (2024)
+# 🏙️ @seanpm2001 GitHub City (2020)
+# 🏙️ @seanpm2001 GitHub City (2021)
+# 🏙️ @seanpm2001 GitHub City (2022)
+# 🏙️ @seanpm2001 GitHub City (2023)
+# 🏙️ @seanpm2001 GitHub City (2024)
+# 💬️ @seanpm2001 GitHub Discussions 🗨️
+# 📅️ @seanpm2001 GitHub Half-year isometric calendar 🔳️
+# 📅️ @seanpm2001 GitHub Full-year isometric calendar 🔳️
+# 🏷️ @seanpm2001 GitHub starred Labels ⭐️
+# 🐍️ @seanpm2001 GitHub starred topics Icons ⭐️
+# 💝 @seanpm2001 GitHub Sponsorships
+# 🗓️ @seanpm2001 GitHub heatmap Current year calendar
+# 🗓️ @seanpm2001 GitHub heatmap Full history calendar
+# 💫️ @seanpm2001 GitHub Achievements
+# 📈️ @seanpm2001 GitHub Stargazer graph ⭐️
+# 📊️ @seanpm2001 GitHub Stargazers chart ⭐️
+# 💳️ @seanpm2001 GitHub Licenses and permissions
+# 📈️ @seanpm2001 GitHub Licenses with open-source ratio graphs 💳️
+# 🚦️ @Seanpm2001 GitHub Repositories traffic
+# ⚙️ @seanpm2001 GitHub General
+# If the workflow fails, remove this line from every section except for step 1, 2, and 7
+# Future todo: keep an updated fork and switch: uses: lowlighter/metrics@latest to seanpm2001/Lowlighter_Metrics@latest
+# Should export to 25 separate SVG files
+jobs:
+# Do not append "github-" to "metrics:"
+  metrics:
+    runs-on: ubuntu-latest
+#    environment: 
+#      name: production
+#    permissions:
+#      contents: write
+    steps:
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+      # Step 1
+      - name: 🌆️ @seanpm2001 GitHub Skyline (2020)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+#          debug: true
+        with:
+          filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2020.svg
+          token: NOT_NEEDED
+#          user: seanpm2001
+          base: ""
+          plugin_skyline: yes
+          plugin_skyline_year: 2020
+          plugin_skyline_frames: 6
+          plugin_skyline_quality: 1
+      # Step 2
+      - name: 🌆️ @seanpm2001 GitHub Skyline (2021)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2021.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_skyline: yes
+          plugin_skyline_year: 2021
+          plugin_skyline_frames: 6
+          plugin_skyline_quality: 1
+      # Step 3
+      - name: 🌆️ @seanpm2001 GitHub Skyline (2022)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2022.svg
+          token: NOT_NEEDED
+#          user: seanpm2001
+          base: ""
+          plugin_skyline: yes
+          plugin_skyline_year: 2022
+          plugin_skyline_frames: 6
+          plugin_skyline_quality: 1
+      # Step 4
+      - name: 🌆️ @seanpm2001 GitHub Skyline (2023)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2023.svg
+          token: NOT_NEEDED
+#          user: seanpm2001
+          base: ""
+          plugin_skyline: yes
+          plugin_skyline_year: 2023
+          plugin_skyline_frames: 6
+          plugin_skyline_quality: 1
+      # Step 5
+      - name: 🌆️ @seanpm2001 GitHub Skyline (2024)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2024.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_skyline: yes
+          plugin_skyline_year: 2024
+          plugin_skyline_frames: 6
+          plugin_skyline_quality: 1
+      # Step 6
+      - name: 🏙️ @seanpm2001 GitHub City (2020)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2020.svg
+          token: NOT_NEEDED
+#          user: seanpm2001
+          base: ""
+          plugin_skyline: yes
+          plugin_skyline_year: 2020
+          plugin_skyline_frames: 6
+          plugin_skyline_quality: 1
+          plugin_skyline_settings: |
+            {
+              "url": "https://honzaap.github.io/GithubCity?name=${login}&year=${year}",
+              "ready": "[...document.querySelectorAll('.display-info span')].map(span => span.innerText).includes('${login}')",
+              "wait": 4,
+              "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
+            }
+      # Step 7
+      - name: 🏙️ @seanpm2001 GitHub City (2021)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2021.svg
+          token: NOT_NEEDED
+#          user: seanpm2001
+          base: ""
+          plugin_skyline: yes
+          plugin_skyline_year: 2021
+          plugin_skyline_frames: 6
+          plugin_skyline_quality: 1
+          plugin_skyline_settings: |
+            {
+              "url": "https://honzaap.github.io/GithubCity?name=${login}&year=${year}",
+              "ready": "[...document.querySelectorAll('.display-info span')].map(span => span.innerText).includes('${login}')",
+              "wait": 4,
+              "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
+            }
+      # Step 8
+      - name: 🏙️ @seanpm2001 GitHub City (2022)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2022.svg
+          token: NOT_NEEDED
+#          user: seanpm2001
+          base: ""
+          plugin_skyline: yes
+          plugin_skyline_year: 2022
+          plugin_skyline_frames: 6
+          plugin_skyline_quality: 1
+          plugin_skyline_settings: |
+            {
+              "url": "https://honzaap.github.io/GithubCity?name=${login}&year=${year}",
+              "ready": "[...document.querySelectorAll('.display-info span')].map(span => span.innerText).includes('${login}')",
+              "wait": 4,
+              "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
+            }
+      # Step 9
+      - name: 🏙️ @seanpm2001 GitHub City (2023)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2023.svg
+          token: NOT_NEEDED
+#          user: seanpm2001
+          base: ""
+          plugin_skyline: yes
+          plugin_skyline_year: 2023
+          plugin_skyline_frames: 6
+          plugin_skyline_quality: 1
+          plugin_skyline_settings: |
+            {
+              "url": "https://honzaap.github.io/GithubCity?name=${login}&year=${year}",
+              "ready": "[...document.querySelectorAll('.display-info span')].map(span => span.innerText).includes('${login}')",
+              "wait": 4,
+              "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
+            }
+      # Step 10
+      - name: 🏙️ @seanpm2001 GitHub City (2024)
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2024.svg
+          token: NOT_NEEDED
+#          user: seanpm2001
+          base: ""
+          plugin_skyline: yes
+          plugin_skyline_year: 2024
+          plugin_skyline_frames: 6
+          plugin_skyline_quality: 1
+          plugin_skyline_settings: |
+            {
+              "url": "https://honzaap.github.io/GithubCity?name=${login}&year=${year}",
+              "ready": "[...document.querySelectorAll('.display-info span')].map(span => span.innerText).includes('${login}')",
+              "wait": 4,
+              "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
+            }
+      # Step 11
+      - name: 💬️ @seanpm2001 GitHub Discussions 🗨️
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_Seanpm2001-GitHub-Discussions.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+#          user: seanpm2001
+          base: ""
+          plugin_discussions: yes
+          plugin_discussions_categories_limit: 0
+      # Step 12
+      - name: 📅️ @seanpm2001 GitHub Half-year isometric calendar 🔳️
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_Seanpm2001_GitHub_HalfYear_IsometricCalendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+#          user: seanpm2001
+          base: ""
+          plugin_isocalendar: yes
+      # Step 13
+      - name: 📅️ @seanpm2001 GitHub Full-year isometric calendar 🔳️
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_Seanpm2001_GitHub_FullYear_IsometricCalendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+#          user: seanpm2001
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+      # Step 14
+      - name: 🏷️ @seanpm2001 GitHub starred Labels ⭐️
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_Seanpm2001_GitHub_StarredTopics_Labels_20.svg
+          token: NOT_NEEDED
+#          user: seanpm2001
+          base: ""
+          plugin_topics: yes
+          plugin_topics_limit: 20
+      # Step 15
+      - name: 🐍️ @seanpm2001 GitHub starred topics Icons ⭐️
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_Seanpm2001_GitHub_StarredTopics_Icons_60.svg
+          token: NOT_NEEDED
+#          user: seanpm2001
+          base: ""
+          plugin_topics: yes
+          plugin_topics_limit: 60
+          plugin_topics_mode: icons
+      # Step 16
+      - name: 💝 @seanpm2001 GitHub Sponsorships
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_GitHub_Sponsorships.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+#          user: seanpm2001
+          base: ""
+          plugin_sponsorships: yes
+      # Step 17
+      - name: 🗓️ @seanpm2001 GitHub heatmap Current year calendar
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_GitHub_Calendar_2024.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+#          user: seanpm2001
+          base: ""
+          plugin_calendar: yes
+      # Step 18
+      - name: 🗓️ @seanpm2001 GitHub heatmap Full history calendar
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_GitHub_Calendar_2020-Present.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+#          user: seanpm2001
+          base: ""
+          plugin_calendar: yes
+          plugin_calendar_limit: 0
+      # Step 19
+      - name: 💫️ @seanpm2001 GitHub Achievements
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_GitHub_Achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+#          user: seanpm2001
+          base: ""
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_fortune: yes
+      # Step 20
+      - name: 📈️ @seanpm2001 GitHub Stargazer graph ⭐️
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_GitHub_Stargazers_Graph.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+#          user: seanpm2001
+          base: ""
+          plugin_stargazers: yes
+          plugin_stargazers_charts_type: graph
+      # Step 21
+      - name: 📊️ @seanpm2001 GitHub Stargazers chart ⭐️
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_GitHub_Stargazers_Chart.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+#          user: seanpm2001
+          base: ""
+          plugin_stargazers: yes
+      # Step 22
+      - name: 💳️ @seanpm2001 GitHub Licenses and permissions
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_GitHub_Licenses_Overview.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+#          user: seanpm2001
+          base: ""
+          template: repository
+          repo: metrics
+          plugin_licenses: yes
+          plugin_licenses_setup: bash -c '[[ -f package.json ]] && npm ci || true'
+
+      # Step 23
+      - name: 📈️ @seanpm2001 GitHub Licenses with open-source ratio graphs 💳️
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_GitHub_Licenses_Ratio.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+#          user: seanpm2001
+          base: ""
+          template: repository
+          repo: metrics
+          plugin_licenses: yes
+          plugin_licenses_setup: bash -c '[[ -f package.json ]] && npm ci || true'
+          plugin_licenses_legal: no
+          plugin_licenses_ratio: yes
+      # Step 24
+      - name: 🚦️ @Seanpm2001 GitHub Repositories traffic
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_GitHub_Repository_Traffic.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+#          user: seanpm2001
+          base: repositories
+          plugin_traffic: yes
+      # Step 25
+      - name: ⚙️ @seanpm2001 GitHub General   
+        if: ${{ success() || failure() }}
+        uses: lowlighter/metrics@latest
+#        uses: seanpm2001/Lowlighter_Metrics@latest
+        with:
+          filename: GitHub_Stats_B_GitHub_Languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+#          user: seanpm2001
+          base: header
+          base_indepth: yes
+          config_order: base.header, isocalendar, languages, notable, discussions, topics
+          output_action: gist
+          committer_gist: ${{ secrets.GIST }}
+          plugin_isocalendar: yes
+          plugin_languages: yes
+          plugin_languages_details: lines, bytes-size, percentage
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 2
+          plugin_topics: yes
+          plugin_topics_limit: 0
+          plugin_topics_mode: icons
+          plugin_notable: yes
+          plugin_discussions: yes
+#      - name: 🦑 Splatoon
+#      - uses: lowlighter/metrics@latest
+#
+#        with:
+#          filename: splatoon.svg
+#          token: ${{ secrets.METRICS_TOKEN }}
+#          base: ""
+#          output_action: gist
+#          committer_gist: ${{ secrets.GIST }}
+#          plugin_splatoon: yes
+#          plugin_splatoon_token: ${{ secrets.SPLATOON_TOKEN }}
+#          plugin_splatoon_statink: yes
+#          plugin_splatoon_statink_token: ${{ secrets.SPLATOON_STATINK_TOKEN }}
+#          plugin_splatoon_sections: salmon-run
+#          plugin_splatoon_salmon_limit: 2
+#          extras_css: |
+#            h2 { display: none !important; }
+#            .match:not(:last-child) { padding-bottom: 4px; }
+#      - name: 🦑 Medias
+#
+#      - uses: lowlighter/metrics@latest
+#        with:
+#          filename: medias.svg
+#          token: ${{ secrets.METRICS_TOKEN }}
+#          base: ""
+#          config_order: anilist, music
+#          output_action: gist
+#          committer_gist: ${{ secrets.GIST }}
+#          plugin_anilist: yes
+#          plugin_anilist_medias: anime
+#          plugin_anilist_sections: favorites, characters
+#          plugin_anilist_limit: 2
+#          plugin_anilist_limit_characters: 22
+#          plugin_music: yes
+#          plugin_music_playlist: ${{ secrets.PLAYLIST }}
+#          plugin_music_limit: 9
+#      - name: 🦑 Sponsors
+#
+#      - uses: lowlighter/metrics@latest
+#        with:
+#          filename: sponsors.svg
+#          token: ${{ secrets.METRICS_TOKEN }}
+#          base: ""
+#          output_action: gist
+#          committer_gist: ${{ secrets.GIST }}
+#          plugin_sponsors: yes
+#          plugin_sponsors_past: yes
+#          plugin_sponsorships: yes
+#          plugin_sponsorships_sections: amount
+
+          # Options
+          # uses: lowlighter/metrics@latest
+          # user: seanpm2001
+#          template: classic
+#          base: activity, community, repositories, metadata
+#          config_padding: 10%
+          # config_timezone: America/Portland
+#          plugin_languages: yes
+#          plugin_languages_indepth_custom: ilanRosenbaum/rooms
+#          plugin_languages_sections: most-used
+#          plugin_languages_details: lines
+#          plugin_languages_colors: github
+#          plugin_languages_indepth: true
+
+# I plan to try and split this into several workflows, once I get the main workflow functional.
+
+# File info
+# File version: 20 (2024, Friday, March 29th at 06:31 pm PST)
