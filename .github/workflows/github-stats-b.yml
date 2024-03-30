@@ -13,11 +13,12 @@ on:
       - GitHub_Stats_B_Main-dev
     branches-ignore:
       - 'dependabot/**'
-  pull_request:
-    branches:
-      - GitHub_Stats_B_Main-dev
-    branches-ignore:
-      - 'dependabot/**'
+# GitHub: you may only define one of `branches` and `branches-ignore` for a single event
+#  pull_request:
+#    branches:
+#      - GitHub_Stats_B_Main-dev
+#    branches-ignore:
+#      - 'dependabot/**'
 #  push: {branches: ["GitHub_Stats_B_Main-dev", "GitHub_Stats_B_Main-dev"]}
 # 25 steps
 # 🌆️ @seanpm2001 GitHub Skyline (2020)
@@ -498,4 +499,4 @@ jobs:
 # I plan to try and split this into several workflows, once I get the main workflow functional.
 
 # File info
-# File version: 20 (2024, Friday, March 29th at 06:31 pm PST)
+# File version: 21 (2024, Friday, March 29th at 06:33 pm PST)
