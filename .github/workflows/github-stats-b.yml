@@ -3,13 +3,13 @@
 # See https://github.com/lowlighter/metrics for documentation about how to use metrics action
 name: GitHub Metrics (Lowlighter) daily run for @seanpm2001
 on:
-  config_timezone: America/Portland
+  # config_timezone: America/Portland
   # 🌏 Think about the planet! No need to update stats too frequently (this will run once per day at 6:00 am PST)
   schedule: [{cron: "0 6 * * *"}]
   # 💡 The following line lets you run workflow manually from the action tab!
   workflow_dispatch:
   push: {branches: ["GitHub_Stats_B_Main-dev", "GitHub_Stats_B_Main-dev"]}
- 
+
 # 25 steps
 # 🌆️ @seanpm2001 GitHub Skyline (2020)
 # 🌆️ @seanpm2001 GitHub Skyline (2021)
@@ -460,5 +460,7 @@ jobs:
 #          plugin_languages_colors: github
 #          plugin_languages_indepth: true
 
+# I plan to try and split this into several workflows, once I get the main workflow functional.
+
 # File info
-# File version: 13 (2024, Friday, March 29th at 05:23 pm PST)
+# File version: 14 (2024, Friday, March 29th at 05:25 pm PST)
