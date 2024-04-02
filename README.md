@@ -35,6 +35,73 @@ This project is not meant to replace [:octocat: `GitHub_Stats_A`](https://github
 
 ***
 
+## [🗂️ Statistics](#-Statistics)
+
+| 🔧️ Maintenance | Maintenance 🔧️ |
+|---|---|
+| [▶️ View workflow](/.github/workflows/github-stats-b.yml/) | [🪵️ View logs](/Logs/) |
+
+<details open><summary><p><b>[Click/tap here to expand/collapse this table]</b></p></summary>
+
+| 📈️ Chart/graph 📊️  | ℹ️ Description ℹ️ |
+|---|---|
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2020.svg" alt="GitHub Stats B: Seanpm2001 GitHub Skyline (2020) failed to load" width="640" height="480" title="[GitHub Stats B@seanpm2001] GitHub Skyline (2020)"> | `GitHub Skyline for the year 2020` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2021.svg" alt="GitHub Stats B: Seanpm2001 GitHub Skyline (2021) failed to load" width="640" height="480" title="[GitHub Stats B@seanpm2001] GitHub Skyline (2021)"> | `GitHub Skyline for the year 2021` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2022.svg" alt="GitHub Stats B: Seanpm2001 GitHub Skyline (2022) failed to load" width="640" height="480" title="[GitHub Stats B@seanpm2001] GitHub Skyline (2022)"> | `GitHub Skyline for the year 2022` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2023.svg" alt="GitHub Stats B: Seanpm2001 GitHub Skyline (2023) failed to load" width="640" height="480" title="[GitHub Stats B@seanpm2001] GitHub Skyline (2023)"> | `GitHub Skyline for the year 2023` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2024.svg" alt="GitHub Stats B: Seanpm2001 GitHub Skyline (2024) failed to load" width="640" height="480" title="[GitHub Stats B@seanpm2001] GitHub Skyline (2024)"> | `GitHub Skyline for the year 2024` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_City_2020.svg" alt="GitHub Stats B: Seanpm2001 GitHub City (2020) failed to load" width="640" height="480" title="[GitHub Stats B@seanpm2001] GitHub City (2020)"> | `GitHub City for the year 2020` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_City_2021.svg" alt="GitHub Stats B: Seanpm2001 GitHub City (2021) failed to load" width="640" height="480" title="[GitHub Stats B@seanpm2001] GitHub City (2021)"> | `GitHub City for the year 2021` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_City_2022.svg" alt="GitHub Stats B: Seanpm2001 GitHub City (2022) failed to load" width="640" height="480" title="[GitHub Stats B@seanpm2001] GitHub City (2022)"> | `GitHub City for the year 2022` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_City_2023.svg" alt="GitHub Stats B: Seanpm2001 GitHub City (2023) failed to load" width="640" height="480" title="[GitHub Stats B@seanpm2001] GitHub City (2023)"> | `GitHub City for the year 2023` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_City_2024.svg" alt="GitHub Stats B: Seanpm2001 GitHub City (2024) failed to load" width="640" height="480" title="[GitHub Stats B@seanpm2001] GitHub City (2024)"> | `GitHub City for the year 2024` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001-GitHub-Discussions.svg" alt="GitHub Stats B: Seanpm2001 Discussions" width="640" height="480" title="[GitHub Stats B@seanpm2001] GitHub discussions"> | `GitHub discussions statistics` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_HalfYear_IsometricCalendar.svg" alt="GitHub Stats B: Seanpm2001 Commit Calendar (last 6 months) isometric view" width="640" height="480" title="[GitHub Stats B@seanpm2001] Seanpm2001 Commit Calendar (last 6 months) isometric view"> | `GitHub commit heatmap for the last 6 months (isometric view)` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_FullYear_IsometricCalendar.svg" alt="GitHub Stats B: Seanpm2001 Commit Calendar (last 12 months) isometric view" width="640" height="480" title="[GitHub Stats B@seanpm2001] Seanpm2001 Commit Calendar (last 12 months) isometric view"> | `GitHub commit heatmap for the last 12 months (isometric view)` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_StarredTopics_Labels_20.svg" alt="GitHub Stats B: Seanpm2001 Starred topic labels (20)" width="640" height="480" title="[GitHub Stats B@seanpm2001] GitHub starred topic labels (x20)"> | `Top 20 GitHub starred topics labels` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_StarredTopics_Icons_60.svg" alt="GitHub Stats B: Seanpm2001 GitHub Starred topics icons (60x)" width="640" height="480" title="[GitHub Stats B@seanpm2001] GitHub starred topic icons (x60)"> | `Top 60 GitHub starred topics icons` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_GitHub_Sponsorships.svg" alt="GitHub Stats B: Seanpm2001 GitHub Sponsorship statistics" width="640" height="480" title="[GitHub Stats B@seanpm2001] GitHub sponsorship statistics"> | `GitHub sponsorship information for @seanpm2001` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_GitHub_Calendar_2024.svg" alt="GitHub Stats B: Seanpm2001 GitHub calendar (2024)" width="640" height="480" title="[GitHub Stats B@seanpm2001] GitHub commit calendar heatmap (2024)"> | `GitHub commit calendar heatmap for @seanpm2001 in 2024` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_GitHub_Calendar_2020-Present.svg" alt="GitHub Stats B: Seanpm2001 GitHub calendar (2020 to present)" width="640" height="480" title="[GitHub Stats B@seanpm2001] GitHub commit calendar heatmap (2020-present)"> | `GitHub commit calendar heatmap for @seanpm2001 from 2020 to the present` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_GitHub_Achievements.svg" alt="GitHub Stats B: Seanpm2001 GitHub achievements" width="640" height="480" title="[GitHub Stats B@seanpm2001] GitHub achievements"> | `GitHub achievements statistics for @seanpm2001` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_GitHub_Stargazers_Graph.svg" alt="GitHub Stats B: Seanpm2001 GitHub stargazers graph" width="640" height="480" title="[GitHub Stats B@seanpm2001] GitHub stargazers graph"> | `GitHub stargazers graph for @seanpm2001` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_GitHub_Stargazers_Cjart.svg" alt="GitHub Stats B: Seanpm2001 GitHub stargazers chart" width="640" height="480" title="[GitHub Stats B@seanpm2001] GitHub stargazers chart"> | `GitHub stargazers chart for @seanpm2001` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_GitHub_Licenses_Overview.svg" alt="GitHub Stats B: License overview for @seanpm2001" width="640" height="480" title="[GitHub Stats B@seanpm2001] License usage overview"> | `GitHub license usage overview for @seanpm2001` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_GitHub_Licenses_Ratio.svg" alt="GitHub Stats B: License ratio for @seanpm2001" width="640" height="480" title="[GitHub Stats B@seanpm2001] License ratio"> | `GitHub license ratio for @seanpm2001` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_GitHub_Repository_Traffic.svg" alt="GitHub Stats B: Repository traffic statistics for @seanpm2001" width="640" height="480" title="[GitHub Stats B@seanpm2001] GitHub repository traffic statistics"> | `GitHub repoitory traffic statistics for @seanpm2001` |
+| <img src="https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_GitHub_Languages.svg" alt="GitHub Stats B: GitHub general statistics for @seanpm2001" width="640" height="480" title="[GitHub Stats B@seanpm2001] General GitHub statistics"> | `General GitHub statistics for @seanpm2001 (including language usage` |
+
+</details> <!-- End of GitHub Stats B table !-->
+
+```files
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2021.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2022.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2023.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2024.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_City_2020.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_City_2021.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_City_2022.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_City_2023.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_City_2024.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001-GitHub-Discussions.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_HalfYear_IsometricCalendar.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_FullYear_IsometricCalendar.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_StarredTopics_Labels_20.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_Seanpm2001_GitHub_StarredTopics_Icons_60.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_GitHub_Sponsorships.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_GitHub_Calendar_2024.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_GitHub_Calendar_2020-Present.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_GitHub_Achievements.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_GitHub_Stargazers_Graph.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_GitHub_Stargazers_Chart.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_GitHub_Licenses_Overview.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_GitHub_Licenses_Ratio.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_GitHub_Repository_Traffic.svg
+https://github.com/seanpm2001/GitHub_Stats_B/blob/GitHub_Stats_B_Main-dev/GitHub_Stats_B_GitHub_Languages.svg
+```
+
+***
+
 ## [🪵️ Logs](#-Logs)
 
 <details open><summary><p><b>Click/tap here to expand/collapse this section</b></p></summary>
@@ -45,6 +112,7 @@ Log file tree
 
 - [2024](/Logs/2024/)
 - - [03_March](/Logs/2024/03_March/)
+- - [04_April](/Logs/2024/04_April/)
 
 This workflow produces logs that are larger than any other GitHub logs I have created so far. The logs for the 14th run when uncompressed were nearly 6 megabytes in size.
 
@@ -228,12 +296,12 @@ Version 1, changes may need to be made (entries re-arranged, added, or possibly 
 <details open><summary><p lang="en"><b>Click/tap here to expand/collapse this section</b></p></summary>
 
 - **File type:** `Markdown (*.md *.mkd *.mdown *.markdown)`
-- **File version:** `4 (2024, Thursday, March 28th at 04:40 pm PST)` <!-- TODO: This line should be updated daily !-->
-- **Line count (including blank lines and compiler line):** `405` <!-- This line doesn't need to be updated daily !-->
-- **Word count:** `02,053` <!-- TODO: This line should be updated daily !-->
-- **Character count (including spaces):** `14,337` <!-- TODO: This line should be updated daily !-->
-- **Character count (excluding spaces):** `12,103` <!-- TODO: This line should be updated daily !-->
-- **Size (in bytes):** `14,876` <!-- TODO: This line should be updated daily !-->
+- **File version:** `5 (2024, Monday, April 1st at 06:12 pm PST)` <!-- TODO: This line should be updated daily !-->
+- **Line count (including blank lines and compiler line):** `497` <!-- This line doesn't need to be updated daily !-->
+- **Word count:** `03,989` <!-- TODO: This line should be updated daily !-->
+- **Character count (including spaces):** `26,810` <!-- TODO: This line should be updated daily !-->
+- **Character count (excluding spaces):** `23,641` <!-- TODO: This line should be updated daily !-->
+- **Size (in bytes):** `27,391` <!-- TODO: This line should be updated daily !-->
 - **Current article language:** `English (EN_USA)` / `Markdown (CommonMark)` / `HTML5 (HyperText Markup Language 5.3)`
 - **Encoding:** `UTF-8 (Emoji 12.0 or higher recommended)`
 - **All times are UTC-7 (PDT/Pacific Time)** `(Please also account for DST (Daylight Savings Time) for older/newer entries up until it is abolished/no longer followed)`
@@ -369,6 +437,30 @@ Version 1, changes may need to be made (entries re-arranged, added, or possibly 
 
 
 </details> <!-- End of V4 !-->
+
+---
+
+## Version 5 (2024, Monday, April 1st at 06:12 pm PST)
+
+<details><summary><p><b>Click/tap here to expand/collapse the file history entry for version 5</b></p></summary>
+
+> Changes:
+
+- [x] Added the `Statistics` section
+- [x] Updated the `Logs` section
+- [x] Updated the `File info` section
+- - [x] Updated the file version field
+- - [x] Updated the line count field
+- - [x] Updated the word count field
+- - [x] Updated the character count (without spaces) field
+- - [x] Updated the character count (with spaces) field
+- - [x] Updated the file size field
+- [x] Updated the `File history` section
+- - [x] Added an entry for version 5
+- [ ] No other changes in version 5
+
+
+</details> <!-- End of V5 !-->
 
 ---
 
