@@ -5,9 +5,10 @@ name: GitHub Metrics (Lowlighter) daily run for @seanpm2001
 on:
   # config_timezone: America/Portland
   # 🌏 Think about the planet! No need to update stats too frequently (this will run once per day at 6:00 am PST)
-  schedule: [{cron: "0 6 * * *"}]
+  schedule: [{cron: "0 13 * * *"}]
   # 💡 The following line lets you run workflow manually from the action tab!
   workflow_dispatch:
+  # workflow dispatch is needed, but should not indicate a value
   push:
     branches:
       - GitHub_Stats_B_Main-dev
@@ -67,7 +68,8 @@ jobs:
 #        uses: seanpm2001/Lowlighter_Metrics@latest
 #          debug: true
         with:
-          filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2020.svg
+#          filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2020.svg
+          filename: /generated/GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2020.svg
           token: NOT_NEEDED
 #          user: seanpm2001
           base: ""
@@ -81,7 +83,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2021.svg
+#          filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2021.svg
+          filename: /generated/GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2021.svg
           token: NOT_NEEDED
           base: ""
           plugin_skyline: yes
@@ -94,7 +97,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2022.svg
+#         filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2022.svg
+          filename: /generated/GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2022.svg
           token: NOT_NEEDED
 #          user: seanpm2001
           base: ""
@@ -108,7 +112,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2023.svg
+#          filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2023.svg
+          filename: /generated/GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2023.svg
           token: NOT_NEEDED
 #          user: seanpm2001
           base: ""
@@ -122,7 +127,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2024.svg
+#          filename: GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2024.svg
+          filename: /generated/GitHub_Stats_B_Seanpm2001_GitHub_Skyline_2024.svg
           token: NOT_NEEDED
           base: ""
           plugin_skyline: yes
@@ -135,7 +141,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2020.svg
+#          filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2020.svg
+          filename: /generated/GitHub_Stats_B_Seanpm2001_GitHub_City_2020.svg
           token: NOT_NEEDED
 #          user: seanpm2001
           base: ""
@@ -156,7 +163,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2021.svg
+#          filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2021.svg
+          filename: /generated/GitHub_Stats_B_Seanpm2001_GitHub_City_2021.svg
           token: NOT_NEEDED
 #          user: seanpm2001
           base: ""
@@ -177,7 +185,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2022.svg
+#          filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2022.svg
+          filename: /generated/GitHub_Stats_B_Seanpm2001_GitHub_City_2022.svg
           token: NOT_NEEDED
 #          user: seanpm2001
           base: ""
@@ -198,7 +207,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2023.svg
+#          filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2023.svg
+          filename: /generated/GitHub_Stats_B_Seanpm2001_GitHub_City_2023.svg
           token: NOT_NEEDED
 #          user: seanpm2001
           base: ""
@@ -219,7 +229,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2024.svg
+#          filename: GitHub_Stats_B_Seanpm2001_GitHub_City_2024.svg
+          filename: /generated/GitHub_Stats_B_Seanpm2001_GitHub_City_2024.svg
           token: NOT_NEEDED
 #          user: seanpm2001
           base: ""
@@ -240,7 +251,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_Seanpm2001-GitHub-Discussions.svg
+#          filename: GitHub_Stats_B_Seanpm2001-GitHub-Discussions.svg
+          filename: /generated/GitHub_Stats_B_Seanpm2001-GitHub-Discussions.svg
           token: ${{ secrets.METRICS_TOKEN }}
 #          user: seanpm2001
           base: ""
@@ -252,7 +264,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_Seanpm2001_GitHub_HalfYear_IsometricCalendar.svg
+#          filename: GitHub_Stats_B_Seanpm2001_GitHub_HalfYear_IsometricCalendar.svg
+          filename: /generated/GitHub_Stats_B_Seanpm2001_GitHub_HalfYear_IsometricCalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
 #          user: seanpm2001
           base: ""
@@ -263,7 +276,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_Seanpm2001_GitHub_FullYear_IsometricCalendar.svg
+#          filename: GitHub_Stats_B_Seanpm2001_GitHub_FullYear_IsometricCalendar.svg
+          filename: /generated/GitHub_Stats_B_Seanpm2001_GitHub_FullYear_IsometricCalendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
 #          user: seanpm2001
           base: ""
@@ -275,7 +289,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_Seanpm2001_GitHub_StarredTopics_Labels_20.svg
+#          filename: GitHub_Stats_B_Seanpm2001_GitHub_StarredTopics_Labels_20.svg
+          filename: /generated.GitHub_Stats_B_Seanpm2001_GitHub_StarredTopics_Labels_20.svg
           token: NOT_NEEDED
 #          user: seanpm2001
           base: ""
@@ -287,7 +302,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_Seanpm2001_GitHub_StarredTopics_Icons_60.svg
+#          filename: GitHub_Stats_B_Seanpm2001_GitHub_StarredTopics_Icons_60.svg
+          filename: /generated/GitHub_Stats_B_Seanpm2001_GitHub_StarredTopics_Icons_60.svg
           token: NOT_NEEDED
 #          user: seanpm2001
           base: ""
@@ -300,7 +316,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_GitHub_Sponsorships.svg
+#          filename: GitHub_Stats_B_GitHub_Sponsorships.svg
+          filename: /generated/GitHub_Stats_B_GitHub_Sponsorships.svg
           token: ${{ secrets.METRICS_TOKEN }}
 #          user: seanpm2001
           base: ""
@@ -311,7 +328,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_GitHub_Calendar_2024.svg
+#          filename: GitHub_Stats_B_GitHub_Calendar_2024.svg
+          filename: /generated/GitHub_Stats_B_GitHub_Calendar_2024.svg
           token: ${{ secrets.METRICS_TOKEN }}
 #          user: seanpm2001
           base: ""
@@ -322,7 +340,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_GitHub_Calendar_2020-Present.svg
+#          filename: GitHub_Stats_B_GitHub_Calendar_2020-Present.svg
+          filename: /generated/GitHub_Stats_B_GitHub_Calendar_2020-Present.svg
           token: ${{ secrets.METRICS_TOKEN }}
 #          user: seanpm2001
           base: ""
@@ -334,7 +353,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_GitHub_Achievements.svg
+#          filename: GitHub_Stats_B_GitHub_Achievements.svg
+          filename: /generated/GitHub_Stats_B_GitHub_Achievements.svg
           token: ${{ secrets.METRICS_TOKEN }}
 #          user: seanpm2001
           base: ""
@@ -349,7 +369,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_GitHub_Stargazers_Graph.svg
+#          filename: GitHub_Stats_B_GitHub_Stargazers_Graph.svg
+          filename: /generated/GitHub_Stats_B_GitHub_Stargazers_Graph.svg
           token: ${{ secrets.METRICS_TOKEN }}
 #          user: seanpm2001
           base: ""
@@ -361,7 +382,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_GitHub_Stargazers_Chart.svg
+#          filename: GitHub_Stats_B_GitHub_Stargazers_Chart.svg
+          filename: /generated/GitHub_Stats_B_GitHub_Stargazers_Chart.svg
           token: ${{ secrets.METRICS_TOKEN }}
 #          user: seanpm2001
           base: ""
@@ -372,7 +394,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_GitHub_Licenses_Overview.svg
+#          filename: GitHub_Stats_B_GitHub_Licenses_Overview.svg
+          filename: /generated/GitHub_Stats_B_GitHub_Licenses_Overview.svg
           token: ${{ secrets.METRICS_TOKEN }}
 #          user: seanpm2001
           base: ""
@@ -387,7 +410,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_GitHub_Licenses_Ratio.svg
+#          filename: GitHub_Stats_B_GitHub_Licenses_Ratio.svg
+          filename: /generated/GitHub_Stats_B_GitHub_Licenses_Ratio.svg
           token: ${{ secrets.METRICS_TOKEN }}
 #          user: seanpm2001
           base: ""
@@ -403,7 +427,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_GitHub_Repository_Traffic.svg
+#          filename: GitHub_Stats_B_GitHub_Repository_Traffic.svg
+          filename: /generated/GitHub_Stats_B_GitHub_Repository_Traffic.svg
           token: ${{ secrets.METRICS_TOKEN }}
 #          user: seanpm2001
           base: repositories
@@ -414,7 +439,8 @@ jobs:
         uses: lowlighter/metrics@latest
 #        uses: seanpm2001/Lowlighter_Metrics@latest
         with:
-          filename: GitHub_Stats_B_GitHub_Languages.svg
+#          filename: GitHub_Stats_B_GitHub_Languages.svg
+          filename: /generated/GitHub_Stats_B_GitHub_Languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
 #          user: seanpm2001
           base: header
@@ -499,5 +525,7 @@ jobs:
 
 # I plan to try and split this into several workflows, once I get the main workflow functional.
 
+# V23: Commented out previous file names, and added a new line that starts each file in the folder /generated/
+
 # File info
-# File version: 22 (2024, Friday, March 29th at 06:35 pm PST)
+# File version: 23 (2024, Tuesday, April 2nd at 01:46 pm PST)
