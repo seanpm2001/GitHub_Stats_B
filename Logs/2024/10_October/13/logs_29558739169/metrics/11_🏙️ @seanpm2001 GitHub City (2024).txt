@@ -1,0 +1,1143 @@
+﻿2024-10-13T14:53:49.4390404Z ##[group]Run lowlighter/metrics@latest
+2024-10-13T14:53:49.4390788Z with:
+2024-10-13T14:53:49.4391139Z   filename: /generated/GitHub_Stats_B_Seanpm2001_GitHub_City_2024.svg
+2024-10-13T14:53:49.4391579Z   token: NOT_NEEDED
+2024-10-13T14:53:49.4391822Z   plugin_skyline: yes
+2024-10-13T14:53:49.4392087Z   plugin_skyline_year: 2024
+2024-10-13T14:53:49.4392369Z   plugin_skyline_frames: 6
+2024-10-13T14:53:49.4392644Z   plugin_skyline_quality: 1
+2024-10-13T14:53:49.4394008Z   plugin_skyline_settings: {
+  "url": "https://honzaap.github.io/GithubCity?name=${login}&year=${year}",
+  "ready": "[...document.querySelectorAll('.display-info span')].map(span => span.innerText).includes('${login}')",
+  "wait": 4,
+  "hide": ".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child"
+}
+
+2024-10-13T14:53:49.4395434Z   base_indepth: <default-value>
+2024-10-13T14:53:49.4395738Z   base_hireable: <default-value>
+2024-10-13T14:53:49.4396039Z   base_skip: <default-value>
+2024-10-13T14:53:49.4396369Z   repositories: <default-value>
+2024-10-13T14:53:49.4396675Z   repositories_batch: <default-value>
+2024-10-13T14:53:49.4397009Z   repositories_forks: <default-value>
+2024-10-13T14:53:49.4397350Z   repositories_affiliations: <default-value>
+2024-10-13T14:53:49.4397714Z   repositories_skipped: <default-value>
+2024-10-13T14:53:49.4398041Z   users_ignored: <default-value>
+2024-10-13T14:53:49.4398348Z   commits_authoring: <default-value>
+2024-10-13T14:53:49.4398663Z   user: <default-value>
+2024-10-13T14:53:49.4398917Z   repo: <default-value>
+2024-10-13T14:53:49.4399416Z   committer_token: ***
+2024-10-13T14:53:49.4399703Z   committer_branch: <default-value>
+2024-10-13T14:53:49.4400029Z   committer_message: <default-value>
+2024-10-13T14:53:49.4400353Z   committer_gist: <default-value>
+2024-10-13T14:53:49.4400652Z   markdown: <default-value>
+2024-10-13T14:53:49.4400938Z   markdown_cache: <default-value>
+2024-10-13T14:53:49.4401246Z   output_action: <default-value>
+2024-10-13T14:53:49.4401547Z   output_condition: <default-value>
+2024-10-13T14:53:49.4402115Z   optimize: <default-value>
+2024-10-13T14:53:49.4402436Z   setup_community_templates: <default-value>
+2024-10-13T14:53:49.4402785Z   template: <default-value>
+2024-10-13T14:53:49.4403051Z   query: <default-value>
+2024-10-13T14:53:49.4403321Z   extras_css: <default-value>
+2024-10-13T14:53:49.4403616Z   extras_js: <default-value>
+2024-10-13T14:53:49.4403919Z   github_api_rest: <default-value>
+2024-10-13T14:53:49.4404238Z   github_api_graphql: <default-value>
+2024-10-13T14:53:49.4404561Z   config_order: <default-value>
+2024-10-13T14:53:49.4404861Z   config_twemoji: <default-value>
+2024-10-13T14:53:49.4405166Z   config_gemoji: <default-value>
+2024-10-13T14:53:49.4405463Z   config_octicon: <default-value>
+2024-10-13T14:53:49.4405766Z   config_display: <default-value>
+2024-10-13T14:53:49.4406069Z   config_animations: <default-value>
+2024-10-13T14:53:49.4406384Z   config_base64: <default-value>
+2024-10-13T14:53:49.4406682Z   config_padding: <default-value>
+2024-10-13T14:53:49.4406992Z   config_output: <default-value>
+2024-10-13T14:53:49.4407286Z   retries: <default-value>
+2024-10-13T14:53:49.4407558Z   retries_delay: <default-value>
+2024-10-13T14:53:49.4407868Z   retries_output_action: <default-value>
+2024-10-13T14:53:49.4408237Z   retries_delay_output_action: <default-value>
+2024-10-13T14:53:49.4408593Z   clean_workflows: <default-value>
+2024-10-13T14:53:49.4408893Z   delay: <default-value>
+2024-10-13T14:53:49.4409174Z   quota_required_rest: <default-value>
+2024-10-13T14:53:49.4409513Z   quota_required_graphql: <default-value>
+2024-10-13T14:53:49.4409862Z   quota_required_search: <default-value>
+2024-10-13T14:53:49.4410192Z   notice_releases: <default-value>
+2024-10-13T14:53:49.4410499Z   use_prebuilt_image: yes
+2024-10-13T14:53:49.4410788Z   plugins_errors_fatal: <default-value>
+2024-10-13T14:53:49.4411110Z   debug: <default-value>
+2024-10-13T14:53:49.4411366Z   verify: <default-value>
+2024-10-13T14:53:49.4411638Z   debug_flags: <default-value>
+2024-10-13T14:53:49.4411935Z   debug_print: <default-value>
+2024-10-13T14:53:49.4412431Z   dryrun: <default-value>
+2024-10-13T14:53:49.4412723Z   experimental_features: <default-value>
+2024-10-13T14:53:49.4413065Z   use_mocked_data: <default-value>
+2024-10-13T14:53:49.4413384Z   plugin_isocalendar: <default-value>
+2024-10-13T14:53:49.4413741Z   plugin_isocalendar_duration: <default-value>
+2024-10-13T14:53:49.4414104Z   plugin_languages: <default-value>
+2024-10-13T14:53:49.4414440Z   plugin_languages_ignored: <default-value>
+2024-10-13T14:53:49.4414806Z   plugin_languages_skipped: <default-value>
+2024-10-13T14:53:49.4415158Z   plugin_languages_limit: <default-value>
+2024-10-13T14:53:49.4415520Z   plugin_languages_threshold: <default-value>
+2024-10-13T14:53:49.4415882Z   plugin_languages_other: <default-value>
+2024-10-13T14:53:49.4416234Z   plugin_languages_colors: <default-value>
+2024-10-13T14:53:49.4416592Z   plugin_languages_aliases: <default-value>
+2024-10-13T14:53:49.4416961Z   plugin_languages_sections: <default-value>
+2024-10-13T14:53:49.4417606Z   plugin_languages_details: <default-value>
+2024-10-13T14:53:49.4417983Z   plugin_languages_indepth: <default-value>
+2024-10-13T14:53:49.4418370Z   plugin_languages_indepth_custom: <default-value>
+2024-10-13T14:53:49.4418794Z   plugin_languages_analysis_timeout: <default-value>
+2024-10-13T14:53:49.4419280Z   plugin_languages_analysis_timeout_repositories: <default-value>
+2024-10-13T14:53:49.4419744Z   plugin_languages_categories: <default-value>
+2024-10-13T14:53:49.4420146Z   plugin_languages_recent_categories: <default-value>
+2024-10-13T14:53:49.4420568Z   plugin_languages_recent_load: <default-value>
+2024-10-13T14:53:49.4420955Z   plugin_languages_recent_days: <default-value>
+2024-10-13T14:53:49.4421321Z   plugin_stargazers: <default-value>
+2024-10-13T14:53:49.4421657Z   plugin_stargazers_days: <default-value>
+2024-10-13T14:53:49.4422020Z   plugin_stargazers_charts: <default-value>
+2024-10-13T14:53:49.4422403Z   plugin_stargazers_charts_type: <default-value>
+2024-10-13T14:53:49.4422811Z   plugin_stargazers_worldmap: <default-value>
+2024-10-13T14:53:49.4423400Z   plugin_stargazers_worldmap_token: <default-value>
+2024-10-13T14:53:49.4423839Z   plugin_stargazers_worldmap_sample: <default-value>
+2024-10-13T14:53:49.4424254Z   plugin_lines: <default-value>
+2024-10-13T14:53:49.4424566Z   plugin_lines_skipped: <default-value>
+2024-10-13T14:53:49.4424908Z   plugin_lines_sections: <default-value>
+2024-10-13T14:53:49.4425283Z   plugin_lines_repositories_limit: <default-value>
+2024-10-13T14:53:49.4425684Z   plugin_lines_history_limit: <default-value>
+2024-10-13T14:53:49.4426040Z   plugin_lines_delay: <default-value>
+2024-10-13T14:53:49.4426361Z   plugin_topics: <default-value>
+2024-10-13T14:53:49.4426678Z   plugin_topics_mode: <default-value>
+2024-10-13T14:53:49.4427004Z   plugin_topics_sort: <default-value>
+2024-10-13T14:53:49.4427322Z   plugin_topics_limit: <default-value>
+2024-10-13T14:53:49.4427644Z   plugin_stars: <default-value>
+2024-10-13T14:53:49.4427951Z   plugin_stars_limit: <default-value>
+2024-10-13T14:53:49.4428283Z   plugin_licenses: <default-value>
+2024-10-13T14:53:49.4428611Z   plugin_licenses_setup: <default-value>
+2024-10-13T14:53:49.4428952Z   plugin_licenses_ratio: <default-value>
+2024-10-13T14:53:49.4429293Z   plugin_licenses_legal: <default-value>
+2024-10-13T14:53:49.4429623Z   plugin_habits: <default-value>
+2024-10-13T14:53:49.4429931Z   plugin_habits_from: <default-value>
+2024-10-13T14:53:49.4430256Z   plugin_habits_skipped: <default-value>
+2024-10-13T14:53:49.4430594Z   plugin_habits_days: <default-value>
+2024-10-13T14:53:49.4430925Z   plugin_habits_facts: <default-value>
+2024-10-13T14:53:49.4431259Z   plugin_habits_charts: <default-value>
+2024-10-13T14:53:49.4431610Z   plugin_habits_charts_type: <default-value>
+2024-10-13T14:53:49.4431966Z   plugin_habits_trim: <default-value>
+2024-10-13T14:53:49.4432325Z   plugin_habits_languages_limit: <default-value>
+2024-10-13T14:53:49.4432739Z   plugin_habits_languages_threshold: <default-value>
+2024-10-13T14:53:49.4433125Z   plugin_contributors: <default-value>
+2024-10-13T14:53:49.4433645Z   plugin_contributors_base: <default-value>
+2024-10-13T14:53:49.4434016Z   plugin_contributors_head: <default-value>
+2024-10-13T14:53:49.4434393Z   plugin_contributors_ignored: <default-value>
+2024-10-13T14:53:49.4434793Z   plugin_contributors_contributions: <default-value>
+2024-10-13T14:53:49.4435200Z   plugin_contributors_sections: <default-value>
+2024-10-13T14:53:49.4435603Z   plugin_contributors_categories: <default-value>
+2024-10-13T14:53:49.4435976Z   plugin_followup: <default-value>
+2024-10-13T14:53:49.4436303Z   plugin_followup_sections: <default-value>
+2024-10-13T14:53:49.4436664Z   plugin_followup_indepth: <default-value>
+2024-10-13T14:53:49.4437027Z   plugin_followup_archived: <default-value>
+2024-10-13T14:53:49.4437366Z   plugin_reactions: <default-value>
+2024-10-13T14:53:49.4437693Z   plugin_reactions_limit: <default-value>
+2024-10-13T14:53:49.4438066Z   plugin_reactions_limit_issues: <default-value>
+2024-10-13T14:53:49.4438480Z   plugin_reactions_limit_discussions: <default-value>
+2024-10-13T14:53:49.4438964Z   plugin_reactions_limit_discussions_comments: <default-value>
+2024-10-13T14:53:49.4439396Z   plugin_reactions_days: <default-value>
+2024-10-13T14:53:49.4439748Z   plugin_reactions_display: <default-value>
+2024-10-13T14:53:49.4440108Z   plugin_reactions_details: <default-value>
+2024-10-13T14:53:49.4440470Z   plugin_reactions_ignored: <default-value>
+2024-10-13T14:53:49.4440804Z   plugin_people: <default-value>
+2024-10-13T14:53:49.4441116Z   plugin_people_limit: <default-value>
+2024-10-13T14:53:49.4441462Z   plugin_people_identicons: <default-value>
+2024-10-13T14:53:49.4441835Z   plugin_people_identicons_hide: <default-value>
+2024-10-13T14:53:49.4442208Z   plugin_people_size: <default-value>
+2024-10-13T14:53:49.4442539Z   plugin_people_types: <default-value>
+2024-10-13T14:53:49.4442874Z   plugin_people_thanks: <default-value>
+2024-10-13T14:53:49.4443238Z   plugin_people_sponsors_custom: <default-value>
+2024-10-13T14:53:49.4443614Z   plugin_people_shuffle: <default-value>
+2024-10-13T14:53:49.4444094Z   plugin_sponsorships: <default-value>
+2024-10-13T14:53:49.4444461Z   plugin_sponsorships_sections: <default-value>
+2024-10-13T14:53:49.4444838Z   plugin_sponsorships_size: <default-value>
+2024-10-13T14:53:49.4445186Z   plugin_sponsors: <default-value>
+2024-10-13T14:53:49.4445517Z   plugin_sponsors_sections: <default-value>
+2024-10-13T14:53:49.4445868Z   plugin_sponsors_past: <default-value>
+2024-10-13T14:53:49.4446203Z   plugin_sponsors_size: <default-value>
+2024-10-13T14:53:49.4446541Z   plugin_sponsors_title: <default-value>
+2024-10-13T14:53:49.4446890Z   plugin_repositories: <default-value>
+2024-10-13T14:53:49.4447255Z   plugin_repositories_featured: <default-value>
+2024-10-13T14:53:49.4447638Z   plugin_repositories_pinned: <default-value>
+2024-10-13T14:53:49.4448022Z   plugin_repositories_starred: <default-value>
+2024-10-13T14:53:49.4448400Z   plugin_repositories_random: <default-value>
+2024-10-13T14:53:49.4448775Z   plugin_repositories_order: <default-value>
+2024-10-13T14:53:49.4449154Z   plugin_repositories_forks: <default-value>
+2024-10-13T14:53:49.4449550Z   plugin_repositories_affiliations: <default-value>
+2024-10-13T14:53:49.4449947Z   plugin_discussions: <default-value>
+2024-10-13T14:53:49.4450308Z   plugin_discussions_categories: <default-value>
+2024-10-13T14:53:49.4450724Z   plugin_discussions_categories_limit: <default-value>
+2024-10-13T14:53:49.4451115Z   plugin_starlists: <default-value>
+2024-10-13T14:53:49.4451449Z   plugin_starlists_limit: <default-value>
+2024-10-13T14:53:49.4451842Z   plugin_starlists_limit_repositories: <default-value>
+2024-10-13T14:53:49.4452248Z   plugin_starlists_languages: <default-value>
+2024-10-13T14:53:49.4452641Z   plugin_starlists_limit_languages: <default-value>
+2024-10-13T14:53:49.4453067Z   plugin_starlists_languages_ignored: <default-value>
+2024-10-13T14:53:49.4453494Z   plugin_starlists_languages_aliases: <default-value>
+2024-10-13T14:53:49.4453924Z   plugin_starlists_shuffle_repositories: <default-value>
+2024-10-13T14:53:49.4454494Z   plugin_starlists_ignored: <default-value>
+2024-10-13T14:53:49.4454857Z   plugin_starlists_only: <default-value>
+2024-10-13T14:53:49.4455195Z   plugin_calendar: <default-value>
+2024-10-13T14:53:49.4455518Z   plugin_calendar_limit: <default-value>
+2024-10-13T14:53:49.4455860Z   plugin_achievements: <default-value>
+2024-10-13T14:53:49.4456223Z   plugin_achievements_threshold: <default-value>
+2024-10-13T14:53:49.4456617Z   plugin_achievements_secrets: <default-value>
+2024-10-13T14:53:49.4456998Z   plugin_achievements_display: <default-value>
+2024-10-13T14:53:49.4457500Z   plugin_achievements_limit: <default-value>
+2024-10-13T14:53:49.4457876Z   plugin_achievements_ignored: <default-value>
+2024-10-13T14:53:49.4458245Z   plugin_achievements_only: <default-value>
+2024-10-13T14:53:49.4458586Z   plugin_notable: <default-value>
+2024-10-13T14:53:49.4458903Z   plugin_notable_filter: <default-value>
+2024-10-13T14:53:49.4459249Z   plugin_notable_skipped: <default-value>
+2024-10-13T14:53:49.4459589Z   plugin_notable_from: <default-value>
+2024-10-13T14:53:49.4459944Z   plugin_notable_repositories: <default-value>
+2024-10-13T14:53:49.4460313Z   plugin_notable_indepth: <default-value>
+2024-10-13T14:53:49.4460655Z   plugin_notable_types: <default-value>
+2024-10-13T14:53:49.4460987Z   plugin_notable_self: <default-value>
+2024-10-13T14:53:49.4461306Z   plugin_activity: <default-value>
+2024-10-13T14:53:49.4461627Z   plugin_activity_limit: <default-value>
+2024-10-13T14:53:49.4461965Z   plugin_activity_load: <default-value>
+2024-10-13T14:53:49.4462296Z   plugin_activity_days: <default-value>
+2024-10-13T14:53:49.4462643Z   plugin_activity_visibility: <default-value>
+2024-10-13T14:53:49.4463015Z   plugin_activity_timestamps: <default-value>
+2024-10-13T14:53:49.4463374Z   plugin_activity_skipped: <default-value>
+2024-10-13T14:53:49.4463728Z   plugin_activity_ignored: <default-value>
+2024-10-13T14:53:49.4464075Z   plugin_activity_filter: <default-value>
+2024-10-13T14:53:49.4464409Z   plugin_traffic: <default-value>
+2024-10-13T14:53:49.4464931Z   plugin_traffic_skipped: <default-value>
+2024-10-13T14:53:49.4465266Z   plugin_code: <default-value>
+2024-10-13T14:53:49.4465560Z   plugin_code_lines: <default-value>
+2024-10-13T14:53:49.4465886Z   plugin_code_load: <default-value>
+2024-10-13T14:53:49.4466204Z   plugin_code_days: <default-value>
+2024-10-13T14:53:49.4466530Z   plugin_code_visibility: <default-value>
+2024-10-13T14:53:49.4466876Z   plugin_code_skipped: <default-value>
+2024-10-13T14:53:49.4467218Z   plugin_code_languages: <default-value>
+2024-10-13T14:53:49.4467556Z   plugin_gists: <default-value>
+2024-10-13T14:53:49.4467854Z   plugin_projects: <default-value>
+2024-10-13T14:53:49.4468189Z   plugin_projects_limit: <default-value>
+2024-10-13T14:53:49.4468557Z   plugin_projects_repositories: <default-value>
+2024-10-13T14:53:49.4468953Z   plugin_projects_descriptions: <default-value>
+2024-10-13T14:53:49.4469313Z   plugin_introduction: <default-value>
+2024-10-13T14:53:49.4469662Z   plugin_introduction_title: <default-value>
+2024-10-13T14:53:49.4470060Z   plugin_skyline_compatibility: <default-value>
+2024-10-13T14:53:49.4470420Z   plugin_support: <default-value>
+2024-10-13T14:53:49.4470733Z   plugin_pagespeed: <default-value>
+2024-10-13T14:53:49.4471072Z   plugin_pagespeed_token: <default-value>
+2024-10-13T14:53:49.4471414Z   plugin_pagespeed_url: <default-value>
+2024-10-13T14:53:49.4471772Z   plugin_pagespeed_detailed: <default-value>
+2024-10-13T14:53:49.4472149Z   plugin_pagespeed_screenshot: <default-value>
+2024-10-13T14:53:49.4472516Z   plugin_pagespeed_pwa: <default-value>
+2024-10-13T14:53:49.4472847Z   plugin_tweets: <default-value>
+2024-10-13T14:53:49.4473156Z   plugin_tweets_token: <default-value>
+2024-10-13T14:53:49.4473481Z   plugin_tweets_user: <default-value>
+2024-10-13T14:53:49.4473828Z   plugin_tweets_attachments: <default-value>
+2024-10-13T14:53:49.4474176Z   plugin_tweets_limit: <default-value>
+2024-10-13T14:53:49.4474508Z   plugin_stackoverflow: <default-value>
+2024-10-13T14:53:49.4474862Z   plugin_stackoverflow_user: <default-value>
+2024-10-13T14:53:49.4475406Z   plugin_stackoverflow_sections: <default-value>
+2024-10-13T14:53:49.4475793Z   plugin_stackoverflow_limit: <default-value>
+2024-10-13T14:53:49.4476167Z   plugin_stackoverflow_lines: <default-value>
+2024-10-13T14:53:49.4476554Z   plugin_stackoverflow_lines_snippet: <default-value>
+2024-10-13T14:53:49.4476937Z   plugin_anilist: <default-value>
+2024-10-13T14:53:49.4477247Z   plugin_anilist_user: <default-value>
+2024-10-13T14:53:49.4477581Z   plugin_anilist_medias: <default-value>
+2024-10-13T14:53:49.4477923Z   plugin_anilist_sections: <default-value>
+2024-10-13T14:53:49.4478271Z   plugin_anilist_limit: <default-value>
+2024-10-13T14:53:49.4478637Z   plugin_anilist_limit_characters: <default-value>
+2024-10-13T14:53:49.4479022Z   plugin_anilist_shuffle: <default-value>
+2024-10-13T14:53:49.4479351Z   plugin_music: <default-value>
+2024-10-13T14:53:49.4479664Z   plugin_music_provider: <default-value>
+2024-10-13T14:53:49.4480002Z   plugin_music_token: <default-value>
+2024-10-13T14:53:49.4480336Z   plugin_music_user: <default-value>
+2024-10-13T14:53:49.4480653Z   plugin_music_mode: <default-value>
+2024-10-13T14:53:49.4480980Z   plugin_music_playlist: <default-value>
+2024-10-13T14:53:49.4481316Z   plugin_music_limit: <default-value>
+2024-10-13T14:53:49.4481647Z   plugin_music_played_at: <default-value>
+2024-10-13T14:53:49.4481990Z   plugin_music_time_range: <default-value>
+2024-10-13T14:53:49.4482341Z   plugin_music_top_type: <default-value>
+2024-10-13T14:53:49.4482665Z   plugin_posts: <default-value>
+2024-10-13T14:53:49.4482966Z   plugin_posts_source: <default-value>
+2024-10-13T14:53:49.4483292Z   plugin_posts_user: <default-value>
+2024-10-13T14:53:49.4483635Z   plugin_posts_descriptions: <default-value>
+2024-10-13T14:53:49.4483987Z   plugin_posts_covers: <default-value>
+2024-10-13T14:53:49.4484310Z   plugin_posts_limit: <default-value>
+2024-10-13T14:53:49.4484623Z   plugin_rss: <default-value>
+2024-10-13T14:53:49.4484916Z   plugin_rss_source: <default-value>
+2024-10-13T14:53:49.4485366Z   plugin_rss_limit: <default-value>
+2024-10-13T14:53:49.4485678Z   plugin_wakatime: <default-value>
+2024-10-13T14:53:49.4485997Z   plugin_wakatime_token: <default-value>
+2024-10-13T14:53:49.4486335Z   plugin_wakatime_url: <default-value>
+2024-10-13T14:53:49.4486659Z   plugin_wakatime_user: <default-value>
+2024-10-13T14:53:49.4487002Z   plugin_wakatime_sections: <default-value>
+2024-10-13T14:53:49.4487351Z   plugin_wakatime_days: <default-value>
+2024-10-13T14:53:49.4487687Z   plugin_wakatime_limit: <default-value>
+2024-10-13T14:53:49.4488054Z   plugin_wakatime_languages_other: <default-value>
+2024-10-13T14:53:49.4488468Z   plugin_wakatime_languages_ignored: <default-value>
+2024-10-13T14:53:49.4488921Z   plugin_wakatime_repositories_visibility: <default-value>
+2024-10-13T14:53:49.4489325Z   plugin_leetcode: <default-value>
+2024-10-13T14:53:49.4489641Z   plugin_leetcode_user: <default-value>
+2024-10-13T14:53:49.4489982Z   plugin_leetcode_sections: <default-value>
+2024-10-13T14:53:49.4490362Z   plugin_leetcode_limit_skills: <default-value>
+2024-10-13T14:53:49.4490768Z   plugin_leetcode_ignored_skills: <default-value>
+2024-10-13T14:53:49.4491163Z   plugin_leetcode_limit_recent: <default-value>
+2024-10-13T14:53:49.4491514Z   plugin_steam: <default-value>
+2024-10-13T14:53:49.4491822Z   plugin_steam_token: <default-value>
+2024-10-13T14:53:49.4492153Z   plugin_steam_sections: <default-value>
+2024-10-13T14:53:49.4492509Z   plugin_steam_games_ignored: <default-value>
+2024-10-13T14:53:49.4492864Z   plugin_steam_games_limit: <default-value>
+2024-10-13T14:53:49.4493245Z   plugin_steam_recent_games_limit: <default-value>
+2024-10-13T14:53:49.4493657Z   plugin_steam_achievements_limit: <default-value>
+2024-10-13T14:53:49.4494061Z   plugin_steam_playtime_threshold: <default-value>
+2024-10-13T14:53:49.4494433Z   plugin_16personalities: <default-value>
+2024-10-13T14:53:49.4494798Z   plugin_16personalities_url: <default-value>
+2024-10-13T14:53:49.4495185Z   plugin_16personalities_sections: <default-value>
+2024-10-13T14:53:49.4495726Z   plugin_16personalities_scores: <default-value>
+2024-10-13T14:53:49.4496080Z   plugin_chess: <default-value>
+2024-10-13T14:53:49.4496384Z   plugin_chess_token: <default-value>
+2024-10-13T14:53:49.4496707Z   plugin_chess_user: <default-value>
+2024-10-13T14:53:49.4497040Z   plugin_chess_platform: <default-value>
+2024-10-13T14:53:49.4497491Z   plugin_chess_animation: <default-value>
+2024-10-13T14:53:49.4497826Z   plugin_fortune: <default-value>
+2024-10-13T14:53:49.4498135Z   plugin_nightscout: <default-value>
+2024-10-13T14:53:49.4498469Z   plugin_nightscout_url: <default-value>
+2024-10-13T14:53:49.4498823Z   plugin_nightscout_datapoints: <default-value>
+2024-10-13T14:53:49.4499207Z   plugin_nightscout_lowalert: <default-value>
+2024-10-13T14:53:49.4499582Z   plugin_nightscout_highalert: <default-value>
+2024-10-13T14:53:49.4499982Z   plugin_nightscout_urgentlowalert: <default-value>
+2024-10-13T14:53:49.4500405Z   plugin_nightscout_urgenthighalert: <default-value>
+2024-10-13T14:53:49.4500789Z   plugin_poopmap: <default-value>
+2024-10-13T14:53:49.4501118Z   plugin_poopmap_token: <default-value>
+2024-10-13T14:53:49.4501455Z   plugin_poopmap_days: <default-value>
+2024-10-13T14:53:49.4501779Z   plugin_screenshot: <default-value>
+2024-10-13T14:53:49.4502116Z   plugin_screenshot_title: <default-value>
+2024-10-13T14:53:49.4502467Z   plugin_screenshot_url: <default-value>
+2024-10-13T14:53:49.4502820Z   plugin_screenshot_selector: <default-value>
+2024-10-13T14:53:49.4503176Z   plugin_screenshot_mode: <default-value>
+2024-10-13T14:53:49.4503533Z   plugin_screenshot_viewport: <default-value>
+2024-10-13T14:53:49.4503898Z   plugin_screenshot_wait: <default-value>
+2024-10-13T14:53:49.4504256Z   plugin_screenshot_background: <default-value>
+2024-10-13T14:53:49.4504615Z   plugin_splatoon: <default-value>
+2024-10-13T14:53:49.4504937Z   plugin_splatoon_token: <default-value>
+2024-10-13T14:53:49.4505285Z   plugin_splatoon_sections: <default-value>
+2024-10-13T14:53:49.4505652Z   plugin_splatoon_versus_limit: <default-value>
+2024-10-13T14:53:49.4506198Z   plugin_splatoon_salmon_limit: <default-value>
+2024-10-13T14:53:49.4506562Z   plugin_splatoon_statink: <default-value>
+2024-10-13T14:53:49.4506936Z   plugin_splatoon_statink_token: <default-value>
+2024-10-13T14:53:49.4507305Z   plugin_splatoon_source: <default-value>
+2024-10-13T14:53:49.4507639Z   plugin_stock: <default-value>
+2024-10-13T14:53:49.4507945Z   plugin_stock_token: <default-value>
+2024-10-13T14:53:49.4508270Z   plugin_stock_symbol: <default-value>
+2024-10-13T14:53:49.4508598Z   plugin_stock_duration: <default-value>
+2024-10-13T14:53:49.4508941Z   plugin_stock_interval: <default-value>
+2024-10-13T14:53:49.4509253Z ##[endgroup]
+2024-10-13T14:53:49.4530285Z ##[group]Run # Check runner compatibility
+2024-10-13T14:53:49.4530734Z [36;1m# Check runner compatibility[0m
+2024-10-13T14:53:49.4531126Z [36;1mecho "::group::Metrics docker image setup"[0m
+2024-10-13T14:53:49.4531631Z [36;1mecho "GitHub action: $METRICS_ACTION ($METRICS_ACTION_PATH)"[0m
+2024-10-13T14:53:49.4532097Z [36;1mcd $METRICS_ACTION_PATH[0m
+2024-10-13T14:53:49.4532423Z [36;1mfor DEPENDENCY in docker jq; do[0m
+2024-10-13T14:53:49.4532835Z [36;1m  if ! which $DEPENDENCY > /dev/null 2>&1; then[0m
+2024-10-13T14:53:49.4533489Z [36;1m    echo "::error::\"$DEPENDENCY\" is not installed on current runner but is needed to run metrics"[0m
+2024-10-13T14:53:49.4534092Z [36;1m    MISSING_DEPENDENCIES=1[0m
+2024-10-13T14:53:49.4534393Z [36;1m  fi[0m
+2024-10-13T14:53:49.4534604Z [36;1mdone[0m
+2024-10-13T14:53:49.4534886Z [36;1mif [[ $MISSING_DEPENDENCIES == "1" ]]; then[0m
+2024-10-13T14:53:49.4535347Z [36;1m  echo "Runner compatibility: missing dependencies"[0m
+2024-10-13T14:53:49.4535746Z [36;1m  exit 1[0m
+2024-10-13T14:53:49.4535969Z [36;1melse[0m
+2024-10-13T14:53:49.4536248Z [36;1m  echo "Runner compatibility: compatible"[0m
+2024-10-13T14:53:49.4536600Z [36;1mfi[0m
+2024-10-13T14:53:49.4536802Z [36;1m[0m
+2024-10-13T14:53:49.4537373Z [36;1m# Create environment file from inputs and GitHub variables[0m
+2024-10-13T14:53:49.4538137Z [36;1mtouch .env[0m
+2024-10-13T14:53:49.4538699Z [36;1mfor INPUT in $(echo $INPUTS | jq -r 'to_entries|map("INPUT_\(.key|ascii_upcase)=\(.value|@uri)")|.[]'); do[0m
+2024-10-13T14:53:49.4539316Z [36;1m  echo $INPUT >> .env[0m
+2024-10-13T14:53:49.4539604Z [36;1mdone[0m
+2024-10-13T14:53:49.4539915Z [36;1menv | grep -E '^(GITHUB|ACTIONS|CI|TZ)' >> .env[0m
+2024-10-13T14:53:49.4540337Z [36;1mecho "Environment variables: loaded"[0m
+2024-10-13T14:53:49.4540668Z [36;1m[0m
+2024-10-13T14:53:49.4540902Z [36;1m# Renders output folder[0m
+2024-10-13T14:53:49.4541253Z [36;1mMETRICS_RENDERS="/metrics_renders"[0m
+2024-10-13T14:53:49.4541628Z [36;1msudo mkdir -p $METRICS_RENDERS[0m
+2024-10-13T14:53:49.4542025Z [36;1mecho "Renders output folder: $METRICS_RENDERS"[0m
+2024-10-13T14:53:49.4542398Z [36;1m[0m
+2024-10-13T14:53:49.4542690Z [36;1m# Source repository (picked from action name)[0m
+2024-10-13T14:53:49.4543285Z [36;1mMETRICS_SOURCE=$(echo $METRICS_ACTION | sed -E 's/metrics.*?$//g' | sed -E 's/_//g')[0m
+2024-10-13T14:53:49.4543832Z [36;1mecho "Source: $METRICS_SOURCE"[0m
+2024-10-13T14:53:49.4544143Z [36;1m[0m
+2024-10-13T14:53:49.4544400Z [36;1m# Version (picked from package.json)[0m
+2024-10-13T14:53:49.4544896Z [36;1mMETRICS_VERSION=$(grep -Po '(?<="version": ").*(?=")' package.json)[0m
+2024-10-13T14:53:49.4545371Z [36;1mecho "Version: $METRICS_VERSION"[0m
+2024-10-13T14:53:49.4545690Z [36;1m[0m
+2024-10-13T14:53:49.4545983Z [36;1m# Image tag (extracted from version or from env)[0m
+2024-10-13T14:53:49.4546533Z [36;1mMETRICS_TAG=v$(echo $METRICS_VERSION | sed -r 's/^([0-9]+[.][0-9]+).*/\1/')[0m
+2024-10-13T14:53:49.4547035Z [36;1mecho "Image tag: $METRICS_TAG"[0m
+2024-10-13T14:53:49.4547345Z [36;1m[0m
+2024-10-13T14:53:49.4547560Z [36;1m# Image name[0m
+2024-10-13T14:53:49.4547823Z [36;1m# Official action[0m
+2024-10-13T14:53:49.4548164Z [36;1mif [[ $METRICS_SOURCE == "lowlighter" ]]; then[0m
+2024-10-13T14:53:49.4548592Z [36;1m  # Use registry with pre-built images[0m
+2024-10-13T14:53:49.4549280Z [36;1m  if [[ ! $METRICS_USE_PREBUILT_IMAGE =~ ^([Ff]alse|[Oo]ff|[Nn]o|0)$ ]]; then[0m
+2024-10-13T14:53:49.4549761Z [36;1m    # Is released version[0m
+2024-10-13T14:53:49.4550058Z [36;1m    set +e[0m
+2024-10-13T14:53:49.4550470Z [36;1m    METRICS_IS_RELEASED=$(expr $(expr match $METRICS_VERSION .*-beta) == 0)[0m
+2024-10-13T14:53:49.4550939Z [36;1m    set -e[0m
+2024-10-13T14:53:49.4551273Z [36;1m    echo "Is released version: $METRICS_IS_RELEASED"[0m
+2024-10-13T14:53:49.4551733Z [36;1m    if [[ "$METRICS_IS_RELEASED" -eq "0" ]]; then[0m
+2024-10-13T14:53:49.4552148Z [36;1m      METRICS_TAG="$METRICS_TAG-beta"[0m
+2024-10-13T14:53:49.4552552Z [36;1m      echo "Image tag (updated): $METRICS_TAG"[0m
+2024-10-13T14:53:49.4552910Z [36;1m    fi[0m
+2024-10-13T14:53:49.4553251Z [36;1m    METRICS_IMAGE=ghcr.io/lowlighter/metrics:$METRICS_TAG[0m
+2024-10-13T14:53:49.4553919Z [36;1m    echo "Using pre-built version $METRICS_TAG, will pull docker image from GitHub registry"[0m
+2024-10-13T14:53:49.4554562Z [36;1m    if ! docker image pull $METRICS_IMAGE; then[0m
+2024-10-13T14:53:49.4555162Z [36;1m      echo "Failed to fetch docker image from GitHub registry, will rebuild it locally"[0m
+2024-10-13T14:53:49.4555751Z [36;1m      METRICS_IMAGE=metrics:$METRICS_VERSION[0m
+2024-10-13T14:53:49.4556100Z [36;1m    fi[0m
+2024-10-13T14:53:49.4556335Z [36;1m  # Rebuild image[0m
+2024-10-13T14:53:49.4556601Z [36;1m  else[0m
+2024-10-13T14:53:49.4556936Z [36;1m    echo "Using an unreleased version ($METRICS_VERSION)"[0m
+2024-10-13T14:53:49.4557406Z [36;1m    METRICS_IMAGE=metrics:$METRICS_VERSION[0m
+2024-10-13T14:53:49.4557757Z [36;1m  fi[0m
+2024-10-13T14:53:49.4557989Z [36;1m# Forked action[0m
+2024-10-13T14:53:49.4558243Z [36;1melse[0m
+2024-10-13T14:53:49.4558498Z [36;1m  echo "Using a forked version"[0m
+2024-10-13T14:53:49.4558901Z [36;1m  METRICS_IMAGE=metrics:forked-$METRICS_VERSION[0m
+2024-10-13T14:53:49.4559271Z [36;1mfi[0m
+2024-10-13T14:53:49.4559654Z [36;1mecho "Image name: $METRICS_IMAGE"[0m
+2024-10-13T14:53:49.4559978Z [36;1m[0m
+2024-10-13T14:53:49.4560208Z [36;1m# Build image if necessary[0m
+2024-10-13T14:53:49.4560511Z [36;1mset +e[0m
+2024-10-13T14:53:49.4560774Z [36;1mdocker image inspect $METRICS_IMAGE[0m
+2024-10-13T14:53:49.4561134Z [36;1mMETRICS_IMAGE_NEEDS_BUILD="$?"[0m
+2024-10-13T14:53:49.4561464Z [36;1mset -e[0m
+2024-10-13T14:53:49.4561780Z [36;1mif [[ "$METRICS_IMAGE_NEEDS_BUILD" -gt "0" ]]; then[0m
+2024-10-13T14:53:49.4562391Z [36;1m  echo "Image $METRICS_IMAGE is not present locally, rebuilding it from Dockerfile"[0m
+2024-10-13T14:53:49.4562958Z [36;1m  docker build -t $METRICS_IMAGE .[0m
+2024-10-13T14:53:49.4563297Z [36;1melse[0m
+2024-10-13T14:53:49.4563611Z [36;1m  echo "Image $METRICS_IMAGE is present locally"[0m
+2024-10-13T14:53:49.4563990Z [36;1mfi[0m
+2024-10-13T14:53:49.4564220Z [36;1mecho "::endgroup::"[0m
+2024-10-13T14:53:49.4564491Z [36;1m[0m
+2024-10-13T14:53:49.4564767Z [36;1m# Run docker image with current environment[0m
+2024-10-13T14:53:49.4565543Z [36;1mdocker run --init --rm --volume $GITHUB_EVENT_PATH:$GITHUB_EVENT_PATH --volume $METRICS_RENDERS:/renders --env-file .env $METRICS_IMAGE[0m
+2024-10-13T14:53:49.4566242Z [36;1mrm .env[0m
+2024-10-13T14:53:49.4623066Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2024-10-13T14:53:49.4623467Z env:
+2024-10-13T14:53:49.4623713Z   METRICS_ACTION: __lowlighter_metrics_10
+2024-10-13T14:53:49.4624235Z   METRICS_ACTION_PATH: /home/runner/work/_actions/lowlighter/metrics/latest
+2024-10-13T14:53:49.4624715Z   METRICS_USE_PREBUILT_IMAGE: yes
+2024-10-13T14:53:49.4675487Z   INPUTS: {
+  "filename": "/generated/GitHub_Stats_B_Seanpm2001_GitHub_City_2024.svg",
+  "token": "NOT_NEEDED",
+  "base": "",
+  "plugin_skyline": "yes",
+  "plugin_skyline_year": "2024",
+  "plugin_skyline_frames": "6",
+  "plugin_skyline_quality": "1",
+  "plugin_skyline_settings": "{\n  \"url\": \"https://honzaap.github.io/GithubCity?name=${login}&year=${year}\",\n  \"ready\": \"[...document.querySelectorAll('.display-info span')].map(span => span.innerText).includes('${login}')\",\n  \"wait\": 4,\n  \"hide\": \".github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child\"\n}\n",
+  "base_indepth": "<default-value>",
+  "base_hireable": "<default-value>",
+  "base_skip": "<default-value>",
+  "repositories": "<default-value>",
+  "repositories_batch": "<default-value>",
+  "repositories_forks": "<default-value>",
+  "repositories_affiliations": "<default-value>",
+  "repositories_skipped": "<default-value>",
+  "users_ignored": "<default-value>",
+  "commits_authoring": "<default-value>",
+  "user": "<default-value>",
+  "repo": "<default-value>",
+  "committer_token": "***",
+  "committer_branch": "<default-value>",
+  "committer_message": "<default-value>",
+  "committer_gist": "<default-value>",
+  "markdown": "<default-value>",
+  "markdown_cache": "<default-value>",
+  "output_action": "<default-value>",
+  "output_condition": "<default-value>",
+  "optimize": "<default-value>",
+  "setup_community_templates": "<default-value>",
+  "template": "<default-value>",
+  "query": "<default-value>",
+  "extras_css": "<default-value>",
+  "extras_js": "<default-value>",
+  "github_api_rest": "<default-value>",
+  "github_api_graphql": "<default-value>",
+  "config_timezone": "",
+  "config_order": "<default-value>",
+  "config_twemoji": "<default-value>",
+  "config_gemoji": "<default-value>",
+  "config_octicon": "<default-value>",
+  "config_display": "<default-value>",
+  "config_animations": "<default-value>",
+  "config_base64": "<default-value>",
+  "config_padding": "<default-value>",
+  "config_output": "<default-value>",
+  "config_presets": "",
+  "retries": "<default-value>",
+  "retries_delay": "<default-value>",
+  "retries_output_action": "<default-value>",
+  "retries_delay_output_action": "<default-value>",
+  "clean_workflows": "<default-value>",
+  "delay": "<default-value>",
+  "quota_required_rest": "<default-value>",
+  "quota_required_graphql": "<default-value>",
+  "quota_required_search": "<default-value>",
+  "notice_releases": "<default-value>",
+  "use_prebuilt_image": "yes",
+  "plugins_errors_fatal": "<default-value>",
+  "debug": "<default-value>",
+  "verify": "<default-value>",
+  "debug_flags": "<default-value>",
+  "debug_print": "<default-value>",
+  "dryrun": "<default-value>",
+  "experimental_features": "<default-value>",
+  "use_mocked_data": "<default-value>",
+  "plugin_isocalendar": "<default-value>",
+  "plugin_isocalendar_duration": "<default-value>",
+  "plugin_languages": "<default-value>",
+  "plugin_languages_ignored": "<default-value>",
+  "plugin_languages_skipped": "<default-value>",
+  "plugin_languages_limit": "<default-value>",
+  "plugin_languages_threshold": "<default-value>",
+  "plugin_languages_other": "<default-value>",
+  "plugin_languages_colors": "<default-value>",
+  "plugin_languages_aliases": "<default-value>",
+  "plugin_languages_sections": "<default-value>",
+  "plugin_languages_details": "<default-value>",
+  "plugin_languages_indepth": "<default-value>",
+  "plugin_languages_indepth_custom": "<default-value>",
+  "plugin_languages_analysis_timeout": "<default-value>",
+  "plugin_languages_analysis_timeout_repositories": "<default-value>",
+  "plugin_languages_categories": "<default-value>",
+  "plugin_languages_recent_categories": "<default-value>",
+  "plugin_languages_recent_load": "<default-value>",
+  "plugin_languages_recent_days": "<default-value>",
+  "plugin_stargazers": "<default-value>",
+  "plugin_stargazers_days": "<default-value>",
+  "plugin_stargazers_charts": "<default-value>",
+  "plugin_stargazers_charts_type": "<default-value>",
+  "plugin_stargazers_worldmap": "<default-value>",
+  "plugin_stargazers_worldmap_token": "<default-value>",
+  "plugin_stargazers_worldmap_sample": "<default-value>",
+  "plugin_lines": "<default-value>",
+  "plugin_lines_skipped": "<default-value>",
+  "plugin_lines_sections": "<default-value>",
+  "plugin_lines_repositories_limit": "<default-value>",
+  "plugin_lines_history_limit": "<default-value>",
+  "plugin_lines_delay": "<default-value>",
+  "plugin_topics": "<default-value>",
+  "plugin_topics_mode": "<default-value>",
+  "plugin_topics_sort": "<default-value>",
+  "plugin_topics_limit": "<default-value>",
+  "plugin_stars": "<default-value>",
+  "plugin_stars_limit": "<default-value>",
+  "plugin_licenses": "<default-value>",
+  "plugin_licenses_setup": "<default-value>",
+  "plugin_licenses_ratio": "<default-value>",
+  "plugin_licenses_legal": "<default-value>",
+  "plugin_habits": "<default-value>",
+  "plugin_habits_from": "<default-value>",
+  "plugin_habits_skipped": "<default-value>",
+  "plugin_habits_days": "<default-value>",
+  "plugin_habits_facts": "<default-value>",
+  "plugin_habits_charts": "<default-value>",
+  "plugin_habits_charts_type": "<default-value>",
+  "plugin_habits_trim": "<default-value>",
+  "plugin_habits_languages_limit": "<default-value>",
+  "plugin_habits_languages_threshold": "<default-value>",
+  "plugin_contributors": "<default-value>",
+  "plugin_contributors_base": "<default-value>",
+  "plugin_contributors_head": "<default-value>",
+  "plugin_contributors_ignored": "<default-value>",
+  "plugin_contributors_contributions": "<default-value>",
+  "plugin_contributors_sections": "<default-value>",
+  "plugin_contributors_categories": "<default-value>",
+  "plugin_followup": "<default-value>",
+  "plugin_followup_sections": "<default-value>",
+  "plugin_followup_indepth": "<default-value>",
+  "plugin_followup_archived": "<default-value>",
+  "plugin_reactions": "<default-value>",
+  "plugin_reactions_limit": "<default-value>",
+  "plugin_reactions_limit_issues": "<default-value>",
+  "plugin_reactions_limit_discussions": "<default-value>",
+  "plugin_reactions_limit_discussions_comments": "<default-value>",
+  "plugin_reactions_days": "<default-value>",
+  "plugin_reactions_display": "<default-value>",
+  "plugin_reactions_details": "<default-value>",
+  "plugin_reactions_ignored": "<default-value>",
+  "plugin_people": "<default-value>",
+  "plugin_people_limit": "<default-value>",
+  "plugin_people_identicons": "<default-value>",
+  "plugin_people_identicons_hide": "<default-value>",
+  "plugin_people_size": "<default-value>",
+  "plugin_people_types": "<default-value>",
+  "plugin_people_thanks": "<default-value>",
+  "plugin_people_sponsors_custom": "<default-value>",
+  "plugin_people_shuffle": "<default-value>",
+  "plugin_sponsorships": "<default-value>",
+  "plugin_sponsorships_sections": "<default-value>",
+  "plugin_sponsorships_size": "<default-value>",
+  "plugin_sponsors": "<default-value>",
+  "plugin_sponsors_sections": "<default-value>",
+  "plugin_sponsors_past": "<default-value>",
+  "plugin_sponsors_size": "<default-value>",
+  "plugin_sponsors_title": "<default-value>",
+  "plugin_repositories": "<default-value>",
+  "plugin_repositories_featured": "<default-value>",
+  "plugin_repositories_pinned": "<default-value>",
+  "plugin_repositories_starred": "<default-value>",
+  "plugin_repositories_random": "<default-value>",
+  "plugin_repositories_order": "<default-value>",
+  "plugin_repositories_forks": "<default-value>",
+  "plugin_repositories_affiliations": "<default-value>",
+  "plugin_discussions": "<default-value>",
+  "plugin_discussions_categories": "<default-value>",
+  "plugin_discussions_categories_limit": "<default-value>",
+  "plugin_starlists": "<default-value>",
+  "plugin_starlists_limit": "<default-value>",
+  "plugin_starlists_limit_repositories": "<default-value>",
+  "plugin_starlists_languages": "<default-value>",
+  "plugin_starlists_limit_languages": "<default-value>",
+  "plugin_starlists_languages_ignored": "<default-value>",
+  "plugin_starlists_languages_aliases": "<default-value>",
+  "plugin_starlists_shuffle_repositories": "<default-value>",
+  "plugin_starlists_ignored": "<default-value>",
+  "plugin_starlists_only": "<default-value>",
+  "plugin_calendar": "<default-value>",
+  "plugin_calendar_limit": "<default-value>",
+  "plugin_achievements": "<default-value>",
+  "plugin_achievements_threshold": "<default-value>",
+  "plugin_achievements_secrets": "<default-value>",
+  "plugin_achievements_display": "<default-value>",
+  "plugin_achievements_limit": "<default-value>",
+  "plugin_achievements_ignored": "<default-value>",
+  "plugin_achievements_only": "<default-value>",
+  "plugin_notable": "<default-value>",
+  "plugin_notable_filter": "<default-value>",
+  "plugin_notable_skipped": "<default-value>",
+  "plugin_notable_from": "<default-value>",
+  "plugin_notable_repositories": "<default-value>",
+  "plugin_notable_indepth": "<default-value>",
+  "plugin_notable_types": "<default-value>",
+  "plugin_notable_self": "<default-value>",
+  "plugin_activity": "<default-value>",
+  "plugin_activity_limit": "<default-value>",
+  "plugin_activity_load": "<default-value>",
+  "plugin_activity_days": "<default-value>",
+  "plugin_activity_visibility": "<default-value>",
+  "plugin_activity_timestamps": "<default-value>",
+  "plugin_activity_skipped": "<default-value>",
+  "plugin_activity_ignored": "<default-value>",
+  "plugin_activity_filter": "<default-value>",
+  "plugin_traffic": "<default-value>",
+  "plugin_traffic_skipped": "<default-value>",
+  "plugin_code": "<default-value>",
+  "plugin_code_lines": "<default-value>",
+  "plugin_code_load": "<default-value>",
+  "plugin_code_days": "<default-value>",
+  "plugin_code_visibility": "<default-value>",
+  "plugin_code_skipped": "<default-value>",
+  "plugin_code_languages": "<default-value>",
+  "plugin_gists": "<default-value>",
+  "plugin_projects": "<default-value>",
+  "plugin_projects_limit": "<default-value>",
+  "plugin_projects_repositories": "<default-value>",
+  "plugin_projects_descriptions": "<default-value>",
+  "plugin_introduction": "<default-value>",
+  "plugin_introduction_title": "<default-value>",
+  "plugin_skyline_compatibility": "<default-value>",
+  "plugin_support": "<default-value>",
+  "plugin_pagespeed": "<default-value>",
+  "plugin_pagespeed_token": "<default-value>",
+  "plugin_pagespeed_url": "<default-value>",
+  "plugin_pagespeed_detailed": "<default-value>",
+  "plugin_pagespeed_screenshot": "<default-value>",
+  "plugin_pagespeed_pwa": "<default-value>",
+  "plugin_tweets": "<default-value>",
+  "plugin_tweets_token": "<default-value>",
+  "plugin_tweets_user": "<default-value>",
+  "plugin_tweets_attachments": "<default-value>",
+  "plugin_tweets_limit": "<default-value>",
+  "plugin_stackoverflow": "<default-value>",
+  "plugin_stackoverflow_user": "<default-value>",
+  "plugin_stackoverflow_sections": "<default-value>",
+  "plugin_stackoverflow_limit": "<default-value>",
+  "plugin_stackoverflow_lines": "<default-value>",
+  "plugin_stackoverflow_lines_snippet": "<default-value>",
+  "plugin_anilist": "<default-value>",
+  "plugin_anilist_user": "<default-value>",
+  "plugin_anilist_medias": "<default-value>",
+  "plugin_anilist_sections": "<default-value>",
+  "plugin_anilist_limit": "<default-value>",
+  "plugin_anilist_limit_characters": "<default-value>",
+  "plugin_anilist_shuffle": "<default-value>",
+  "plugin_music": "<default-value>",
+  "plugin_music_provider": "<default-value>",
+  "plugin_music_token": "<default-value>",
+  "plugin_music_user": "<default-value>",
+  "plugin_music_mode": "<default-value>",
+  "plugin_music_playlist": "<default-value>",
+  "plugin_music_limit": "<default-value>",
+  "plugin_music_played_at": "<default-value>",
+  "plugin_music_time_range": "<default-value>",
+  "plugin_music_top_type": "<default-value>",
+  "plugin_posts": "<default-value>",
+  "plugin_posts_source": "<default-value>",
+  "plugin_posts_user": "<default-value>",
+  "plugin_posts_descriptions": "<default-value>",
+  "plugin_posts_covers": "<default-value>",
+  "plugin_posts_limit": "<default-value>",
+  "plugin_rss": "<default-value>",
+  "plugin_rss_source": "<default-value>",
+  "plugin_rss_limit": "<default-value>",
+  "plugin_wakatime": "<default-value>",
+  "plugin_wakatime_token": "<default-value>",
+  "plugin_wakatime_url": "<default-value>",
+  "plugin_wakatime_user": "<default-value>",
+  "plugin_wakatime_sections": "<default-value>",
+  "plugin_wakatime_days": "<default-value>",
+  "plugin_wakatime_limit": "<default-value>",
+  "plugin_wakatime_languages_other": "<default-value>",
+  "plugin_wakatime_languages_ignored": "<default-value>",
+  "plugin_wakatime_repositories_visibility": "<default-value>",
+  "plugin_leetcode": "<default-value>",
+  "plugin_leetcode_user": "<default-value>",
+  "plugin_leetcode_sections": "<default-value>",
+  "plugin_leetcode_limit_skills": "<default-value>",
+  "plugin_leetcode_ignored_skills": "<default-value>",
+  "plugin_leetcode_limit_recent": "<default-value>",
+  "plugin_steam": "<default-value>",
+  "plugin_steam_token": "<default-value>",
+  "plugin_steam_sections": "<default-value>",
+  "plugin_steam_user": "",
+  "plugin_steam_games_ignored": "<default-value>",
+  "plugin_steam_games_limit": "<default-value>",
+  "plugin_steam_recent_games_limit": "<default-value>",
+  "plugin_steam_achievements_limit": "<default-value>",
+  "plugin_steam_playtime_threshold": "<default-value>",
+  "plugin_16personalities": "<default-value>",
+  "plugin_16personalities_url": "<default-value>",
+  "plugin_16personalities_sections": "<default-value>",
+  "plugin_16personalities_scores": "<default-value>",
+  "plugin_chess": "<default-value>",
+  "plugin_chess_token": "<default-value>",
+  "plugin_chess_user": "<default-value>",
+  "plugin_chess_platform": "<default-value>",
+  "plugin_chess_animation": "<default-value>",
+  "plugin_fortune": "<default-value>",
+  "plugin_nightscout": "<default-value>",
+  "plugin_nightscout_url": "<default-value>",
+  "plugin_nightscout_datapoints": "<default-value>",
+  "plugin_nightscout_lowalert": "<default-value>",
+  "plugin_nightscout_highalert": "<default-value>",
+  "plugin_nightscout_urgentlowalert": "<default-value>",
+  "plugin_nightscout_urgenthighalert": "<default-value>",
+  "plugin_poopmap": "<default-value>",
+  "plugin_poopmap_token": "<default-value>",
+  "plugin_poopmap_days": "<default-value>",
+  "plugin_screenshot": "<default-value>",
+  "plugin_screenshot_title": "<default-value>",
+  "plugin_screenshot_url": "<default-value>",
+  "plugin_screenshot_selector": "<default-value>",
+  "plugin_screenshot_mode": "<default-value>",
+  "plugin_screenshot_viewport": "<default-value>",
+  "plugin_screenshot_wait": "<default-value>",
+  "plugin_screenshot_background": "<default-value>",
+  "plugin_splatoon": "<default-value>",
+  "plugin_splatoon_token": "<default-value>",
+  "plugin_splatoon_sections": "<default-value>",
+  "plugin_splatoon_versus_limit": "<default-value>",
+  "plugin_splatoon_salmon_limit": "<default-value>",
+  "plugin_splatoon_statink": "<default-value>",
+  "plugin_splatoon_statink_token": "<default-value>",
+  "plugin_splatoon_source": "<default-value>",
+  "plugin_stock": "<default-value>",
+  "plugin_stock_token": "<default-value>",
+  "plugin_stock_symbol": "<default-value>",
+  "plugin_stock_duration": "<default-value>",
+  "plugin_stock_interval": "<default-value>"
+}
+2024-10-13T14:53:49.4727420Z   TZ: 
+2024-10-13T14:53:49.4727632Z ##[endgroup]
+2024-10-13T14:53:49.4807179Z ##[group]Metrics docker image setup
+2024-10-13T14:53:49.4807961Z GitHub action: __lowlighter_metrics_10 (/home/runner/work/_actions/lowlighter/metrics/latest)
+2024-10-13T14:53:49.4830008Z Runner compatibility: compatible
+2024-10-13T14:53:49.5184374Z Environment variables: loaded
+2024-10-13T14:53:49.5267914Z Renders output folder: /metrics_renders
+2024-10-13T14:53:49.5293519Z Source: lowlighter
+2024-10-13T14:53:49.5313059Z Version: 3.34.0
+2024-10-13T14:53:49.5335310Z Image tag: v3.34
+2024-10-13T14:53:49.5366324Z Is released version: 1
+2024-10-13T14:53:49.5367465Z Using pre-built version v3.34, will pull docker image from GitHub registry
+2024-10-13T14:53:49.8015869Z v3.34: Pulling from lowlighter/metrics
+2024-10-13T14:53:49.8027727Z Digest: sha256:257392f90340f916cb8b815026f259399f6b246d3eb7de38b58bfe7a07bd5b65
+2024-10-13T14:53:49.8028629Z Status: Image is up to date for ghcr.io/lowlighter/metrics:v3.34
+2024-10-13T14:53:49.8035995Z ghcr.io/lowlighter/metrics:v3.34
+2024-10-13T14:53:49.8051249Z Image name: ghcr.io/lowlighter/metrics:v3.34
+2024-10-13T14:53:49.8185808Z [
+2024-10-13T14:53:49.8186401Z     {
+2024-10-13T14:53:49.8187372Z         "Id": "sha256:540609b0db04df4859a52809225568daef6f1ad4ecb031bd6f4854961fc965aa",
+2024-10-13T14:53:49.8188822Z         "RepoTags": [
+2024-10-13T14:53:49.8189470Z             "ghcr.io/lowlighter/metrics:v3.34"
+2024-10-13T14:53:49.8190135Z         ],
+2024-10-13T14:53:49.8190667Z         "RepoDigests": [
+2024-10-13T14:53:49.8191731Z             "ghcr.io/lowlighter/metrics@sha256:257392f90340f916cb8b815026f259399f6b246d3eb7de38b58bfe7a07bd5b65"
+2024-10-13T14:53:49.8192820Z         ],
+2024-10-13T14:53:49.8193456Z         "Parent": "",
+2024-10-13T14:53:49.8194076Z         "Comment": "buildkit.dockerfile.v0",
+2024-10-13T14:53:49.8195154Z         "Created": "2023-09-12T22:32:04.433116016Z",
+2024-10-13T14:53:49.8195848Z         "DockerVersion": "",
+2024-10-13T14:53:49.8196379Z         "Author": "",
+2024-10-13T14:53:49.8196858Z         "Config": {
+2024-10-13T14:53:49.8197377Z             "Hostname": "",
+2024-10-13T14:53:49.8197921Z             "Domainname": "",
+2024-10-13T14:53:49.8198447Z             "User": "",
+2024-10-13T14:53:49.8198972Z             "AttachStdin": false,
+2024-10-13T14:53:49.8199572Z             "AttachStdout": false,
+2024-10-13T14:53:49.8200184Z             "AttachStderr": false,
+2024-10-13T14:53:49.8200753Z             "Tty": false,
+2024-10-13T14:53:49.8201285Z             "OpenStdin": false,
+2024-10-13T14:53:49.8201859Z             "StdinOnce": false,
+2024-10-13T14:53:49.8202408Z             "Env": [
+2024-10-13T14:53:49.8203146Z                 "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+2024-10-13T14:53:49.8204010Z                 "NODE_VERSION=20.6.1",
+2024-10-13T14:53:49.8204646Z                 "YARN_VERSION=1.22.19",
+2024-10-13T14:53:49.8205626Z                 "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true",
+2024-10-13T14:53:49.8206569Z                 "PUPPETEER_BROWSER_PATH=google-chrome-stable"
+2024-10-13T14:53:49.8207260Z             ],
+2024-10-13T14:53:49.8207689Z             "Cmd": null,
+2024-10-13T14:53:49.8208929Z             "Image": "",
+2024-10-13T14:53:49.8209409Z             "Volumes": null,
+2024-10-13T14:53:49.8209886Z             "WorkingDir": "/metrics",
+2024-10-13T14:53:49.8210877Z             "Entrypoint": [
+2024-10-13T14:53:49.8211322Z                 "/bin/sh",
+2024-10-13T14:53:49.8211942Z                 "-c",
+2024-10-13T14:53:49.8212758Z                 "node /metrics/source/app/action/index.mjs"
+2024-10-13T14:53:49.8213232Z             ],
+2024-10-13T14:53:49.8213475Z             "OnBuild": null,
+2024-10-13T14:53:49.8213758Z             "Labels": null
+2024-10-13T14:53:49.8214018Z         },
+2024-10-13T14:53:49.8214239Z         "Architecture": "amd64",
+2024-10-13T14:53:49.8214528Z         "Os": "linux",
+2024-10-13T14:53:49.8214777Z         "Size": 2384506652,
+2024-10-13T14:53:49.8215046Z         "GraphDriver": {
+2024-10-13T14:53:49.8215316Z             "Data": {
+2024-10-13T14:53:49.8219880Z                 "LowerDir": "/var/lib/docker/overlay2/7ad48e2d43ec8fcca1234e56e5858a5c64014c162a7f822dba36ce25be445572/diff:/var/lib/docker/overlay2/9db14ba761d44f391a26861ecfa3adc8cf335c3efd23c56a51f887d5c54d7970/diff:/var/lib/docker/overlay2/da019f208d90adde4bb35b27dd08522395836a5c46d6f1361e4d076df72349c2/diff:/var/lib/docker/overlay2/801eba13690b8eb476d92e9072a37e027d52c872f71f4b0898d8a99e3a6ea953/diff:/var/lib/docker/overlay2/44d75aab5375d91817d27976d8181b2bbeb69abf29e1d5968daf5d7093656696/diff:/var/lib/docker/overlay2/759b092d5e7d59bc8d70169437eba6c971c117413542ffd76ba00f45efb05c33/diff:/var/lib/docker/overlay2/864e2203eedf49d3dd6c60f5e8ebd821edf6d01481434eaf14b1b27c1a3f9223/diff",
+2024-10-13T14:53:49.8224120Z                 "MergedDir": "/var/lib/docker/overlay2/9ea4ba5ba90fd87328f1ae5be706fd883b8cb13ea01f38f97e2541d780f0e946/merged",
+2024-10-13T14:53:49.8225555Z                 "UpperDir": "/var/lib/docker/overlay2/9ea4ba5ba90fd87328f1ae5be706fd883b8cb13ea01f38f97e2541d780f0e946/diff",
+2024-10-13T14:53:49.8226943Z                 "WorkDir": "/var/lib/docker/overlay2/9ea4ba5ba90fd87328f1ae5be706fd883b8cb13ea01f38f97e2541d780f0e946/work"
+2024-10-13T14:53:49.8227757Z             },
+2024-10-13T14:53:49.8228445Z             "Name": "overlay2"
+2024-10-13T14:53:49.8229018Z         },
+2024-10-13T14:53:49.8229794Z         "RootFS": {
+2024-10-13T14:53:49.8230356Z             "Type": "layers",
+2024-10-13T14:53:49.8230931Z             "Layers": [
+2024-10-13T14:53:49.8231736Z                 "sha256:a2d7501dfb3541f3d736125cdfd748618194f60cbb5c63f4de67a92530899628",
+2024-10-13T14:53:49.8232702Z                 "sha256:9a2a56d458ec3995558ce9da3f0d8c7fd4cbc4ea039dcac8a778faee26bb9787",
+2024-10-13T14:53:49.8233759Z                 "sha256:508bcd84547eb5a0418e3b2efbaf647c2b3e4e1671f58ebb81d5ec1e8c786eac",
+2024-10-13T14:53:49.8234889Z                 "sha256:5fe14a445b97fed5eb00a421d1b931a0d2da455000a4db073de09cc98e264971",
+2024-10-13T14:53:49.8236140Z                 "sha256:95db10d2666e11f72298fe18ba7cf28836d40778aa8844f9420668e2dcddc823",
+2024-10-13T14:53:49.8237216Z                 "sha256:fcebc26c326d62cb51b7f7782823af0fd3e6fdc68af0fec9ac99f5989336932f",
+2024-10-13T14:53:49.8238345Z                 "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+2024-10-13T14:53:49.8239575Z                 "sha256:60b9b0e78db62f369d082ede1651154e620c33199afca076b2159cdb288fecff"
+2024-10-13T14:53:49.8240363Z             ]
+2024-10-13T14:53:49.8241127Z         },
+2024-10-13T14:53:49.8241696Z         "Metadata": {
+2024-10-13T14:53:49.8242597Z             "LastTagTime": "0001-01-01T00:00:00Z"
+2024-10-13T14:53:49.8243352Z         }
+2024-10-13T14:53:49.8243950Z     }
+2024-10-13T14:53:49.8244505Z ]
+2024-10-13T14:53:49.8245442Z Image ghcr.io/lowlighter/metrics:v3.34 is present locally
+2024-10-13T14:53:49.8246549Z ##[endgroup]
+2024-10-13T14:53:51.7527692Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-10-13T14:53:51.7528889Z [36mMetrics[0m                                                         │  
+2024-10-13T14:53:52.0380360Z Setup                                                           │ complete
+2024-10-13T14:53:52.0381407Z Version                                                         │ 3.34.0
+2024-10-13T14:53:52.2001594Z Using prebuilt image                                            │ true
+2024-10-13T14:53:52.2004671Z Debug mode                                                      │ false
+2024-10-13T14:53:52.2005646Z Debug flags                                                     │ (none)
+2024-10-13T14:53:52.2006677Z GitHub token                                                    │ (NOT NEEDED)
+2024-10-13T14:53:52.2007780Z GitHub token format                                             │ legacy or invalid
+2024-10-13T14:53:52.2008932Z GitHub GraphQL API                                              │ ok
+2024-10-13T14:53:52.2010067Z GitHub GraphQL API endpoint                                     │ (default)
+2024-10-13T14:53:52.2058781Z GitHub REST API                                                 │ ok
+2024-10-13T14:53:52.2059901Z GitHub REST API endpoint                                        │ (default)
+2024-10-13T14:53:52.3208976Z GitHub account                                                  │ seanpm2001
+2024-10-13T14:53:52.3210300Z Current repository                                              │ seanpm2001/GitHub_Stats_B
+2024-10-13T14:53:52.3211499Z Committer token                                                 │ (provided)
+2024-10-13T14:53:52.3212624Z Committer branch                                                │ GitHub_Stats_B_Main-dev
+2024-10-13T14:53:52.3213783Z Committer head branch                                           │ GitHub_Stats_B_Main-dev
+2024-10-13T14:53:52.3248008Z Committer REST API                                              │ ok
+2024-10-13T14:53:52.3756109Z Committer account                                               │ (github-actions)
+2024-10-13T14:53:52.4687330Z Committer head branch status                                    │ ok
+2024-10-13T14:53:52.6931839Z Previous render sha                                             │ (none)
+2024-10-13T14:53:52.6933289Z SVG output                                                      │ /generated/GitHub_Stats_B_Seanpm2001_GitHub_City_2024.svg
+2024-10-13T14:53:52.6934991Z SVG optimization                                                │ css, xml
+2024-10-13T14:53:52.6936129Z SVG verification after generation                               │ false
+2024-10-13T14:53:52.6937582Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-10-13T14:53:52.6938746Z [36mTemplates[0m                                                       │  
+2024-10-13T14:53:52.6939824Z Community templates                                             │ (none)
+2024-10-13T14:53:52.6947450Z Template used                                                   │ classic
+2024-10-13T14:53:52.6948603Z Query additional params                                         │ {}
+2024-10-13T14:53:52.6949836Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-10-13T14:53:52.6950972Z [36mCore[0m                                                            │  
+2024-10-13T14:53:52.6952067Z Markdown template path                                          │ TEMPLATE.md
+2024-10-13T14:53:52.6953165Z Extra CSS                                                       │ 
+2024-10-13T14:53:52.6954134Z Extra JavaScript                                                │ 
+2024-10-13T14:53:52.6955140Z Timezone for dates                                              │ 
+2024-10-13T14:53:52.6956136Z Plugin order                                                    │ 
+2024-10-13T14:53:52.6957116Z Use twemojis                                                    │ false
+2024-10-13T14:53:52.6958191Z Use GitHub custom emojis                                        │ true
+2024-10-13T14:53:52.6959285Z Use GitHub octicons                                             │ false
+2024-10-13T14:53:52.6960421Z Display width (for image output formats)                        │ regular
+2024-10-13T14:53:52.6961572Z Use CSS animations                                              │ true
+2024-10-13T14:53:52.6962629Z Base64-encoded images                                           │ true
+2024-10-13T14:53:52.6964097Z Output padding                                                  │ 0, 8 + 11%
+2024-10-13T14:53:52.6965118Z Output format                                                   │ auto
+2024-10-13T14:53:52.6966142Z Configuration presets                                           │ 
+2024-10-13T14:53:52.6967215Z Notice about new releases of metrics                            │ true
+2024-10-13T14:53:52.6968299Z Experimental features                                           │ 
+2024-10-13T14:53:52.6969417Z Plugin errors                                                   │ (displayed in generated image)
+2024-10-13T14:53:52.6970660Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-10-13T14:53:52.6971806Z [36mBase content[0m                                                    │  
+2024-10-13T14:53:52.6972899Z Fetched repositories                                            │ 100
+2024-10-13T14:53:52.6973933Z Indepth mode                                                    │ false
+2024-10-13T14:53:52.6975334Z Show `Available for hire!` in header section                    │ false
+2024-10-13T14:53:52.6976419Z Skip base content                                               │ false
+2024-10-13T14:53:52.6977756Z Fetched repositories per query                                  │ 100
+2024-10-13T14:53:52.6978849Z Include forks                                                   │ false
+2024-10-13T14:53:52.6979928Z Repositories affiliations                                       │ owner
+2024-10-13T14:53:52.6981025Z Default skipped repositories                                    │ 
+2024-10-13T14:53:52.6982620Z Default ignored users                                           │ github-actions[bot],dependabot[bot],dependabot-preview[bot],actions-user,action@github.com
+2024-10-13T14:53:52.6984256Z Identifiers that has been used for authoring commits            │ .user.login
+2024-10-13T14:53:52.6985422Z Base sections                                                   │ (none)
+2024-10-13T14:53:52.6989423Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-10-13T14:53:52.6991440Z [36mGitHub Skyline[0m                                                  │  
+2024-10-13T14:53:52.6992831Z Displayed year                                                  │ 2024
+2024-10-13T14:53:52.6995391Z Frames count                                                    │ 6
+2024-10-13T14:53:52.6996414Z Image quality                                                   │ 1
+2024-10-13T14:53:52.6997460Z Compatibility mode                                              │ false
+2024-10-13T14:53:52.6998572Z Advanced settings                                               │ [object Object]
+2024-10-13T14:53:52.7004428Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-10-13T14:53:52.7005588Z [36mRendering[0m                                                       │  
+2024-10-13T14:55:28.3056711Z ##[group]1 error(s) occurred
+2024-10-13T14:55:28.3068246Z [
+2024-10-13T14:55:28.3099839Z   {
+2024-10-13T14:55:28.3100720Z Status                                                          │ complete
+2024-10-13T14:55:28.3135595Z     name: 'skyline',
+2024-10-13T14:55:28.3136434Z MIME type                                                       │ image/svg+xml
+2024-10-13T14:55:28.3137834Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-10-13T14:55:28.3139016Z [36mSaving[0m                                                          │  
+2024-10-13T14:55:28.3140096Z Output condition                                                │ always
+2024-10-13T14:55:28.3141413Z Save to /metrics_renders//generated/GitHub_Stats_B_Seanpm2001_GitHub_City_2024.svg │ ok
+2024-10-13T14:55:28.3142716Z Output action                                                   │ commit
+2024-10-13T14:55:28.3291694Z     result: {
+2024-10-13T14:55:28.3293262Z       error: {
+2024-10-13T14:55:28.3293871Z         message: 'Unexpected error',
+2024-10-13T14:55:28.3294559Z         instance: TimeoutError: Waiting failed: 90000ms exceeded
+2024-10-13T14:55:28.3297376Z             at Timeout.<anonymous> (file:///metrics/node_modules/puppeteer-core/lib/esm/puppeteer/common/WaitTask.js:56:37)
+2024-10-13T14:55:28.3298588Z             at listOnTimeout (node:internal/timers:573:17)
+2024-10-13T14:55:28.3299371Z             at process.processTimers (node:internal/timers:514:7)
+2024-10-13T14:55:28.3300026Z       }
+2024-10-13T14:55:28.3300362Z     }
+2024-10-13T14:55:28.3300686Z   }
+2024-10-13T14:55:28.3300995Z ]
+2024-10-13T14:55:28.3301798Z ##[endgroup]
+2024-10-13T14:55:28.3335024Z Current render sha                                              │ ff81ef53abe5a52d6d525bfb4c787cdbdc3b9b53
+2024-10-13T15:05:29.2086139Z RequestError [HttpError]: Resource not accessible by integration
+2024-10-13T15:05:29.2087525Z     at /metrics/node_modules/@octokit/request/dist-node/index.js:86:21
+2024-10-13T15:05:29.2088638Z     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-13T15:05:29.2090255Z     at async retry.retries (file:///metrics/source/app/action/index.mjs:553:11)
+2024-10-13T15:05:29.2091308Z     at async retry (file:///metrics/source/app/action/index.mjs:57:22)
+2024-10-13T15:05:29.2092233Z     at async file:///metrics/source/app/action/index.mjs:552:9 {
+2024-10-13T15:05:29.2092904Z   status: 403,
+2024-10-13T15:05:29.2093269Z   response: {
+2024-10-13T15:05:29.2094601Z     url: 'https://api.github.com/repos/seanpm2001/GitHub_Stats_B/contents/%2Fgenerated%2FGitHub_Stats_B_Seanpm2001_GitHub_City_2024.svg',
+2024-10-13T15:05:29.2095852Z     status: 403,
+2024-10-13T15:05:29.2096230Z     headers: {
+2024-10-13T15:05:29.2096733Z       'access-control-allow-origin': '*',
+2024-10-13T15:05:29.2099981Z       'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
+2024-10-13T15:05:29.2101671Z       'content-encoding': 'gzip',
+2024-10-13T15:05:29.2102084Z       'content-security-policy': "default-src 'none'",
+2024-10-13T15:05:29.2102583Z       'content-type': 'application/json; charset=utf-8',
+2024-10-13T15:05:29.2103040Z       date: 'Sun, 13 Oct 2024 15:03:29 GMT',
+2024-10-13T15:05:29.2103644Z       'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+2024-10-13T15:05:29.2104189Z       server: 'github.com',
+2024-10-13T15:05:29.2104699Z       'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+2024-10-13T15:05:29.2105232Z       'transfer-encoding': 'chunked',
+2024-10-13T15:05:29.2105661Z       vary: 'Accept-Encoding, Accept, X-Requested-With',
+2024-10-13T15:05:29.2106316Z       'x-accepted-github-permissions': 'contents=write; contents=write,workflows=write',
+2024-10-13T15:05:29.2107033Z       'x-content-type-options': 'nosniff',
+2024-10-13T15:05:29.2107666Z       'x-frame-options': 'deny',
+2024-10-13T15:05:29.2108614Z       'x-github-api-version-selected': '2022-11-28',
+2024-10-13T15:05:29.2109103Z       'x-github-media-type': 'github.v3; format=json',
+2024-10-13T15:05:29.2109659Z       'x-github-request-id': '9D00:20371E:56D6F67:A5A8548:670BE141',
+2024-10-13T15:05:29.2110474Z       'x-ratelimit-limit': '5000',
+2024-10-13T15:05:29.2111104Z       'x-ratelimit-remaining': '4968',
+2024-10-13T15:05:29.2111763Z       'x-ratelimit-reset': '1728832247',
+2024-10-13T15:05:29.2112331Z       'x-ratelimit-resource': 'core',
+2024-10-13T15:05:29.2112870Z       'x-ratelimit-used': '32',
+2024-10-13T15:05:29.2113382Z       'x-xss-protection': '0'
+2024-10-13T15:05:29.2113807Z     },
+2024-10-13T15:05:29.2114118Z     data: {
+2024-10-13T15:05:29.2114656Z       message: 'Resource not accessible by integration',
+2024-10-13T15:05:29.2115852Z       documentation_url: 'https://docs.github.com/rest/repos/contents#create-or-update-file-contents',
+2024-10-13T15:05:29.2116874Z       status: '403'
+2024-10-13T15:05:29.2117236Z     }
+2024-10-13T15:05:29.2117529Z   },
+2024-10-13T15:05:29.2117832Z   request: {
+2024-10-13T15:05:29.2118242Z     method: 'PUT',
+2024-10-13T15:05:29.2119542Z     url: 'https://api.github.com/repos/seanpm2001/GitHub_Stats_B/contents/%2Fgenerated%2FGitHub_Stats_B_Seanpm2001_GitHub_City_2024.svg',
+2024-10-13T15:05:29.2120782Z     headers: {
+2024-10-13T15:05:29.2121309Z       accept: 'application/vnd.github.v3+json',
+2024-10-13T15:05:29.2122203Z       'user-agent': 'octokit-core.js/3.6.0 Node.js/20.6.1 (linux; x64)',
+2024-10-13T15:05:29.2123047Z       authorization: 'token [REDACTED]',
+2024-10-13T15:05:29.2123782Z       'content-type': 'application/json; charset=utf-8'
+2024-10-13T15:05:29.2124384Z     },
+2024-10-13T15:05:29.2618610Z     body: '{"message":"Update /generated/GitHub_Stats_B_Seanpm2001_GitHub_City_2024.svg - [Skip GitHub Action]","content":"PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0ODAiIGhlaWdodD0iNjAiIGNsYXNzPSIiPgogICAgPGRlZnM+CiAgICAgICAgPHN0eWxlLz4KICAgIDwvZGVmcz4KICAgIDxzdHlsZT5Aa2V5ZnJhbWVzIGFuaW1hdGlvbi1nYXVnZXswJXtzdHJva2UtZGFzaGFycmF5OjAgMzI5fX1Aa2V5ZnJhbWVzIGFuaW1hdGlvbi1yYWluYm93ezAlLHRve2NvbG9yOiM3ZjAwZmY7ZmlsbDojN2YwMGZmfTE0JXtjb2xvcjojYTkzM2ZmO2ZpbGw6I2E5MzNmZn0yOSV7Y29sb3I6IzAwN2ZmZjtmaWxsOiMwMDdmZmZ9NDMle2NvbG9yOiMwMGZmN2Y7ZmlsbDojMDBmZjdmfTU3JXtjb2xvcjojZmYwO2ZpbGw6I2ZmMH03MSV7Y29sb3I6I2ZmN2YwMDtmaWxsOiNmZjdmMDB9ODYle2NvbG9yOnJlZDtmaWxsOnJlZH19c3Zne2ZvbnQtZmFtaWx5Oi1hcHBsZS1zeXN0ZW0sQmxpbmtNYWNTeXN0ZW1Gb250LFNlZ29lIFVJLEhlbHZldGljYSxBcmlhbCxzYW5zLXNlcmlmLEFwcGxlIENvbG9yIEVtb2ppLFNlZ29lIFVJIEVtb2ppO2ZvbnQtc2l6ZToxNHB4O2NvbG9yOiM3Nzd9aDJ7bWFyZ2luOjhweCAwIDJweDtwYWRkaW5nOjA7Y29sb3I6IzAzNjZkNjtmb250LXdlaWdodDo0MDA7Zm9udC1zaXplOjE2cHh9aDIgc3Zne2ZpbGw6Y3VycmVudENvbG9yfXNlY3Rpb24mZ3Q7LmZpZWxke21hcmdpbi1sZWZ0OjVweDttYXJnaW4tcmlnaHQ6NXB4fS5maWVsZHtkaXNwbGF5OmZsZXg7YWxpZ24taXRlbXM6Y2VudGVyO21hcmdpbi1ib3R0b206MnB4O3doaXRlLXNwYWNlOm5vd3JhcH0uZmllbGQgc3Zne21hcmdpbjowIDhweDtmaWxsOiM5NTlkYTU7ZmxleC1zaHJpbms6MH0uZmllbGQuZXJyb3J7Y29sb3I6I2NiMjQzMX0uZmllbGQuZXJyb3Igc3Zne2ZpbGw6I2NiMjQzMX0ucm93e2Rpc3BsYXk6ZmxleDtmbGV4LXdyYXA6d3JhcH0ucm93IHNlY3Rpb257ZmxleDoxIDEgMH06cm9vdHstLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1iZzojZWJlZGYwOy0tY29sb3ItY2FsZW5kYXItZ3JhcGgtZGF5LWJvcmRlcjpyZ2JhKDI3LDMxLDM1LDAuMDYpOy0tY29sb3ItY2FsZW5kYXItZ3JhcGgtZGF5LUwxLWJnOiM5YmU5YTg7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDItYmc6IzQwYzQ2MzstLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1MMy1iZzojMzBhMTRlOy0tY29sb3ItY2FsZW5kYXItZ3JhcGgtZGF5LUw0LWJnOiMyMTZlMzk7LS1jb2xvci1jYWxlbmRhci1oYWxsb3dlZW4tZ3JhcGgtZGF5LUwxLWJnOiNmZmVlNGE7LS1jb2xvci1jYWxlbmRhci1oYWxsb3dlZW4tZ3JhcGgtZGF5LUwyLWJnOiNmZmM1MDE7LS1jb2xvci1jYWxlbmRhci1oYWxsb3dlZW4tZ3JhcGgtZGF5LUwzLWJnOiNmZTk2MDA7LS1jb2xvci1jYWxlbmRhci1oYWxsb3dlZW4tZ3JhcGgtZGF5LUw0LWJnOiMwMzAwMWM7LS1jb2xvci1jYWxlbmRhci13aW50ZXItZ3JhcGgtZGF5LUwxLWJnOiMwYTMwNjk7LS1jb2xvci1jYWxlbmRhci13aW50ZXItZ3JhcGgtZGF5LUwyLWJnOiMwOTY5ZGE7LS1jb2xvci1jYWxlbmRhci13aW50ZXItZ3JhcGgtZGF5LUwzLWJnOiM1NGFlZmY7LS1jb2xvci1jYWxlbmRhci13aW50ZXItZ3JhcGgtZGF5LUw0LWJnOiNiNmUzZmY7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDQtYm9yZGVyOnJnYmEoMjcsMzEsMzUsMC4wNik7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDMtYm9yZGVyOnJnYmEoMjcsMzEsMzUsMC4wNik7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDItYm9yZGVyOnJnYmEoMjcsMzEsMzUsMC4wNik7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDEtYm9yZGVyOnJnYmEoMjcsMzEsMzUsMC4wNil9I21ldHJpY3MtZW5ke3dpZHRoOjEwMCV9PC9zdHlsZT4KICAgIDxzdHlsZS8+CiAgICA8Zm9yZWlnbk9iamVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIj4KICAgICAgICA8ZGl2IHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgY2xhc3M9Iml0ZW1zLXdyYXBwZXIiPgogICAgICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgICAgICAgIDxoMiBjbGFzcz0iZmllbGQiPgogICAgICAgICAgICAgICAgICAgIDxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTYgMTYiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTggMEMzLjU4IDAgMCAzLjU4IDAgOGMwIDMuNTQgMi4yOSA2LjUzIDUuNDcgNy41OS40LjA3LjU1LS4xNy41NS0uMzggMC0uMTktLjAxLS44Mi0uMDEtMS40OS0yLjAxLjM3LTIuNTMtLjQ5LTIuNjktLjk0LS4wOS0uMjMtLjQ4LS45NC0uODItMS4xMy0uMjgtLjE1LS42OC0uNTItLjAxLS41My42My0uMDEgMS4wOC41OCAxLjIzLjgyLjcyIDEuMjEgMS44Ny44NyAyLjMzLjY2LjA3LS41Mi4yOC0uODcuNTEtMS4wNy0xLjc4LS4yLTMuNjQtLjg5LTMuNjQtMy45NSAwLS44Ny4zMS0xLjU5LjgyLTIuMTUtLjA4LS4yLS4zNi0xLjAyLjA4LTIuMTIgMCAwIC42Ny0uMjEgMi4yLjgyLjY0LS4xOCAxLjMyLS4yNyAyLS4yNy42OCAwIDEuMzYuMDkgMiAuMjcgMS41My0xLjA0IDIuMi0uODIgMi4yLS44Mi40NCAxLjEuMTYgMS45Mi4wOCAyLjEyLjUxLjU2LjgyIDEuMjcuODIgMi4xNSAwIDMuMDctMS44NyAzLjc1LTMuNjUgMy45NS4yOS4yNS41NC43My41NCAxLjQ4IDAgMS4wNy0uMDEgMS45My0uMDEgMi4yIDAgLjIxLjE1LjQ2LjU1LjM4QTguMDEzIDguMDEzIDAgMDAxNiA4YzAtNC40Mi0zLjU4LTgtOC04eiIvPgogICAgICAgICAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICAgICAgICAgIEdpdEh1YiBTa3lsaW5lCiAgICAgICAgICAgICAgICA8L2gyPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0icm93Ij4KICAgICAgICAgICAgICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZmllbGQgZXJyb3IiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2Ij4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yLjM0MyAxMy42NTdBOCA4IDAgMTExMy42NTcgMi4zNDMgOCA4IDAgMDEyLjM0MyAxMy42NTd6TTYuMDMgNC45N2EuNzUuNzUgMCAwMC0xLjA2IDEuMDZMNi45NCA4IDQuOTcgOS45N2EuNzUuNzUgMCAxMDEuMDYgMS4wNkw4IDkuMDZsMS45NyAxLjk3YS43NS43NSAwIDEwMS4wNi0xLjA2TDkuMDYgOGwxLjk3LTEuOTdhLjc1Ljc1IDAgMTAtMS4wNi0xLjA2TDggNi45NCA2LjAzIDQuOTd6Ii8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIFVuZXhwZWN0ZWQgZXJyb3IKICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPC9zZWN0aW9uPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvc2VjdGlvbj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIiBpZD0ibWV0cmljcy1lbmQiPjwvZGl2PgogICAgPC9mb3JlaWduT2JqZWN0Pgo8L3N2Zz4=","branch":"GitHub_Stats_B_Main-dev"}',
+2024-10-13T15:05:29.2985624Z     request: { agent: [Agent], hook: [Function: bound bound register] }
+2024-10-13T15:05:29.2986122Z   }
+2024-10-13T15:05:29.2986317Z }
+2024-10-13T15:05:29.2986955Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-10-13T15:05:29.2987427Z undefined
+2024-10-13T15:05:29.2987687Z An error occurred, logging debug message :
+2024-10-13T15:05:29.2988199Z TypeError: Cannot read properties of null (reading 'oid')
+2024-10-13T15:05:29.2988683Z     at file:///metrics/source/app/action/index.mjs:307:38
+2024-10-13T15:05:29.2989255Z     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-13T15:05:29.2990083Z ##[group]Attempt 1/3
+2024-10-13T15:05:29.2990352Z metrics/compute/seanpm2001 > start
+2024-10-13T15:05:29.2990648Z {
+2024-10-13T15:05:29.2990878Z   template: 'classic',
+2024-10-13T15:05:29.2991152Z   'debug.flags': '',
+2024-10-13T15:05:29.2991436Z   markdown: 'TEMPLATE.md',
+2024-10-13T15:05:29.2991725Z   'extras.css': '',
+2024-10-13T15:05:29.2991981Z   'extras.js': '',
+2024-10-13T15:05:29.2992244Z   'config.timezone': '',
+2024-10-13T15:05:29.2992526Z   'config.order': [],
+2024-10-13T15:05:29.2992802Z   'config.twemoji': false,
+2024-10-13T15:05:29.2993421Z   'config.gemoji': true,
+2024-10-13T15:05:29.2993734Z   'config.octicon': false,
+2024-10-13T15:05:29.2994043Z   'config.display': 'regular',
+2024-10-13T15:05:29.2994385Z   'config.animations': true,
+2024-10-13T15:05:29.2994697Z   'config.base64': true,
+2024-10-13T15:05:29.2994998Z   'config.padding': '0, 8 + 11%',
+2024-10-13T15:05:29.2995320Z   'config.output': 'auto',
+2024-10-13T15:05:29.2995608Z   'config.presets': [],
+2024-10-13T15:05:29.2995892Z   'notice.releases': true,
+2024-10-13T15:05:29.2996197Z   'experimental.features': [],
+2024-10-13T15:05:29.2996483Z   hireable: false,
+2024-10-13T15:05:29.2996705Z   skip: false,
+2024-10-13T15:05:29.2996970Z   'repositories.batch': 100,
+2024-10-13T15:05:29.2997287Z   'repositories.forks': false,
+2024-10-13T15:05:29.2997649Z   'repositories.affiliations': [ 'owner' ],
+2024-10-13T15:05:29.2998030Z   'repositories.skipped': [],
+2024-10-13T15:05:29.2998337Z   'users.ignored': [
+2024-10-13T15:05:29.2998612Z     'github-actions[bot]',
+2024-10-13T15:05:29.2998892Z     'dependabot[bot]',
+2024-10-13T15:05:29.2999363Z     'dependabot-preview[bot]',
+2024-10-13T15:05:29.2999667Z     'actions-user',
+2024-10-13T15:05:29.2999938Z     'action@github.com'
+2024-10-13T15:05:29.3000178Z   ],
+2024-10-13T15:05:29.3000439Z   'commits.authoring': [ '.user.login' ],
+2024-10-13T15:05:29.3000759Z   base: false,
+2024-10-13T15:05:29.3001007Z   'base.header': false,
+2024-10-13T15:05:29.3001283Z   'base.activity': false,
+2024-10-13T15:05:29.3001574Z   'base.community': false,
+2024-10-13T15:05:29.3001879Z   'base.repositories': false,
+2024-10-13T15:05:29.3002185Z   'base.metadata': false,
+2024-10-13T15:05:29.3002469Z   'base.indepth': false,
+2024-10-13T15:05:29.3002720Z   skyline: true,
+2024-10-13T15:05:29.3002978Z   'skyline.year': 2024,
+2024-10-13T15:05:29.3003247Z   'skyline.frames': 6,
+2024-10-13T15:05:29.3003522Z   'skyline.quality': 1,
+2024-10-13T15:05:29.3003821Z   'skyline.compatibility': false,
+2024-10-13T15:05:29.3004143Z   'skyline.settings': {
+2024-10-13T15:05:29.3004599Z     url: 'https://honzaap.github.io/GithubCity?name=${login}&year=${year}',
+2024-10-13T15:05:29.3005451Z     ready: "[...document.querySelectorAll('.display-info span')].map(span => span.innerText).includes('${login}')",
+2024-10-13T15:05:29.3006045Z     wait: 4,
+2024-10-13T15:05:29.3006613Z     hide: '.github-corner, .footer-link, .buttons-options, .mobile-rotate, .display-info span:first-child'
+2024-10-13T15:05:29.3007170Z   }
+2024-10-13T15:05:29.3007351Z }
+2024-10-13T15:05:29.3007619Z metrics/compute/seanpm2001 > output format set to svg
+2024-10-13T15:05:29.3012155Z metrics/compute/seanpm2001 > content order : base.header,introduction,base.activity+community,base.repositories,lines,followup,discussions,languages,notable,projects,repositories,gists,pagespeed,habits,topics,music,nightscout,posts,rss,tweets,isocalendar,calendar,stars,starlists,stargazers,people,activity,reactions,anilist,wakatime,skyline,support,stackoverflow,leetcode,stock,achievements,screenshot,code,chess,sponsors,sponsorships,poopmap,16personalities,fortune,splatoon,steam
+2024-10-13T15:05:29.3016632Z metrics/compute/seanpm2001 > compute
+2024-10-13T15:05:29.3016962Z metrics/compute/seanpm2001/base > started
+2024-10-13T15:05:29.3018094Z metrics/compute/seanpm2001/base > affiliations constraints , ownerAffiliations: [OWNER], affiliations: [OWNER]
+2024-10-13T15:05:29.3018845Z metrics/compute/seanpm2001/base > applying postprocessing
+2024-10-13T15:05:29.3019354Z metrics/compute/seanpm2001/base > applying postprocessing
+2024-10-13T15:05:29.3019824Z metrics/compute/seanpm2001 > formatting common metrics
+2024-10-13T15:05:29.3020257Z metrics/compute/seanpm2001 > animations enabled
+2024-10-13T15:05:29.3020637Z metrics/compute/seanpm2001 > extras > true
+2024-10-13T15:05:29.3021047Z metrics/compute/seanpm2001/plugins > skyline > started
+2024-10-13T15:05:29.3021918Z metrics/extras > skyline > plugin_skyline > require [metrics.cpu.overuse,metrics.npm.optional.gifencoder,metrics.run.puppeteer.scrapping]
+2024-10-13T15:05:29.3022865Z metrics/extras > skyline > plugin_skyline > extras features is set to true
+2024-10-13T15:05:29.3023740Z metrics/extras > skyline > plugin_skyline_settings > require [metrics.run.puppeteer.user.js]
+2024-10-13T15:05:29.3024458Z metrics/extras > skyline > plugin_skyline_settings > extras features is set to true
+2024-10-13T15:05:29.3025079Z metrics/compute/seanpm2001/plugins > skyline > starting browser
+2024-10-13T15:05:29.3025672Z metrics/compute/seanpm2001/plugins > skyline > started Chrome/117.0.5938.62
+2024-10-13T15:05:29.3026567Z metrics/compute/seanpm2001/plugins > skyline > loading https://honzaap.github.io/GithubCity?name=seanpm2001&year=2024
+2024-10-13T15:05:29.3027387Z metrics/compute/seanpm2001/plugins > skyline > waiting for initial render
+2024-10-13T15:05:29.3027982Z metrics/compute/seanpm2001/plugins > skyline > completed (error)
+2024-10-13T15:05:29.3028397Z {
+2024-10-13T15:05:29.3028626Z   name: 'skyline',
+2024-10-13T15:05:29.3028854Z   result: {
+2024-10-13T15:05:29.3029058Z     error: {
+2024-10-13T15:05:29.3029322Z       message: 'Unexpected error',
+2024-10-13T15:05:29.3029868Z       instance: TimeoutError: Waiting failed: 90000ms exceeded
+2024-10-13T15:05:29.3030682Z           at Timeout.<anonymous> (file:///metrics/node_modules/puppeteer-core/lib/esm/puppeteer/common/WaitTask.js:56:37)
+2024-10-13T15:05:29.3031380Z           at listOnTimeout (node:internal/timers:573:17)
+2024-10-13T15:05:29.3031829Z           at process.processTimers (node:internal/timers:514:7)
+2024-10-13T15:05:29.3032204Z     }
+2024-10-13T15:05:29.3032389Z   }
+2024-10-13T15:05:29.3032567Z }
+2024-10-13T15:05:29.3032777Z metrics/compute/seanpm2001 > 1 errors !
+2024-10-13T15:05:29.3033077Z [
+2024-10-13T15:05:29.3033250Z   {
+2024-10-13T15:05:29.3033460Z     name: 'skyline',
+2024-10-13T15:05:29.3033696Z     result: {
+2024-10-13T15:05:29.3033907Z       error: {
+2024-10-13T15:05:29.3034175Z         message: 'Unexpected error',
+2024-10-13T15:05:29.3034569Z         instance: TimeoutError: Waiting failed: 90000ms exceeded
+2024-10-13T15:05:29.3035365Z             at Timeout.<anonymous> (file:///metrics/node_modules/puppeteer-core/lib/esm/puppeteer/common/WaitTask.js:56:37)
+2024-10-13T15:05:29.3036099Z             at listOnTimeout (node:internal/timers:573:17)
+2024-10-13T15:05:29.3036552Z             at process.processTimers (node:internal/timers:514:7)
+2024-10-13T15:05:29.3036927Z       }
+2024-10-13T15:05:29.3037111Z     }
+2024-10-13T15:05:29.3037291Z   }
+2024-10-13T15:05:29.3037467Z ]
+2024-10-13T15:05:29.3037671Z metrics/compute/seanpm2001 > render
+2024-10-13T15:05:29.3037998Z metrics/svg/gemojis > rendering gemojis
+2024-10-13T15:05:29.3038334Z metrics/svg/optimize/css > optimizing
+2024-10-13T15:05:29.3038650Z metrics/svg/optimize/xml > optimizing
+2024-10-13T15:05:29.3038999Z metrics/svg/resize > started Chrome/117.0.5938.62
+2024-10-13T15:05:29.3039423Z metrics/svg/resize > padding width*1+0, height*1.11+8
+2024-10-13T15:05:29.3039808Z metrics/svg/resize > loading svg
+2024-10-13T15:05:29.3040130Z metrics/svg/resize > loaded svg successfully
+2024-10-13T15:05:29.3040479Z metrics/svg/resize > resizing svg
+2024-10-13T15:05:29.3040868Z metrics/svg/resize > puppeteer > animations are enabled
+2024-10-13T15:05:29.3041356Z metrics/svg/resize > puppeteer > bounds width=480, height=46
+2024-10-13T15:05:29.3042017Z metrics/svg/resize > puppeteer > bounds after applying padding width=480 (*1+0), height=60 (*1.11+8)
+2024-10-13T15:05:29.3042626Z metrics/svg/resize > rendering complete
+2024-10-13T15:05:29.3042964Z metrics/compute/seanpm2001 > success
+2024-10-13T15:05:29.3043473Z ##[endgroup]
+2024-10-13T15:05:29.3043852Z ##[group]Attempt 1/5
+2024-10-13T15:05:29.3044249Z ##[endgroup]
+2024-10-13T15:05:29.3044979Z ##[warning]Resource not accessible by integration
+2024-10-13T15:05:29.3045497Z ##[group]Attempt 2/5
+2024-10-13T15:05:29.3045911Z ##[endgroup]
+2024-10-13T15:05:29.3046582Z ##[warning]Resource not accessible by integration
+2024-10-13T15:05:29.3047094Z ##[group]Attempt 3/5
+2024-10-13T15:05:29.3047477Z ##[endgroup]
+2024-10-13T15:05:29.3048140Z ##[warning]Resource not accessible by integration
+2024-10-13T15:05:29.3048814Z ##[group]Attempt 4/5
+2024-10-13T15:05:29.3049192Z ##[endgroup]
+2024-10-13T15:05:29.3049854Z ##[warning]Resource not accessible by integration
+2024-10-13T15:05:29.3050349Z ##[group]Attempt 5/5
+2024-10-13T15:05:29.3050725Z ##[endgroup]
+2024-10-13T15:05:29.3051377Z ##[warning]Resource not accessible by integration
+2024-10-13T15:05:29.3052169Z ##[error]Resource not accessible by integration
+2024-10-13T15:05:29.4498902Z ##[error]Process completed with exit code 1.
