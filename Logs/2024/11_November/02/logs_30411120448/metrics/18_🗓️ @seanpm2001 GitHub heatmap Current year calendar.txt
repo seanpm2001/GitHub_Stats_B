@@ -1,0 +1,2823 @@
+﻿2024-11-02T16:09:44.5653936Z ##[group]Run lowlighter/metrics@latest
+2024-11-02T16:09:44.5654309Z with:
+2024-11-02T16:09:44.5654624Z   filename: /generated/GitHub_Stats_B_GitHub_Calendar_2024.svg
+2024-11-02T16:09:44.5655171Z   token: ***
+2024-11-02T16:09:44.5655405Z   plugin_calendar: yes
+2024-11-02T16:09:44.5655677Z   base_indepth: <default-value>
+2024-11-02T16:09:44.5655979Z   base_hireable: <default-value>
+2024-11-02T16:09:44.5656278Z   base_skip: <default-value>
+2024-11-02T16:09:44.5656576Z   repositories: <default-value>
+2024-11-02T16:09:44.5656886Z   repositories_batch: <default-value>
+2024-11-02T16:09:44.5657209Z   repositories_forks: <default-value>
+2024-11-02T16:09:44.5657561Z   repositories_affiliations: <default-value>
+2024-11-02T16:09:44.5657924Z   repositories_skipped: <default-value>
+2024-11-02T16:09:44.5658263Z   users_ignored: <default-value>
+2024-11-02T16:09:44.5658563Z   commits_authoring: <default-value>
+2024-11-02T16:09:44.5658873Z   user: <default-value>
+2024-11-02T16:09:44.5659131Z   repo: <default-value>
+2024-11-02T16:09:44.5659528Z   committer_token: ***
+2024-11-02T16:09:44.5659797Z   committer_branch: <default-value>
+2024-11-02T16:09:44.5660117Z   committer_message: <default-value>
+2024-11-02T16:09:44.5660433Z   committer_gist: <default-value>
+2024-11-02T16:09:44.5660727Z   markdown: <default-value>
+2024-11-02T16:09:44.5661010Z   markdown_cache: <default-value>
+2024-11-02T16:09:44.5661313Z   output_action: <default-value>
+2024-11-02T16:09:44.5661616Z   output_condition: <default-value>
+2024-11-02T16:09:44.5661924Z   optimize: <default-value>
+2024-11-02T16:09:44.5662234Z   setup_community_templates: <default-value>
+2024-11-02T16:09:44.5662579Z   template: <default-value>
+2024-11-02T16:09:44.5662846Z   query: <default-value>
+2024-11-02T16:09:44.5663106Z   extras_css: <default-value>
+2024-11-02T16:09:44.5663387Z   extras_js: <default-value>
+2024-11-02T16:09:44.5663670Z   github_api_rest: <default-value>
+2024-11-02T16:09:44.5663978Z   github_api_graphql: <default-value>
+2024-11-02T16:09:44.5664294Z   config_order: <default-value>
+2024-11-02T16:09:44.5664594Z   config_twemoji: <default-value>
+2024-11-02T16:09:44.5664892Z   config_gemoji: <default-value>
+2024-11-02T16:09:44.5665182Z   config_octicon: <default-value>
+2024-11-02T16:09:44.5665482Z   config_display: <default-value>
+2024-11-02T16:09:44.5665785Z   config_animations: <default-value>
+2024-11-02T16:09:44.5666100Z   config_base64: <default-value>
+2024-11-02T16:09:44.5666391Z   config_padding: <default-value>
+2024-11-02T16:09:44.5666907Z   config_output: <default-value>
+2024-11-02T16:09:44.5667198Z   retries: <default-value>
+2024-11-02T16:09:44.5667471Z   retries_delay: <default-value>
+2024-11-02T16:09:44.5667772Z   retries_output_action: <default-value>
+2024-11-02T16:09:44.5668135Z   retries_delay_output_action: <default-value>
+2024-11-02T16:09:44.5668492Z   clean_workflows: <default-value>
+2024-11-02T16:09:44.5668789Z   delay: <default-value>
+2024-11-02T16:09:44.5669061Z   quota_required_rest: <default-value>
+2024-11-02T16:09:44.5669398Z   quota_required_graphql: <default-value>
+2024-11-02T16:09:44.5669748Z   quota_required_search: <default-value>
+2024-11-02T16:09:44.5670078Z   notice_releases: <default-value>
+2024-11-02T16:09:44.5670374Z   use_prebuilt_image: yes
+2024-11-02T16:09:44.5670656Z   plugins_errors_fatal: <default-value>
+2024-11-02T16:09:44.5670973Z   debug: <default-value>
+2024-11-02T16:09:44.5671226Z   verify: <default-value>
+2024-11-02T16:09:44.5671491Z   debug_flags: <default-value>
+2024-11-02T16:09:44.5671785Z   debug_print: <default-value>
+2024-11-02T16:09:44.5672068Z   dryrun: <default-value>
+2024-11-02T16:09:44.5672363Z   experimental_features: <default-value>
+2024-11-02T16:09:44.5672698Z   use_mocked_data: <default-value>
+2024-11-02T16:09:44.5673014Z   plugin_isocalendar: <default-value>
+2024-11-02T16:09:44.5673367Z   plugin_isocalendar_duration: <default-value>
+2024-11-02T16:09:44.5673716Z   plugin_languages: <default-value>
+2024-11-02T16:09:44.5674056Z   plugin_languages_ignored: <default-value>
+2024-11-02T16:09:44.5674418Z   plugin_languages_skipped: <default-value>
+2024-11-02T16:09:44.5674997Z   plugin_languages_limit: <default-value>
+2024-11-02T16:09:44.5675353Z   plugin_languages_threshold: <default-value>
+2024-11-02T16:09:44.5675717Z   plugin_languages_other: <default-value>
+2024-11-02T16:09:44.5676071Z   plugin_languages_colors: <default-value>
+2024-11-02T16:09:44.5676430Z   plugin_languages_aliases: <default-value>
+2024-11-02T16:09:44.5676788Z   plugin_languages_sections: <default-value>
+2024-11-02T16:09:44.5677161Z   plugin_languages_details: <default-value>
+2024-11-02T16:09:44.5677519Z   plugin_languages_indepth: <default-value>
+2024-11-02T16:09:44.5677901Z   plugin_languages_indepth_custom: <default-value>
+2024-11-02T16:09:44.5678317Z   plugin_languages_analysis_timeout: <default-value>
+2024-11-02T16:09:44.5678797Z   plugin_languages_analysis_timeout_repositories: <default-value>
+2024-11-02T16:09:44.5679258Z   plugin_languages_categories: <default-value>
+2024-11-02T16:09:44.5679663Z   plugin_languages_recent_categories: <default-value>
+2024-11-02T16:09:44.5680072Z   plugin_languages_recent_load: <default-value>
+2024-11-02T16:09:44.5680454Z   plugin_languages_recent_days: <default-value>
+2024-11-02T16:09:44.5680811Z   plugin_stargazers: <default-value>
+2024-11-02T16:09:44.5681148Z   plugin_stargazers_days: <default-value>
+2024-11-02T16:09:44.5681498Z   plugin_stargazers_charts: <default-value>
+2024-11-02T16:09:44.5681876Z   plugin_stargazers_charts_type: <default-value>
+2024-11-02T16:09:44.5682267Z   plugin_stargazers_worldmap: <default-value>
+2024-11-02T16:09:44.5682661Z   plugin_stargazers_worldmap_token: <default-value>
+2024-11-02T16:09:44.5683077Z   plugin_stargazers_worldmap_sample: <default-value>
+2024-11-02T16:09:44.5683452Z   plugin_lines: <default-value>
+2024-11-02T16:09:44.5683759Z   plugin_lines_skipped: <default-value>
+2024-11-02T16:09:44.5684098Z   plugin_lines_sections: <default-value>
+2024-11-02T16:09:44.5684466Z   plugin_lines_repositories_limit: <default-value>
+2024-11-02T16:09:44.5684860Z   plugin_lines_history_limit: <default-value>
+2024-11-02T16:09:44.5685216Z   plugin_lines_delay: <default-value>
+2024-11-02T16:09:44.5685535Z   plugin_topics: <default-value>
+2024-11-02T16:09:44.5685841Z   plugin_topics_mode: <default-value>
+2024-11-02T16:09:44.5686325Z   plugin_topics_sort: <default-value>
+2024-11-02T16:09:44.5686644Z   plugin_topics_limit: <default-value>
+2024-11-02T16:09:44.5686964Z   plugin_stars: <default-value>
+2024-11-02T16:09:44.5687260Z   plugin_stars_limit: <default-value>
+2024-11-02T16:09:44.5687739Z   plugin_licenses: <default-value>
+2024-11-02T16:09:44.5688063Z   plugin_licenses_setup: <default-value>
+2024-11-02T16:09:44.5688407Z   plugin_licenses_ratio: <default-value>
+2024-11-02T16:09:44.5688744Z   plugin_licenses_legal: <default-value>
+2024-11-02T16:09:44.5689065Z   plugin_habits: <default-value>
+2024-11-02T16:09:44.5689370Z   plugin_habits_from: <default-value>
+2024-11-02T16:09:44.5689687Z   plugin_habits_skipped: <default-value>
+2024-11-02T16:09:44.5690013Z   plugin_habits_days: <default-value>
+2024-11-02T16:09:44.5690343Z   plugin_habits_facts: <default-value>
+2024-11-02T16:09:44.5690676Z   plugin_habits_charts: <default-value>
+2024-11-02T16:09:44.5691023Z   plugin_habits_charts_type: <default-value>
+2024-11-02T16:09:44.5691370Z   plugin_habits_trim: <default-value>
+2024-11-02T16:09:44.5691723Z   plugin_habits_languages_limit: <default-value>
+2024-11-02T16:09:44.5692133Z   plugin_habits_languages_threshold: <default-value>
+2024-11-02T16:09:44.5692511Z   plugin_contributors: <default-value>
+2024-11-02T16:09:44.5692861Z   plugin_contributors_base: <default-value>
+2024-11-02T16:09:44.5693224Z   plugin_contributors_head: <default-value>
+2024-11-02T16:09:44.5693594Z   plugin_contributors_ignored: <default-value>
+2024-11-02T16:09:44.5693992Z   plugin_contributors_contributions: <default-value>
+2024-11-02T16:09:44.5694399Z   plugin_contributors_sections: <default-value>
+2024-11-02T16:09:44.5694792Z   plugin_contributors_categories: <default-value>
+2024-11-02T16:09:44.5695159Z   plugin_followup: <default-value>
+2024-11-02T16:09:44.5695649Z   plugin_followup_sections: <default-value>
+2024-11-02T16:09:44.5696010Z   plugin_followup_indepth: <default-value>
+2024-11-02T16:09:44.5696371Z   plugin_followup_archived: <default-value>
+2024-11-02T16:09:44.5696710Z   plugin_reactions: <default-value>
+2024-11-02T16:09:44.5697033Z   plugin_reactions_limit: <default-value>
+2024-11-02T16:09:44.5697398Z   plugin_reactions_limit_issues: <default-value>
+2024-11-02T16:09:44.5697816Z   plugin_reactions_limit_discussions: <default-value>
+2024-11-02T16:09:44.5698290Z   plugin_reactions_limit_discussions_comments: <default-value>
+2024-11-02T16:09:44.5698716Z   plugin_reactions_days: <default-value>
+2024-11-02T16:09:44.5699064Z   plugin_reactions_display: <default-value>
+2024-11-02T16:09:44.5699422Z   plugin_reactions_details: <default-value>
+2024-11-02T16:09:44.5699781Z   plugin_reactions_ignored: <default-value>
+2024-11-02T16:09:44.5700108Z   plugin_people: <default-value>
+2024-11-02T16:09:44.5700414Z   plugin_people_limit: <default-value>
+2024-11-02T16:09:44.5700768Z   plugin_people_identicons: <default-value>
+2024-11-02T16:09:44.5701148Z   plugin_people_identicons_hide: <default-value>
+2024-11-02T16:09:44.5701512Z   plugin_people_size: <default-value>
+2024-11-02T16:09:44.5701844Z   plugin_people_types: <default-value>
+2024-11-02T16:09:44.5702176Z   plugin_people_thanks: <default-value>
+2024-11-02T16:09:44.5702538Z   plugin_people_sponsors_custom: <default-value>
+2024-11-02T16:09:44.5702908Z   plugin_people_shuffle: <default-value>
+2024-11-02T16:09:44.5703253Z   plugin_sponsorships: <default-value>
+2024-11-02T16:09:44.5703608Z   plugin_sponsorships_sections: <default-value>
+2024-11-02T16:09:44.5703983Z   plugin_sponsorships_size: <default-value>
+2024-11-02T16:09:44.5704324Z   plugin_sponsors: <default-value>
+2024-11-02T16:09:44.5704651Z   plugin_sponsors_sections: <default-value>
+2024-11-02T16:09:44.5704997Z   plugin_sponsors_past: <default-value>
+2024-11-02T16:09:44.5705331Z   plugin_sponsors_size: <default-value>
+2024-11-02T16:09:44.5705662Z   plugin_sponsors_title: <default-value>
+2024-11-02T16:09:44.5706039Z   plugin_repositories: <default-value>
+2024-11-02T16:09:44.5706396Z   plugin_repositories_featured: <default-value>
+2024-11-02T16:09:44.5706781Z   plugin_repositories_pinned: <default-value>
+2024-11-02T16:09:44.5707154Z   plugin_repositories_starred: <default-value>
+2024-11-02T16:09:44.5707529Z   plugin_repositories_random: <default-value>
+2024-11-02T16:09:44.5707899Z   plugin_repositories_order: <default-value>
+2024-11-02T16:09:44.5708397Z   plugin_repositories_forks: <default-value>
+2024-11-02T16:09:44.5708781Z   plugin_repositories_affiliations: <default-value>
+2024-11-02T16:09:44.5709165Z   plugin_discussions: <default-value>
+2024-11-02T16:09:44.5709522Z   plugin_discussions_categories: <default-value>
+2024-11-02T16:09:44.5709938Z   plugin_discussions_categories_limit: <default-value>
+2024-11-02T16:09:44.5710321Z   plugin_starlists: <default-value>
+2024-11-02T16:09:44.5710648Z   plugin_starlists_limit: <default-value>
+2024-11-02T16:09:44.5711035Z   plugin_starlists_limit_repositories: <default-value>
+2024-11-02T16:09:44.5711452Z   plugin_starlists_languages: <default-value>
+2024-11-02T16:09:44.5711834Z   plugin_starlists_limit_languages: <default-value>
+2024-11-02T16:09:44.5712254Z   plugin_starlists_languages_ignored: <default-value>
+2024-11-02T16:09:44.5712676Z   plugin_starlists_languages_aliases: <default-value>
+2024-11-02T16:09:44.5713111Z   plugin_starlists_shuffle_repositories: <default-value>
+2024-11-02T16:09:44.5713522Z   plugin_starlists_ignored: <default-value>
+2024-11-02T16:09:44.5713876Z   plugin_starlists_only: <default-value>
+2024-11-02T16:09:44.5714218Z   plugin_calendar_limit: <default-value>
+2024-11-02T16:09:44.5714554Z   plugin_achievements: <default-value>
+2024-11-02T16:09:44.5714910Z   plugin_achievements_threshold: <default-value>
+2024-11-02T16:09:44.5715295Z   plugin_achievements_secrets: <default-value>
+2024-11-02T16:09:44.5715679Z   plugin_achievements_display: <default-value>
+2024-11-02T16:09:44.5716053Z   plugin_achievements_limit: <default-value>
+2024-11-02T16:09:44.5716556Z   plugin_achievements_ignored: <default-value>
+2024-11-02T16:09:44.5716924Z   plugin_achievements_only: <default-value>
+2024-11-02T16:09:44.5717266Z   plugin_notable: <default-value>
+2024-11-02T16:09:44.5717582Z   plugin_notable_filter: <default-value>
+2024-11-02T16:09:44.5717919Z   plugin_notable_skipped: <default-value>
+2024-11-02T16:09:44.5718256Z   plugin_notable_from: <default-value>
+2024-11-02T16:09:44.5718611Z   plugin_notable_repositories: <default-value>
+2024-11-02T16:09:44.5718976Z   plugin_notable_indepth: <default-value>
+2024-11-02T16:09:44.5719304Z   plugin_notable_types: <default-value>
+2024-11-02T16:09:44.5719637Z   plugin_notable_self: <default-value>
+2024-11-02T16:09:44.5719960Z   plugin_activity: <default-value>
+2024-11-02T16:09:44.5720279Z   plugin_activity_limit: <default-value>
+2024-11-02T16:09:44.5720609Z   plugin_activity_load: <default-value>
+2024-11-02T16:09:44.5720936Z   plugin_activity_days: <default-value>
+2024-11-02T16:09:44.5721292Z   plugin_activity_visibility: <default-value>
+2024-11-02T16:09:44.5721659Z   plugin_activity_timestamps: <default-value>
+2024-11-02T16:09:44.5722018Z   plugin_activity_skipped: <default-value>
+2024-11-02T16:09:44.5722372Z   plugin_activity_ignored: <default-value>
+2024-11-02T16:09:44.5722723Z   plugin_activity_filter: <default-value>
+2024-11-02T16:09:44.5723053Z   plugin_traffic: <default-value>
+2024-11-02T16:09:44.5723371Z   plugin_traffic_skipped: <default-value>
+2024-11-02T16:09:44.5723702Z   plugin_code: <default-value>
+2024-11-02T16:09:44.5724001Z   plugin_code_lines: <default-value>
+2024-11-02T16:09:44.5724315Z   plugin_code_load: <default-value>
+2024-11-02T16:09:44.5724628Z   plugin_code_days: <default-value>
+2024-11-02T16:09:44.5724952Z   plugin_code_visibility: <default-value>
+2024-11-02T16:09:44.5725293Z   plugin_code_skipped: <default-value>
+2024-11-02T16:09:44.5725627Z   plugin_code_languages: <default-value>
+2024-11-02T16:09:44.5726191Z   plugin_gists: <default-value>
+2024-11-02T16:09:44.5726643Z   plugin_projects: <default-value>
+2024-11-02T16:09:44.5726964Z   plugin_projects_limit: <default-value>
+2024-11-02T16:09:44.5727325Z   plugin_projects_repositories: <default-value>
+2024-11-02T16:09:44.5727719Z   plugin_projects_descriptions: <default-value>
+2024-11-02T16:09:44.5728091Z   plugin_introduction: <default-value>
+2024-11-02T16:09:44.5728437Z   plugin_introduction_title: <default-value>
+2024-11-02T16:09:44.5728778Z   plugin_skyline: <default-value>
+2024-11-02T16:09:44.5729294Z   plugin_skyline_year: <default-value>
+2024-11-02T16:09:44.5729626Z   plugin_skyline_frames: <default-value>
+2024-11-02T16:09:44.5729963Z   plugin_skyline_quality: <default-value>
+2024-11-02T16:09:44.5730328Z   plugin_skyline_compatibility: <default-value>
+2024-11-02T16:09:44.5730697Z   plugin_skyline_settings: <default-value>
+2024-11-02T16:09:44.5731034Z   plugin_support: <default-value>
+2024-11-02T16:09:44.5731345Z   plugin_pagespeed: <default-value>
+2024-11-02T16:09:44.5731667Z   plugin_pagespeed_token: <default-value>
+2024-11-02T16:09:44.5732008Z   plugin_pagespeed_url: <default-value>
+2024-11-02T16:09:44.5732361Z   plugin_pagespeed_detailed: <default-value>
+2024-11-02T16:09:44.5732738Z   plugin_pagespeed_screenshot: <default-value>
+2024-11-02T16:09:44.5733091Z   plugin_pagespeed_pwa: <default-value>
+2024-11-02T16:09:44.5733421Z   plugin_tweets: <default-value>
+2024-11-02T16:09:44.5733726Z   plugin_tweets_token: <default-value>
+2024-11-02T16:09:44.5734050Z   plugin_tweets_user: <default-value>
+2024-11-02T16:09:44.5734393Z   plugin_tweets_attachments: <default-value>
+2024-11-02T16:09:44.5734742Z   plugin_tweets_limit: <default-value>
+2024-11-02T16:09:44.5735069Z   plugin_stackoverflow: <default-value>
+2024-11-02T16:09:44.5735415Z   plugin_stackoverflow_user: <default-value>
+2024-11-02T16:09:44.5735799Z   plugin_stackoverflow_sections: <default-value>
+2024-11-02T16:09:44.5736187Z   plugin_stackoverflow_limit: <default-value>
+2024-11-02T16:09:44.5736561Z   plugin_stackoverflow_lines: <default-value>
+2024-11-02T16:09:44.5737258Z   plugin_stackoverflow_lines_snippet: <default-value>
+2024-11-02T16:09:44.5737653Z   plugin_anilist: <default-value>
+2024-11-02T16:09:44.5737962Z   plugin_anilist_user: <default-value>
+2024-11-02T16:09:44.5738296Z   plugin_anilist_medias: <default-value>
+2024-11-02T16:09:44.5738639Z   plugin_anilist_sections: <default-value>
+2024-11-02T16:09:44.5738983Z   plugin_anilist_limit: <default-value>
+2024-11-02T16:09:44.5739351Z   plugin_anilist_limit_characters: <default-value>
+2024-11-02T16:09:44.5739742Z   plugin_anilist_shuffle: <default-value>
+2024-11-02T16:09:44.5740069Z   plugin_music: <default-value>
+2024-11-02T16:09:44.5740380Z   plugin_music_provider: <default-value>
+2024-11-02T16:09:44.5740714Z   plugin_music_token: <default-value>
+2024-11-02T16:09:44.5741040Z   plugin_music_user: <default-value>
+2024-11-02T16:09:44.5741352Z   plugin_music_mode: <default-value>
+2024-11-02T16:09:44.5741680Z   plugin_music_playlist: <default-value>
+2024-11-02T16:09:44.5742015Z   plugin_music_limit: <default-value>
+2024-11-02T16:09:44.5742348Z   plugin_music_played_at: <default-value>
+2024-11-02T16:09:44.5742691Z   plugin_music_time_range: <default-value>
+2024-11-02T16:09:44.5743042Z   plugin_music_top_type: <default-value>
+2024-11-02T16:09:44.5743366Z   plugin_posts: <default-value>
+2024-11-02T16:09:44.5743672Z   plugin_posts_source: <default-value>
+2024-11-02T16:09:44.5743992Z   plugin_posts_user: <default-value>
+2024-11-02T16:09:44.5744332Z   plugin_posts_descriptions: <default-value>
+2024-11-02T16:09:44.5744690Z   plugin_posts_covers: <default-value>
+2024-11-02T16:09:44.5745017Z   plugin_posts_limit: <default-value>
+2024-11-02T16:09:44.5745324Z   plugin_rss: <default-value>
+2024-11-02T16:09:44.5745616Z   plugin_rss_source: <default-value>
+2024-11-02T16:09:44.5745932Z   plugin_rss_limit: <default-value>
+2024-11-02T16:09:44.5746248Z   plugin_wakatime: <default-value>
+2024-11-02T16:09:44.5746572Z   plugin_wakatime_token: <default-value>
+2024-11-02T16:09:44.5746907Z   plugin_wakatime_url: <default-value>
+2024-11-02T16:09:44.5747237Z   plugin_wakatime_user: <default-value>
+2024-11-02T16:09:44.5747582Z   plugin_wakatime_sections: <default-value>
+2024-11-02T16:09:44.5747924Z   plugin_wakatime_days: <default-value>
+2024-11-02T16:09:44.5748261Z   plugin_wakatime_limit: <default-value>
+2024-11-02T16:09:44.5748629Z   plugin_wakatime_languages_other: <default-value>
+2024-11-02T16:09:44.5749042Z   plugin_wakatime_languages_ignored: <default-value>
+2024-11-02T16:09:44.5749616Z   plugin_wakatime_repositories_visibility: <default-value>
+2024-11-02T16:09:44.5750017Z   plugin_leetcode: <default-value>
+2024-11-02T16:09:44.5750329Z   plugin_leetcode_user: <default-value>
+2024-11-02T16:09:44.5750671Z   plugin_leetcode_sections: <default-value>
+2024-11-02T16:09:44.5751046Z   plugin_leetcode_limit_skills: <default-value>
+2024-11-02T16:09:44.5751437Z   plugin_leetcode_ignored_skills: <default-value>
+2024-11-02T16:09:44.5751832Z   plugin_leetcode_limit_recent: <default-value>
+2024-11-02T16:09:44.5752184Z   plugin_steam: <default-value>
+2024-11-02T16:09:44.5752496Z   plugin_steam_token: <default-value>
+2024-11-02T16:09:44.5752824Z   plugin_steam_sections: <default-value>
+2024-11-02T16:09:44.5753182Z   plugin_steam_games_ignored: <default-value>
+2024-11-02T16:09:44.5753538Z   plugin_steam_games_limit: <default-value>
+2024-11-02T16:09:44.5753914Z   plugin_steam_recent_games_limit: <default-value>
+2024-11-02T16:09:44.5754320Z   plugin_steam_achievements_limit: <default-value>
+2024-11-02T16:09:44.5754734Z   plugin_steam_playtime_threshold: <default-value>
+2024-11-02T16:09:44.5755105Z   plugin_16personalities: <default-value>
+2024-11-02T16:09:44.5755466Z   plugin_16personalities_url: <default-value>
+2024-11-02T16:09:44.5755850Z   plugin_16personalities_sections: <default-value>
+2024-11-02T16:09:44.5756254Z   plugin_16personalities_scores: <default-value>
+2024-11-02T16:09:44.5756609Z   plugin_chess: <default-value>
+2024-11-02T16:09:44.5756912Z   plugin_chess_token: <default-value>
+2024-11-02T16:09:44.5757243Z   plugin_chess_user: <default-value>
+2024-11-02T16:09:44.5757703Z   plugin_chess_platform: <default-value>
+2024-11-02T16:09:44.5758044Z   plugin_chess_animation: <default-value>
+2024-11-02T16:09:44.5758377Z   plugin_fortune: <default-value>
+2024-11-02T16:09:44.5758686Z   plugin_nightscout: <default-value>
+2024-11-02T16:09:44.5759023Z   plugin_nightscout_url: <default-value>
+2024-11-02T16:09:44.5759380Z   plugin_nightscout_datapoints: <default-value>
+2024-11-02T16:09:44.5759764Z   plugin_nightscout_lowalert: <default-value>
+2024-11-02T16:09:44.5760146Z   plugin_nightscout_highalert: <default-value>
+2024-11-02T16:09:44.5760551Z   plugin_nightscout_urgentlowalert: <default-value>
+2024-11-02T16:09:44.5760975Z   plugin_nightscout_urgenthighalert: <default-value>
+2024-11-02T16:09:44.5761352Z   plugin_poopmap: <default-value>
+2024-11-02T16:09:44.5761666Z   plugin_poopmap_token: <default-value>
+2024-11-02T16:09:44.5762002Z   plugin_poopmap_days: <default-value>
+2024-11-02T16:09:44.5762324Z   plugin_screenshot: <default-value>
+2024-11-02T16:09:44.5762660Z   plugin_screenshot_title: <default-value>
+2024-11-02T16:09:44.5763017Z   plugin_screenshot_url: <default-value>
+2024-11-02T16:09:44.5763374Z   plugin_screenshot_selector: <default-value>
+2024-11-02T16:09:44.5763730Z   plugin_screenshot_mode: <default-value>
+2024-11-02T16:09:44.5764089Z   plugin_screenshot_viewport: <default-value>
+2024-11-02T16:09:44.5764446Z   plugin_screenshot_wait: <default-value>
+2024-11-02T16:09:44.5764808Z   plugin_screenshot_background: <default-value>
+2024-11-02T16:09:44.5765169Z   plugin_splatoon: <default-value>
+2024-11-02T16:09:44.5765493Z   plugin_splatoon_token: <default-value>
+2024-11-02T16:09:44.5765840Z   plugin_splatoon_sections: <default-value>
+2024-11-02T16:09:44.5766507Z   plugin_splatoon_versus_limit: <default-value>
+2024-11-02T16:09:44.5766889Z   plugin_splatoon_salmon_limit: <default-value>
+2024-11-02T16:09:44.5767257Z   plugin_splatoon_statink: <default-value>
+2024-11-02T16:09:44.5767630Z   plugin_splatoon_statink_token: <default-value>
+2024-11-02T16:09:44.5768006Z   plugin_splatoon_source: <default-value>
+2024-11-02T16:09:44.5768338Z   plugin_stock: <default-value>
+2024-11-02T16:09:44.5768648Z   plugin_stock_token: <default-value>
+2024-11-02T16:09:44.5768976Z   plugin_stock_symbol: <default-value>
+2024-11-02T16:09:44.5769328Z   plugin_stock_duration: <default-value>
+2024-11-02T16:09:44.5769665Z   plugin_stock_interval: <default-value>
+2024-11-02T16:09:44.5769979Z ##[endgroup]
+2024-11-02T16:09:44.5792487Z ##[group]Run # Check runner compatibility
+2024-11-02T16:09:44.5793131Z [36;1m# Check runner compatibility[0m
+2024-11-02T16:09:44.5793517Z [36;1mecho "::group::Metrics docker image setup"[0m
+2024-11-02T16:09:44.5794021Z [36;1mecho "GitHub action: $METRICS_ACTION ($METRICS_ACTION_PATH)"[0m
+2024-11-02T16:09:44.5794472Z [36;1mcd $METRICS_ACTION_PATH[0m
+2024-11-02T16:09:44.5794800Z [36;1mfor DEPENDENCY in docker jq; do[0m
+2024-11-02T16:09:44.5795195Z [36;1m  if ! which $DEPENDENCY > /dev/null 2>&1; then[0m
+2024-11-02T16:09:44.5795841Z [36;1m    echo "::error::\"$DEPENDENCY\" is not installed on current runner but is needed to run metrics"[0m
+2024-11-02T16:09:44.5796442Z [36;1m    MISSING_DEPENDENCIES=1[0m
+2024-11-02T16:09:44.5796739Z [36;1m  fi[0m
+2024-11-02T16:09:44.5796950Z [36;1mdone[0m
+2024-11-02T16:09:44.5797228Z [36;1mif [[ $MISSING_DEPENDENCIES == "1" ]]; then[0m
+2024-11-02T16:09:44.5797682Z [36;1m  echo "Runner compatibility: missing dependencies"[0m
+2024-11-02T16:09:44.5798071Z [36;1m  exit 1[0m
+2024-11-02T16:09:44.5798294Z [36;1melse[0m
+2024-11-02T16:09:44.5798572Z [36;1m  echo "Runner compatibility: compatible"[0m
+2024-11-02T16:09:44.5798919Z [36;1mfi[0m
+2024-11-02T16:09:44.5799124Z [36;1m[0m
+2024-11-02T16:09:44.5799460Z [36;1m# Create environment file from inputs and GitHub variables[0m
+2024-11-02T16:09:44.5799887Z [36;1mtouch .env[0m
+2024-11-02T16:09:44.5800423Z [36;1mfor INPUT in $(echo $INPUTS | jq -r 'to_entries|map("INPUT_\(.key|ascii_upcase)=\(.value|@uri)")|.[]'); do[0m
+2024-11-02T16:09:44.5801022Z [36;1m  echo $INPUT >> .env[0m
+2024-11-02T16:09:44.5801465Z [36;1mdone[0m
+2024-11-02T16:09:44.5801764Z [36;1menv | grep -E '^(GITHUB|ACTIONS|CI|TZ)' >> .env[0m
+2024-11-02T16:09:44.5802180Z [36;1mecho "Environment variables: loaded"[0m
+2024-11-02T16:09:44.5802503Z [36;1m[0m
+2024-11-02T16:09:44.5802724Z [36;1m# Renders output folder[0m
+2024-11-02T16:09:44.5803060Z [36;1mMETRICS_RENDERS="/metrics_renders"[0m
+2024-11-02T16:09:44.5803423Z [36;1msudo mkdir -p $METRICS_RENDERS[0m
+2024-11-02T16:09:44.5803817Z [36;1mecho "Renders output folder: $METRICS_RENDERS"[0m
+2024-11-02T16:09:44.5804180Z [36;1m[0m
+2024-11-02T16:09:44.5804462Z [36;1m# Source repository (picked from action name)[0m
+2024-11-02T16:09:44.5805040Z [36;1mMETRICS_SOURCE=$(echo $METRICS_ACTION | sed -E 's/metrics.*?$//g' | sed -E 's/_//g')[0m
+2024-11-02T16:09:44.5805565Z [36;1mecho "Source: $METRICS_SOURCE"[0m
+2024-11-02T16:09:44.5806175Z [36;1m[0m
+2024-11-02T16:09:44.5806603Z [36;1m# Version (picked from package.json)[0m
+2024-11-02T16:09:44.5807093Z [36;1mMETRICS_VERSION=$(grep -Po '(?<="version": ").*(?=")' package.json)[0m
+2024-11-02T16:09:44.5807574Z [36;1mecho "Version: $METRICS_VERSION"[0m
+2024-11-02T16:09:44.5807890Z [36;1m[0m
+2024-11-02T16:09:44.5808180Z [36;1m# Image tag (extracted from version or from env)[0m
+2024-11-02T16:09:44.5808724Z [36;1mMETRICS_TAG=v$(echo $METRICS_VERSION | sed -r 's/^([0-9]+[.][0-9]+).*/\1/')[0m
+2024-11-02T16:09:44.5809219Z [36;1mecho "Image tag: $METRICS_TAG"[0m
+2024-11-02T16:09:44.5809533Z [36;1m[0m
+2024-11-02T16:09:44.5809741Z [36;1m# Image name[0m
+2024-11-02T16:09:44.5809996Z [36;1m# Official action[0m
+2024-11-02T16:09:44.5810331Z [36;1mif [[ $METRICS_SOURCE == "lowlighter" ]]; then[0m
+2024-11-02T16:09:44.5810744Z [36;1m  # Use registry with pre-built images[0m
+2024-11-02T16:09:44.5811248Z [36;1m  if [[ ! $METRICS_USE_PREBUILT_IMAGE =~ ^([Ff]alse|[Oo]ff|[Nn]o|0)$ ]]; then[0m
+2024-11-02T16:09:44.5811720Z [36;1m    # Is released version[0m
+2024-11-02T16:09:44.5812011Z [36;1m    set +e[0m
+2024-11-02T16:09:44.5812422Z [36;1m    METRICS_IS_RELEASED=$(expr $(expr match $METRICS_VERSION .*-beta) == 0)[0m
+2024-11-02T16:09:44.5812884Z [36;1m    set -e[0m
+2024-11-02T16:09:44.5813215Z [36;1m    echo "Is released version: $METRICS_IS_RELEASED"[0m
+2024-11-02T16:09:44.5813673Z [36;1m    if [[ "$METRICS_IS_RELEASED" -eq "0" ]]; then[0m
+2024-11-02T16:09:44.5814078Z [36;1m      METRICS_TAG="$METRICS_TAG-beta"[0m
+2024-11-02T16:09:44.5814477Z [36;1m      echo "Image tag (updated): $METRICS_TAG"[0m
+2024-11-02T16:09:44.5815012Z [36;1m    fi[0m
+2024-11-02T16:09:44.5815349Z [36;1m    METRICS_IMAGE=ghcr.io/lowlighter/metrics:$METRICS_TAG[0m
+2024-11-02T16:09:44.5816016Z [36;1m    echo "Using pre-built version $METRICS_TAG, will pull docker image from GitHub registry"[0m
+2024-11-02T16:09:44.5816646Z [36;1m    if ! docker image pull $METRICS_IMAGE; then[0m
+2024-11-02T16:09:44.5817244Z [36;1m      echo "Failed to fetch docker image from GitHub registry, will rebuild it locally"[0m
+2024-11-02T16:09:44.5817831Z [36;1m      METRICS_IMAGE=metrics:$METRICS_VERSION[0m
+2024-11-02T16:09:44.5818174Z [36;1m    fi[0m
+2024-11-02T16:09:44.5818403Z [36;1m  # Rebuild image[0m
+2024-11-02T16:09:44.5818667Z [36;1m  else[0m
+2024-11-02T16:09:44.5818999Z [36;1m    echo "Using an unreleased version ($METRICS_VERSION)"[0m
+2024-11-02T16:09:44.5819458Z [36;1m    METRICS_IMAGE=metrics:$METRICS_VERSION[0m
+2024-11-02T16:09:44.5819801Z [36;1m  fi[0m
+2024-11-02T16:09:44.5820028Z [36;1m# Forked action[0m
+2024-11-02T16:09:44.5820274Z [36;1melse[0m
+2024-11-02T16:09:44.5820520Z [36;1m  echo "Using a forked version"[0m
+2024-11-02T16:09:44.5820909Z [36;1m  METRICS_IMAGE=metrics:forked-$METRICS_VERSION[0m
+2024-11-02T16:09:44.5821272Z [36;1mfi[0m
+2024-11-02T16:09:44.5821514Z [36;1mecho "Image name: $METRICS_IMAGE"[0m
+2024-11-02T16:09:44.5821830Z [36;1m[0m
+2024-11-02T16:09:44.5822053Z [36;1m# Build image if necessary[0m
+2024-11-02T16:09:44.5822352Z [36;1mset +e[0m
+2024-11-02T16:09:44.5822616Z [36;1mdocker image inspect $METRICS_IMAGE[0m
+2024-11-02T16:09:44.5823123Z [36;1mMETRICS_IMAGE_NEEDS_BUILD="$?"[0m
+2024-11-02T16:09:44.5823433Z [36;1mset -e[0m
+2024-11-02T16:09:44.5823736Z [36;1mif [[ "$METRICS_IMAGE_NEEDS_BUILD" -gt "0" ]]; then[0m
+2024-11-02T16:09:44.5824329Z [36;1m  echo "Image $METRICS_IMAGE is not present locally, rebuilding it from Dockerfile"[0m
+2024-11-02T16:09:44.5824888Z [36;1m  docker build -t $METRICS_IMAGE .[0m
+2024-11-02T16:09:44.5825213Z [36;1melse[0m
+2024-11-02T16:09:44.5825516Z [36;1m  echo "Image $METRICS_IMAGE is present locally"[0m
+2024-11-02T16:09:44.5825879Z [36;1mfi[0m
+2024-11-02T16:09:44.5826097Z [36;1mecho "::endgroup::"[0m
+2024-11-02T16:09:44.5826361Z [36;1m[0m
+2024-11-02T16:09:44.5826631Z [36;1m# Run docker image with current environment[0m
+2024-11-02T16:09:44.5827386Z [36;1mdocker run --init --rm --volume $GITHUB_EVENT_PATH:$GITHUB_EVENT_PATH --volume $METRICS_RENDERS:/renders --env-file .env $METRICS_IMAGE[0m
+2024-11-02T16:09:44.5828072Z [36;1mrm .env[0m
+2024-11-02T16:09:44.5883913Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2024-11-02T16:09:44.5884327Z env:
+2024-11-02T16:09:44.5884568Z   METRICS_ACTION: __lowlighter_metrics_17
+2024-11-02T16:09:44.5885046Z   METRICS_ACTION_PATH: /home/runner/work/_actions/lowlighter/metrics/latest
+2024-11-02T16:09:44.5885520Z   METRICS_USE_PREBUILT_IMAGE: yes
+2024-11-02T16:09:44.5936019Z   INPUTS: {
+  "filename": "/generated/GitHub_Stats_B_GitHub_Calendar_2024.svg",
+  "token": "***",
+  "base": "",
+  "plugin_calendar": "yes",
+  "base_indepth": "<default-value>",
+  "base_hireable": "<default-value>",
+  "base_skip": "<default-value>",
+  "repositories": "<default-value>",
+  "repositories_batch": "<default-value>",
+  "repositories_forks": "<default-value>",
+  "repositories_affiliations": "<default-value>",
+  "repositories_skipped": "<default-value>",
+  "users_ignored": "<default-value>",
+  "commits_authoring": "<default-value>",
+  "user": "<default-value>",
+  "repo": "<default-value>",
+  "committer_token": "***",
+  "committer_branch": "<default-value>",
+  "committer_message": "<default-value>",
+  "committer_gist": "<default-value>",
+  "markdown": "<default-value>",
+  "markdown_cache": "<default-value>",
+  "output_action": "<default-value>",
+  "output_condition": "<default-value>",
+  "optimize": "<default-value>",
+  "setup_community_templates": "<default-value>",
+  "template": "<default-value>",
+  "query": "<default-value>",
+  "extras_css": "<default-value>",
+  "extras_js": "<default-value>",
+  "github_api_rest": "<default-value>",
+  "github_api_graphql": "<default-value>",
+  "config_timezone": "",
+  "config_order": "<default-value>",
+  "config_twemoji": "<default-value>",
+  "config_gemoji": "<default-value>",
+  "config_octicon": "<default-value>",
+  "config_display": "<default-value>",
+  "config_animations": "<default-value>",
+  "config_base64": "<default-value>",
+  "config_padding": "<default-value>",
+  "config_output": "<default-value>",
+  "config_presets": "",
+  "retries": "<default-value>",
+  "retries_delay": "<default-value>",
+  "retries_output_action": "<default-value>",
+  "retries_delay_output_action": "<default-value>",
+  "clean_workflows": "<default-value>",
+  "delay": "<default-value>",
+  "quota_required_rest": "<default-value>",
+  "quota_required_graphql": "<default-value>",
+  "quota_required_search": "<default-value>",
+  "notice_releases": "<default-value>",
+  "use_prebuilt_image": "yes",
+  "plugins_errors_fatal": "<default-value>",
+  "debug": "<default-value>",
+  "verify": "<default-value>",
+  "debug_flags": "<default-value>",
+  "debug_print": "<default-value>",
+  "dryrun": "<default-value>",
+  "experimental_features": "<default-value>",
+  "use_mocked_data": "<default-value>",
+  "plugin_isocalendar": "<default-value>",
+  "plugin_isocalendar_duration": "<default-value>",
+  "plugin_languages": "<default-value>",
+  "plugin_languages_ignored": "<default-value>",
+  "plugin_languages_skipped": "<default-value>",
+  "plugin_languages_limit": "<default-value>",
+  "plugin_languages_threshold": "<default-value>",
+  "plugin_languages_other": "<default-value>",
+  "plugin_languages_colors": "<default-value>",
+  "plugin_languages_aliases": "<default-value>",
+  "plugin_languages_sections": "<default-value>",
+  "plugin_languages_details": "<default-value>",
+  "plugin_languages_indepth": "<default-value>",
+  "plugin_languages_indepth_custom": "<default-value>",
+  "plugin_languages_analysis_timeout": "<default-value>",
+  "plugin_languages_analysis_timeout_repositories": "<default-value>",
+  "plugin_languages_categories": "<default-value>",
+  "plugin_languages_recent_categories": "<default-value>",
+  "plugin_languages_recent_load": "<default-value>",
+  "plugin_languages_recent_days": "<default-value>",
+  "plugin_stargazers": "<default-value>",
+  "plugin_stargazers_days": "<default-value>",
+  "plugin_stargazers_charts": "<default-value>",
+  "plugin_stargazers_charts_type": "<default-value>",
+  "plugin_stargazers_worldmap": "<default-value>",
+  "plugin_stargazers_worldmap_token": "<default-value>",
+  "plugin_stargazers_worldmap_sample": "<default-value>",
+  "plugin_lines": "<default-value>",
+  "plugin_lines_skipped": "<default-value>",
+  "plugin_lines_sections": "<default-value>",
+  "plugin_lines_repositories_limit": "<default-value>",
+  "plugin_lines_history_limit": "<default-value>",
+  "plugin_lines_delay": "<default-value>",
+  "plugin_topics": "<default-value>",
+  "plugin_topics_mode": "<default-value>",
+  "plugin_topics_sort": "<default-value>",
+  "plugin_topics_limit": "<default-value>",
+  "plugin_stars": "<default-value>",
+  "plugin_stars_limit": "<default-value>",
+  "plugin_licenses": "<default-value>",
+  "plugin_licenses_setup": "<default-value>",
+  "plugin_licenses_ratio": "<default-value>",
+  "plugin_licenses_legal": "<default-value>",
+  "plugin_habits": "<default-value>",
+  "plugin_habits_from": "<default-value>",
+  "plugin_habits_skipped": "<default-value>",
+  "plugin_habits_days": "<default-value>",
+  "plugin_habits_facts": "<default-value>",
+  "plugin_habits_charts": "<default-value>",
+  "plugin_habits_charts_type": "<default-value>",
+  "plugin_habits_trim": "<default-value>",
+  "plugin_habits_languages_limit": "<default-value>",
+  "plugin_habits_languages_threshold": "<default-value>",
+  "plugin_contributors": "<default-value>",
+  "plugin_contributors_base": "<default-value>",
+  "plugin_contributors_head": "<default-value>",
+  "plugin_contributors_ignored": "<default-value>",
+  "plugin_contributors_contributions": "<default-value>",
+  "plugin_contributors_sections": "<default-value>",
+  "plugin_contributors_categories": "<default-value>",
+  "plugin_followup": "<default-value>",
+  "plugin_followup_sections": "<default-value>",
+  "plugin_followup_indepth": "<default-value>",
+  "plugin_followup_archived": "<default-value>",
+  "plugin_reactions": "<default-value>",
+  "plugin_reactions_limit": "<default-value>",
+  "plugin_reactions_limit_issues": "<default-value>",
+  "plugin_reactions_limit_discussions": "<default-value>",
+  "plugin_reactions_limit_discussions_comments": "<default-value>",
+  "plugin_reactions_days": "<default-value>",
+  "plugin_reactions_display": "<default-value>",
+  "plugin_reactions_details": "<default-value>",
+  "plugin_reactions_ignored": "<default-value>",
+  "plugin_people": "<default-value>",
+  "plugin_people_limit": "<default-value>",
+  "plugin_people_identicons": "<default-value>",
+  "plugin_people_identicons_hide": "<default-value>",
+  "plugin_people_size": "<default-value>",
+  "plugin_people_types": "<default-value>",
+  "plugin_people_thanks": "<default-value>",
+  "plugin_people_sponsors_custom": "<default-value>",
+  "plugin_people_shuffle": "<default-value>",
+  "plugin_sponsorships": "<default-value>",
+  "plugin_sponsorships_sections": "<default-value>",
+  "plugin_sponsorships_size": "<default-value>",
+  "plugin_sponsors": "<default-value>",
+  "plugin_sponsors_sections": "<default-value>",
+  "plugin_sponsors_past": "<default-value>",
+  "plugin_sponsors_size": "<default-value>",
+  "plugin_sponsors_title": "<default-value>",
+  "plugin_repositories": "<default-value>",
+  "plugin_repositories_featured": "<default-value>",
+  "plugin_repositories_pinned": "<default-value>",
+  "plugin_repositories_starred": "<default-value>",
+  "plugin_repositories_random": "<default-value>",
+  "plugin_repositories_order": "<default-value>",
+  "plugin_repositories_forks": "<default-value>",
+  "plugin_repositories_affiliations": "<default-value>",
+  "plugin_discussions": "<default-value>",
+  "plugin_discussions_categories": "<default-value>",
+  "plugin_discussions_categories_limit": "<default-value>",
+  "plugin_starlists": "<default-value>",
+  "plugin_starlists_limit": "<default-value>",
+  "plugin_starlists_limit_repositories": "<default-value>",
+  "plugin_starlists_languages": "<default-value>",
+  "plugin_starlists_limit_languages": "<default-value>",
+  "plugin_starlists_languages_ignored": "<default-value>",
+  "plugin_starlists_languages_aliases": "<default-value>",
+  "plugin_starlists_shuffle_repositories": "<default-value>",
+  "plugin_starlists_ignored": "<default-value>",
+  "plugin_starlists_only": "<default-value>",
+  "plugin_calendar_limit": "<default-value>",
+  "plugin_achievements": "<default-value>",
+  "plugin_achievements_threshold": "<default-value>",
+  "plugin_achievements_secrets": "<default-value>",
+  "plugin_achievements_display": "<default-value>",
+  "plugin_achievements_limit": "<default-value>",
+  "plugin_achievements_ignored": "<default-value>",
+  "plugin_achievements_only": "<default-value>",
+  "plugin_notable": "<default-value>",
+  "plugin_notable_filter": "<default-value>",
+  "plugin_notable_skipped": "<default-value>",
+  "plugin_notable_from": "<default-value>",
+  "plugin_notable_repositories": "<default-value>",
+  "plugin_notable_indepth": "<default-value>",
+  "plugin_notable_types": "<default-value>",
+  "plugin_notable_self": "<default-value>",
+  "plugin_activity": "<default-value>",
+  "plugin_activity_limit": "<default-value>",
+  "plugin_activity_load": "<default-value>",
+  "plugin_activity_days": "<default-value>",
+  "plugin_activity_visibility": "<default-value>",
+  "plugin_activity_timestamps": "<default-value>",
+  "plugin_activity_skipped": "<default-value>",
+  "plugin_activity_ignored": "<default-value>",
+  "plugin_activity_filter": "<default-value>",
+  "plugin_traffic": "<default-value>",
+  "plugin_traffic_skipped": "<default-value>",
+  "plugin_code": "<default-value>",
+  "plugin_code_lines": "<default-value>",
+  "plugin_code_load": "<default-value>",
+  "plugin_code_days": "<default-value>",
+  "plugin_code_visibility": "<default-value>",
+  "plugin_code_skipped": "<default-value>",
+  "plugin_code_languages": "<default-value>",
+  "plugin_gists": "<default-value>",
+  "plugin_projects": "<default-value>",
+  "plugin_projects_limit": "<default-value>",
+  "plugin_projects_repositories": "<default-value>",
+  "plugin_projects_descriptions": "<default-value>",
+  "plugin_introduction": "<default-value>",
+  "plugin_introduction_title": "<default-value>",
+  "plugin_skyline": "<default-value>",
+  "plugin_skyline_year": "<default-value>",
+  "plugin_skyline_frames": "<default-value>",
+  "plugin_skyline_quality": "<default-value>",
+  "plugin_skyline_compatibility": "<default-value>",
+  "plugin_skyline_settings": "<default-value>",
+  "plugin_support": "<default-value>",
+  "plugin_pagespeed": "<default-value>",
+  "plugin_pagespeed_token": "<default-value>",
+  "plugin_pagespeed_url": "<default-value>",
+  "plugin_pagespeed_detailed": "<default-value>",
+  "plugin_pagespeed_screenshot": "<default-value>",
+  "plugin_pagespeed_pwa": "<default-value>",
+  "plugin_tweets": "<default-value>",
+  "plugin_tweets_token": "<default-value>",
+  "plugin_tweets_user": "<default-value>",
+  "plugin_tweets_attachments": "<default-value>",
+  "plugin_tweets_limit": "<default-value>",
+  "plugin_stackoverflow": "<default-value>",
+  "plugin_stackoverflow_user": "<default-value>",
+  "plugin_stackoverflow_sections": "<default-value>",
+  "plugin_stackoverflow_limit": "<default-value>",
+  "plugin_stackoverflow_lines": "<default-value>",
+  "plugin_stackoverflow_lines_snippet": "<default-value>",
+  "plugin_anilist": "<default-value>",
+  "plugin_anilist_user": "<default-value>",
+  "plugin_anilist_medias": "<default-value>",
+  "plugin_anilist_sections": "<default-value>",
+  "plugin_anilist_limit": "<default-value>",
+  "plugin_anilist_limit_characters": "<default-value>",
+  "plugin_anilist_shuffle": "<default-value>",
+  "plugin_music": "<default-value>",
+  "plugin_music_provider": "<default-value>",
+  "plugin_music_token": "<default-value>",
+  "plugin_music_user": "<default-value>",
+  "plugin_music_mode": "<default-value>",
+  "plugin_music_playlist": "<default-value>",
+  "plugin_music_limit": "<default-value>",
+  "plugin_music_played_at": "<default-value>",
+  "plugin_music_time_range": "<default-value>",
+  "plugin_music_top_type": "<default-value>",
+  "plugin_posts": "<default-value>",
+  "plugin_posts_source": "<default-value>",
+  "plugin_posts_user": "<default-value>",
+  "plugin_posts_descriptions": "<default-value>",
+  "plugin_posts_covers": "<default-value>",
+  "plugin_posts_limit": "<default-value>",
+  "plugin_rss": "<default-value>",
+  "plugin_rss_source": "<default-value>",
+  "plugin_rss_limit": "<default-value>",
+  "plugin_wakatime": "<default-value>",
+  "plugin_wakatime_token": "<default-value>",
+  "plugin_wakatime_url": "<default-value>",
+  "plugin_wakatime_user": "<default-value>",
+  "plugin_wakatime_sections": "<default-value>",
+  "plugin_wakatime_days": "<default-value>",
+  "plugin_wakatime_limit": "<default-value>",
+  "plugin_wakatime_languages_other": "<default-value>",
+  "plugin_wakatime_languages_ignored": "<default-value>",
+  "plugin_wakatime_repositories_visibility": "<default-value>",
+  "plugin_leetcode": "<default-value>",
+  "plugin_leetcode_user": "<default-value>",
+  "plugin_leetcode_sections": "<default-value>",
+  "plugin_leetcode_limit_skills": "<default-value>",
+  "plugin_leetcode_ignored_skills": "<default-value>",
+  "plugin_leetcode_limit_recent": "<default-value>",
+  "plugin_steam": "<default-value>",
+  "plugin_steam_token": "<default-value>",
+  "plugin_steam_sections": "<default-value>",
+  "plugin_steam_user": "",
+  "plugin_steam_games_ignored": "<default-value>",
+  "plugin_steam_games_limit": "<default-value>",
+  "plugin_steam_recent_games_limit": "<default-value>",
+  "plugin_steam_achievements_limit": "<default-value>",
+  "plugin_steam_playtime_threshold": "<default-value>",
+  "plugin_16personalities": "<default-value>",
+  "plugin_16personalities_url": "<default-value>",
+  "plugin_16personalities_sections": "<default-value>",
+  "plugin_16personalities_scores": "<default-value>",
+  "plugin_chess": "<default-value>",
+  "plugin_chess_token": "<default-value>",
+  "plugin_chess_user": "<default-value>",
+  "plugin_chess_platform": "<default-value>",
+  "plugin_chess_animation": "<default-value>",
+  "plugin_fortune": "<default-value>",
+  "plugin_nightscout": "<default-value>",
+  "plugin_nightscout_url": "<default-value>",
+  "plugin_nightscout_datapoints": "<default-value>",
+  "plugin_nightscout_lowalert": "<default-value>",
+  "plugin_nightscout_highalert": "<default-value>",
+  "plugin_nightscout_urgentlowalert": "<default-value>",
+  "plugin_nightscout_urgenthighalert": "<default-value>",
+  "plugin_poopmap": "<default-value>",
+  "plugin_poopmap_token": "<default-value>",
+  "plugin_poopmap_days": "<default-value>",
+  "plugin_screenshot": "<default-value>",
+  "plugin_screenshot_title": "<default-value>",
+  "plugin_screenshot_url": "<default-value>",
+  "plugin_screenshot_selector": "<default-value>",
+  "plugin_screenshot_mode": "<default-value>",
+  "plugin_screenshot_viewport": "<default-value>",
+  "plugin_screenshot_wait": "<default-value>",
+  "plugin_screenshot_background": "<default-value>",
+  "plugin_splatoon": "<default-value>",
+  "plugin_splatoon_token": "<default-value>",
+  "plugin_splatoon_sections": "<default-value>",
+  "plugin_splatoon_versus_limit": "<default-value>",
+  "plugin_splatoon_salmon_limit": "<default-value>",
+  "plugin_splatoon_statink": "<default-value>",
+  "plugin_splatoon_statink_token": "<default-value>",
+  "plugin_splatoon_source": "<default-value>",
+  "plugin_stock": "<default-value>",
+  "plugin_stock_token": "<default-value>",
+  "plugin_stock_symbol": "<default-value>",
+  "plugin_stock_duration": "<default-value>",
+  "plugin_stock_interval": "<default-value>"
+}
+2024-11-02T16:09:44.5987233Z   TZ: 
+2024-11-02T16:09:44.5987443Z ##[endgroup]
+2024-11-02T16:09:44.6066860Z ##[group]Metrics docker image setup
+2024-11-02T16:09:44.6067448Z GitHub action: __lowlighter_metrics_17 (/home/runner/work/_actions/lowlighter/metrics/latest)
+2024-11-02T16:09:44.6089933Z Runner compatibility: compatible
+2024-11-02T16:09:44.6442627Z Environment variables: loaded
+2024-11-02T16:09:44.6525643Z Renders output folder: /metrics_renders
+2024-11-02T16:09:44.6551594Z Source: lowlighter
+2024-11-02T16:09:44.6569684Z Version: 3.34.0
+2024-11-02T16:09:44.6592883Z Image tag: v3.34
+2024-11-02T16:09:44.6623121Z Is released version: 1
+2024-11-02T16:09:44.6624046Z Using pre-built version v3.34, will pull docker image from GitHub registry
+2024-11-02T16:09:45.1307420Z v3.34: Pulling from lowlighter/metrics
+2024-11-02T16:09:45.1317407Z Digest: sha256:257392f90340f916cb8b815026f259399f6b246d3eb7de38b58bfe7a07bd5b65
+2024-11-02T16:09:45.1318555Z Status: Image is up to date for ghcr.io/lowlighter/metrics:v3.34
+2024-11-02T16:09:45.1327338Z ghcr.io/lowlighter/metrics:v3.34
+2024-11-02T16:09:45.1342330Z Image name: ghcr.io/lowlighter/metrics:v3.34
+2024-11-02T16:09:45.1449256Z [
+2024-11-02T16:09:45.1449682Z     {
+2024-11-02T16:09:45.1450377Z         "Id": "sha256:540609b0db04df4859a52809225568daef6f1ad4ecb031bd6f4854961fc965aa",
+2024-11-02T16:09:45.1451249Z         "RepoTags": [
+2024-11-02T16:09:45.1451720Z             "ghcr.io/lowlighter/metrics:v3.34"
+2024-11-02T16:09:45.1452268Z         ],
+2024-11-02T16:09:45.1452619Z         "RepoDigests": [
+2024-11-02T16:09:45.1453563Z             "ghcr.io/lowlighter/metrics@sha256:257392f90340f916cb8b815026f259399f6b246d3eb7de38b58bfe7a07bd5b65"
+2024-11-02T16:09:45.1454577Z         ],
+2024-11-02T16:09:45.1454929Z         "Parent": "",
+2024-11-02T16:09:45.1455404Z         "Comment": "buildkit.dockerfile.v0",
+2024-11-02T16:09:45.1456294Z         "Created": "2023-09-12T22:32:04.433116016Z",
+2024-11-02T16:09:45.1456897Z         "DockerVersion": "",
+2024-11-02T16:09:45.1457351Z         "Author": "",
+2024-11-02T16:09:45.1457748Z         "Config": {
+2024-11-02T16:09:45.1458136Z             "Hostname": "",
+2024-11-02T16:09:45.1458591Z             "Domainname": "",
+2024-11-02T16:09:45.1459034Z             "User": "",
+2024-11-02T16:09:45.1459440Z             "AttachStdin": false,
+2024-11-02T16:09:45.1459929Z             "AttachStdout": false,
+2024-11-02T16:09:45.1460837Z             "AttachStderr": false,
+2024-11-02T16:09:45.1461332Z             "Tty": false,
+2024-11-02T16:09:45.1461757Z             "OpenStdin": false,
+2024-11-02T16:09:45.1462231Z             "StdinOnce": false,
+2024-11-02T16:09:45.1462683Z             "Env": [
+2024-11-02T16:09:45.1463302Z                 "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+2024-11-02T16:09:45.1464080Z                 "NODE_VERSION=20.6.1",
+2024-11-02T16:09:45.1464625Z                 "YARN_VERSION=1.22.19",
+2024-11-02T16:09:45.1465233Z                 "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true",
+2024-11-02T16:09:45.1466052Z                 "PUPPETEER_BROWSER_PATH=google-chrome-stable"
+2024-11-02T16:09:45.1466663Z             ],
+2024-11-02T16:09:45.1467040Z             "Cmd": null,
+2024-11-02T16:09:45.1467453Z             "Image": "",
+2024-11-02T16:09:45.1467865Z             "Volumes": null,
+2024-11-02T16:09:45.1468354Z             "WorkingDir": "/metrics",
+2024-11-02T16:09:45.1468884Z             "Entrypoint": [
+2024-11-02T16:09:45.1469330Z                 "/bin/sh",
+2024-11-02T16:09:45.1469812Z                 "-c",
+2024-11-02T16:09:45.1470365Z                 "node /metrics/source/app/action/index.mjs"
+2024-11-02T16:09:45.1470984Z             ],
+2024-11-02T16:09:45.1471249Z             "OnBuild": null,
+2024-11-02T16:09:45.1471512Z             "Labels": null
+2024-11-02T16:09:45.1471761Z         },
+2024-11-02T16:09:45.1471985Z         "Architecture": "amd64",
+2024-11-02T16:09:45.1472266Z         "Os": "linux",
+2024-11-02T16:09:45.1472756Z         "Size": 2384506652,
+2024-11-02T16:09:45.1473027Z         "GraphDriver": {
+2024-11-02T16:09:45.1473285Z             "Data": {
+2024-11-02T16:09:45.1478480Z                 "LowerDir": "/var/lib/docker/overlay2/3fe5f0606d3f308f839a705dfae080cdd68cd0e2d541964ed91a96bd7188b570/diff:/var/lib/docker/overlay2/6309e43f88881fdbad6e4985ee2b741ab66cf41ad7dc4067ae0b121875a26743/diff:/var/lib/docker/overlay2/8fba7ea4f6f2b0ca8a642252c871252938b4175872a1e59365692f95b25ca095/diff:/var/lib/docker/overlay2/7984ba9a92fb9a7b0d90a0cd121f93c98949946b9408ce35b56ba9a730dea9ae/diff:/var/lib/docker/overlay2/9744d11746d8e70d911b155becff8e0c22584782fa0b89dfbded32757258fb67/diff:/var/lib/docker/overlay2/10a4f8e29e56c999c73340a6462e9390fea95c8e54fca23e66e5b375156b3cb4/diff:/var/lib/docker/overlay2/6c0c55acc61a928f1e40cd4056291a8fd7d4e4d2594be319a4164c0bf19ee4df/diff",
+2024-11-02T16:09:45.1483966Z                 "MergedDir": "/var/lib/docker/overlay2/d203183918821e8c8ce198e2d13284c4f0bd21d452753a90cdb964e7480fff98/merged",
+2024-11-02T16:09:45.1485010Z                 "UpperDir": "/var/lib/docker/overlay2/d203183918821e8c8ce198e2d13284c4f0bd21d452753a90cdb964e7480fff98/diff",
+2024-11-02T16:09:45.1486244Z                 "WorkDir": "/var/lib/docker/overlay2/d203183918821e8c8ce198e2d13284c4f0bd21d452753a90cdb964e7480fff98/work"
+2024-11-02T16:09:45.1486916Z             },
+2024-11-02T16:09:45.1487153Z             "Name": "overlay2"
+2024-11-02T16:09:45.1487422Z         },
+2024-11-02T16:09:45.1487633Z         "RootFS": {
+2024-11-02T16:09:45.1487875Z             "Type": "layers",
+2024-11-02T16:09:45.1488150Z             "Layers": [
+2024-11-02T16:09:45.1488572Z                 "sha256:a2d7501dfb3541f3d736125cdfd748618194f60cbb5c63f4de67a92530899628",
+2024-11-02T16:09:45.1489235Z                 "sha256:9a2a56d458ec3995558ce9da3f0d8c7fd4cbc4ea039dcac8a778faee26bb9787",
+2024-11-02T16:09:45.1489903Z                 "sha256:508bcd84547eb5a0418e3b2efbaf647c2b3e4e1671f58ebb81d5ec1e8c786eac",
+2024-11-02T16:09:45.1490561Z                 "sha256:5fe14a445b97fed5eb00a421d1b931a0d2da455000a4db073de09cc98e264971",
+2024-11-02T16:09:45.1491205Z                 "sha256:95db10d2666e11f72298fe18ba7cf28836d40778aa8844f9420668e2dcddc823",
+2024-11-02T16:09:45.1491849Z                 "sha256:fcebc26c326d62cb51b7f7782823af0fd3e6fdc68af0fec9ac99f5989336932f",
+2024-11-02T16:09:45.1492503Z                 "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+2024-11-02T16:09:45.1493386Z                 "sha256:60b9b0e78db62f369d082ede1651154e620c33199afca076b2159cdb288fecff"
+2024-11-02T16:09:45.1493845Z             ]
+2024-11-02T16:09:45.1494056Z         },
+2024-11-02T16:09:45.1494263Z         "Metadata": {
+2024-11-02T16:09:45.1494654Z             "LastTagTime": "0001-01-01T00:00:00Z"
+2024-11-02T16:09:45.1494984Z         }
+2024-11-02T16:09:45.1495187Z     }
+2024-11-02T16:09:45.1495379Z ]
+2024-11-02T16:09:45.1495684Z Image ghcr.io/lowlighter/metrics:v3.34 is present locally
+2024-11-02T16:09:45.1496357Z ##[endgroup]
+2024-11-02T16:09:47.0945403Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-11-02T16:09:47.0946699Z [36mMetrics[0m                                                         │  
+2024-11-02T16:09:47.3773681Z Setup                                                           │ complete
+2024-11-02T16:09:47.3774709Z Version                                                         │ 3.34.0
+2024-11-02T16:09:47.5389817Z Using prebuilt image                                            │ true
+2024-11-02T16:09:47.5390990Z Debug mode                                                      │ false
+2024-11-02T16:09:47.5392014Z Debug flags                                                     │ (none)
+2024-11-02T16:09:47.5393089Z GitHub token                                                    │ (provided)
+2024-11-02T16:09:47.5396275Z GitHub token format                                             │ classic
+2024-11-02T16:09:47.5396968Z GitHub GraphQL API                                              │ ok
+2024-11-02T16:09:47.5397935Z GitHub GraphQL API endpoint                                     │ (default)
+2024-11-02T16:09:47.5446894Z GitHub REST API                                                 │ ok
+2024-11-02T16:09:47.5448494Z GitHub REST API endpoint                                        │ (default)
+2024-11-02T16:09:47.7407231Z API requests (REST)                                             │ 5000/5000 (200+ required)
+2024-11-02T16:09:47.7408595Z API requests (GraphQL)                                          │ 5000/5000 (200+ required)
+2024-11-02T16:09:47.7409794Z API requests (Search)                                           │ 30/30
+2024-11-02T16:09:47.8653331Z Token validity                                                  │ seems ok
+2024-11-02T16:09:47.8667806Z GitHub account                                                  │ seanpm2001
+2024-11-02T16:09:47.8669835Z Current repository                                              │ seanpm2001/GitHub_Stats_B
+2024-11-02T16:09:47.8671802Z Committer token                                                 │ (provided)
+2024-11-02T16:09:47.8672729Z Committer branch                                                │ GitHub_Stats_B_Main-dev
+2024-11-02T16:09:47.8673382Z Committer head branch                                           │ GitHub_Stats_B_Main-dev
+2024-11-02T16:09:47.8704779Z Committer REST API                                              │ ok
+2024-11-02T16:09:48.0178310Z Committer account                                               │ (github-actions)
+2024-11-02T16:09:48.1460355Z Committer head branch status                                    │ ok
+2024-11-02T16:09:48.4011078Z Previous render sha                                             │ (none)
+2024-11-02T16:09:48.4012429Z SVG output                                                      │ /generated/GitHub_Stats_B_GitHub_Calendar_2024.svg
+2024-11-02T16:09:48.4013632Z SVG optimization                                                │ css, xml
+2024-11-02T16:09:48.4014787Z SVG verification after generation                               │ false
+2024-11-02T16:09:48.4018390Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-11-02T16:09:48.4019528Z [36mTemplates[0m                                                       │  
+2024-11-02T16:09:48.4020431Z Community templates                                             │ (none)
+2024-11-02T16:09:48.4021022Z Template used                                                   │ classic
+2024-11-02T16:09:48.4022552Z Query additional params                                         │ {}
+2024-11-02T16:09:48.4023767Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-11-02T16:09:48.4024794Z [36mCore[0m                                                            │  
+2024-11-02T16:09:48.4025896Z Markdown template path                                          │ TEMPLATE.md
+2024-11-02T16:09:48.4026946Z Extra CSS                                                       │ 
+2024-11-02T16:09:48.4027894Z Extra JavaScript                                                │ 
+2024-11-02T16:09:48.4028699Z Timezone for dates                                              │ 
+2024-11-02T16:09:48.4029238Z Plugin order                                                    │ 
+2024-11-02T16:09:48.4029766Z Use twemojis                                                    │ false
+2024-11-02T16:09:48.4030325Z Use GitHub custom emojis                                        │ true
+2024-11-02T16:09:48.4031102Z Use GitHub octicons                                             │ false
+2024-11-02T16:09:48.4032252Z Display width (for image output formats)                        │ regular
+2024-11-02T16:09:48.4033322Z Use CSS animations                                              │ true
+2024-11-02T16:09:48.4034421Z Base64-encoded images                                           │ true
+2024-11-02T16:09:48.4035462Z Output padding                                                  │ 0, 8 + 11%
+2024-11-02T16:09:48.4036208Z Output format                                                   │ auto
+2024-11-02T16:09:48.4037127Z Configuration presets                                           │ 
+2024-11-02T16:09:48.4037713Z Notice about new releases of metrics                            │ true
+2024-11-02T16:09:48.4038294Z Experimental features                                           │ 
+2024-11-02T16:09:48.4038891Z Plugin errors                                                   │ (displayed in generated image)
+2024-11-02T16:09:48.4039559Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-11-02T16:09:48.4040171Z [36mBase content[0m                                                    │  
+2024-11-02T16:09:48.4040749Z Fetched repositories                                            │ 100
+2024-11-02T16:09:48.4041296Z Indepth mode                                                    │ false
+2024-11-02T16:09:48.4041869Z Show `Available for hire!` in header section                    │ false
+2024-11-02T16:09:48.4042454Z Skip base content                                               │ false
+2024-11-02T16:09:48.4043036Z Fetched repositories per query                                  │ 100
+2024-11-02T16:09:48.4043598Z Include forks                                                   │ false
+2024-11-02T16:09:48.4044156Z Repositories affiliations                                       │ owner
+2024-11-02T16:09:48.4044723Z Default skipped repositories                                    │ 
+2024-11-02T16:09:48.4045799Z Default ignored users                                           │ github-actions[bot],dependabot[bot],dependabot-preview[bot],actions-user,action@github.com
+2024-11-02T16:09:48.4047094Z Identifiers that has been used for authoring commits            │ .user.login
+2024-11-02T16:09:48.4047721Z Base sections                                                   │ (none)
+2024-11-02T16:09:48.4048335Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-11-02T16:09:48.4048930Z [36mCommit calendar[0m                                                 │  
+2024-11-02T16:09:48.4049511Z Years to display                                                │ 1
+2024-11-02T16:09:48.4084774Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-11-02T16:09:48.4086429Z [36mRendering[0m                                                       │  
+2024-11-02T16:10:24.0559106Z Status                                                          │ complete
+2024-11-02T16:10:24.0561045Z MIME type                                                       │ image/svg+xml
+2024-11-02T16:10:24.0572021Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-11-02T16:10:24.0576905Z [36mSaving[0m                                                          │  
+2024-11-02T16:10:24.0577760Z Output condition                                                │ always
+2024-11-02T16:10:24.0581213Z Save to /metrics_renders//generated/GitHub_Stats_B_GitHub_Calendar_2024.svg │ ok
+2024-11-02T16:10:24.0582391Z Output action                                                   │ commit
+2024-11-02T16:10:24.0679120Z Current render sha                                              │ 4db9385fe9743196fa8c80a36d7af73c30ea6755
+2024-11-02T16:20:25.5557609Z RequestError [HttpError]: Resource not accessible by integration
+2024-11-02T16:20:25.5559163Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-11-02T16:20:25.5560534Z undefined
+2024-11-02T16:20:25.5561191Z An error occurred, logging debug message :
+2024-11-02T16:20:25.5562633Z     at /metrics/node_modules/@octokit/request/dist-node/index.js:86:21
+2024-11-02T16:20:25.5563712Z TypeError: Cannot read properties of null (reading 'oid')
+2024-11-02T16:20:25.5565132Z     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-02T16:20:25.5566572Z     at async retry.retries (file:///metrics/source/app/action/index.mjs:553:11)
+2024-11-02T16:20:25.5567622Z     at async retry (file:///metrics/source/app/action/index.mjs:57:22)
+2024-11-02T16:20:25.5568522Z     at file:///metrics/source/app/action/index.mjs:307:38
+2024-11-02T16:20:25.5569401Z     at async file:///metrics/source/app/action/index.mjs:552:9 {
+2024-11-02T16:20:25.5570096Z   status: 403,
+2024-11-02T16:20:25.5570476Z   response: {
+2024-11-02T16:20:25.5576746Z     url: 'https://api.github.com/repos/seanpm2001/GitHub_Stats_B/contents/%2Fgenerated%2FGitHub_Stats_B_GitHub_Calendar_2024.svg',
+2024-11-02T16:20:25.5578391Z     status: 403,
+2024-11-02T16:20:25.5578776Z     headers: {
+2024-11-02T16:20:25.5579297Z       'access-control-allow-origin': '*',
+2024-11-02T16:20:25.5582513Z       'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
+2024-11-02T16:20:25.5585344Z       'content-encoding': 'gzip',
+2024-11-02T16:20:25.5586042Z       'content-security-policy': "default-src 'none'",
+2024-11-02T16:20:25.5586817Z       'content-type': 'application/json; charset=utf-8',
+2024-11-02T16:20:25.5587534Z       date: 'Sat, 02 Nov 2024 16:18:25 GMT',
+2024-11-02T16:20:25.5588511Z       'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+2024-11-02T16:20:25.5589402Z       server: 'github.com',
+2024-11-02T16:20:25.5591094Z       'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+2024-11-02T16:20:25.5592004Z       'transfer-encoding': 'chunked',
+2024-11-02T16:20:25.5592707Z       vary: 'Accept-Encoding, Accept, X-Requested-With',
+2024-11-02T16:20:25.5593791Z       'x-accepted-github-permissions': 'contents=write; contents=write,workflows=write',
+2024-11-02T16:20:25.5594736Z       'x-content-type-options': 'nosniff',
+2024-11-02T16:20:25.5595317Z       'x-frame-options': 'deny',
+2024-11-02T16:20:25.5595942Z       'x-github-api-version-selected': '2022-11-28',
+2024-11-02T16:20:25.5596680Z       'x-github-media-type': 'github.v3; format=json',
+2024-11-02T16:20:25.5597564Z       'x-github-request-id': 'A400:3B8A9:16E5E010:17110B99:672650D1',
+2024-11-02T16:20:25.5598365Z       'x-ratelimit-limit': '5000',
+2024-11-02T16:20:25.5598944Z       'x-ratelimit-remaining': '4997',
+2024-11-02T16:20:25.5599547Z       'x-ratelimit-reset': '1730567664',
+2024-11-02T16:20:25.5600154Z       'x-ratelimit-resource': 'core',
+2024-11-02T16:20:25.5600734Z       'x-ratelimit-used': '3',
+2024-11-02T16:20:25.5601242Z       'x-xss-protection': '0'
+2024-11-02T16:20:25.5601636Z     },
+2024-11-02T16:20:25.5601919Z     data: {
+2024-11-02T16:20:25.5602422Z       message: 'Resource not accessible by integration',
+2024-11-02T16:20:25.5603530Z       documentation_url: 'https://docs.github.com/rest/repos/contents#create-or-update-file-contents',
+2024-11-02T16:20:25.5604475Z       status: '403'
+2024-11-02T16:20:25.5604810Z     }
+2024-11-02T16:20:25.5605089Z   },
+2024-11-02T16:20:25.5605634Z   request: {
+2024-11-02T16:20:25.5606210Z     method: 'PUT',
+2024-11-02T16:20:25.5607440Z     url: 'https://api.github.com/repos/seanpm2001/GitHub_Stats_B/contents/%2Fgenerated%2FGitHub_Stats_B_GitHub_Calendar_2024.svg',
+2024-11-02T16:20:25.5608559Z     headers: {
+2024-11-02T16:20:25.5609058Z       accept: 'application/vnd.github.v3+json',
+2024-11-02T16:20:25.5609897Z       'user-agent': 'octokit-core.js/3.6.0 Node.js/20.6.1 (linux; x64)',
+2024-11-02T16:20:25.5610701Z       authorization: 'token [REDACTED]',
+2024-11-02T16:20:25.5611398Z       'content-type': 'application/json; charset=utf-8'
+2024-11-02T16:20:25.5611975Z     },
+2024-11-02T16:20:25.7167063Z     body: '{"message":"Update /generated/GitHub_Stats_B_GitHub_Calendar_2024.svg - [Skip GitHub Action]","content":"PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0ODAiIGhlaWdodD0iMTI5IiBjbGFzcz0iIj4KICAgIDxkZWZzPgogICAgICAgIDxzdHlsZS8+CiAgICA8L2RlZnM+CiAgICA8c3R5bGU+QGtleWZyYW1lcyBhbmltYXRpb24tZ2F1Z2V7MCV7c3Ryb2tlLWRhc2hhcnJheTowIDMyOX19QGtleWZyYW1lcyBhbmltYXRpb24tcmFpbmJvd3swJSx0b3tjb2xvcjojN2YwMGZmO2ZpbGw6IzdmMDBmZn0xNCV7Y29sb3I6I2E5MzNmZjtmaWxsOiNhOTMzZmZ9Mjkle2NvbG9yOiMwMDdmZmY7ZmlsbDojMDA3ZmZmfTQzJXtjb2xvcjojMDBmZjdmO2ZpbGw6IzAwZmY3Zn01NyV7Y29sb3I6I2ZmMDtmaWxsOiNmZjB9NzEle2NvbG9yOiNmZjdmMDA7ZmlsbDojZmY3ZjAwfTg2JXtjb2xvcjpyZWQ7ZmlsbDpyZWR9fXN2Z3tmb250LWZhbWlseTotYXBwbGUtc3lzdGVtLEJsaW5rTWFjU3lzdGVtRm9udCxTZWdvZSBVSSxIZWx2ZXRpY2EsQXJpYWwsc2Fucy1zZXJpZixBcHBsZSBDb2xvciBFbW9qaSxTZWdvZSBVSSBFbW9qaTtmb250LXNpemU6MTRweDtjb2xvcjojNzc3fWgye21hcmdpbjo4cHggMCAycHg7cGFkZGluZzowO2NvbG9yOiMwMzY2ZDY7Zm9udC13ZWlnaHQ6NDAwO2ZvbnQtc2l6ZToxNnB4fWgyIHN2Z3tmaWxsOmN1cnJlbnRDb2xvcn1zZWN0aW9uJmd0Oy5maWVsZHttYXJnaW4tbGVmdDo1cHg7bWFyZ2luLXJpZ2h0OjVweH0uZmllbGR7ZGlzcGxheTpmbGV4O2FsaWduLWl0ZW1zOmNlbnRlcjttYXJnaW4tYm90dG9tOjJweDt3aGl0ZS1zcGFjZTpub3dyYXB9LmZpZWxkIHN2Z3ttYXJnaW46MCA4cHg7ZmlsbDojOTU5ZGE1O2ZsZXgtc2hyaW5rOjB9LnJvd3tkaXNwbGF5OmZsZXg7ZmxleC13cmFwOndyYXB9LnJvdyBzZWN0aW9ue2ZsZXg6MSAxIDB9LmNhbGVuZGFyLmZpZWxke21hcmdpbjo0cHggMCA0cHggN3B4fS5jYWxlbmRhciAuZGF5e291dGxpbmU6MXB4IHNvbGlkIHJnYmEoMjcsMzEsMzUsLjA0KTtvdXRsaW5lLW9mZnNldDotMXB4fXN2Zy5jYWxlbmRhcnttYXJnaW4tbGVmdDoxM3B4O21hcmdpbi10b3A6NHB4fXN2Zy5jYWxlbmRhciB0ZXh0e2ZvbnQtc2l6ZToxOHB4O2ZpbGw6Y3VycmVudENvbG9yfTpyb290ey0tY29sb3ItY2FsZW5kYXItZ3JhcGgtZGF5LWJnOiNlYmVkZjA7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktYm9yZGVyOnJnYmEoMjcsMzEsMzUsMC4wNik7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDEtYmc6IzliZTlhODstLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1MMi1iZzojNDBjNDYzOy0tY29sb3ItY2FsZW5kYXItZ3JhcGgtZGF5LUwzLWJnOiMzMGExNGU7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDQtYmc6IzIxNmUzOTstLWNvbG9yLWNhbGVuZGFyLWhhbGxvd2Vlbi1ncmFwaC1kYXktTDEtYmc6I2ZmZWU0YTstLWNvbG9yLWNhbGVuZGFyLWhhbGxvd2Vlbi1ncmFwaC1kYXktTDItYmc6I2ZmYzUwMTstLWNvbG9yLWNhbGVuZGFyLWhhbGxvd2Vlbi1ncmFwaC1kYXktTDMtYmc6I2ZlOTYwMDstLWNvbG9yLWNhbGVuZGFyLWhhbGxvd2Vlbi1ncmFwaC1kYXktTDQtYmc6IzAzMDAxYzstLWNvbG9yLWNhbGVuZGFyLXdpbnRlci1ncmFwaC1kYXktTDEtYmc6IzBhMzA2OTstLWNvbG9yLWNhbGVuZGFyLXdpbnRlci1ncmFwaC1kYXktTDItYmc6IzA5NjlkYTstLWNvbG9yLWNhbGVuZGFyLXdpbnRlci1ncmFwaC1kYXktTDMtYmc6IzU0YWVmZjstLWNvbG9yLWNhbGVuZGFyLXdpbnRlci1ncmFwaC1kYXktTDQtYmc6I2I2ZTNmZjstLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1MNC1ib3JkZXI6cmdiYSgyNywzMSwzNSwwLjA2KTstLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1MMy1ib3JkZXI6cmdiYSgyNywzMSwzNSwwLjA2KTstLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1MMi1ib3JkZXI6cmdiYSgyNywzMSwzNSwwLjA2KTstLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1MMS1ib3JkZXI6cmdiYSgyNywzMSwzNSwwLjA2KX0jbWV0cmljcy1lbmR7d2lkdGg6MTAwJX08L3N0eWxlPgogICAgPHN0eWxlLz4KICAgIDxmb3JlaWduT2JqZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiPgogICAgICAgIDxkaXYgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGh0bWwiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBjbGFzcz0iaXRlbXMtd3JhcHBlciI+CiAgICAgICAgICAgIDxzZWN0aW9uPgogICAgICAgICAgICAgICAgPGgyIGNsYXNzPSJmaWVsZCI+CiAgICAgICAgICAgICAgICAgICAgPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNiAxNiIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2Ij4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNNC43NSAwYS43NS43NSAwIDAxLjc1Ljc1VjJoNVYuNzVhLjc1Ljc1IDAgMDExLjUgMFYyaDEuMjVjLjk2NiAwIDEuNzUuNzg0IDEuNzUgMS43NXYxMC41QTEuNzUgMS43NSAwIDAxMTMuMjUgMTZIMi43NUExLjc1IDEuNzUgMCAwMTEgMTQuMjVWMy43NUMxIDIuNzg0IDEuNzg0IDIgMi43NSAySDRWLjc1QS43NS43NSAwIDAxNC43NSAwem0wIDMuNWg4LjVhLjI1LjI1IDAgMDEuMjUuMjVWNmgtMTFWMy43NWEuMjUuMjUgMCAwMS4yNS0uMjVoMnptLTIuMjUgNHY2Ljc1YzAgLjEzOC4xMTIuMjUuMjUuMjVoMTAuNWEuMjUuMjUgMCAwMC4yNS0uMjVWNy41aC0xMXoiLz4KICAgICAgICAgICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgICAgICAgICBDb250cmlidXRpb25zIGNhbGVuZGFyCiAgICAgICAgICAgICAgICA8L2gyPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0icm93Ij4KICAgICAgICAgICAgICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgICAgICAgICAgICAgICAgPHN2ZyBjbGFzcz0iY2FsZW5kYXIiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwLDAgNzk1LDEzMCI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLCAxNCkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx0ZXh0IHg9IjAiIHk9IjAiPjIwMjQ8L3RleHQ+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCwgMCkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSIxOSIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiBmaWxsPSIjMzBhMTRlIiByeD0iMiIgcnk9IjIiLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgY2xhc3M9ImRheSIgeD0iMCIgeT0iMzQiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSIgZmlsbD0iIzMwYTE0ZSIgcng9IjIiIHJ5PSIyIi8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxyZWN0IGNsYXNzPSJkYXkiIHg9IjAiIHk9IjQ5IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiMzMGExNGUiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSI2NCIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiBmaWxsPSIjMzBhMTRlIiByeD0iMiIgcnk9IjIiLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgY2xhc3M9ImRheSIgeD0iMCIgeT0iNzkiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSIgZmlsbD0iIzMwYTE0ZSIgcng9IjIiIHJ5PSIyIi8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxyZWN0IGNsYXNzPSJkYXkiIHg9IjAiIHk9Ijk0IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiM0MGM0NjMiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNSwgMCkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSI0IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiM0MGM0NjMiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSIxOSIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiBmaWxsPSIjNDBjNDYzIiByeD0iMiIgcnk9IjIiLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgY2xhc3M9ImRheSIgeD0iMCIgeT0iMzQiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSIgZmlsbD0iIzQwYzQ2MyIgcng9IjIiIHJ5PSIyIi8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxyZWN0IGNsYXNzPSJkYXkiIHg9IjAiIHk9IjQ5IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiMyMTZlMzkiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSI2NCIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiBmaWxsPSIjMzBhMTRlIiByeD0iMiIgcnk9IjIiLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgY2xhc3M9ImRheSIgeD0iMCIgeT0iNzkiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSIgZmlsbD0iIzMwYTE0ZSIgcng9IjIiIHJ5PSIyIi8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxyZWN0IGNsYXNzPSJkYXkiIHg9IjAiIHk9Ijk0IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiMzMGExNGUiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMCwgMCkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSI0IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiMzMGExNGUiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSIxOSIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiBmaWxsPSIjMzBhMTRlIiByeD0iMiIgcnk9IjIiLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgY2xhc3M9ImRheSIgeD0iMCIgeT0iMzQiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSIgZmlsbD0iIzMwYTE0ZSIgcng9IjIiIHJ5PSIyIi8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxyZWN0IGNsYXNzPSJkYXkiIHg9IjAiIHk9IjQ5IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiMzMGExNGUiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSI2NCIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiBmaWxsPSIjMzBhMTRlIiByeD0iMiIgcnk9IjIiLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgY2xhc3M9ImRheSIgeD0iMCIgeT0iNzkiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSIgZmlsbD0iIzMwYTE0ZSIgcng9IjIiIHJ5PSIyIi8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxyZWN0IGNsYXNzPSJkYXkiIHg9IjAiIHk9Ijk0IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiMzMGExNGUiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0NSwgMCkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSI0IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiMzMGExNGUiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSIxOSIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiBmaWxsPSIjMzBhMTRlIiByeD0iMiIgcnk9IjIiLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgY2xhc3M9ImRheSIgeD0iMCIgeT0iMzQiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSIgZmlsbD0iIzMwYTE0ZSIgcng9IjIiIHJ5PSIyIi8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxyZWN0IGNsYXNzPSJkYXkiIHg9IjAiIHk9IjQ5IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiMzMGExNGUiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSI2NCIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiBmaWxsPSIjNDBjNDYzIiByeD0iMiIgcnk9IjIiLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgY2xhc3M9ImRheSIgeD0iMCIgeT0iNzkiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSIgZmlsbD0iIzIxNmUzOSIgcng9IjIiIHJ5PSIyIi8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxyZWN0IGNsYXNzPSJkYXkiIHg9IjAiIHk9Ijk0IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiMzMGExNGUiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSg2MCwgMCkiPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSI0IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiMzMGExNGUiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSIxOSIgd2lkdGg9IjExIiBoZWlnaHQ9IjExIiBmaWxsPSIjNDBjNDYzIiByeD0iMiIgcnk9IjIiLz4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHJlY3QgY2xhc3M9ImRheSIgeD0iMCIgeT0iMzQiIHdpZHRoPSIxMSIgaGVpZ2h0PSIxMSIgZmlsbD0iIzQwYzQ2MyIgcng9IjIiIHJ5PSIyIi8+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxyZWN0IGNsYXNzPSJkYXkiIHg9IjAiIHk9IjQ5IiB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIGZpbGw9IiM0MGM0NjMiIHJ4PSIyIiByeT0iMiIvPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cmVjdCBjbGFzcz0iZGF5IiB4PSIwIiB5PSI'... 50014 more characters,
+2024-11-02T16:20:25.8473712Z     request: { agent: [Agent], hook: [Function: bound bound register] }
+2024-11-02T16:20:25.8474205Z   }
+2024-11-02T16:20:25.8474394Z }
+2024-11-02T16:20:25.8474798Z     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-02T16:20:25.8475618Z ##[group]Attempt 1/3
+2024-11-02T16:20:25.8475893Z metrics/compute/seanpm2001 > start
+2024-11-02T16:20:25.8476182Z {
+2024-11-02T16:20:25.8476575Z   template: 'classic',
+2024-11-02T16:20:25.8476847Z   'debug.flags': '',
+2024-11-02T16:20:25.8477134Z   markdown: 'TEMPLATE.md',
+2024-11-02T16:20:25.8477454Z   'extras.css': '',
+2024-11-02T16:20:25.8477709Z   'extras.js': '',
+2024-11-02T16:20:25.8477974Z   'config.timezone': '',
+2024-11-02T16:20:25.8478265Z   'config.order': [],
+2024-11-02T16:20:25.8478543Z   'config.twemoji': false,
+2024-11-02T16:20:25.8478827Z   'config.gemoji': true,
+2024-11-02T16:20:25.8479112Z   'config.octicon': false,
+2024-11-02T16:20:25.8479410Z   'config.display': 'regular',
+2024-11-02T16:20:25.8479737Z   'config.animations': true,
+2024-11-02T16:20:25.8480053Z   'config.base64': true,
+2024-11-02T16:20:25.8480349Z   'config.padding': '0, 8 + 11%',
+2024-11-02T16:20:25.8480670Z   'config.output': 'auto',
+2024-11-02T16:20:25.8480956Z   'config.presets': [],
+2024-11-02T16:20:25.8481274Z   'notice.releases': true,
+2024-11-02T16:20:25.8481577Z   'experimental.features': [],
+2024-11-02T16:20:25.8481859Z   hireable: false,
+2024-11-02T16:20:25.8482080Z   skip: false,
+2024-11-02T16:20:25.8482340Z   'repositories.batch': 100,
+2024-11-02T16:20:25.8483209Z   'repositories.forks': false,
+2024-11-02T16:20:25.8483565Z   'repositories.affiliations': [ 'owner' ],
+2024-11-02T16:20:25.8483950Z   'repositories.skipped': [],
+2024-11-02T16:20:25.8484253Z   'users.ignored': [
+2024-11-02T16:20:25.8484527Z     'github-actions[bot]',
+2024-11-02T16:20:25.8484808Z     'dependabot[bot]',
+2024-11-02T16:20:25.8485096Z     'dependabot-preview[bot]',
+2024-11-02T16:20:25.8485396Z     'actions-user',
+2024-11-02T16:20:25.8485657Z     'action@github.com'
+2024-11-02T16:20:25.8485890Z   ],
+2024-11-02T16:20:25.8486473Z   'commits.authoring': [ '.user.login' ],
+2024-11-02T16:20:25.8486806Z   base: false,
+2024-11-02T16:20:25.8487058Z   'base.header': false,
+2024-11-02T16:20:25.8487339Z   'base.activity': false,
+2024-11-02T16:20:25.8487628Z   'base.community': false,
+2024-11-02T16:20:25.8487930Z   'base.repositories': false,
+2024-11-02T16:20:25.8488227Z   'base.metadata': false,
+2024-11-02T16:20:25.8488512Z   'base.indepth': false,
+2024-11-02T16:20:25.8488764Z   calendar: true,
+2024-11-02T16:20:25.8489019Z   'calendar.limit': 1
+2024-11-02T16:20:25.8489250Z }
+2024-11-02T16:20:25.8489519Z metrics/compute/seanpm2001 > output format set to svg
+2024-11-02T16:20:25.8494050Z metrics/compute/seanpm2001 > content order : base.header,introduction,base.activity+community,base.repositories,lines,followup,discussions,languages,notable,projects,repositories,gists,pagespeed,habits,topics,music,nightscout,posts,rss,tweets,isocalendar,calendar,stars,starlists,stargazers,people,activity,reactions,anilist,wakatime,skyline,support,stackoverflow,leetcode,stock,achievements,screenshot,code,chess,sponsors,sponsorships,poopmap,16personalities,fortune,splatoon,steam
+2024-11-02T16:20:25.8498489Z metrics/compute/seanpm2001 > compute
+2024-11-02T16:20:25.8498828Z metrics/compute/seanpm2001/base > started
+2024-11-02T16:20:25.8499469Z metrics/compute/seanpm2001/base > affiliations constraints , ownerAffiliations: [OWNER], affiliations: [OWNER]
+2024-11-02T16:20:25.8500142Z metrics/compute/seanpm2001/base > account user
+2024-11-02T16:20:25.8500580Z metrics/compute/seanpm2001/base > applying postprocessing
+2024-11-02T16:20:25.8501099Z metrics/compute/seanpm2001/base > successfully loaded bulk query
+2024-11-02T16:20:25.8501633Z metrics/compute/seanpm2001/base > loading user commits history
+2024-11-02T16:20:25.8502199Z metrics/compute/seanpm2001/base > retrieving repositories after null
+2024-11-02T16:20:25.8503076Z metrics/compute/seanpm2001/base > failed to retrieve 100 repositories after null, this is probably due to an API timeout, halving batch
+2024-11-02T16:20:25.8504170Z metrics/compute/seanpm2001/base > keeping only 100 repositories
+2024-11-02T16:20:25.8504666Z metrics/compute/seanpm2001/base > loaded 0 repositories
+2024-11-02T16:20:25.8505247Z metrics/compute/seanpm2001/base > retrieving repositoriesContributedTo after null
+2024-11-02T16:20:25.8505977Z metrics/compute/seanpm2001/base > retrieved 0 repositoriesContributedTo after undefined
+2024-11-02T16:20:25.8506801Z metrics/compute/seanpm2001/base > retrieved less repositories than expected, probably no more to fetch
+2024-11-02T16:20:25.8507569Z metrics/compute/seanpm2001/base > keeping only 100 repositoriesContributedTo
+2024-11-02T16:20:25.8508192Z metrics/compute/seanpm2001/base > loaded 0 repositoriesContributedTo
+2024-11-02T16:20:25.8508787Z metrics/compute/seanpm2001/base > patching packages count if possible
+2024-11-02T16:20:25.8509428Z metrics/compute/seanpm2001/base > patched packages count (added 0 from ghcr.io)
+2024-11-02T16:20:25.8510947Z metrics/compute/seanpm2001/base > shared options > {"repositories.skipped":[],"users.ignored":["github-actions[bot]","dependabot[bot]","dependabot-preview[bot]","actions-user","action@github.com"],"commits.authoring":["seanpm2001"],"repositories.batch":50}
+2024-11-02T16:20:25.8512241Z metrics/compute/seanpm2001/base > graphql query > account user > success
+2024-11-02T16:20:25.8512779Z metrics/compute/seanpm2001 > formatting common metrics
+2024-11-02T16:20:25.8513205Z metrics/compute/seanpm2001 > animations enabled
+2024-11-02T16:20:25.8513735Z metrics/compute/seanpm2001 > extras > true
+2024-11-02T16:20:25.8514142Z metrics/compute/seanpm2001/plugins > calendar > started
+2024-11-02T16:20:25.8514707Z metrics/compute/seanpm2001/plugins > calendar > processing years 2024 to 2024
+2024-11-02T16:20:25.8515337Z metrics/compute/seanpm2001/plugins > calendar > processing year 2024
+2024-11-02T16:20:25.8516241Z metrics/compute/seanpm2001/plugins > calendar > loading calendar from "2024-01-01T00:00:00.000Z" to "2024-01-27T23:59:59.999Z"
+2024-11-02T16:20:25.8517343Z metrics/compute/seanpm2001/plugins > calendar > loading calendar from "2024-01-28T00:00:00.000Z" to "2024-02-24T23:59:59.999Z"
+2024-11-02T16:20:25.8518428Z metrics/compute/seanpm2001/plugins > calendar > loading calendar from "2024-02-25T00:00:00.000Z" to "2024-03-23T23:59:59.999Z"
+2024-11-02T16:20:25.8519508Z metrics/compute/seanpm2001/plugins > calendar > loading calendar from "2024-03-24T00:00:00.000Z" to "2024-04-20T23:59:59.999Z"
+2024-11-02T16:20:25.8520604Z metrics/compute/seanpm2001/plugins > calendar > loading calendar from "2024-04-21T00:00:00.000Z" to "2024-05-18T23:59:59.999Z"
+2024-11-02T16:20:25.8521683Z metrics/compute/seanpm2001/plugins > calendar > loading calendar from "2024-05-19T00:00:00.000Z" to "2024-06-15T23:59:59.999Z"
+2024-11-02T16:20:25.8522754Z metrics/compute/seanpm2001/plugins > calendar > loading calendar from "2024-06-16T00:00:00.000Z" to "2024-07-13T23:59:59.999Z"
+2024-11-02T16:20:25.8523812Z metrics/compute/seanpm2001/plugins > calendar > loading calendar from "2024-07-14T00:00:00.000Z" to "2024-08-10T23:59:59.999Z"
+2024-11-02T16:20:25.8524904Z metrics/compute/seanpm2001/plugins > calendar > loading calendar from "2024-08-11T00:00:00.000Z" to "2024-09-07T23:59:59.999Z"
+2024-11-02T16:20:25.8526140Z metrics/compute/seanpm2001/plugins > calendar > loading calendar from "2024-09-08T00:00:00.000Z" to "2024-10-05T23:59:59.999Z"
+2024-11-02T16:20:25.8527231Z metrics/compute/seanpm2001/plugins > calendar > loading calendar from "2024-10-06T00:00:00.000Z" to "2024-11-01T23:59:59.999Z"
+2024-11-02T16:20:25.8527972Z metrics/compute/seanpm2001/plugins > calendar > completed
+2024-11-02T16:20:25.8528721Z {
+2024-11-02T16:20:25.8528943Z   name: 'calendar',
+2024-11-02T16:20:25.8529176Z   result: {
+2024-11-02T16:20:25.8529376Z     years: [
+2024-11-02T16:20:25.8529581Z       {
+2024-11-02T16:20:25.8529776Z         year: 2024,
+2024-11-02T16:20:25.8529998Z         weeks: [
+2024-11-02T16:20:25.8530205Z           {
+2024-11-02T16:20:25.8530593Z             contributionDays: [
+2024-11-02T16:20:25.8530872Z               {
+2024-11-02T16:20:25.8531108Z                 contributionCount: 352,
+2024-11-02T16:20:25.8531463Z                 color: '#30a14e',
+2024-11-02T16:20:25.8531787Z                 date: '2024-01-01'
+2024-11-02T16:20:25.8532068Z               },
+2024-11-02T16:20:25.8532278Z               {
+2024-11-02T16:20:25.8532517Z                 contributionCount: 339,
+2024-11-02T16:20:25.8532862Z                 color: '#30a14e',
+2024-11-02T16:20:25.8533179Z                 date: '2024-01-02'
+2024-11-02T16:20:25.8533449Z               },
+2024-11-02T16:20:25.8533665Z               {
+2024-11-02T16:20:25.8533919Z                 contributionCount: 329,
+2024-11-02T16:20:25.8534270Z                 color: '#30a14e',
+2024-11-02T16:20:25.8534591Z                 date: '2024-01-03'
+2024-11-02T16:20:25.8534866Z               },
+2024-11-02T16:20:25.8535077Z               {
+2024-11-02T16:20:25.8535308Z                 contributionCount: 340,
+2024-11-02T16:20:25.8535658Z                 color: '#30a14e',
+2024-11-02T16:20:25.8535974Z                 date: '2024-01-04'
+2024-11-02T16:20:25.8536245Z               },
+2024-11-02T16:20:25.8536450Z               {
+2024-11-02T16:20:25.8536685Z                 contributionCount: 338,
+2024-11-02T16:20:25.8537027Z                 color: '#30a14e',
+2024-11-02T16:20:25.8537335Z                 date: '2024-01-05'
+2024-11-02T16:20:25.8537609Z               },
+2024-11-02T16:20:25.8537818Z               {
+2024-11-02T16:20:25.8538053Z                 contributionCount: 260,
+2024-11-02T16:20:25.8538542Z                 color: '#40c463',
+2024-11-02T16:20:25.8538856Z                 date: '2024-01-06'
+2024-11-02T16:20:25.8539129Z               }
+2024-11-02T16:20:25.8539330Z             ]
+2024-11-02T16:20:25.8539534Z           },
+2024-11-02T16:20:25.8539734Z           {
+2024-11-02T16:20:25.8539950Z             contributionDays: [
+2024-11-02T16:20:25.8540217Z               {
+2024-11-02T16:20:25.8540448Z                 contributionCount: 225,
+2024-11-02T16:20:25.8540798Z                 color: '#40c463',
+2024-11-02T16:20:25.8541106Z                 date: '2024-01-07'
+2024-11-02T16:20:25.8541366Z               },
+2024-11-02T16:20:25.8541575Z               {
+2024-11-02T16:20:25.8541809Z                 contributionCount: 222,
+2024-11-02T16:20:25.8542144Z                 color: '#40c463',
+2024-11-02T16:20:25.8542456Z                 date: '2024-01-08'
+2024-11-02T16:20:25.8542730Z               },
+2024-11-02T16:20:25.8542938Z               {
+2024-11-02T16:20:25.8543168Z                 contributionCount: 239,
+2024-11-02T16:20:25.8543511Z                 color: '#40c463',
+2024-11-02T16:20:25.8543821Z                 date: '2024-01-09'
+2024-11-02T16:20:25.8544090Z               },
+2024-11-02T16:20:25.8544292Z               {
+2024-11-02T16:20:25.8544524Z                 contributionCount: 569,
+2024-11-02T16:20:25.8544859Z                 color: '#216e39',
+2024-11-02T16:20:25.8545167Z                 date: '2024-01-10'
+2024-11-02T16:20:25.8545439Z               },
+2024-11-02T16:20:25.8545649Z               {
+2024-11-02T16:20:25.8545879Z                 contributionCount: 436,
+2024-11-02T16:20:25.8546212Z                 color: '#30a14e',
+2024-11-02T16:20:25.8546521Z                 date: '2024-01-11'
+2024-11-02T16:20:25.8546789Z               },
+2024-11-02T16:20:25.8546990Z               {
+2024-11-02T16:20:25.8547221Z                 contributionCount: 296,
+2024-11-02T16:20:25.8547556Z                 color: '#30a14e',
+2024-11-02T16:20:25.8547863Z                 date: '2024-01-12'
+2024-11-02T16:20:25.8548126Z               },
+2024-11-02T16:20:25.8548331Z               {
+2024-11-02T16:20:25.8548561Z                 contributionCount: 353,
+2024-11-02T16:20:25.8548896Z                 color: '#30a14e',
+2024-11-02T16:20:25.8549196Z                 date: '2024-01-13'
+2024-11-02T16:20:25.8549463Z               }
+2024-11-02T16:20:25.8549666Z             ]
+2024-11-02T16:20:25.8549863Z           },
+2024-11-02T16:20:25.8550064Z           {
+2024-11-02T16:20:25.8550408Z             contributionDays: [
+2024-11-02T16:20:25.8550683Z               {
+2024-11-02T16:20:25.8550908Z                 contributionCount: 327,
+2024-11-02T16:20:25.8551250Z                 color: '#30a14e',
+2024-11-02T16:20:25.8551559Z                 date: '2024-01-14'
+2024-11-02T16:20:25.8551824Z               },
+2024-11-02T16:20:25.8552025Z               {
+2024-11-02T16:20:25.8552255Z                 contributionCount: 365,
+2024-11-02T16:20:25.8552593Z                 color: '#30a14e',
+2024-11-02T16:20:25.8552899Z                 date: '2024-01-15'
+2024-11-02T16:20:25.8553168Z               },
+2024-11-02T16:20:25.8553381Z               {
+2024-11-02T16:20:25.8553610Z                 contributionCount: 305,
+2024-11-02T16:20:25.8553938Z                 color: '#30a14e',
+2024-11-02T16:20:25.8554247Z                 date: '2024-01-16'
+2024-11-02T16:20:25.8554511Z               },
+2024-11-02T16:20:25.8554712Z               {
+2024-11-02T16:20:25.8554942Z                 contributionCount: 368,
+2024-11-02T16:20:25.8555283Z                 color: '#30a14e',
+2024-11-02T16:20:25.8555588Z                 date: '2024-01-17'
+2024-11-02T16:20:25.8555846Z               },
+2024-11-02T16:20:25.8556054Z               {
+2024-11-02T16:20:25.8556282Z                 contributionCount: 309,
+2024-11-02T16:20:25.8556618Z                 color: '#30a14e',
+2024-11-02T16:20:25.8556920Z                 date: '2024-01-18'
+2024-11-02T16:20:25.8557190Z               },
+2024-11-02T16:20:25.8557401Z               {
+2024-11-02T16:20:25.8557625Z                 contributionCount: 333,
+2024-11-02T16:20:25.8558090Z                 color: '#30a14e',
+2024-11-02T16:20:25.8558399Z                 date: '2024-01-19'
+2024-11-02T16:20:25.8558662Z               },
+2024-11-02T16:20:25.8558861Z               {
+2024-11-02T16:20:25.8559090Z                 contributionCount: 306,
+2024-11-02T16:20:25.8559423Z                 color: '#30a14e',
+2024-11-02T16:20:25.8559730Z                 date: '2024-01-20'
+2024-11-02T16:20:25.8559994Z               }
+2024-11-02T16:20:25.8560196Z             ]
+2024-11-02T16:20:25.8560397Z           },
+2024-11-02T16:20:25.8560592Z           {
+2024-11-02T16:20:25.8560806Z             contributionDays: [
+2024-11-02T16:20:25.8561080Z               {
+2024-11-02T16:20:25.8561306Z                 contributionCount: 310,
+2024-11-02T16:20:25.8561634Z                 color: '#30a14e',
+2024-11-02T16:20:25.8561939Z                 date: '2024-01-21'
+2024-11-02T16:20:25.8562206Z               },
+2024-11-02T16:20:25.8562408Z               {
+2024-11-02T16:20:25.8562636Z                 contributionCount: 333,
+2024-11-02T16:20:25.8562978Z                 color: '#30a14e',
+2024-11-02T16:20:25.8563284Z                 date: '2024-01-22'
+2024-11-02T16:20:25.8563547Z               },
+2024-11-02T16:20:25.8563752Z               {
+2024-11-02T16:20:25.8563980Z                 contributionCount: 388,
+2024-11-02T16:20:25.8564312Z                 color: '#30a14e',
+2024-11-02T16:20:25.8564613Z                 date: '2024-01-23'
+2024-11-02T16:20:25.8564883Z               },
+2024-11-02T16:20:25.8565088Z               {
+2024-11-02T16:20:25.8565311Z                 contributionCount: 412,
+2024-11-02T16:20:25.8565657Z                 color: '#30a14e',
+2024-11-02T16:20:25.8566209Z                 date: '2024-01-24'
+2024-11-02T16:20:25.8566549Z               },
+2024-11-02T16:20:25.8566753Z               {
+2024-11-02T16:20:25.8566988Z                 contributionCount: 265,
+2024-11-02T16:20:25.8567353Z                 color: '#40c463',
+2024-11-02T16:20:25.8567670Z                 date: '2024-01-25'
+2024-11-02T16:20:25.8567941Z               },
+2024-11-02T16:20:25.8568152Z               {
+2024-11-02T16:20:25.8568385Z                 contributionCount: 586,
+2024-11-02T16:20:25.8568723Z                 color: '#216e39',
+2024-11-02T16:20:25.8569036Z                 date: '2024-01-26'
+2024-11-02T16:20:25.8569307Z               },
+2024-11-02T16:20:25.8569515Z               {
+2024-11-02T16:20:25.8569740Z                 contributionCount: 392,
+2024-11-02T16:20:25.8570292Z                 color: '#30a14e',
+2024-11-02T16:20:25.8570605Z                 date: '2024-01-27'
+2024-11-02T16:20:25.8570877Z               }
+2024-11-02T16:20:25.8571076Z             ]
+2024-11-02T16:20:25.8571277Z           },
+2024-11-02T16:20:25.8571479Z           {
+2024-11-02T16:20:25.8571690Z             contributionDays: [
+2024-11-02T16:20:25.8571965Z               {
+2024-11-02T16:20:25.8572199Z                 contributionCount: 389,
+2024-11-02T16:20:25.8572538Z                 color: '#30a14e',
+2024-11-02T16:20:25.8572843Z                 date: '2024-01-28'
+2024-11-02T16:20:25.8573119Z               },
+2024-11-02T16:20:25.8573327Z               {
+2024-11-02T16:20:25.8573551Z                 contributionCount: 295,
+2024-11-02T16:20:25.8573889Z                 color: '#40c463',
+2024-11-02T16:20:25.8574199Z                 date: '2024-01-29'
+2024-11-02T16:20:25.8574466Z               },
+2024-11-02T16:20:25.8574668Z               {
+2024-11-02T16:20:25.8574898Z                 contributionCount: 267,
+2024-11-02T16:20:25.8575239Z                 color: '#40c463',
+2024-11-02T16:20:25.8575545Z                 date: '2024-01-30'
+2024-11-02T16:20:25.8575805Z               },
+2024-11-02T16:20:25.8576015Z               {
+2024-11-02T16:20:25.8576243Z                 contributionCount: 188,
+2024-11-02T16:20:25.8576576Z                 color: '#40c463',
+2024-11-02T16:20:25.8576886Z                 date: '2024-01-31'
+2024-11-02T16:20:25.8577152Z               },
+2024-11-02T16:20:25.8577357Z               {
+2024-11-02T16:20:25.8577581Z                 contributionCount: 223,
+2024-11-02T16:20:25.8578072Z                 color: '#40c463',
+2024-11-02T16:20:25.8578382Z                 date: '2024-02-01'
+2024-11-02T16:20:25.8578650Z               },
+2024-11-02T16:20:25.8578851Z               {
+2024-11-02T16:20:25.8579083Z                 contributionCount: 544,
+2024-11-02T16:20:25.8579417Z                 color: '#216e39',
+2024-11-02T16:20:25.8579720Z                 date: '2024-02-02'
+2024-11-02T16:20:25.8579991Z               },
+2024-11-02T16:20:25.8580197Z               {
+2024-11-02T16:20:25.8580428Z                 contributionCount: 306,
+2024-11-02T16:20:25.8580758Z                 color: '#40c463',
+2024-11-02T16:20:25.8581065Z                 date: '2024-02-03'
+2024-11-02T16:20:25.8581364Z               }
+2024-11-02T16:20:25.8581563Z             ]
+2024-11-02T16:20:25.8581766Z           },
+2024-11-02T16:20:25.8581967Z           {
+2024-11-02T16:20:25.8582186Z             contributionDays: [
+2024-11-02T16:20:25.8582454Z               {
+2024-11-02T16:20:25.8582684Z                 contributionCount: 320,
+2024-11-02T16:20:25.8583028Z                 color: '#30a14e',
+2024-11-02T16:20:25.8583336Z                 date: '2024-02-04'
+2024-11-02T16:20:25.8583595Z               },
+2024-11-02T16:20:25.8583802Z               {
+2024-11-02T16:20:25.8584033Z                 contributionCount: 320,
+2024-11-02T16:20:25.8584369Z                 color: '#30a14e',
+2024-11-02T16:20:25.8584678Z                 date: '2024-02-05'
+2024-11-02T16:20:25.8584949Z               },
+2024-11-02T16:20:25.8585158Z               {
+2024-11-02T16:20:25.8585382Z                 contributionCount: 325,
+2024-11-02T16:20:25.8585718Z                 color: '#30a14e',
+2024-11-02T16:20:25.8586027Z                 date: '2024-02-06'
+2024-11-02T16:20:25.8586297Z               },
+2024-11-02T16:20:25.8586500Z               {
+2024-11-02T16:20:25.8586729Z                 contributionCount: 204,
+2024-11-02T16:20:25.8587063Z                 color: '#40c463',
+2024-11-02T16:20:25.8587367Z                 date: '2024-02-07'
+2024-11-02T16:20:25.8587635Z               },
+2024-11-02T16:20:25.8587842Z               {
+2024-11-02T16:20:25.8588070Z                 contributionCount: 398,
+2024-11-02T16:20:25.8588398Z                 color: '#30a14e',
+2024-11-02T16:20:25.8588704Z                 date: '2024-02-08'
+2024-11-02T16:20:25.8588971Z               },
+2024-11-02T16:20:25.8589172Z               {
+2024-11-02T16:20:25.8589399Z                 contributionCount: 212,
+2024-11-02T16:20:25.8589871Z                 color: '#40c463',
+2024-11-02T16:20:25.8590178Z                 date: '2024-02-09'
+2024-11-02T16:20:25.8590435Z               },
+2024-11-02T16:20:25.8590640Z               {
+2024-11-02T16:20:25.8590870Z                 contributionCount: 311,
+2024-11-02T16:20:25.8591205Z                 color: '#40c463',
+2024-11-02T16:20:25.8591503Z                 date: '2024-02-10'
+2024-11-02T16:20:25.8591768Z               }
+2024-11-02T16:20:25.8591971Z             ]
+2024-11-02T16:20:25.8592167Z           },
+2024-11-02T16:20:25.8592367Z           {
+2024-11-02T16:20:25.8592585Z             contributionDays: [
+2024-11-02T16:20:25.8592859Z               {
+2024-11-02T16:20:25.8593084Z                 contributionCount: 245,
+2024-11-02T16:20:25.8593423Z                 color: '#40c463',
+2024-11-02T16:20:25.8593729Z                 date: '2024-02-11'
+2024-11-02T16:20:25.8593994Z               },
+2024-11-02T16:20:25.8594196Z               {
+2024-11-02T16:20:25.8594424Z                 contributionCount: 390,
+2024-11-02T16:20:25.8594761Z                 color: '#30a14e',
+2024-11-02T16:20:25.8595062Z                 date: '2024-02-12'
+2024-11-02T16:20:25.8595331Z               },
+2024-11-02T16:20:25.8595537Z               {
+2024-11-02T16:20:25.8595771Z                 contributionCount: 65,
+2024-11-02T16:20:25.8596104Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8596415Z                 date: '2024-02-13'
+2024-11-02T16:20:25.8596680Z               },
+2024-11-02T16:20:25.8596882Z               {
+2024-11-02T16:20:25.8597111Z                 contributionCount: 51,
+2024-11-02T16:20:25.8597575Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8597884Z                 date: '2024-02-14'
+2024-11-02T16:20:25.8598143Z               },
+2024-11-02T16:20:25.8598349Z               {
+2024-11-02T16:20:25.8598577Z                 contributionCount: 151,
+2024-11-02T16:20:25.8598916Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8599217Z                 date: '2024-02-15'
+2024-11-02T16:20:25.8599491Z               },
+2024-11-02T16:20:25.8599696Z               {
+2024-11-02T16:20:25.8599921Z                 contributionCount: 637,
+2024-11-02T16:20:25.8600259Z                 color: '#216e39',
+2024-11-02T16:20:25.8600566Z                 date: '2024-02-16'
+2024-11-02T16:20:25.8600832Z               },
+2024-11-02T16:20:25.8601033Z               {
+2024-11-02T16:20:25.8601261Z                 contributionCount: 210,
+2024-11-02T16:20:25.8601596Z                 color: '#40c463',
+2024-11-02T16:20:25.8601904Z                 date: '2024-02-17'
+2024-11-02T16:20:25.8602168Z               }
+2024-11-02T16:20:25.8602371Z             ]
+2024-11-02T16:20:25.8602572Z           },
+2024-11-02T16:20:25.8602766Z           {
+2024-11-02T16:20:25.8602981Z             contributionDays: [
+2024-11-02T16:20:25.8603253Z               {
+2024-11-02T16:20:25.8603483Z                 contributionCount: 141,
+2024-11-02T16:20:25.8603812Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8604121Z                 date: '2024-02-18'
+2024-11-02T16:20:25.8604390Z               },
+2024-11-02T16:20:25.8604593Z               {
+2024-11-02T16:20:25.8604823Z                 contributionCount: 145,
+2024-11-02T16:20:25.8605160Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8605467Z                 date: '2024-02-19'
+2024-11-02T16:20:25.8605727Z               },
+2024-11-02T16:20:25.8605935Z               {
+2024-11-02T16:20:25.8606323Z                 contributionCount: 163,
+2024-11-02T16:20:25.8606668Z                 color: '#40c463',
+2024-11-02T16:20:25.8606970Z                 date: '2024-02-20'
+2024-11-02T16:20:25.8607240Z               },
+2024-11-02T16:20:25.8607446Z               {
+2024-11-02T16:20:25.8607671Z                 contributionCount: 165,
+2024-11-02T16:20:25.8608008Z                 color: '#40c463',
+2024-11-02T16:20:25.8608315Z                 date: '2024-02-21'
+2024-11-02T16:20:25.8608581Z               },
+2024-11-02T16:20:25.8608783Z               {
+2024-11-02T16:20:25.8609012Z                 contributionCount: 260,
+2024-11-02T16:20:25.8609513Z                 color: '#40c463',
+2024-11-02T16:20:25.8609822Z                 date: '2024-02-22'
+2024-11-02T16:20:25.8610082Z               },
+2024-11-02T16:20:25.8610289Z               {
+2024-11-02T16:20:25.8610516Z                 contributionCount: 193,
+2024-11-02T16:20:25.8610844Z                 color: '#40c463',
+2024-11-02T16:20:25.8611149Z                 date: '2024-02-23'
+2024-11-02T16:20:25.8611414Z               },
+2024-11-02T16:20:25.8611619Z               {
+2024-11-02T16:20:25.8611843Z                 contributionCount: 230,
+2024-11-02T16:20:25.8612181Z                 color: '#40c463',
+2024-11-02T16:20:25.8612490Z                 date: '2024-02-24'
+2024-11-02T16:20:25.8612754Z               }
+2024-11-02T16:20:25.8612951Z             ]
+2024-11-02T16:20:25.8613154Z           },
+2024-11-02T16:20:25.8613353Z           {
+2024-11-02T16:20:25.8613566Z             contributionDays: [
+2024-11-02T16:20:25.8613838Z               {
+2024-11-02T16:20:25.8614071Z                 contributionCount: 235,
+2024-11-02T16:20:25.8614411Z                 color: '#40c463',
+2024-11-02T16:20:25.8614713Z                 date: '2024-02-25'
+2024-11-02T16:20:25.8614979Z               },
+2024-11-02T16:20:25.8615186Z               {
+2024-11-02T16:20:25.8615412Z                 contributionCount: 262,
+2024-11-02T16:20:25.8615747Z                 color: '#40c463',
+2024-11-02T16:20:25.8616056Z                 date: '2024-02-26'
+2024-11-02T16:20:25.8616332Z               },
+2024-11-02T16:20:25.8616533Z               {
+2024-11-02T16:20:25.8616764Z                 contributionCount: 259,
+2024-11-02T16:20:25.8617304Z                 color: '#40c463',
+2024-11-02T16:20:25.8617610Z                 date: '2024-02-27'
+2024-11-02T16:20:25.8617867Z               },
+2024-11-02T16:20:25.8618072Z               {
+2024-11-02T16:20:25.8618307Z                 contributionCount: 1265,
+2024-11-02T16:20:25.8618650Z                 color: '#216e39',
+2024-11-02T16:20:25.8618957Z                 date: '2024-02-28'
+2024-11-02T16:20:25.8619228Z               },
+2024-11-02T16:20:25.8619436Z               {
+2024-11-02T16:20:25.8619659Z                 contributionCount: 376,
+2024-11-02T16:20:25.8619997Z                 color: '#30a14e',
+2024-11-02T16:20:25.8620307Z                 date: '2024-02-29'
+2024-11-02T16:20:25.8620572Z               },
+2024-11-02T16:20:25.8620772Z               {
+2024-11-02T16:20:25.8621000Z                 contributionCount: 201,
+2024-11-02T16:20:25.8621337Z                 color: '#40c463',
+2024-11-02T16:20:25.8621642Z                 date: '2024-03-01'
+2024-11-02T16:20:25.8621909Z               },
+2024-11-02T16:20:25.8622117Z               {
+2024-11-02T16:20:25.8622347Z                 contributionCount: 176,
+2024-11-02T16:20:25.8622677Z                 color: '#40c463',
+2024-11-02T16:20:25.8622984Z                 date: '2024-03-02'
+2024-11-02T16:20:25.8623251Z               }
+2024-11-02T16:20:25.8623450Z             ]
+2024-11-02T16:20:25.8623652Z           },
+2024-11-02T16:20:25.8623852Z           {
+2024-11-02T16:20:25.8624071Z             contributionDays: [
+2024-11-02T16:20:25.8624336Z               {
+2024-11-02T16:20:25.8624568Z                 contributionCount: 314,
+2024-11-02T16:20:25.8624908Z                 color: '#40c463',
+2024-11-02T16:20:25.8625212Z                 date: '2024-03-03'
+2024-11-02T16:20:25.8625470Z               },
+2024-11-02T16:20:25.8625679Z               {
+2024-11-02T16:20:25.8625909Z                 contributionCount: 42,
+2024-11-02T16:20:25.8626243Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8626552Z                 date: '2024-03-04'
+2024-11-02T16:20:25.8626827Z               },
+2024-11-02T16:20:25.8627035Z               {
+2024-11-02T16:20:25.8627259Z                 contributionCount: 21,
+2024-11-02T16:20:25.8627602Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8627909Z                 date: '2024-03-05'
+2024-11-02T16:20:25.8628176Z               },
+2024-11-02T16:20:25.8628378Z               {
+2024-11-02T16:20:25.8628607Z                 contributionCount: 233,
+2024-11-02T16:20:25.8629087Z                 color: '#40c463',
+2024-11-02T16:20:25.8629391Z                 date: '2024-03-06'
+2024-11-02T16:20:25.8629654Z               },
+2024-11-02T16:20:25.8629862Z               {
+2024-11-02T16:20:25.8630094Z                 contributionCount: 572,
+2024-11-02T16:20:25.8630424Z                 color: '#216e39',
+2024-11-02T16:20:25.8630730Z                 date: '2024-03-07'
+2024-11-02T16:20:25.8630994Z               },
+2024-11-02T16:20:25.8631195Z               {
+2024-11-02T16:20:25.8631422Z                 contributionCount: 18,
+2024-11-02T16:20:25.8631763Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8632069Z                 date: '2024-03-08'
+2024-11-02T16:20:25.8632325Z               },
+2024-11-02T16:20:25.8632532Z               {
+2024-11-02T16:20:25.8632775Z                 contributionCount: 212,
+2024-11-02T16:20:25.8633112Z                 color: '#40c463',
+2024-11-02T16:20:25.8633413Z                 date: '2024-03-09'
+2024-11-02T16:20:25.8633682Z               }
+2024-11-02T16:20:25.8633887Z             ]
+2024-11-02T16:20:25.8634083Z           },
+2024-11-02T16:20:25.8634285Z           {
+2024-11-02T16:20:25.8634507Z             contributionDays: [
+2024-11-02T16:20:25.8634777Z               {
+2024-11-02T16:20:25.8635002Z                 contributionCount: 363,
+2024-11-02T16:20:25.8635339Z                 color: '#30a14e',
+2024-11-02T16:20:25.8635647Z                 date: '2024-03-10'
+2024-11-02T16:20:25.8635910Z               },
+2024-11-02T16:20:25.8636113Z               {
+2024-11-02T16:20:25.8636341Z                 contributionCount: 450,
+2024-11-02T16:20:25.8636842Z                 color: '#30a14e',
+2024-11-02T16:20:25.8637144Z                 date: '2024-03-11'
+2024-11-02T16:20:25.8637409Z               },
+2024-11-02T16:20:25.8637615Z               {
+2024-11-02T16:20:25.8637845Z                 contributionCount: 209,
+2024-11-02T16:20:25.8638174Z                 color: '#40c463',
+2024-11-02T16:20:25.8638480Z                 date: '2024-03-12'
+2024-11-02T16:20:25.8638747Z               },
+2024-11-02T16:20:25.8638949Z               {
+2024-11-02T16:20:25.8639180Z                 contributionCount: 320,
+2024-11-02T16:20:25.8639517Z                 color: '#40c463',
+2024-11-02T16:20:25.8639822Z                 date: '2024-03-13'
+2024-11-02T16:20:25.8640081Z               },
+2024-11-02T16:20:25.8640287Z               {
+2024-11-02T16:20:25.8640524Z                 contributionCount: 17,
+2024-11-02T16:20:25.8640863Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8641164Z                 date: '2024-03-14'
+2024-11-02T16:20:25.8641441Z               },
+2024-11-02T16:20:25.8641651Z               {
+2024-11-02T16:20:25.8641881Z                 contributionCount: 19,
+2024-11-02T16:20:25.8642217Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8642527Z                 date: '2024-03-15'
+2024-11-02T16:20:25.8642792Z               },
+2024-11-02T16:20:25.8642992Z               {
+2024-11-02T16:20:25.8643223Z                 contributionCount: 135,
+2024-11-02T16:20:25.8643560Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8643870Z                 date: '2024-03-16'
+2024-11-02T16:20:25.8644133Z               }
+2024-11-02T16:20:25.8644339Z             ]
+2024-11-02T16:20:25.8644541Z           },
+2024-11-02T16:20:25.8644735Z           {
+2024-11-02T16:20:25.8644951Z             contributionDays: [
+2024-11-02T16:20:25.8645225Z               {
+2024-11-02T16:20:25.8645456Z                 contributionCount: 244,
+2024-11-02T16:20:25.8645786Z                 color: '#40c463',
+2024-11-02T16:20:25.8646378Z                 date: '2024-03-17'
+2024-11-02T16:20:25.8646669Z               },
+2024-11-02T16:20:25.8646874Z               {
+2024-11-02T16:20:25.8647109Z                 contributionCount: 664,
+2024-11-02T16:20:25.8647450Z                 color: '#216e39',
+2024-11-02T16:20:25.8647756Z                 date: '2024-03-18'
+2024-11-02T16:20:25.8648016Z               },
+2024-11-02T16:20:25.8648223Z               {
+2024-11-02T16:20:25.8648452Z                 contributionCount: 339,
+2024-11-02T16:20:25.8648967Z                 color: '#30a14e',
+2024-11-02T16:20:25.8649269Z                 date: '2024-03-19'
+2024-11-02T16:20:25.8649534Z               },
+2024-11-02T16:20:25.8649740Z               {
+2024-11-02T16:20:25.8649965Z                 contributionCount: 301,
+2024-11-02T16:20:25.8650301Z                 color: '#40c463',
+2024-11-02T16:20:25.8650608Z                 date: '2024-03-20'
+2024-11-02T16:20:25.8650873Z               },
+2024-11-02T16:20:25.8651076Z               {
+2024-11-02T16:20:25.8651307Z                 contributionCount: 255,
+2024-11-02T16:20:25.8651647Z                 color: '#40c463',
+2024-11-02T16:20:25.8651953Z                 date: '2024-03-21'
+2024-11-02T16:20:25.8652212Z               },
+2024-11-02T16:20:25.8652420Z               {
+2024-11-02T16:20:25.8652648Z                 contributionCount: 249,
+2024-11-02T16:20:25.8652978Z                 color: '#40c463',
+2024-11-02T16:20:25.8653283Z                 date: '2024-03-22'
+2024-11-02T16:20:25.8653554Z               },
+2024-11-02T16:20:25.8653760Z               {
+2024-11-02T16:20:25.8653986Z                 contributionCount: 355,
+2024-11-02T16:20:25.8654321Z                 color: '#30a14e',
+2024-11-02T16:20:25.8654629Z                 date: '2024-03-23'
+2024-11-02T16:20:25.8654893Z               }
+2024-11-02T16:20:25.8655090Z             ]
+2024-11-02T16:20:25.8655295Z           },
+2024-11-02T16:20:25.8655495Z           {
+2024-11-02T16:20:25.8655709Z             contributionDays: [
+2024-11-02T16:20:25.8655980Z               {
+2024-11-02T16:20:25.8656214Z                 contributionCount: 270,
+2024-11-02T16:20:25.8656701Z                 color: '#40c463',
+2024-11-02T16:20:25.8657009Z                 date: '2024-03-24'
+2024-11-02T16:20:25.8657277Z               },
+2024-11-02T16:20:25.8657483Z               {
+2024-11-02T16:20:25.8657708Z                 contributionCount: 182,
+2024-11-02T16:20:25.8658044Z                 color: '#40c463',
+2024-11-02T16:20:25.8658355Z                 date: '2024-03-25'
+2024-11-02T16:20:25.8658624Z               },
+2024-11-02T16:20:25.8658830Z               {
+2024-11-02T16:20:25.8659060Z                 contributionCount: 337,
+2024-11-02T16:20:25.8659397Z                 color: '#30a14e',
+2024-11-02T16:20:25.8659703Z                 date: '2024-03-26'
+2024-11-02T16:20:25.8659966Z               },
+2024-11-02T16:20:25.8660173Z               {
+2024-11-02T16:20:25.8660403Z                 contributionCount: 289,
+2024-11-02T16:20:25.8660736Z                 color: '#40c463',
+2024-11-02T16:20:25.8661043Z                 date: '2024-03-27'
+2024-11-02T16:20:25.8661311Z               },
+2024-11-02T16:20:25.8661518Z               {
+2024-11-02T16:20:25.8661742Z                 contributionCount: 187,
+2024-11-02T16:20:25.8662076Z                 color: '#40c463',
+2024-11-02T16:20:25.8662385Z                 date: '2024-03-28'
+2024-11-02T16:20:25.8662654Z               },
+2024-11-02T16:20:25.8662855Z               {
+2024-11-02T16:20:25.8663085Z                 contributionCount: 294,
+2024-11-02T16:20:25.8663424Z                 color: '#40c463',
+2024-11-02T16:20:25.8663724Z                 date: '2024-03-29'
+2024-11-02T16:20:25.8663989Z               },
+2024-11-02T16:20:25.8664197Z               {
+2024-11-02T16:20:25.8664425Z                 contributionCount: 293,
+2024-11-02T16:20:25.8664753Z                 color: '#40c463',
+2024-11-02T16:20:25.8665061Z                 date: '2024-03-30'
+2024-11-02T16:20:25.8665328Z               }
+2024-11-02T16:20:25.8665525Z             ]
+2024-11-02T16:20:25.8665727Z           },
+2024-11-02T16:20:25.8665924Z           {
+2024-11-02T16:20:25.8666143Z             contributionDays: [
+2024-11-02T16:20:25.8666408Z               {
+2024-11-02T16:20:25.8666645Z                 contributionCount: 291,
+2024-11-02T16:20:25.8666983Z                 color: '#40c463',
+2024-11-02T16:20:25.8667292Z                 date: '2024-03-31'
+2024-11-02T16:20:25.8667551Z               },
+2024-11-02T16:20:25.8667758Z               {
+2024-11-02T16:20:25.8667987Z                 contributionCount: 241,
+2024-11-02T16:20:25.8668450Z                 color: '#40c463',
+2024-11-02T16:20:25.8668763Z                 date: '2024-04-01'
+2024-11-02T16:20:25.8669030Z               },
+2024-11-02T16:20:25.8669235Z               {
+2024-11-02T16:20:25.8669459Z                 contributionCount: 174,
+2024-11-02T16:20:25.8669793Z                 color: '#40c463',
+2024-11-02T16:20:25.8670101Z                 date: '2024-04-02'
+2024-11-02T16:20:25.8670364Z               },
+2024-11-02T16:20:25.8670567Z               {
+2024-11-02T16:20:25.8670795Z                 contributionCount: 351,
+2024-11-02T16:20:25.8671137Z                 color: '#30a14e',
+2024-11-02T16:20:25.8671440Z                 date: '2024-04-03'
+2024-11-02T16:20:25.8671706Z               },
+2024-11-02T16:20:25.8671917Z               {
+2024-11-02T16:20:25.8672146Z                 contributionCount: 332,
+2024-11-02T16:20:25.8672473Z                 color: '#40c463',
+2024-11-02T16:20:25.8672782Z                 date: '2024-04-04'
+2024-11-02T16:20:25.8673054Z               },
+2024-11-02T16:20:25.8673261Z               {
+2024-11-02T16:20:25.8673490Z                 contributionCount: 349,
+2024-11-02T16:20:25.8673846Z                 color: '#30a14e',
+2024-11-02T16:20:25.8674153Z                 date: '2024-04-05'
+2024-11-02T16:20:25.8674409Z               },
+2024-11-02T16:20:25.8674614Z               {
+2024-11-02T16:20:25.8674843Z                 contributionCount: 164,
+2024-11-02T16:20:25.8675177Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8675477Z                 date: '2024-04-06'
+2024-11-02T16:20:25.8675868Z               }
+2024-11-02T16:20:25.8676070Z             ]
+2024-11-02T16:20:25.8676266Z           },
+2024-11-02T16:20:25.8676470Z           {
+2024-11-02T16:20:25.8676690Z             contributionDays: [
+2024-11-02T16:20:25.8676959Z               {
+2024-11-02T16:20:25.8677184Z                 contributionCount: 311,
+2024-11-02T16:20:25.8677523Z                 color: '#40c463',
+2024-11-02T16:20:25.8677831Z                 date: '2024-04-07'
+2024-11-02T16:20:25.8678097Z               },
+2024-11-02T16:20:25.8678299Z               {
+2024-11-02T16:20:25.8678526Z                 contributionCount: 190,
+2024-11-02T16:20:25.8678859Z                 color: '#40c463',
+2024-11-02T16:20:25.8679164Z                 date: '2024-04-08'
+2024-11-02T16:20:25.8679429Z               },
+2024-11-02T16:20:25.8679639Z               {
+2024-11-02T16:20:25.8679866Z                 contributionCount: 269,
+2024-11-02T16:20:25.8680193Z                 color: '#40c463',
+2024-11-02T16:20:25.8680500Z                 date: '2024-04-09'
+2024-11-02T16:20:25.8680766Z               },
+2024-11-02T16:20:25.8680968Z               {
+2024-11-02T16:20:25.8681227Z                 contributionCount: 329,
+2024-11-02T16:20:25.8681565Z                 color: '#40c463',
+2024-11-02T16:20:25.8681873Z                 date: '2024-04-10'
+2024-11-02T16:20:25.8682131Z               },
+2024-11-02T16:20:25.8682336Z               {
+2024-11-02T16:20:25.8682565Z                 contributionCount: 234,
+2024-11-02T16:20:25.8682904Z                 color: '#40c463',
+2024-11-02T16:20:25.8683204Z                 date: '2024-04-11'
+2024-11-02T16:20:25.8683472Z               },
+2024-11-02T16:20:25.8683677Z               {
+2024-11-02T16:20:25.8683901Z                 contributionCount: 300,
+2024-11-02T16:20:25.8684235Z                 color: '#40c463',
+2024-11-02T16:20:25.8684548Z                 date: '2024-04-12'
+2024-11-02T16:20:25.8684811Z               },
+2024-11-02T16:20:25.8685014Z               {
+2024-11-02T16:20:25.8685245Z                 contributionCount: 382,
+2024-11-02T16:20:25.8685582Z                 color: '#30a14e',
+2024-11-02T16:20:25.8685889Z                 date: '2024-04-13'
+2024-11-02T16:20:25.8686296Z               }
+2024-11-02T16:20:25.8686502Z             ]
+2024-11-02T16:20:25.8686703Z           },
+2024-11-02T16:20:25.8686899Z           {
+2024-11-02T16:20:25.8687115Z             contributionDays: [
+2024-11-02T16:20:25.8687387Z               {
+2024-11-02T16:20:25.8687618Z                 contributionCount: 264,
+2024-11-02T16:20:25.8688127Z                 color: '#40c463',
+2024-11-02T16:20:25.8688444Z                 date: '2024-04-14'
+2024-11-02T16:20:25.8688713Z               },
+2024-11-02T16:20:25.8688918Z               {
+2024-11-02T16:20:25.8689151Z                 contributionCount: 20,
+2024-11-02T16:20:25.8689490Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8689805Z                 date: '2024-04-15'
+2024-11-02T16:20:25.8690071Z               },
+2024-11-02T16:20:25.8690279Z               {
+2024-11-02T16:20:25.8690512Z                 contributionCount: 187,
+2024-11-02T16:20:25.8690859Z                 color: '#40c463',
+2024-11-02T16:20:25.8691164Z                 date: '2024-04-16'
+2024-11-02T16:20:25.8691433Z               },
+2024-11-02T16:20:25.8691641Z               {
+2024-11-02T16:20:25.8691868Z                 contributionCount: 292,
+2024-11-02T16:20:25.8692210Z                 color: '#40c463',
+2024-11-02T16:20:25.8692522Z                 date: '2024-04-17'
+2024-11-02T16:20:25.8692794Z               },
+2024-11-02T16:20:25.8692996Z               {
+2024-11-02T16:20:25.8693226Z                 contributionCount: 352,
+2024-11-02T16:20:25.8693567Z                 color: '#30a14e',
+2024-11-02T16:20:25.8693876Z                 date: '2024-04-18'
+2024-11-02T16:20:25.8694139Z               },
+2024-11-02T16:20:25.8694348Z               {
+2024-11-02T16:20:25.8694581Z                 contributionCount: 559,
+2024-11-02T16:20:25.8694913Z                 color: '#216e39',
+2024-11-02T16:20:25.8695221Z                 date: '2024-04-19'
+2024-11-02T16:20:25.8695638Z               },
+2024-11-02T16:20:25.8695846Z               {
+2024-11-02T16:20:25.8696070Z                 contributionCount: 667,
+2024-11-02T16:20:25.8696413Z                 color: '#216e39',
+2024-11-02T16:20:25.8696725Z                 date: '2024-04-20'
+2024-11-02T16:20:25.8696993Z               }
+2024-11-02T16:20:25.8697189Z             ]
+2024-11-02T16:20:25.8697393Z           },
+2024-11-02T16:20:25.8697596Z           {
+2024-11-02T16:20:25.8697814Z             contributionDays: [
+2024-11-02T16:20:25.8698088Z               {
+2024-11-02T16:20:25.8698322Z                 contributionCount: 304,
+2024-11-02T16:20:25.8698663Z                 color: '#30a14e',
+2024-11-02T16:20:25.8698966Z                 date: '2024-04-21'
+2024-11-02T16:20:25.8699233Z               },
+2024-11-02T16:20:25.8699443Z               {
+2024-11-02T16:20:25.8699669Z                 contributionCount: 404,
+2024-11-02T16:20:25.8700011Z                 color: '#30a14e',
+2024-11-02T16:20:25.8700319Z                 date: '2024-04-22'
+2024-11-02T16:20:25.8700586Z               },
+2024-11-02T16:20:25.8700791Z               {
+2024-11-02T16:20:25.8701023Z                 contributionCount: 292,
+2024-11-02T16:20:25.8701360Z                 color: '#30a14e',
+2024-11-02T16:20:25.8701666Z                 date: '2024-04-23'
+2024-11-02T16:20:25.8701926Z               },
+2024-11-02T16:20:25.8702131Z               {
+2024-11-02T16:20:25.8702360Z                 contributionCount: 344,
+2024-11-02T16:20:25.8702695Z                 color: '#30a14e',
+2024-11-02T16:20:25.8703004Z                 date: '2024-04-24'
+2024-11-02T16:20:25.8703270Z               },
+2024-11-02T16:20:25.8703478Z               {
+2024-11-02T16:20:25.8703700Z                 contributionCount: 306,
+2024-11-02T16:20:25.8704036Z                 color: '#30a14e',
+2024-11-02T16:20:25.8704347Z                 date: '2024-04-25'
+2024-11-02T16:20:25.8704613Z               },
+2024-11-02T16:20:25.8704814Z               {
+2024-11-02T16:20:25.8705046Z                 contributionCount: 328,
+2024-11-02T16:20:25.8705383Z                 color: '#30a14e',
+2024-11-02T16:20:25.8705686Z                 date: '2024-04-26'
+2024-11-02T16:20:25.8705950Z               },
+2024-11-02T16:20:25.8706156Z               {
+2024-11-02T16:20:25.8706385Z                 contributionCount: 296,
+2024-11-02T16:20:25.8706713Z                 color: '#30a14e',
+2024-11-02T16:20:25.8707017Z                 date: '2024-04-27'
+2024-11-02T16:20:25.8707408Z               }
+2024-11-02T16:20:25.8707606Z             ]
+2024-11-02T16:20:25.8707809Z           },
+2024-11-02T16:20:25.8708010Z           {
+2024-11-02T16:20:25.8708225Z             contributionDays: [
+2024-11-02T16:20:25.8708491Z               {
+2024-11-02T16:20:25.8708720Z                 contributionCount: 246,
+2024-11-02T16:20:25.8709063Z                 color: '#40c463',
+2024-11-02T16:20:25.8709367Z                 date: '2024-04-28'
+2024-11-02T16:20:25.8709628Z               },
+2024-11-02T16:20:25.8709836Z               {
+2024-11-02T16:20:25.8710063Z                 contributionCount: 357,
+2024-11-02T16:20:25.8710399Z                 color: '#30a14e',
+2024-11-02T16:20:25.8710706Z                 date: '2024-04-29'
+2024-11-02T16:20:25.8710971Z               },
+2024-11-02T16:20:25.8711181Z               {
+2024-11-02T16:20:25.8711403Z                 contributionCount: 311,
+2024-11-02T16:20:25.8711737Z                 color: '#30a14e',
+2024-11-02T16:20:25.8712045Z                 date: '2024-04-30'
+2024-11-02T16:20:25.8712315Z               },
+2024-11-02T16:20:25.8712517Z               {
+2024-11-02T16:20:25.8712744Z                 contributionCount: 287,
+2024-11-02T16:20:25.8713079Z                 color: '#30a14e',
+2024-11-02T16:20:25.8713385Z                 date: '2024-05-01'
+2024-11-02T16:20:25.8713650Z               },
+2024-11-02T16:20:25.8713858Z               {
+2024-11-02T16:20:25.8714090Z                 contributionCount: 260,
+2024-11-02T16:20:25.8714419Z                 color: '#40c463',
+2024-11-02T16:20:25.8714725Z                 date: '2024-05-02'
+2024-11-02T16:20:25.8715146Z               },
+2024-11-02T16:20:25.8715348Z               {
+2024-11-02T16:20:25.8715580Z                 contributionCount: 226,
+2024-11-02T16:20:25.8715924Z                 color: '#40c463',
+2024-11-02T16:20:25.8716231Z                 date: '2024-05-03'
+2024-11-02T16:20:25.8716489Z               },
+2024-11-02T16:20:25.8716694Z               {
+2024-11-02T16:20:25.8716921Z                 contributionCount: 124,
+2024-11-02T16:20:25.8717264Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8717563Z                 date: '2024-05-04'
+2024-11-02T16:20:25.8717830Z               }
+2024-11-02T16:20:25.8718032Z             ]
+2024-11-02T16:20:25.8718227Z           },
+2024-11-02T16:20:25.8718426Z           {
+2024-11-02T16:20:25.8718638Z             contributionDays: [
+2024-11-02T16:20:25.8718909Z               {
+2024-11-02T16:20:25.8719133Z                 contributionCount: 86,
+2024-11-02T16:20:25.8719473Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8719781Z                 date: '2024-05-05'
+2024-11-02T16:20:25.8720049Z               },
+2024-11-02T16:20:25.8720250Z               {
+2024-11-02T16:20:25.8720479Z                 contributionCount: 572,
+2024-11-02T16:20:25.8720816Z                 color: '#216e39',
+2024-11-02T16:20:25.8721119Z                 date: '2024-05-06'
+2024-11-02T16:20:25.8721387Z               },
+2024-11-02T16:20:25.8721594Z               {
+2024-11-02T16:20:25.8721831Z                 contributionCount: 264,
+2024-11-02T16:20:25.8722165Z                 color: '#40c463',
+2024-11-02T16:20:25.8722475Z                 date: '2024-05-07'
+2024-11-02T16:20:25.8722737Z               },
+2024-11-02T16:20:25.8722939Z               {
+2024-11-02T16:20:25.8723168Z                 contributionCount: 200,
+2024-11-02T16:20:25.8723503Z                 color: '#40c463',
+2024-11-02T16:20:25.8723809Z                 date: '2024-05-08'
+2024-11-02T16:20:25.8724074Z               },
+2024-11-02T16:20:25.8724281Z               {
+2024-11-02T16:20:25.8724514Z                 contributionCount: 344,
+2024-11-02T16:20:25.8724855Z                 color: '#30a14e',
+2024-11-02T16:20:25.8725154Z                 date: '2024-05-09'
+2024-11-02T16:20:25.8725422Z               },
+2024-11-02T16:20:25.8725628Z               {
+2024-11-02T16:20:25.8725850Z                 contributionCount: 181,
+2024-11-02T16:20:25.8726330Z                 color: '#40c463',
+2024-11-02T16:20:25.8726642Z                 date: '2024-05-10'
+2024-11-02T16:20:25.8727061Z               },
+2024-11-02T16:20:25.8727264Z               {
+2024-11-02T16:20:25.8727495Z                 contributionCount: 417,
+2024-11-02T16:20:25.8727834Z                 color: '#30a14e',
+2024-11-02T16:20:25.8728142Z                 date: '2024-05-11'
+2024-11-02T16:20:25.8728401Z               }
+2024-11-02T16:20:25.8728604Z             ]
+2024-11-02T16:20:25.8728808Z           },
+2024-11-02T16:20:25.8729002Z           {
+2024-11-02T16:20:25.8729220Z             contributionDays: [
+2024-11-02T16:20:25.8729491Z               {
+2024-11-02T16:20:25.8729720Z                 contributionCount: 316,
+2024-11-02T16:20:25.8730054Z                 color: '#30a14e',
+2024-11-02T16:20:25.8730361Z                 date: '2024-05-12'
+2024-11-02T16:20:25.8730627Z               },
+2024-11-02T16:20:25.8730829Z               {
+2024-11-02T16:20:25.8731058Z                 contributionCount: 514,
+2024-11-02T16:20:25.8731397Z                 color: '#216e39',
+2024-11-02T16:20:25.8731705Z                 date: '2024-05-13'
+2024-11-02T16:20:25.8731970Z               },
+2024-11-02T16:20:25.8732176Z               {
+2024-11-02T16:20:25.8732408Z                 contributionCount: 324,
+2024-11-02T16:20:25.8732741Z                 color: '#30a14e',
+2024-11-02T16:20:25.8733041Z                 date: '2024-05-14'
+2024-11-02T16:20:25.8733305Z               },
+2024-11-02T16:20:25.8733511Z               {
+2024-11-02T16:20:25.8733737Z                 contributionCount: 323,
+2024-11-02T16:20:25.8734072Z                 color: '#30a14e',
+2024-11-02T16:20:25.8734379Z                 date: '2024-05-15'
+2024-11-02T16:20:25.8734795Z               },
+2024-11-02T16:20:25.8734997Z               {
+2024-11-02T16:20:25.8735227Z                 contributionCount: 400,
+2024-11-02T16:20:25.8735567Z                 color: '#30a14e',
+2024-11-02T16:20:25.8735874Z                 date: '2024-05-16'
+2024-11-02T16:20:25.8736130Z               },
+2024-11-02T16:20:25.8736337Z               {
+2024-11-02T16:20:25.8736566Z                 contributionCount: 549,
+2024-11-02T16:20:25.8736901Z                 color: '#216e39',
+2024-11-02T16:20:25.8737212Z                 date: '2024-05-17'
+2024-11-02T16:20:25.8737478Z               },
+2024-11-02T16:20:25.8737687Z               {
+2024-11-02T16:20:25.8737911Z                 contributionCount: 429,
+2024-11-02T16:20:25.8738246Z                 color: '#30a14e',
+2024-11-02T16:20:25.8738550Z                 date: '2024-05-18'
+2024-11-02T16:20:25.8738815Z               }
+2024-11-02T16:20:25.8739011Z             ]
+2024-11-02T16:20:25.8739214Z           },
+2024-11-02T16:20:25.8739411Z           {
+2024-11-02T16:20:25.8739626Z             contributionDays: [
+2024-11-02T16:20:25.8739895Z               {
+2024-11-02T16:20:25.8740124Z                 contributionCount: 357,
+2024-11-02T16:20:25.8740457Z                 color: '#30a14e',
+2024-11-02T16:20:25.8740760Z                 date: '2024-05-19'
+2024-11-02T16:20:25.8741026Z               },
+2024-11-02T16:20:25.8741232Z               {
+2024-11-02T16:20:25.8741456Z                 contributionCount: 306,
+2024-11-02T16:20:25.8741796Z                 color: '#30a14e',
+2024-11-02T16:20:25.8742104Z                 date: '2024-05-20'
+2024-11-02T16:20:25.8742368Z               },
+2024-11-02T16:20:25.8742569Z               {
+2024-11-02T16:20:25.8742799Z                 contributionCount: 493,
+2024-11-02T16:20:25.8743136Z                 color: '#216e39',
+2024-11-02T16:20:25.8743441Z                 date: '2024-05-21'
+2024-11-02T16:20:25.8743701Z               },
+2024-11-02T16:20:25.8743907Z               {
+2024-11-02T16:20:25.8744137Z                 contributionCount: 458,
+2024-11-02T16:20:25.8744470Z                 color: '#216e39',
+2024-11-02T16:20:25.8744776Z                 date: '2024-05-22'
+2024-11-02T16:20:25.8745039Z               },
+2024-11-02T16:20:25.8745245Z               {
+2024-11-02T16:20:25.8745468Z                 contributionCount: 411,
+2024-11-02T16:20:25.8745804Z                 color: '#30a14e',
+2024-11-02T16:20:25.8746113Z                 date: '2024-05-23'
+2024-11-02T16:20:25.8746502Z               },
+2024-11-02T16:20:25.8746705Z               {
+2024-11-02T16:20:25.8746936Z                 contributionCount: 313,
+2024-11-02T16:20:25.8747272Z                 color: '#30a14e',
+2024-11-02T16:20:25.8747572Z                 date: '2024-05-24'
+2024-11-02T16:20:25.8747838Z               },
+2024-11-02T16:20:25.8748043Z               {
+2024-11-02T16:20:25.8748271Z                 contributionCount: 378,
+2024-11-02T16:20:25.8748598Z                 color: '#30a14e',
+2024-11-02T16:20:25.8748904Z                 date: '2024-05-25'
+2024-11-02T16:20:25.8749172Z               }
+2024-11-02T16:20:25.8749369Z             ]
+2024-11-02T16:20:25.8749569Z           },
+2024-11-02T16:20:25.8749767Z           {
+2024-11-02T16:20:25.8749982Z             contributionDays: [
+2024-11-02T16:20:25.8750248Z               {
+2024-11-02T16:20:25.8750481Z                 contributionCount: 285,
+2024-11-02T16:20:25.8750817Z                 color: '#30a14e',
+2024-11-02T16:20:25.8751122Z                 date: '2024-05-26'
+2024-11-02T16:20:25.8751385Z               },
+2024-11-02T16:20:25.8751592Z               {
+2024-11-02T16:20:25.8751820Z                 contributionCount: 457,
+2024-11-02T16:20:25.8752152Z                 color: '#216e39',
+2024-11-02T16:20:25.8752459Z                 date: '2024-05-27'
+2024-11-02T16:20:25.8752724Z               },
+2024-11-02T16:20:25.8752930Z               {
+2024-11-02T16:20:25.8753153Z                 contributionCount: 366,
+2024-11-02T16:20:25.8753486Z                 color: '#30a14e',
+2024-11-02T16:20:25.8753793Z                 date: '2024-05-28'
+2024-11-02T16:20:25.8754182Z               },
+2024-11-02T16:20:25.8754383Z               {
+2024-11-02T16:20:25.8754614Z                 contributionCount: 253,
+2024-11-02T16:20:25.8754949Z                 color: '#40c463',
+2024-11-02T16:20:25.8755251Z                 date: '2024-05-29'
+2024-11-02T16:20:25.8755518Z               },
+2024-11-02T16:20:25.8755724Z               {
+2024-11-02T16:20:25.8755953Z                 contributionCount: 432,
+2024-11-02T16:20:25.8756287Z                 color: '#216e39',
+2024-11-02T16:20:25.8756593Z                 date: '2024-05-30'
+2024-11-02T16:20:25.8756859Z               },
+2024-11-02T16:20:25.8757060Z               {
+2024-11-02T16:20:25.8757288Z                 contributionCount: 569,
+2024-11-02T16:20:25.8757622Z                 color: '#216e39',
+2024-11-02T16:20:25.8757928Z                 date: '2024-05-31'
+2024-11-02T16:20:25.8758185Z               },
+2024-11-02T16:20:25.8758393Z               {
+2024-11-02T16:20:25.8758622Z                 contributionCount: 304,
+2024-11-02T16:20:25.8758962Z                 color: '#30a14e',
+2024-11-02T16:20:25.8759262Z                 date: '2024-06-01'
+2024-11-02T16:20:25.8759526Z               }
+2024-11-02T16:20:25.8759730Z             ]
+2024-11-02T16:20:25.8759926Z           },
+2024-11-02T16:20:25.8760124Z           {
+2024-11-02T16:20:25.8760337Z             contributionDays: [
+2024-11-02T16:20:25.8760612Z               {
+2024-11-02T16:20:25.8760835Z                 contributionCount: 270,
+2024-11-02T16:20:25.8761174Z                 color: '#40c463',
+2024-11-02T16:20:25.8761481Z                 date: '2024-06-02'
+2024-11-02T16:20:25.8761743Z               },
+2024-11-02T16:20:25.8761948Z               {
+2024-11-02T16:20:25.8762176Z                 contributionCount: 257,
+2024-11-02T16:20:25.8762508Z                 color: '#40c463',
+2024-11-02T16:20:25.8762809Z                 date: '2024-06-03'
+2024-11-02T16:20:25.8763075Z               },
+2024-11-02T16:20:25.8763281Z               {
+2024-11-02T16:20:25.8763511Z                 contributionCount: 289,
+2024-11-02T16:20:25.8763840Z                 color: '#30a14e',
+2024-11-02T16:20:25.8764149Z                 date: '2024-06-04'
+2024-11-02T16:20:25.8764413Z               },
+2024-11-02T16:20:25.8764618Z               {
+2024-11-02T16:20:25.8764848Z                 contributionCount: 258,
+2024-11-02T16:20:25.8765182Z                 color: '#40c463',
+2024-11-02T16:20:25.8765489Z                 date: '2024-06-05'
+2024-11-02T16:20:25.8765870Z               },
+2024-11-02T16:20:25.8766331Z               {
+2024-11-02T16:20:25.8766583Z                 contributionCount: 327,
+2024-11-02T16:20:25.8766948Z                 color: '#30a14e',
+2024-11-02T16:20:25.8767255Z                 date: '2024-06-06'
+2024-11-02T16:20:25.8767522Z               },
+2024-11-02T16:20:25.8767729Z               {
+2024-11-02T16:20:25.8767955Z                 contributionCount: 271,
+2024-11-02T16:20:25.8768292Z                 color: '#40c463',
+2024-11-02T16:20:25.8768599Z                 date: '2024-06-07'
+2024-11-02T16:20:25.8768869Z               },
+2024-11-02T16:20:25.8769069Z               {
+2024-11-02T16:20:25.8769298Z                 contributionCount: 309,
+2024-11-02T16:20:25.8769632Z                 color: '#30a14e',
+2024-11-02T16:20:25.8769938Z                 date: '2024-06-08'
+2024-11-02T16:20:25.8770197Z               }
+2024-11-02T16:20:25.8770399Z             ]
+2024-11-02T16:20:25.8770601Z           },
+2024-11-02T16:20:25.8770795Z           {
+2024-11-02T16:20:25.8771020Z             contributionDays: [
+2024-11-02T16:20:25.8771295Z               {
+2024-11-02T16:20:25.8771527Z                 contributionCount: 282,
+2024-11-02T16:20:25.8771857Z                 color: '#40c463',
+2024-11-02T16:20:25.8772165Z                 date: '2024-06-09'
+2024-11-02T16:20:25.8772430Z               },
+2024-11-02T16:20:25.8772640Z               {
+2024-11-02T16:20:25.8772897Z                 contributionCount: 207,
+2024-11-02T16:20:25.8773265Z                 color: '#40c463',
+2024-11-02T16:20:25.8773571Z                 date: '2024-06-10'
+2024-11-02T16:20:25.8773997Z               },
+2024-11-02T16:20:25.8774204Z               {
+2024-11-02T16:20:25.8774437Z                 contributionCount: 435,
+2024-11-02T16:20:25.8774775Z                 color: '#216e39',
+2024-11-02T16:20:25.8775077Z                 date: '2024-06-11'
+2024-11-02T16:20:25.8775343Z               },
+2024-11-02T16:20:25.8775550Z               {
+2024-11-02T16:20:25.8775774Z                 contributionCount: 374,
+2024-11-02T16:20:25.8776116Z                 color: '#30a14e',
+2024-11-02T16:20:25.8776422Z                 date: '2024-06-12'
+2024-11-02T16:20:25.8776685Z               },
+2024-11-02T16:20:25.8776887Z               {
+2024-11-02T16:20:25.8777115Z                 contributionCount: 195,
+2024-11-02T16:20:25.8777452Z                 color: '#40c463',
+2024-11-02T16:20:25.8777758Z                 date: '2024-06-13'
+2024-11-02T16:20:25.8778014Z               },
+2024-11-02T16:20:25.8778222Z               {
+2024-11-02T16:20:25.8778454Z                 contributionCount: 477,
+2024-11-02T16:20:25.8778785Z                 color: '#216e39',
+2024-11-02T16:20:25.8779090Z                 date: '2024-06-14'
+2024-11-02T16:20:25.8779354Z               },
+2024-11-02T16:20:25.8779559Z               {
+2024-11-02T16:20:25.8779782Z                 contributionCount: 363,
+2024-11-02T16:20:25.8780115Z                 color: '#30a14e',
+2024-11-02T16:20:25.8780422Z                 date: '2024-06-15'
+2024-11-02T16:20:25.8780507Z               }
+2024-11-02T16:20:25.8780588Z             ]
+2024-11-02T16:20:25.8780665Z           },
+2024-11-02T16:20:25.8780743Z           {
+2024-11-02T16:20:25.8780843Z             contributionDays: [
+2024-11-02T16:20:25.8780920Z               {
+2024-11-02T16:20:25.8781022Z                 contributionCount: 301,
+2024-11-02T16:20:25.8781146Z                 color: '#216e39',
+2024-11-02T16:20:25.8781302Z                 date: '2024-06-16'
+2024-11-02T16:20:25.8781387Z               },
+2024-11-02T16:20:25.8781463Z               {
+2024-11-02T16:20:25.8781565Z                 contributionCount: 315,
+2024-11-02T16:20:25.8781693Z                 color: '#216e39',
+2024-11-02T16:20:25.8781814Z                 date: '2024-06-17'
+2024-11-02T16:20:25.8781891Z               },
+2024-11-02T16:20:25.8781975Z               {
+2024-11-02T16:20:25.8782076Z                 contributionCount: 186,
+2024-11-02T16:20:25.8782199Z                 color: '#40c463',
+2024-11-02T16:20:25.8782317Z                 date: '2024-06-18'
+2024-11-02T16:20:25.8782575Z               },
+2024-11-02T16:20:25.8782656Z               {
+2024-11-02T16:20:25.8782759Z                 contributionCount: 379,
+2024-11-02T16:20:25.8782881Z                 color: '#216e39',
+2024-11-02T16:20:25.8783005Z                 date: '2024-06-19'
+2024-11-02T16:20:25.8783085Z               },
+2024-11-02T16:20:25.8783170Z               {
+2024-11-02T16:20:25.8783273Z                 contributionCount: 294,
+2024-11-02T16:20:25.8783393Z                 color: '#216e39',
+2024-11-02T16:20:25.8783517Z                 date: '2024-06-20'
+2024-11-02T16:20:25.8783598Z               },
+2024-11-02T16:20:25.8783674Z               {
+2024-11-02T16:20:25.8783780Z                 contributionCount: 304,
+2024-11-02T16:20:25.8783899Z                 color: '#216e39',
+2024-11-02T16:20:25.8784023Z                 date: '2024-06-21'
+2024-11-02T16:20:25.8784100Z               },
+2024-11-02T16:20:25.8784175Z               {
+2024-11-02T16:20:25.8784281Z                 contributionCount: 328,
+2024-11-02T16:20:25.8784404Z                 color: '#216e39',
+2024-11-02T16:20:25.8784523Z                 date: '2024-06-22'
+2024-11-02T16:20:25.8784606Z               }
+2024-11-02T16:20:25.8784682Z             ]
+2024-11-02T16:20:25.8784762Z           },
+2024-11-02T16:20:25.8784837Z           {
+2024-11-02T16:20:25.8784933Z             contributionDays: [
+2024-11-02T16:20:25.8785013Z               {
+2024-11-02T16:20:25.8785113Z                 contributionCount: 370,
+2024-11-02T16:20:25.8785231Z                 color: '#216e39',
+2024-11-02T16:20:25.8785354Z                 date: '2024-06-23'
+2024-11-02T16:20:25.8785552Z               },
+2024-11-02T16:20:25.8785634Z               {
+2024-11-02T16:20:25.8785736Z                 contributionCount: 313,
+2024-11-02T16:20:25.8785857Z                 color: '#216e39',
+2024-11-02T16:20:25.8785981Z                 date: '2024-06-24'
+2024-11-02T16:20:25.8786058Z               },
+2024-11-02T16:20:25.8786135Z               {
+2024-11-02T16:20:25.8786242Z                 contributionCount: 285,
+2024-11-02T16:20:25.8786363Z                 color: '#216e39',
+2024-11-02T16:20:25.8786487Z                 date: '2024-06-25'
+2024-11-02T16:20:25.8786564Z               },
+2024-11-02T16:20:25.8786640Z               {
+2024-11-02T16:20:25.8786747Z                 contributionCount: 275,
+2024-11-02T16:20:25.8786865Z                 color: '#30a14e',
+2024-11-02T16:20:25.8786991Z                 date: '2024-06-26'
+2024-11-02T16:20:25.8787073Z               },
+2024-11-02T16:20:25.8787149Z               {
+2024-11-02T16:20:25.8787259Z                 contributionCount: 346,
+2024-11-02T16:20:25.8787382Z                 color: '#216e39',
+2024-11-02T16:20:25.8787500Z                 date: '2024-06-27'
+2024-11-02T16:20:25.8787583Z               },
+2024-11-02T16:20:25.8787659Z               {
+2024-11-02T16:20:25.8787759Z                 contributionCount: 311,
+2024-11-02T16:20:25.8787883Z                 color: '#216e39',
+2024-11-02T16:20:25.8788002Z                 date: '2024-06-28'
+2024-11-02T16:20:25.8788090Z               },
+2024-11-02T16:20:25.8788166Z               {
+2024-11-02T16:20:25.8788267Z                 contributionCount: 294,
+2024-11-02T16:20:25.8788390Z                 color: '#216e39',
+2024-11-02T16:20:25.8788508Z                 date: '2024-06-29'
+2024-11-02T16:20:25.8788585Z               }
+2024-11-02T16:20:25.8788665Z             ]
+2024-11-02T16:20:25.8788741Z           },
+2024-11-02T16:20:25.8788824Z           {
+2024-11-02T16:20:25.8788920Z             contributionDays: [
+2024-11-02T16:20:25.8788998Z               {
+2024-11-02T16:20:25.8789106Z                 contributionCount: 342,
+2024-11-02T16:20:25.8789225Z                 color: '#216e39',
+2024-11-02T16:20:25.8789344Z                 date: '2024-06-30'
+2024-11-02T16:20:25.8789426Z               },
+2024-11-02T16:20:25.8789503Z               {
+2024-11-02T16:20:25.8789609Z                 contributionCount: 220,
+2024-11-02T16:20:25.8789727Z                 color: '#30a14e',
+2024-11-02T16:20:25.8789846Z                 date: '2024-07-01'
+2024-11-02T16:20:25.8790121Z               },
+2024-11-02T16:20:25.8790199Z               {
+2024-11-02T16:20:25.8790301Z                 contributionCount: 370,
+2024-11-02T16:20:25.8790428Z                 color: '#216e39',
+2024-11-02T16:20:25.8790546Z                 date: '2024-07-02'
+2024-11-02T16:20:25.8790628Z               },
+2024-11-02T16:20:25.8790704Z               {
+2024-11-02T16:20:25.8790805Z                 contributionCount: 286,
+2024-11-02T16:20:25.8790929Z                 color: '#216e39',
+2024-11-02T16:20:25.8791048Z                 date: '2024-07-03'
+2024-11-02T16:20:25.8791134Z               },
+2024-11-02T16:20:25.8791210Z               {
+2024-11-02T16:20:25.8791311Z                 contributionCount: 288,
+2024-11-02T16:20:25.8791434Z                 color: '#216e39',
+2024-11-02T16:20:25.8791552Z                 date: '2024-07-04'
+2024-11-02T16:20:25.8791629Z               },
+2024-11-02T16:20:25.8791711Z               {
+2024-11-02T16:20:25.8791810Z                 contributionCount: 286,
+2024-11-02T16:20:25.8791938Z                 color: '#216e39',
+2024-11-02T16:20:25.8792056Z                 date: '2024-07-05'
+2024-11-02T16:20:25.8792137Z               },
+2024-11-02T16:20:25.8792217Z               {
+2024-11-02T16:20:25.8792318Z                 contributionCount: 246,
+2024-11-02T16:20:25.8792436Z                 color: '#30a14e',
+2024-11-02T16:20:25.8792559Z                 date: '2024-07-06'
+2024-11-02T16:20:25.8792636Z               }
+2024-11-02T16:20:25.8792717Z             ]
+2024-11-02T16:20:25.8792793Z           },
+2024-11-02T16:20:25.8793000Z           {
+2024-11-02T16:20:25.8793099Z             contributionDays: [
+2024-11-02T16:20:25.8793176Z               {
+2024-11-02T16:20:25.8793278Z                 contributionCount: 342,
+2024-11-02T16:20:25.8793404Z                 color: '#216e39',
+2024-11-02T16:20:25.8793524Z                 date: '2024-07-07'
+2024-11-02T16:20:25.8793606Z               },
+2024-11-02T16:20:25.8793684Z               {
+2024-11-02T16:20:25.8793784Z                 contributionCount: 272,
+2024-11-02T16:20:25.8793912Z                 color: '#30a14e',
+2024-11-02T16:20:25.8794032Z                 date: '2024-07-08'
+2024-11-02T16:20:25.8794109Z               },
+2024-11-02T16:20:25.8794191Z               {
+2024-11-02T16:20:25.8794293Z                 contributionCount: 226,
+2024-11-02T16:20:25.8794416Z                 color: '#30a14e',
+2024-11-02T16:20:25.8794534Z                 date: '2024-07-09'
+2024-11-02T16:20:25.8794612Z               },
+2024-11-02T16:20:25.8794693Z               {
+2024-11-02T16:20:25.8794794Z                 contributionCount: 372,
+2024-11-02T16:20:25.8794915Z                 color: '#216e39',
+2024-11-02T16:20:25.8795039Z                 date: '2024-07-10'
+2024-11-02T16:20:25.8795116Z               },
+2024-11-02T16:20:25.8795199Z               {
+2024-11-02T16:20:25.8795300Z                 contributionCount: 286,
+2024-11-02T16:20:25.8795420Z                 color: '#216e39',
+2024-11-02T16:20:25.8795544Z                 date: '2024-07-11'
+2024-11-02T16:20:25.8795625Z               },
+2024-11-02T16:20:25.8795701Z               {
+2024-11-02T16:20:25.8795808Z                 contributionCount: 346,
+2024-11-02T16:20:25.8795926Z                 color: '#216e39',
+2024-11-02T16:20:25.8796049Z                 date: '2024-07-12'
+2024-11-02T16:20:25.8796126Z               },
+2024-11-02T16:20:25.8796202Z               {
+2024-11-02T16:20:25.8796310Z                 contributionCount: 377,
+2024-11-02T16:20:25.8796428Z                 color: '#216e39',
+2024-11-02T16:20:25.8796547Z                 date: '2024-07-13'
+2024-11-02T16:20:25.8796631Z               }
+2024-11-02T16:20:25.8796707Z             ]
+2024-11-02T16:20:25.8796788Z           },
+2024-11-02T16:20:25.8796863Z           {
+2024-11-02T16:20:25.8796964Z             contributionDays: [
+2024-11-02T16:20:25.8797065Z               {
+2024-11-02T16:20:25.8797166Z                 contributionCount: 290,
+2024-11-02T16:20:25.8797286Z                 color: '#30a14e',
+2024-11-02T16:20:25.8797409Z                 date: '2024-07-14'
+2024-11-02T16:20:25.8797613Z               },
+2024-11-02T16:20:25.8797694Z               {
+2024-11-02T16:20:25.8797795Z                 contributionCount: 301,
+2024-11-02T16:20:25.8797916Z                 color: '#30a14e',
+2024-11-02T16:20:25.8798050Z                 date: '2024-07-15'
+2024-11-02T16:20:25.8798128Z               },
+2024-11-02T16:20:25.8798204Z               {
+2024-11-02T16:20:25.8798310Z                 contributionCount: 388,
+2024-11-02T16:20:25.8798429Z                 color: '#216e39',
+2024-11-02T16:20:25.8798553Z                 date: '2024-07-16'
+2024-11-02T16:20:25.8798633Z               },
+2024-11-02T16:20:25.8798709Z               {
+2024-11-02T16:20:25.8798815Z                 contributionCount: 265,
+2024-11-02T16:20:25.8798933Z                 color: '#30a14e',
+2024-11-02T16:20:25.8799051Z                 date: '2024-07-17'
+2024-11-02T16:20:25.8799133Z               },
+2024-11-02T16:20:25.8799209Z               {
+2024-11-02T16:20:25.8799316Z                 contributionCount: 279,
+2024-11-02T16:20:25.8799438Z                 color: '#30a14e',
+2024-11-02T16:20:25.8799556Z                 date: '2024-07-18'
+2024-11-02T16:20:25.8799638Z               },
+2024-11-02T16:20:25.8799715Z               {
+2024-11-02T16:20:25.8799815Z                 contributionCount: 270,
+2024-11-02T16:20:25.8799939Z                 color: '#30a14e',
+2024-11-02T16:20:25.8800058Z                 date: '2024-07-19'
+2024-11-02T16:20:25.8800139Z               },
+2024-11-02T16:20:25.8800216Z               {
+2024-11-02T16:20:25.8800318Z                 contributionCount: 267,
+2024-11-02T16:20:25.8800562Z                 color: '#30a14e',
+2024-11-02T16:20:25.8800681Z                 date: '2024-07-20'
+2024-11-02T16:20:25.8800758Z               }
+2024-11-02T16:20:25.8800839Z             ]
+2024-11-02T16:20:25.8800914Z           },
+2024-11-02T16:20:25.8800994Z           {
+2024-11-02T16:20:25.8801088Z             contributionDays: [
+2024-11-02T16:20:25.8801165Z               {
+2024-11-02T16:20:25.8801271Z                 contributionCount: 293,
+2024-11-02T16:20:25.8801392Z                 color: '#30a14e',
+2024-11-02T16:20:25.8801511Z                 date: '2024-07-21'
+2024-11-02T16:20:25.8801593Z               },
+2024-11-02T16:20:25.8801671Z               {
+2024-11-02T16:20:25.8801777Z                 contributionCount: 302,
+2024-11-02T16:20:25.8801895Z                 color: '#30a14e',
+2024-11-02T16:20:25.8802014Z                 date: '2024-07-22'
+2024-11-02T16:20:25.8802096Z               },
+2024-11-02T16:20:25.8802173Z               {
+2024-11-02T16:20:25.8802274Z                 contributionCount: 287,
+2024-11-02T16:20:25.8802402Z                 color: '#30a14e',
+2024-11-02T16:20:25.8802521Z                 date: '2024-07-23'
+2024-11-02T16:20:25.8802602Z               },
+2024-11-02T16:20:25.8802679Z               {
+2024-11-02T16:20:25.8802779Z                 contributionCount: 283,
+2024-11-02T16:20:25.8802902Z                 color: '#30a14e',
+2024-11-02T16:20:25.8803022Z                 date: '2024-07-24'
+2024-11-02T16:20:25.8803102Z               },
+2024-11-02T16:20:25.8803183Z               {
+2024-11-02T16:20:25.8803284Z                 contributionCount: 274,
+2024-11-02T16:20:25.8803408Z                 color: '#30a14e',
+2024-11-02T16:20:25.8803527Z                 date: '2024-07-25'
+2024-11-02T16:20:25.8803603Z               },
+2024-11-02T16:20:25.8803684Z               {
+2024-11-02T16:20:25.8803784Z                 contributionCount: 283,
+2024-11-02T16:20:25.8803902Z                 color: '#30a14e',
+2024-11-02T16:20:25.8804025Z                 date: '2024-07-26'
+2024-11-02T16:20:25.8804105Z               },
+2024-11-02T16:20:25.8804186Z               {
+2024-11-02T16:20:25.8804285Z                 contributionCount: 284,
+2024-11-02T16:20:25.8804403Z                 color: '#30a14e',
+2024-11-02T16:20:25.8804526Z                 date: '2024-07-27'
+2024-11-02T16:20:25.8804603Z               }
+2024-11-02T16:20:25.8804684Z             ]
+2024-11-02T16:20:25.8804759Z           },
+2024-11-02T16:20:25.8804834Z           {
+2024-11-02T16:20:25.8805054Z             contributionDays: [
+2024-11-02T16:20:25.8805132Z               {
+2024-11-02T16:20:25.8805233Z                 contributionCount: 289,
+2024-11-02T16:20:25.8805359Z                 color: '#30a14e',
+2024-11-02T16:20:25.8805478Z                 date: '2024-07-28'
+2024-11-02T16:20:25.8805562Z               },
+2024-11-02T16:20:25.8805639Z               {
+2024-11-02T16:20:25.8805740Z                 contributionCount: 262,
+2024-11-02T16:20:25.8805863Z                 color: '#30a14e',
+2024-11-02T16:20:25.8806097Z                 date: '2024-07-29'
+2024-11-02T16:20:25.8806181Z               },
+2024-11-02T16:20:25.8806262Z               {
+2024-11-02T16:20:25.8806363Z                 contributionCount: 307,
+2024-11-02T16:20:25.8806489Z                 color: '#30a14e',
+2024-11-02T16:20:25.8806608Z                 date: '2024-07-30'
+2024-11-02T16:20:25.8806684Z               },
+2024-11-02T16:20:25.8806765Z               {
+2024-11-02T16:20:25.8806866Z                 contributionCount: 285,
+2024-11-02T16:20:25.8806987Z                 color: '#30a14e',
+2024-11-02T16:20:25.8807113Z                 date: '2024-07-31'
+2024-11-02T16:20:25.8807191Z               },
+2024-11-02T16:20:25.8807272Z               {
+2024-11-02T16:20:25.8807373Z                 contributionCount: 290,
+2024-11-02T16:20:25.8807491Z                 color: '#30a14e',
+2024-11-02T16:20:25.8807614Z                 date: '2024-08-01'
+2024-11-02T16:20:25.8807691Z               },
+2024-11-02T16:20:25.8807767Z               {
+2024-11-02T16:20:25.8807873Z                 contributionCount: 283,
+2024-11-02T16:20:25.8808142Z                 color: '#30a14e',
+2024-11-02T16:20:25.8808267Z                 date: '2024-08-02'
+2024-11-02T16:20:25.8808344Z               },
+2024-11-02T16:20:25.8808420Z               {
+2024-11-02T16:20:25.8808526Z                 contributionCount: 284,
+2024-11-02T16:20:25.8808644Z                 color: '#30a14e',
+2024-11-02T16:20:25.8808762Z                 date: '2024-08-03'
+2024-11-02T16:20:25.8808848Z               }
+2024-11-02T16:20:25.8808923Z             ]
+2024-11-02T16:20:25.8809005Z           },
+2024-11-02T16:20:25.8809080Z           {
+2024-11-02T16:20:25.8809174Z             contributionDays: [
+2024-11-02T16:20:25.8809256Z               {
+2024-11-02T16:20:25.8809356Z                 contributionCount: 284,
+2024-11-02T16:20:25.8809475Z                 color: '#30a14e',
+2024-11-02T16:20:25.8809600Z                 date: '2024-08-04'
+2024-11-02T16:20:25.8809677Z               },
+2024-11-02T16:20:25.8809758Z               {
+2024-11-02T16:20:25.8809862Z                 contributionCount: 280,
+2024-11-02T16:20:25.8809981Z                 color: '#30a14e',
+2024-11-02T16:20:25.8810108Z                 date: '2024-08-05'
+2024-11-02T16:20:25.8810185Z               },
+2024-11-02T16:20:25.8810262Z               {
+2024-11-02T16:20:25.8810367Z                 contributionCount: 175,
+2024-11-02T16:20:25.8810486Z                 color: '#40c463',
+2024-11-02T16:20:25.8810609Z                 date: '2024-08-06'
+2024-11-02T16:20:25.8810689Z               },
+2024-11-02T16:20:25.8810766Z               {
+2024-11-02T16:20:25.8810872Z                 contributionCount: 430,
+2024-11-02T16:20:25.8810990Z                 color: '#216e39',
+2024-11-02T16:20:25.8811108Z                 date: '2024-08-07'
+2024-11-02T16:20:25.8811190Z               },
+2024-11-02T16:20:25.8811265Z               {
+2024-11-02T16:20:25.8811372Z                 contributionCount: 287,
+2024-11-02T16:20:25.8811489Z                 color: '#30a14e',
+2024-11-02T16:20:25.8811607Z                 date: '2024-08-08'
+2024-11-02T16:20:25.8811692Z               },
+2024-11-02T16:20:25.8811768Z               {
+2024-11-02T16:20:25.8811869Z                 contributionCount: 326,
+2024-11-02T16:20:25.8811993Z                 color: '#216e39',
+2024-11-02T16:20:25.8812110Z                 date: '2024-08-09'
+2024-11-02T16:20:25.8812193Z               },
+2024-11-02T16:20:25.8812269Z               {
+2024-11-02T16:20:25.8812369Z                 contributionCount: 336,
+2024-11-02T16:20:25.8812658Z                 color: '#216e39',
+2024-11-02T16:20:25.8812781Z                 date: '2024-08-10'
+2024-11-02T16:20:25.8812857Z               }
+2024-11-02T16:20:25.8812938Z             ]
+2024-11-02T16:20:25.8813013Z           },
+2024-11-02T16:20:25.8813094Z           {
+2024-11-02T16:20:25.8813188Z             contributionDays: [
+2024-11-02T16:20:25.8813264Z               {
+2024-11-02T16:20:25.8813370Z                 contributionCount: 286,
+2024-11-02T16:20:25.8813489Z                 color: '#216e39',
+2024-11-02T16:20:25.8813607Z                 date: '2024-08-11'
+2024-11-02T16:20:25.8813693Z               },
+2024-11-02T16:20:25.8813769Z               {
+2024-11-02T16:20:25.8813876Z                 contributionCount: 277,
+2024-11-02T16:20:25.8813994Z                 color: '#30a14e',
+2024-11-02T16:20:25.8814113Z                 date: '2024-08-12'
+2024-11-02T16:20:25.8814194Z               },
+2024-11-02T16:20:25.8814271Z               {
+2024-11-02T16:20:25.8814372Z                 contributionCount: 277,
+2024-11-02T16:20:25.8814500Z                 color: '#30a14e',
+2024-11-02T16:20:25.8814618Z                 date: '2024-08-13'
+2024-11-02T16:20:25.8814700Z               },
+2024-11-02T16:20:25.8814776Z               {
+2024-11-02T16:20:25.8814881Z                 contributionCount: 290,
+2024-11-02T16:20:25.8815005Z                 color: '#216e39',
+2024-11-02T16:20:25.8815123Z                 date: '2024-08-14'
+2024-11-02T16:20:25.8815201Z               },
+2024-11-02T16:20:25.8815283Z               {
+2024-11-02T16:20:25.8815384Z                 contributionCount: 280,
+2024-11-02T16:20:25.8815625Z                 color: '#30a14e',
+2024-11-02T16:20:25.8815744Z                 date: '2024-08-15'
+2024-11-02T16:20:25.8815821Z               },
+2024-11-02T16:20:25.8815902Z               {
+2024-11-02T16:20:25.8816004Z                 contributionCount: 290,
+2024-11-02T16:20:25.8816122Z                 color: '#216e39',
+2024-11-02T16:20:25.8816245Z                 date: '2024-08-16'
+2024-11-02T16:20:25.8816326Z               },
+2024-11-02T16:20:25.8816407Z               {
+2024-11-02T16:20:25.8816509Z                 contributionCount: 108,
+2024-11-02T16:20:25.8816628Z                 color: '#40c463',
+2024-11-02T16:20:25.8816752Z                 date: '2024-08-17'
+2024-11-02T16:20:25.8816828Z               }
+2024-11-02T16:20:25.8816904Z             ]
+2024-11-02T16:20:25.8816986Z           },
+2024-11-02T16:20:25.8817065Z           {
+2024-11-02T16:20:25.8817162Z             contributionDays: [
+2024-11-02T16:20:25.8817238Z               {
+2024-11-02T16:20:25.8817343Z                 contributionCount: 363,
+2024-11-02T16:20:25.8817467Z                 color: '#216e39',
+2024-11-02T16:20:25.8817585Z                 date: '2024-08-18'
+2024-11-02T16:20:25.8817662Z               },
+2024-11-02T16:20:25.8817744Z               {
+2024-11-02T16:20:25.8817848Z                 contributionCount: 248,
+2024-11-02T16:20:25.8817974Z                 color: '#30a14e',
+2024-11-02T16:20:25.8818092Z                 date: '2024-08-19'
+2024-11-02T16:20:25.8818173Z               },
+2024-11-02T16:20:25.8818255Z               {
+2024-11-02T16:20:25.8818355Z                 contributionCount: 274,
+2024-11-02T16:20:25.8818474Z                 color: '#30a14e',
+2024-11-02T16:20:25.8818597Z                 date: '2024-08-20'
+2024-11-02T16:20:25.8818674Z               },
+2024-11-02T16:20:25.8818757Z               {
+2024-11-02T16:20:25.8818858Z                 contributionCount: 295,
+2024-11-02T16:20:25.8818975Z                 color: '#216e39',
+2024-11-02T16:20:25.8819100Z                 date: '2024-08-21'
+2024-11-02T16:20:25.8819180Z               },
+2024-11-02T16:20:25.8819260Z               {
+2024-11-02T16:20:25.8819360Z                 contributionCount: 289,
+2024-11-02T16:20:25.8819478Z                 color: '#216e39',
+2024-11-02T16:20:25.8819602Z                 date: '2024-08-22'
+2024-11-02T16:20:25.8819678Z               },
+2024-11-02T16:20:25.8819754Z               {
+2024-11-02T16:20:25.8819859Z                 contributionCount: 261,
+2024-11-02T16:20:25.8820101Z                 color: '#30a14e',
+2024-11-02T16:20:25.8820226Z                 date: '2024-08-23'
+2024-11-02T16:20:25.8820306Z               },
+2024-11-02T16:20:25.8820386Z               {
+2024-11-02T16:20:25.8820493Z                 contributionCount: 226,
+2024-11-02T16:20:25.8820610Z                 color: '#30a14e',
+2024-11-02T16:20:25.8820728Z                 date: '2024-08-24'
+2024-11-02T16:20:25.8820810Z               }
+2024-11-02T16:20:25.8820886Z             ]
+2024-11-02T16:20:25.8820966Z           },
+2024-11-02T16:20:25.8821045Z           {
+2024-11-02T16:20:25.8821138Z             contributionDays: [
+2024-11-02T16:20:25.8821219Z               {
+2024-11-02T16:20:25.8821319Z                 contributionCount: 231,
+2024-11-02T16:20:25.8821439Z                 color: '#30a14e',
+2024-11-02T16:20:25.8821562Z                 date: '2024-08-25'
+2024-11-02T16:20:25.8821640Z               },
+2024-11-02T16:20:25.8821723Z               {
+2024-11-02T16:20:25.8821823Z                 contributionCount: 267,
+2024-11-02T16:20:25.8821944Z                 color: '#30a14e',
+2024-11-02T16:20:25.8822072Z                 date: '2024-08-26'
+2024-11-02T16:20:25.8822149Z               },
+2024-11-02T16:20:25.8822228Z               {
+2024-11-02T16:20:25.8822335Z                 contributionCount: 290,
+2024-11-02T16:20:25.8822456Z                 color: '#216e39',
+2024-11-02T16:20:25.8822582Z                 date: '2024-08-27'
+2024-11-02T16:20:25.8822659Z               },
+2024-11-02T16:20:25.8822735Z               {
+2024-11-02T16:20:25.8822843Z                 contributionCount: 164,
+2024-11-02T16:20:25.8823081Z                 color: '#40c463',
+2024-11-02T16:20:25.8823199Z                 date: '2024-08-28'
+2024-11-02T16:20:25.8823281Z               },
+2024-11-02T16:20:25.8823357Z               {
+2024-11-02T16:20:25.8823463Z                 contributionCount: 297,
+2024-11-02T16:20:25.8823582Z                 color: '#216e39',
+2024-11-02T16:20:25.8823700Z                 date: '2024-08-29'
+2024-11-02T16:20:25.8823786Z               },
+2024-11-02T16:20:25.8823862Z               {
+2024-11-02T16:20:25.8823963Z                 contributionCount: 217,
+2024-11-02T16:20:25.8824088Z                 color: '#30a14e',
+2024-11-02T16:20:25.8824205Z                 date: '2024-08-30'
+2024-11-02T16:20:25.8824287Z               },
+2024-11-02T16:20:25.8824363Z               {
+2024-11-02T16:20:25.8824463Z                 contributionCount: 298,
+2024-11-02T16:20:25.8824587Z                 color: '#216e39',
+2024-11-02T16:20:25.8824706Z                 date: '2024-08-31'
+2024-11-02T16:20:25.8824785Z               }
+2024-11-02T16:20:25.8824866Z             ]
+2024-11-02T16:20:25.8824942Z           },
+2024-11-02T16:20:25.8825025Z           {
+2024-11-02T16:20:25.8825120Z             contributionDays: [
+2024-11-02T16:20:25.8825196Z               {
+2024-11-02T16:20:25.8825302Z                 contributionCount: 264,
+2024-11-02T16:20:25.8825419Z                 color: '#30a14e',
+2024-11-02T16:20:25.8825538Z                 date: '2024-09-01'
+2024-11-02T16:20:25.8825623Z               },
+2024-11-02T16:20:25.8825700Z               {
+2024-11-02T16:20:25.8825807Z                 contributionCount: 241,
+2024-11-02T16:20:25.8825927Z                 color: '#30a14e',
+2024-11-02T16:20:25.8826045Z                 date: '2024-09-02'
+2024-11-02T16:20:25.8826127Z               },
+2024-11-02T16:20:25.8826203Z               {
+2024-11-02T16:20:25.8826303Z                 contributionCount: 243,
+2024-11-02T16:20:25.8826426Z                 color: '#30a14e',
+2024-11-02T16:20:25.8826544Z                 date: '2024-09-03'
+2024-11-02T16:20:25.8826629Z               },
+2024-11-02T16:20:25.8826707Z               {
+2024-11-02T16:20:25.8826808Z                 contributionCount: 252,
+2024-11-02T16:20:25.8826931Z                 color: '#30a14e',
+2024-11-02T16:20:25.8827049Z                 date: '2024-09-04'
+2024-11-02T16:20:25.8827126Z               },
+2024-11-02T16:20:25.8827208Z               {
+2024-11-02T16:20:25.8827310Z                 contributionCount: 142,
+2024-11-02T16:20:25.8827562Z                 color: '#40c463',
+2024-11-02T16:20:25.8827681Z                 date: '2024-09-05'
+2024-11-02T16:20:25.8827757Z               },
+2024-11-02T16:20:25.8827839Z               {
+2024-11-02T16:20:25.8827943Z                 contributionCount: 374,
+2024-11-02T16:20:25.8828062Z                 color: '#216e39',
+2024-11-02T16:20:25.8828189Z                 date: '2024-09-06'
+2024-11-02T16:20:25.8828266Z               },
+2024-11-02T16:20:25.8828347Z               {
+2024-11-02T16:20:25.8828447Z                 contributionCount: 302,
+2024-11-02T16:20:25.8828569Z                 color: '#216e39',
+2024-11-02T16:20:25.8828693Z                 date: '2024-09-07'
+2024-11-02T16:20:25.8828770Z               }
+2024-11-02T16:20:25.8828846Z             ]
+2024-11-02T16:20:25.8828927Z           },
+2024-11-02T16:20:25.8829002Z           {
+2024-11-02T16:20:25.8829101Z             contributionDays: [
+2024-11-02T16:20:25.8829177Z               {
+2024-11-02T16:20:25.8829284Z                 contributionCount: 234,
+2024-11-02T16:20:25.8829410Z                 color: '#30a14e',
+2024-11-02T16:20:25.8829528Z                 date: '2024-09-08'
+2024-11-02T16:20:25.8829606Z               },
+2024-11-02T16:20:25.8829687Z               {
+2024-11-02T16:20:25.8829789Z                 contributionCount: 260,
+2024-11-02T16:20:25.8829912Z                 color: '#30a14e',
+2024-11-02T16:20:25.8830030Z                 date: '2024-09-09'
+2024-11-02T16:20:25.8830107Z               },
+2024-11-02T16:20:25.8830191Z               {
+2024-11-02T16:20:25.8830408Z                 contributionCount: 273,
+2024-11-02T16:20:25.8830529Z                 color: '#30a14e',
+2024-11-02T16:20:25.8830654Z                 date: '2024-09-10'
+2024-11-02T16:20:25.8830731Z               },
+2024-11-02T16:20:25.8830820Z               {
+2024-11-02T16:20:25.8830931Z                 contributionCount: 262,
+2024-11-02T16:20:25.8831050Z                 color: '#30a14e',
+2024-11-02T16:20:25.8831173Z                 date: '2024-09-11'
+2024-11-02T16:20:25.8831254Z               },
+2024-11-02T16:20:25.8831330Z               {
+2024-11-02T16:20:25.8831435Z                 contributionCount: 257,
+2024-11-02T16:20:25.8831552Z                 color: '#30a14e',
+2024-11-02T16:20:25.8831676Z                 date: '2024-09-12'
+2024-11-02T16:20:25.8831754Z               },
+2024-11-02T16:20:25.8831830Z               {
+2024-11-02T16:20:25.8831936Z                 contributionCount: 192,
+2024-11-02T16:20:25.8832054Z                 color: '#40c463',
+2024-11-02T16:20:25.8832177Z                 date: '2024-09-13'
+2024-11-02T16:20:25.8832259Z               },
+2024-11-02T16:20:25.8832335Z               {
+2024-11-02T16:20:25.8832440Z                 contributionCount: 327,
+2024-11-02T16:20:25.8832559Z                 color: '#216e39',
+2024-11-02T16:20:25.8832677Z                 date: '2024-09-14'
+2024-11-02T16:20:25.8832759Z               }
+2024-11-02T16:20:25.8832836Z             ]
+2024-11-02T16:20:25.8832916Z           },
+2024-11-02T16:20:25.8832996Z           {
+2024-11-02T16:20:25.8833090Z             contributionDays: [
+2024-11-02T16:20:25.8833171Z               {
+2024-11-02T16:20:25.8833271Z                 contributionCount: 138,
+2024-11-02T16:20:25.8833392Z                 color: '#40c463',
+2024-11-02T16:20:25.8833516Z                 date: '2024-09-15'
+2024-11-02T16:20:25.8833593Z               },
+2024-11-02T16:20:25.8833674Z               {
+2024-11-02T16:20:25.8833778Z                 contributionCount: 292,
+2024-11-02T16:20:25.8833896Z                 color: '#30a14e',
+2024-11-02T16:20:25.8834020Z                 date: '2024-09-16'
+2024-11-02T16:20:25.8834100Z               },
+2024-11-02T16:20:25.8834176Z               {
+2024-11-02T16:20:25.8834283Z                 contributionCount: 207,
+2024-11-02T16:20:25.8834400Z                 color: '#40c463',
+2024-11-02T16:20:25.8834524Z                 date: '2024-09-17'
+2024-11-02T16:20:25.8834602Z               },
+2024-11-02T16:20:25.8834678Z               {
+2024-11-02T16:20:25.8834783Z                 contributionCount: 337,
+2024-11-02T16:20:25.8835033Z                 color: '#216e39',
+2024-11-02T16:20:25.8835153Z                 date: '2024-09-18'
+2024-11-02T16:20:25.8835235Z               },
+2024-11-02T16:20:25.8835312Z               {
+2024-11-02T16:20:25.8835419Z                 contributionCount: 204,
+2024-11-02T16:20:25.8835538Z                 color: '#40c463',
+2024-11-02T16:20:25.8835657Z                 date: '2024-09-19'
+2024-11-02T16:20:25.8835739Z               },
+2024-11-02T16:20:25.8835816Z               {
+2024-11-02T16:20:25.8835916Z                 contributionCount: 216,
+2024-11-02T16:20:25.8836043Z                 color: '#30a14e',
+2024-11-02T16:20:25.8836162Z                 date: '2024-09-20'
+2024-11-02T16:20:25.8836244Z               },
+2024-11-02T16:20:25.8836320Z               {
+2024-11-02T16:20:25.8836421Z                 contributionCount: 225,
+2024-11-02T16:20:25.8836545Z                 color: '#30a14e',
+2024-11-02T16:20:25.8836687Z                 date: '2024-09-21'
+2024-11-02T16:20:25.8836768Z               }
+2024-11-02T16:20:25.8836849Z             ]
+2024-11-02T16:20:25.8836925Z           },
+2024-11-02T16:20:25.8837006Z           {
+2024-11-02T16:20:25.8837100Z             contributionDays: [
+2024-11-02T16:20:25.8837177Z               {
+2024-11-02T16:20:25.8837282Z                 contributionCount: 121,
+2024-11-02T16:20:25.8837401Z                 color: '#40c463',
+2024-11-02T16:20:25.8837519Z                 date: '2024-09-22'
+2024-11-02T16:20:25.8837602Z               },
+2024-11-02T16:20:25.8837679Z               {
+2024-11-02T16:20:25.8837937Z                 contributionCount: 288,
+2024-11-02T16:20:25.8838059Z                 color: '#30a14e',
+2024-11-02T16:20:25.8838181Z                 date: '2024-09-23'
+2024-11-02T16:20:25.8838263Z               },
+2024-11-02T16:20:25.8838340Z               {
+2024-11-02T16:20:25.8838442Z                 contributionCount: 301,
+2024-11-02T16:20:25.8838566Z                 color: '#30a14e',
+2024-11-02T16:20:25.8838684Z                 date: '2024-09-24'
+2024-11-02T16:20:25.8838771Z               },
+2024-11-02T16:20:25.8838847Z               {
+2024-11-02T16:20:25.8838951Z                 contributionCount: 345,
+2024-11-02T16:20:25.8839075Z                 color: '#216e39',
+2024-11-02T16:20:25.8839193Z                 date: '2024-09-25'
+2024-11-02T16:20:25.8839270Z               },
+2024-11-02T16:20:25.8839351Z               {
+2024-11-02T16:20:25.8839452Z                 contributionCount: 144,
+2024-11-02T16:20:25.8839575Z                 color: '#40c463',
+2024-11-02T16:20:25.8839694Z                 date: '2024-09-26'
+2024-11-02T16:20:25.8839775Z               },
+2024-11-02T16:20:25.8839856Z               {
+2024-11-02T16:20:25.8839959Z                 contributionCount: 117,
+2024-11-02T16:20:25.8840077Z                 color: '#40c463',
+2024-11-02T16:20:25.8840204Z                 date: '2024-09-27'
+2024-11-02T16:20:25.8840281Z               },
+2024-11-02T16:20:25.8840361Z               {
+2024-11-02T16:20:25.8840462Z                 contributionCount: 102,
+2024-11-02T16:20:25.8840585Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8840709Z                 date: '2024-09-28'
+2024-11-02T16:20:25.8840785Z               }
+2024-11-02T16:20:25.8840861Z             ]
+2024-11-02T16:20:25.8840942Z           },
+2024-11-02T16:20:25.8841017Z           {
+2024-11-02T16:20:25.8841118Z             contributionDays: [
+2024-11-02T16:20:25.8841195Z               {
+2024-11-02T16:20:25.8841299Z                 contributionCount: 80,
+2024-11-02T16:20:25.8841425Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8841544Z                 date: '2024-09-29'
+2024-11-02T16:20:25.8841624Z               },
+2024-11-02T16:20:25.8841707Z               {
+2024-11-02T16:20:25.8841808Z                 contributionCount: 168,
+2024-11-02T16:20:25.8841932Z                 color: '#40c463',
+2024-11-02T16:20:25.8842051Z                 date: '2024-09-30'
+2024-11-02T16:20:25.8842128Z               },
+2024-11-02T16:20:25.8842209Z               {
+2024-11-02T16:20:25.8842310Z                 contributionCount: 409,
+2024-11-02T16:20:25.8842558Z                 color: '#216e39',
+2024-11-02T16:20:25.8842682Z                 date: '2024-10-01'
+2024-11-02T16:20:25.8842760Z               },
+2024-11-02T16:20:25.8842840Z               {
+2024-11-02T16:20:25.8842943Z                 contributionCount: 425,
+2024-11-02T16:20:25.8843063Z                 color: '#216e39',
+2024-11-02T16:20:25.8843188Z                 date: '2024-10-02'
+2024-11-02T16:20:25.8843265Z               },
+2024-11-02T16:20:25.8843341Z               {
+2024-11-02T16:20:25.8843446Z                 contributionCount: 217,
+2024-11-02T16:20:25.8843568Z                 color: '#30a14e',
+2024-11-02T16:20:25.8843691Z                 date: '2024-10-03'
+2024-11-02T16:20:25.8843767Z               },
+2024-11-02T16:20:25.8843843Z               {
+2024-11-02T16:20:25.8843949Z                 contributionCount: 257,
+2024-11-02T16:20:25.8844067Z                 color: '#30a14e',
+2024-11-02T16:20:25.8844185Z                 date: '2024-10-04'
+2024-11-02T16:20:25.8844271Z               },
+2024-11-02T16:20:25.8844347Z               {
+2024-11-02T16:20:25.8844453Z                 contributionCount: 178,
+2024-11-02T16:20:25.8844571Z                 color: '#40c463',
+2024-11-02T16:20:25.8844689Z                 date: '2024-10-05'
+2024-11-02T16:20:25.8844771Z               }
+2024-11-02T16:20:25.8844846Z             ]
+2024-11-02T16:20:25.8844922Z           },
+2024-11-02T16:20:25.8845002Z           {
+2024-11-02T16:20:25.8845096Z             contributionDays: [
+2024-11-02T16:20:25.8845177Z               {
+2024-11-02T16:20:25.8845397Z                 contributionCount: 550,
+2024-11-02T16:20:25.8845522Z                 color: '#216e39',
+2024-11-02T16:20:25.8845647Z                 date: '2024-10-06'
+2024-11-02T16:20:25.8845725Z               },
+2024-11-02T16:20:25.8845803Z               {
+2024-11-02T16:20:25.8845912Z                 contributionCount: 109,
+2024-11-02T16:20:25.8846139Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8846264Z                 date: '2024-10-07'
+2024-11-02T16:20:25.8846345Z               },
+2024-11-02T16:20:25.8846422Z               {
+2024-11-02T16:20:25.8846533Z                 contributionCount: 166,
+2024-11-02T16:20:25.8846652Z                 color: '#40c463',
+2024-11-02T16:20:25.8846775Z                 date: '2024-10-08'
+2024-11-02T16:20:25.8846852Z               },
+2024-11-02T16:20:25.8846928Z               {
+2024-11-02T16:20:25.8847034Z                 contributionCount: 415,
+2024-11-02T16:20:25.8847153Z                 color: '#216e39',
+2024-11-02T16:20:25.8847272Z                 date: '2024-10-09'
+2024-11-02T16:20:25.8847357Z               },
+2024-11-02T16:20:25.8847434Z               {
+2024-11-02T16:20:25.8847539Z                 contributionCount: 228,
+2024-11-02T16:20:25.8847660Z                 color: '#40c463',
+2024-11-02T16:20:25.8847778Z                 date: '2024-10-10'
+2024-11-02T16:20:25.8847860Z               },
+2024-11-02T16:20:25.8847936Z               {
+2024-11-02T16:20:25.8848037Z                 contributionCount: 232,
+2024-11-02T16:20:25.8848165Z                 color: '#40c463',
+2024-11-02T16:20:25.8848283Z                 date: '2024-10-11'
+2024-11-02T16:20:25.8848364Z               },
+2024-11-02T16:20:25.8848440Z               {
+2024-11-02T16:20:25.8848541Z                 contributionCount: 224,
+2024-11-02T16:20:25.8848664Z                 color: '#40c463',
+2024-11-02T16:20:25.8848782Z                 date: '2024-10-12'
+2024-11-02T16:20:25.8848859Z               }
+2024-11-02T16:20:25.8848940Z             ]
+2024-11-02T16:20:25.8849016Z           },
+2024-11-02T16:20:25.8849100Z           {
+2024-11-02T16:20:25.8849193Z             contributionDays: [
+2024-11-02T16:20:25.8849270Z               {
+2024-11-02T16:20:25.8849376Z                 contributionCount: 167,
+2024-11-02T16:20:25.8849495Z                 color: '#40c463',
+2024-11-02T16:20:25.8849613Z                 date: '2024-10-13'
+2024-11-02T16:20:25.8849695Z               },
+2024-11-02T16:20:25.8849772Z               {
+2024-11-02T16:20:25.8850033Z                 contributionCount: 288,
+2024-11-02T16:20:25.8850154Z                 color: '#30a14e',
+2024-11-02T16:20:25.8850275Z                 date: '2024-10-14'
+2024-11-02T16:20:25.8850357Z               },
+2024-11-02T16:20:25.8850433Z               {
+2024-11-02T16:20:25.8850534Z                 contributionCount: 226,
+2024-11-02T16:20:25.8850659Z                 color: '#40c463',
+2024-11-02T16:20:25.8850778Z                 date: '2024-10-15'
+2024-11-02T16:20:25.8850859Z               },
+2024-11-02T16:20:25.8850935Z               {
+2024-11-02T16:20:25.8851035Z                 contributionCount: 320,
+2024-11-02T16:20:25.8851163Z                 color: '#30a14e',
+2024-11-02T16:20:25.8851281Z                 date: '2024-10-16'
+2024-11-02T16:20:25.8851358Z               },
+2024-11-02T16:20:25.8851442Z               {
+2024-11-02T16:20:25.8851542Z                 contributionCount: 293,
+2024-11-02T16:20:25.8851666Z                 color: '#30a14e',
+2024-11-02T16:20:25.8851785Z                 date: '2024-10-17'
+2024-11-02T16:20:25.8851866Z               },
+2024-11-02T16:20:25.8851948Z               {
+2024-11-02T16:20:25.8852049Z                 contributionCount: 146,
+2024-11-02T16:20:25.8852167Z                 color: '#40c463',
+2024-11-02T16:20:25.8852290Z                 date: '2024-10-18'
+2024-11-02T16:20:25.8852366Z               },
+2024-11-02T16:20:25.8852447Z               {
+2024-11-02T16:20:25.8852547Z                 contributionCount: 102,
+2024-11-02T16:20:25.8852665Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8852788Z                 date: '2024-10-19'
+2024-11-02T16:20:25.8853009Z               }
+2024-11-02T16:20:25.8853085Z             ]
+2024-11-02T16:20:25.8853167Z           },
+2024-11-02T16:20:25.8853242Z           {
+2024-11-02T16:20:25.8853341Z             contributionDays: [
+2024-11-02T16:20:25.8853417Z               {
+2024-11-02T16:20:25.8853517Z                 contributionCount: 361,
+2024-11-02T16:20:25.8853644Z                 color: '#30a14e',
+2024-11-02T16:20:25.8853764Z                 date: '2024-10-20'
+2024-11-02T16:20:25.8853845Z               },
+2024-11-02T16:20:25.8853927Z               {
+2024-11-02T16:20:25.8854029Z                 contributionCount: 298,
+2024-11-02T16:20:25.8854157Z                 color: '#30a14e',
+2024-11-02T16:20:25.8854274Z                 date: '2024-10-21'
+2024-11-02T16:20:25.8854352Z               },
+2024-11-02T16:20:25.8854432Z               {
+2024-11-02T16:20:25.8854532Z                 contributionCount: 268,
+2024-11-02T16:20:25.8854651Z                 color: '#40c463',
+2024-11-02T16:20:25.8854775Z                 date: '2024-10-22'
+2024-11-02T16:20:25.8854854Z               },
+2024-11-02T16:20:25.8854935Z               {
+2024-11-02T16:20:25.8855037Z                 contributionCount: 167,
+2024-11-02T16:20:25.8855154Z                 color: '#40c463',
+2024-11-02T16:20:25.8855277Z                 date: '2024-10-23'
+2024-11-02T16:20:25.8855357Z               },
+2024-11-02T16:20:25.8855433Z               {
+2024-11-02T16:20:25.8855540Z                 contributionCount: 89,
+2024-11-02T16:20:25.8855662Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8855785Z                 date: '2024-10-24'
+2024-11-02T16:20:25.8855862Z               },
+2024-11-02T16:20:25.8855938Z               {
+2024-11-02T16:20:25.8856044Z                 contributionCount: 76,
+2024-11-02T16:20:25.8856163Z                 color: '#9be9a8',
+2024-11-02T16:20:25.8856281Z                 date: '2024-10-25'
+2024-11-02T16:20:25.8856365Z               },
+2024-11-02T16:20:25.8856441Z               {
+2024-11-02T16:20:25.8856546Z                 contributionCount: 282,
+2024-11-02T16:20:25.8856668Z                 color: '#30a14e',
+2024-11-02T16:20:25.8856786Z                 date: '2024-10-26'
+2024-11-02T16:20:25.8856868Z               }
+2024-11-02T16:20:25.8856943Z             ]
+2024-11-02T16:20:25.8857018Z           },
+2024-11-02T16:20:25.8857098Z           {
+2024-11-02T16:20:25.8857192Z             contributionDays: [
+2024-11-02T16:20:25.8857274Z               {
+2024-11-02T16:20:25.8857511Z                 contributionCount: 329,
+2024-11-02T16:20:25.8857634Z                 color: '#30a14e',
+2024-11-02T16:20:25.8857759Z                 date: '2024-10-27'
+2024-11-02T16:20:25.8857836Z               },
+2024-11-02T16:20:25.8857913Z               {
+2024-11-02T16:20:25.8858018Z                 contributionCount: 179,
+2024-11-02T16:20:25.8858137Z                 color: '#40c463',
+2024-11-02T16:20:25.8858260Z                 date: '2024-10-28'
+2024-11-02T16:20:25.8858337Z               },
+2024-11-02T16:20:25.8858414Z               {
+2024-11-02T16:20:25.8858524Z                 contributionCount: 287,
+2024-11-02T16:20:25.8858642Z                 color: '#30a14e',
+2024-11-02T16:20:25.8858761Z                 date: '2024-10-29'
+2024-11-02T16:20:25.8858844Z               },
+2024-11-02T16:20:25.8858921Z               {
+2024-11-02T16:20:25.8859026Z                 contributionCount: 248,
+2024-11-02T16:20:25.8859144Z                 color: '#40c463',
+2024-11-02T16:20:25.8859263Z                 date: '2024-10-30'
+2024-11-02T16:20:25.8859348Z               },
+2024-11-02T16:20:25.8859424Z               {
+2024-11-02T16:20:25.8859525Z                 contributionCount: 228,
+2024-11-02T16:20:25.8859648Z                 color: '#40c463',
+2024-11-02T16:20:25.8859767Z                 date: '2024-10-31'
+2024-11-02T16:20:25.8859849Z               },
+2024-11-02T16:20:25.8859925Z               {
+2024-11-02T16:20:25.8860026Z                 contributionCount: 198,
+2024-11-02T16:20:25.8860150Z                 color: '#40c463',
+2024-11-02T16:20:25.8860268Z                 date: '2024-11-01'
+2024-11-02T16:20:25.8860471Z               }
+2024-11-02T16:20:25.8860548Z             ]
+2024-11-02T16:20:25.8860623Z           }
+2024-11-02T16:20:25.8860704Z         ]
+2024-11-02T16:20:25.8860780Z       }
+2024-11-02T16:20:25.8860854Z     ]
+2024-11-02T16:20:25.8860933Z   }
+2024-11-02T16:20:25.8861007Z }
+2024-11-02T16:20:25.8861116Z metrics/compute/seanpm2001 > render
+2024-11-02T16:20:25.8861231Z metrics/svg/gemojis > rendering gemojis
+2024-11-02T16:20:25.8861345Z metrics/svg/optimize/css > optimizing
+2024-11-02T16:20:25.8861455Z metrics/svg/optimize/xml > optimizing
+2024-11-02T16:20:25.8861600Z metrics/svg/resize > started Chrome/117.0.5938.62
+2024-11-02T16:20:25.8861771Z metrics/svg/resize > padding width*1+0, height*1.11+8
+2024-11-02T16:20:25.8861879Z metrics/svg/resize > loading svg
+2024-11-02T16:20:25.8862010Z metrics/svg/resize > loaded svg successfully
+2024-11-02T16:20:25.8862117Z metrics/svg/resize > resizing svg
+2024-11-02T16:20:25.8862290Z metrics/svg/resize > puppeteer > animations are enabled
+2024-11-02T16:20:25.8862519Z metrics/svg/resize > puppeteer > bounds width=480, height=108.359375
+2024-11-02T16:20:25.8862881Z metrics/svg/resize > puppeteer > bounds after applying padding width=480 (*1+0), height=129 (*1.11+8)
+2024-11-02T16:20:25.8862996Z metrics/svg/resize > rendering complete
+2024-11-02T16:20:25.8863102Z metrics/compute/seanpm2001 > success
+2024-11-02T16:20:25.8863453Z ##[endgroup]
+2024-11-02T16:20:25.8863719Z ##[group]Attempt 1/5
+2024-11-02T16:20:25.8863963Z ##[endgroup]
+2024-11-02T16:20:25.8864562Z ##[warning]Resource not accessible by integration
+2024-11-02T16:20:25.8864814Z ##[group]Attempt 2/5
+2024-11-02T16:20:25.8865046Z ##[endgroup]
+2024-11-02T16:20:25.8865585Z ##[warning]Resource not accessible by integration
+2024-11-02T16:20:25.8865827Z ##[group]Attempt 3/5
+2024-11-02T16:20:25.8866059Z ##[endgroup]
+2024-11-02T16:20:25.8866588Z ##[warning]Resource not accessible by integration
+2024-11-02T16:20:25.8866827Z ##[group]Attempt 4/5
+2024-11-02T16:20:25.8867061Z ##[endgroup]
+2024-11-02T16:20:25.8867597Z ##[warning]Resource not accessible by integration
+2024-11-02T16:20:25.8867839Z ##[group]Attempt 5/5
+2024-11-02T16:20:25.8868062Z ##[endgroup]
+2024-11-02T16:20:25.8868597Z ##[warning]Resource not accessible by integration
+2024-11-02T16:20:25.8869151Z ##[error]Resource not accessible by integration
+2024-11-02T16:20:25.8870132Z ##[error]Process completed with exit code 1.
