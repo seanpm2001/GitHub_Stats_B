@@ -1,0 +1,2091 @@
+﻿2024-11-25T17:41:53.2208043Z ##[group]Run lowlighter/metrics@latest
+2024-11-25T17:41:53.2208522Z with:
+2024-11-25T17:41:53.2209006Z   filename: /generated/GitHub_Stats_B_GitHub_Languages.svg
+2024-11-25T17:41:53.2209608Z   token: ***
+2024-11-25T17:41:53.2209911Z   base: header
+2024-11-25T17:41:53.2210686Z   base_indepth: yes
+2024-11-25T17:41:53.2211239Z   config_order: base.header, isocalendar, languages, notable, discussions, topics
+2024-11-25T17:41:53.2211832Z   output_action: gist
+2024-11-25T17:41:53.2212218Z   plugin_isocalendar: yes
+2024-11-25T17:41:53.2212607Z   plugin_languages: yes
+2024-11-25T17:41:53.2213050Z   plugin_languages_details: lines, bytes-size, percentage
+2024-11-25T17:41:53.2213661Z   plugin_languages_sections: most-used, recently-used
+2024-11-25T17:41:53.2214124Z   plugin_languages_indepth: yes
+2024-11-25T17:41:53.2214519Z   plugin_languages_limit: 2
+2024-11-25T17:41:53.2214951Z   plugin_topics: yes
+2024-11-25T17:41:53.2215320Z   plugin_topics_limit: 0
+2024-11-25T17:41:53.2215850Z   plugin_topics_mode: icons
+2024-11-25T17:41:53.2216429Z   plugin_notable: yes
+2024-11-25T17:41:53.2216751Z   plugin_discussions: yes
+2024-11-25T17:41:53.2217193Z   base_hireable: <default-value>
+2024-11-25T17:41:53.2217592Z   base_skip: <default-value>
+2024-11-25T17:41:53.2217978Z   repositories: <default-value>
+2024-11-25T17:41:53.2218422Z   repositories_batch: <default-value>
+2024-11-25T17:41:53.2218852Z   repositories_forks: <default-value>
+2024-11-25T17:41:53.2219301Z   repositories_affiliations: <default-value>
+2024-11-25T17:41:53.2219841Z   repositories_skipped: <default-value>
+2024-11-25T17:41:53.2220235Z   users_ignored: <default-value>
+2024-11-25T17:41:53.2220821Z   commits_authoring: <default-value>
+2024-11-25T17:41:53.2221295Z   user: <default-value>
+2024-11-25T17:41:53.2221650Z   repo: <default-value>
+2024-11-25T17:41:53.2222110Z   committer_token: ***
+2024-11-25T17:41:53.2222542Z   committer_branch: <default-value>
+2024-11-25T17:41:53.2222963Z   committer_message: <default-value>
+2024-11-25T17:41:53.2223405Z   markdown: <default-value>
+2024-11-25T17:41:53.2223818Z   markdown_cache: <default-value>
+2024-11-25T17:41:53.2224231Z   output_condition: <default-value>
+2024-11-25T17:41:53.2224659Z   optimize: <default-value>
+2024-11-25T17:41:53.2225131Z   setup_community_templates: <default-value>
+2024-11-25T17:41:53.2225622Z   template: <default-value>
+2024-11-25T17:41:53.2225993Z   query: <default-value>
+2024-11-25T17:41:53.2226423Z   extras_css: <default-value>
+2024-11-25T17:41:53.2226823Z   extras_js: <default-value>
+2024-11-25T17:41:53.2227171Z   github_api_rest: <default-value>
+2024-11-25T17:41:53.2227648Z   github_api_graphql: <default-value>
+2024-11-25T17:41:53.2228087Z   config_twemoji: <default-value>
+2024-11-25T17:41:53.2228546Z   config_gemoji: <default-value>
+2024-11-25T17:41:53.2228911Z   config_octicon: <default-value>
+2024-11-25T17:41:53.2229330Z   config_display: <default-value>
+2024-11-25T17:41:53.2229784Z   config_animations: <default-value>
+2024-11-25T17:41:53.2230183Z   config_base64: <default-value>
+2024-11-25T17:41:53.2230653Z   config_padding: <default-value>
+2024-11-25T17:41:53.2231108Z   config_output: <default-value>
+2024-11-25T17:41:53.2231519Z   retries: <default-value>
+2024-11-25T17:41:53.2231858Z   retries_delay: <default-value>
+2024-11-25T17:41:53.2232328Z   retries_output_action: <default-value>
+2024-11-25T17:41:53.2232804Z   retries_delay_output_action: <default-value>
+2024-11-25T17:41:53.2233256Z   clean_workflows: <default-value>
+2024-11-25T17:41:53.2233676Z   delay: <default-value>
+2024-11-25T17:41:53.2234068Z   quota_required_rest: <default-value>
+2024-11-25T17:41:53.2234506Z   quota_required_graphql: <default-value>
+2024-11-25T17:41:53.2235030Z   quota_required_search: <default-value>
+2024-11-25T17:41:53.2235494Z   notice_releases: <default-value>
+2024-11-25T17:41:53.2235895Z   use_prebuilt_image: yes
+2024-11-25T17:41:53.2236351Z   plugins_errors_fatal: <default-value>
+2024-11-25T17:41:53.2236774Z   debug: <default-value>
+2024-11-25T17:41:53.2237099Z   verify: <default-value>
+2024-11-25T17:41:53.2237544Z   debug_flags: <default-value>
+2024-11-25T17:41:53.2238141Z   debug_print: <default-value>
+2024-11-25T17:41:53.2238507Z   dryrun: <default-value>
+2024-11-25T17:41:53.2238974Z   experimental_features: <default-value>
+2024-11-25T17:41:53.2239416Z   use_mocked_data: <default-value>
+2024-11-25T17:41:53.2239875Z   plugin_isocalendar_duration: <default-value>
+2024-11-25T17:41:53.2240374Z   plugin_languages_ignored: <default-value>
+2024-11-25T17:41:53.2240908Z   plugin_languages_skipped: <default-value>
+2024-11-25T17:41:53.2241391Z   plugin_languages_threshold: <default-value>
+2024-11-25T17:41:53.2241921Z   plugin_languages_other: <default-value>
+2024-11-25T17:41:53.2242355Z   plugin_languages_colors: <default-value>
+2024-11-25T17:41:53.2242810Z   plugin_languages_aliases: <default-value>
+2024-11-25T17:41:53.2243366Z   plugin_languages_indepth_custom: <default-value>
+2024-11-25T17:41:53.2243903Z   plugin_languages_analysis_timeout: <default-value>
+2024-11-25T17:41:53.2244524Z   plugin_languages_analysis_timeout_repositories: <default-value>
+2024-11-25T17:41:53.2245161Z   plugin_languages_categories: <default-value>
+2024-11-25T17:41:53.2245684Z   plugin_languages_recent_categories: <default-value>
+2024-11-25T17:41:53.2246257Z   plugin_languages_recent_load: <default-value>
+2024-11-25T17:41:53.2246795Z   plugin_languages_recent_days: <default-value>
+2024-11-25T17:41:53.2247259Z   plugin_stargazers: <default-value>
+2024-11-25T17:41:53.2247759Z   plugin_stargazers_days: <default-value>
+2024-11-25T17:41:53.2248232Z   plugin_stargazers_charts: <default-value>
+2024-11-25T17:41:53.2248672Z   plugin_stargazers_charts_type: <default-value>
+2024-11-25T17:41:53.2249305Z   plugin_stargazers_worldmap: <default-value>
+2024-11-25T17:41:53.2249816Z   plugin_stargazers_worldmap_token: <default-value>
+2024-11-25T17:41:53.2250883Z   plugin_stargazers_worldmap_sample: <default-value>
+2024-11-25T17:41:53.2251433Z   plugin_lines: <default-value>
+2024-11-25T17:41:53.2251852Z   plugin_lines_skipped: <default-value>
+2024-11-25T17:41:53.2252297Z   plugin_lines_sections: <default-value>
+2024-11-25T17:41:53.2252924Z   plugin_lines_repositories_limit: <default-value>
+2024-11-25T17:41:53.2253385Z   plugin_lines_history_limit: <default-value>
+2024-11-25T17:41:53.2253839Z   plugin_lines_delay: <default-value>
+2024-11-25T17:41:53.2254354Z   plugin_topics_sort: <default-value>
+2024-11-25T17:41:53.2254767Z   plugin_stars: <default-value>
+2024-11-25T17:41:53.2255135Z   plugin_stars_limit: <default-value>
+2024-11-25T17:41:53.2255635Z   plugin_licenses: <default-value>
+2024-11-25T17:41:53.2256057Z   plugin_licenses_setup: <default-value>
+2024-11-25T17:41:53.2256518Z   plugin_licenses_ratio: <default-value>
+2024-11-25T17:41:53.2256979Z   plugin_licenses_legal: <default-value>
+2024-11-25T17:41:53.2257408Z   plugin_habits: <default-value>
+2024-11-25T17:41:53.2257903Z   plugin_habits_from: <default-value>
+2024-11-25T17:41:53.2258394Z   plugin_habits_skipped: <default-value>
+2024-11-25T17:41:53.2258787Z   plugin_habits_days: <default-value>
+2024-11-25T17:41:53.2259231Z   plugin_habits_facts: <default-value>
+2024-11-25T17:41:53.2259730Z   plugin_habits_charts: <default-value>
+2024-11-25T17:41:53.2260197Z   plugin_habits_charts_type: <default-value>
+2024-11-25T17:41:53.2260616Z   plugin_habits_trim: <default-value>
+2024-11-25T17:41:53.2261127Z   plugin_habits_languages_limit: <default-value>
+2024-11-25T17:41:53.2261657Z   plugin_habits_languages_threshold: <default-value>
+2024-11-25T17:41:53.2262198Z   plugin_contributors: <default-value>
+2024-11-25T17:41:53.2262608Z   plugin_contributors_base: <default-value>
+2024-11-25T17:41:53.2263091Z   plugin_contributors_head: <default-value>
+2024-11-25T17:41:53.2263692Z   plugin_contributors_ignored: <default-value>
+2024-11-25T17:41:53.2264213Z   plugin_contributors_contributions: <default-value>
+2024-11-25T17:41:53.2264691Z   plugin_contributors_sections: <default-value>
+2024-11-25T17:41:53.2265244Z   plugin_contributors_categories: <default-value>
+2024-11-25T17:41:53.2265733Z   plugin_followup: <default-value>
+2024-11-25T17:41:53.2266348Z   plugin_followup_sections: <default-value>
+2024-11-25T17:41:53.2266833Z   plugin_followup_indepth: <default-value>
+2024-11-25T17:41:53.2267309Z   plugin_followup_archived: <default-value>
+2024-11-25T17:41:53.2267754Z   plugin_reactions: <default-value>
+2024-11-25T17:41:53.2268259Z   plugin_reactions_limit: <default-value>
+2024-11-25T17:41:53.2268693Z   plugin_reactions_limit_issues: <default-value>
+2024-11-25T17:41:53.2269273Z   plugin_reactions_limit_discussions: <default-value>
+2024-11-25T17:41:53.2269912Z   plugin_reactions_limit_discussions_comments: <default-value>
+2024-11-25T17:41:53.2270452Z   plugin_reactions_days: <default-value>
+2024-11-25T17:41:53.2270867Z   plugin_reactions_display: <default-value>
+2024-11-25T17:41:53.2271406Z   plugin_reactions_details: <default-value>
+2024-11-25T17:41:53.2271865Z   plugin_reactions_ignored: <default-value>
+2024-11-25T17:41:53.2272311Z   plugin_people: <default-value>
+2024-11-25T17:41:53.2272752Z   plugin_people_limit: <default-value>
+2024-11-25T17:41:53.2273292Z   plugin_people_identicons: <default-value>
+2024-11-25T17:41:53.2273787Z   plugin_people_identicons_hide: <default-value>
+2024-11-25T17:41:53.2274320Z   plugin_people_size: <default-value>
+2024-11-25T17:41:53.2274784Z   plugin_people_types: <default-value>
+2024-11-25T17:41:53.2275232Z   plugin_people_thanks: <default-value>
+2024-11-25T17:41:53.2275756Z   plugin_people_sponsors_custom: <default-value>
+2024-11-25T17:41:53.2276244Z   plugin_people_shuffle: <default-value>
+2024-11-25T17:41:53.2276648Z   plugin_sponsorships: <default-value>
+2024-11-25T17:41:53.2277166Z   plugin_sponsorships_sections: <default-value>
+2024-11-25T17:41:53.2277750Z   plugin_sponsorships_size: <default-value>
+2024-11-25T17:41:53.2278158Z   plugin_sponsors: <default-value>
+2024-11-25T17:41:53.2278654Z   plugin_sponsors_sections: <default-value>
+2024-11-25T17:41:53.2279115Z   plugin_sponsors_past: <default-value>
+2024-11-25T17:41:53.2279606Z   plugin_sponsors_size: <default-value>
+2024-11-25T17:41:53.2280013Z   plugin_sponsors_title: <default-value>
+2024-11-25T17:41:53.2280545Z   plugin_repositories: <default-value>
+2024-11-25T17:41:53.2281067Z   plugin_repositories_featured: <default-value>
+2024-11-25T17:41:53.2281572Z   plugin_repositories_pinned: <default-value>
+2024-11-25T17:41:53.2282017Z   plugin_repositories_starred: <default-value>
+2024-11-25T17:41:53.2282559Z   plugin_repositories_random: <default-value>
+2024-11-25T17:41:53.2283047Z   plugin_repositories_order: <default-value>
+2024-11-25T17:41:53.2283518Z   plugin_repositories_forks: <default-value>
+2024-11-25T17:41:53.2284031Z   plugin_repositories_affiliations: <default-value>
+2024-11-25T17:41:53.2284562Z   plugin_discussions_categories: <default-value>
+2024-11-25T17:41:53.2285074Z   plugin_discussions_categories_limit: <default-value>
+2024-11-25T17:41:53.2285635Z   plugin_starlists: <default-value>
+2024-11-25T17:41:53.2286103Z   plugin_starlists_limit: <default-value>
+2024-11-25T17:41:53.2286589Z   plugin_starlists_limit_repositories: <default-value>
+2024-11-25T17:41:53.2287181Z   plugin_starlists_languages: <default-value>
+2024-11-25T17:41:53.2287671Z   plugin_starlists_limit_languages: <default-value>
+2024-11-25T17:41:53.2288154Z   plugin_starlists_languages_ignored: <default-value>
+2024-11-25T17:41:53.2288751Z   plugin_starlists_languages_aliases: <default-value>
+2024-11-25T17:41:53.2289291Z   plugin_starlists_shuffle_repositories: <default-value>
+2024-11-25T17:41:53.2289810Z   plugin_starlists_ignored: <default-value>
+2024-11-25T17:41:53.2290441Z   plugin_starlists_only: <default-value>
+2024-11-25T17:41:53.2290876Z   plugin_calendar: <default-value>
+2024-11-25T17:41:53.2291314Z   plugin_calendar_limit: <default-value>
+2024-11-25T17:41:53.2291887Z   plugin_achievements: <default-value>
+2024-11-25T17:41:53.2292312Z   plugin_achievements_threshold: <default-value>
+2024-11-25T17:41:53.2292818Z   plugin_achievements_secrets: <default-value>
+2024-11-25T17:41:53.2293354Z   plugin_achievements_display: <default-value>
+2024-11-25T17:41:53.2293830Z   plugin_achievements_limit: <default-value>
+2024-11-25T17:41:53.2294451Z   plugin_achievements_ignored: <default-value>
+2024-11-25T17:41:53.2294985Z   plugin_achievements_only: <default-value>
+2024-11-25T17:41:53.2295489Z   plugin_notable_filter: <default-value>
+2024-11-25T17:41:53.2296001Z   plugin_notable_skipped: <default-value>
+2024-11-25T17:41:53.2296405Z   plugin_notable_from: <default-value>
+2024-11-25T17:41:53.2296880Z   plugin_notable_repositories: <default-value>
+2024-11-25T17:41:53.2297422Z   plugin_notable_indepth: <default-value>
+2024-11-25T17:41:53.2297935Z   plugin_notable_types: <default-value>
+2024-11-25T17:41:53.2298353Z   plugin_notable_self: <default-value>
+2024-11-25T17:41:53.2298837Z   plugin_activity: <default-value>
+2024-11-25T17:41:53.2299273Z   plugin_activity_limit: <default-value>
+2024-11-25T17:41:53.2299709Z   plugin_activity_load: <default-value>
+2024-11-25T17:41:53.2300169Z   plugin_activity_days: <default-value>
+2024-11-25T17:41:53.2300637Z   plugin_activity_visibility: <default-value>
+2024-11-25T17:41:53.2301207Z   plugin_activity_timestamps: <default-value>
+2024-11-25T17:41:53.2301733Z   plugin_activity_skipped: <default-value>
+2024-11-25T17:41:53.2302171Z   plugin_activity_ignored: <default-value>
+2024-11-25T17:41:53.2302626Z   plugin_activity_filter: <default-value>
+2024-11-25T17:41:53.2303204Z   plugin_traffic: <default-value>
+2024-11-25T17:41:53.2303623Z   plugin_traffic_skipped: <default-value>
+2024-11-25T17:41:53.2304014Z   plugin_code: <default-value>
+2024-11-25T17:41:53.2304489Z   plugin_code_lines: <default-value>
+2024-11-25T17:41:53.2304912Z   plugin_code_load: <default-value>
+2024-11-25T17:41:53.2305417Z   plugin_code_days: <default-value>
+2024-11-25T17:41:53.2305897Z   plugin_code_visibility: <default-value>
+2024-11-25T17:41:53.2306341Z   plugin_code_skipped: <default-value>
+2024-11-25T17:41:53.2306794Z   plugin_code_languages: <default-value>
+2024-11-25T17:41:53.2307304Z   plugin_gists: <default-value>
+2024-11-25T17:41:53.2307668Z   plugin_projects: <default-value>
+2024-11-25T17:41:53.2308176Z   plugin_projects_limit: <default-value>
+2024-11-25T17:41:53.2308714Z   plugin_projects_repositories: <default-value>
+2024-11-25T17:41:53.2309203Z   plugin_projects_descriptions: <default-value>
+2024-11-25T17:41:53.2309647Z   plugin_introduction: <default-value>
+2024-11-25T17:41:53.2310165Z   plugin_introduction_title: <default-value>
+2024-11-25T17:41:53.2310615Z   plugin_skyline: <default-value>
+2024-11-25T17:41:53.2311005Z   plugin_skyline_year: <default-value>
+2024-11-25T17:41:53.2311494Z   plugin_skyline_frames: <default-value>
+2024-11-25T17:41:53.2311951Z   plugin_skyline_quality: <default-value>
+2024-11-25T17:41:53.2312479Z   plugin_skyline_compatibility: <default-value>
+2024-11-25T17:41:53.2312916Z   plugin_skyline_settings: <default-value>
+2024-11-25T17:41:53.2313371Z   plugin_support: <default-value>
+2024-11-25T17:41:53.2313898Z   plugin_pagespeed: <default-value>
+2024-11-25T17:41:53.2314329Z   plugin_pagespeed_token: <default-value>
+2024-11-25T17:41:53.2314753Z   plugin_pagespeed_url: <default-value>
+2024-11-25T17:41:53.2315277Z   plugin_pagespeed_detailed: <default-value>
+2024-11-25T17:41:53.2315754Z   plugin_pagespeed_screenshot: <default-value>
+2024-11-25T17:41:53.2316228Z   plugin_pagespeed_pwa: <default-value>
+2024-11-25T17:41:53.2316685Z   plugin_tweets: <default-value>
+2024-11-25T17:41:53.2317106Z   plugin_tweets_token: <default-value>
+2024-11-25T17:41:53.2317527Z   plugin_tweets_user: <default-value>
+2024-11-25T17:41:53.2318031Z   plugin_tweets_attachments: <default-value>
+2024-11-25T17:41:53.2318475Z   plugin_tweets_limit: <default-value>
+2024-11-25T17:41:53.2318978Z   plugin_stackoverflow: <default-value>
+2024-11-25T17:41:53.2319485Z   plugin_stackoverflow_user: <default-value>
+2024-11-25T17:41:53.2319981Z   plugin_stackoverflow_sections: <default-value>
+2024-11-25T17:41:53.2320434Z   plugin_stackoverflow_limit: <default-value>
+2024-11-25T17:41:53.2320963Z   plugin_stackoverflow_lines: <default-value>
+2024-11-25T17:41:53.2321474Z   plugin_stackoverflow_lines_snippet: <default-value>
+2024-11-25T17:41:53.2322088Z   plugin_anilist: <default-value>
+2024-11-25T17:41:53.2322546Z   plugin_anilist_user: <default-value>
+2024-11-25T17:41:53.2322978Z   plugin_anilist_medias: <default-value>
+2024-11-25T17:41:53.2323422Z   plugin_anilist_sections: <default-value>
+2024-11-25T17:41:53.2323943Z   plugin_anilist_limit: <default-value>
+2024-11-25T17:41:53.2324445Z   plugin_anilist_limit_characters: <default-value>
+2024-11-25T17:41:53.2324946Z   plugin_anilist_shuffle: <default-value>
+2024-11-25T17:41:53.2325437Z   plugin_music: <default-value>
+2024-11-25T17:41:53.2325847Z   plugin_music_provider: <default-value>
+2024-11-25T17:41:53.2326266Z   plugin_music_token: <default-value>
+2024-11-25T17:41:53.2326756Z   plugin_music_user: <default-value>
+2024-11-25T17:41:53.2327176Z   plugin_music_mode: <default-value>
+2024-11-25T17:41:53.2327677Z   plugin_music_playlist: <default-value>
+2024-11-25T17:41:53.2328081Z   plugin_music_limit: <default-value>
+2024-11-25T17:41:53.2328606Z   plugin_music_played_at: <default-value>
+2024-11-25T17:41:53.2329125Z   plugin_music_time_range: <default-value>
+2024-11-25T17:41:53.2329645Z   plugin_music_top_type: <default-value>
+2024-11-25T17:41:53.2330054Z   plugin_posts: <default-value>
+2024-11-25T17:41:53.2330764Z   plugin_posts_source: <default-value>
+2024-11-25T17:41:53.2331199Z   plugin_posts_user: <default-value>
+2024-11-25T17:41:53.2331621Z   plugin_posts_descriptions: <default-value>
+2024-11-25T17:41:53.2332133Z   plugin_posts_covers: <default-value>
+2024-11-25T17:41:53.2332561Z   plugin_posts_limit: <default-value>
+2024-11-25T17:41:53.2332993Z   plugin_rss: <default-value>
+2024-11-25T17:41:53.2333507Z   plugin_rss_source: <default-value>
+2024-11-25T17:41:53.2333948Z   plugin_rss_limit: <default-value>
+2024-11-25T17:41:53.2334366Z   plugin_wakatime: <default-value>
+2024-11-25T17:41:53.2334852Z   plugin_wakatime_token: <default-value>
+2024-11-25T17:41:53.2335344Z   plugin_wakatime_url: <default-value>
+2024-11-25T17:41:53.2335776Z   plugin_wakatime_user: <default-value>
+2024-11-25T17:41:53.2336300Z   plugin_wakatime_sections: <default-value>
+2024-11-25T17:41:53.2336763Z   plugin_wakatime_days: <default-value>
+2024-11-25T17:41:53.2337159Z   plugin_wakatime_limit: <default-value>
+2024-11-25T17:41:53.2337705Z   plugin_wakatime_languages_other: <default-value>
+2024-11-25T17:41:53.2338231Z   plugin_wakatime_languages_ignored: <default-value>
+2024-11-25T17:41:53.2338779Z   plugin_wakatime_repositories_visibility: <default-value>
+2024-11-25T17:41:53.2339321Z   plugin_leetcode: <default-value>
+2024-11-25T17:41:53.2339738Z   plugin_leetcode_user: <default-value>
+2024-11-25T17:41:53.2340186Z   plugin_leetcode_sections: <default-value>
+2024-11-25T17:41:53.2340806Z   plugin_leetcode_limit_skills: <default-value>
+2024-11-25T17:41:53.2341263Z   plugin_leetcode_ignored_skills: <default-value>
+2024-11-25T17:41:53.2341767Z   plugin_leetcode_limit_recent: <default-value>
+2024-11-25T17:41:53.2342314Z   plugin_steam: <default-value>
+2024-11-25T17:41:53.2342722Z   plugin_steam_token: <default-value>
+2024-11-25T17:41:53.2343140Z   plugin_steam_sections: <default-value>
+2024-11-25T17:41:53.2343658Z   plugin_steam_games_ignored: <default-value>
+2024-11-25T17:41:53.2344121Z   plugin_steam_games_limit: <default-value>
+2024-11-25T17:41:53.2344674Z   plugin_steam_recent_games_limit: <default-value>
+2024-11-25T17:41:53.2345146Z   plugin_steam_achievements_limit: <default-value>
+2024-11-25T17:41:53.2345648Z   plugin_steam_playtime_threshold: <default-value>
+2024-11-25T17:41:53.2346205Z   plugin_16personalities: <default-value>
+2024-11-25T17:41:53.2346737Z   plugin_16personalities_url: <default-value>
+2024-11-25T17:41:53.2347189Z   plugin_16personalities_sections: <default-value>
+2024-11-25T17:41:53.2347764Z   plugin_16personalities_scores: <default-value>
+2024-11-25T17:41:53.2348224Z   plugin_chess: <default-value>
+2024-11-25T17:41:53.2348641Z   plugin_chess_token: <default-value>
+2024-11-25T17:41:53.2349090Z   plugin_chess_user: <default-value>
+2024-11-25T17:41:53.2349526Z   plugin_chess_platform: <default-value>
+2024-11-25T17:41:53.2350135Z   plugin_chess_animation: <default-value>
+2024-11-25T17:41:53.2350636Z   plugin_fortune: <default-value>
+2024-11-25T17:41:53.2351024Z   plugin_nightscout: <default-value>
+2024-11-25T17:41:53.2351463Z   plugin_nightscout_url: <default-value>
+2024-11-25T17:41:53.2352047Z   plugin_nightscout_datapoints: <default-value>
+2024-11-25T17:41:53.2352544Z   plugin_nightscout_lowalert: <default-value>
+2024-11-25T17:41:53.2352986Z   plugin_nightscout_highalert: <default-value>
+2024-11-25T17:41:53.2353544Z   plugin_nightscout_urgentlowalert: <default-value>
+2024-11-25T17:41:53.2354085Z   plugin_nightscout_urgenthighalert: <default-value>
+2024-11-25T17:41:53.2354564Z   plugin_poopmap: <default-value>
+2024-11-25T17:41:53.2355006Z   plugin_poopmap_token: <default-value>
+2024-11-25T17:41:53.2355459Z   plugin_poopmap_days: <default-value>
+2024-11-25T17:41:53.2355887Z   plugin_screenshot: <default-value>
+2024-11-25T17:41:53.2356406Z   plugin_screenshot_title: <default-value>
+2024-11-25T17:41:53.2356911Z   plugin_screenshot_url: <default-value>
+2024-11-25T17:41:53.2357445Z   plugin_screenshot_selector: <default-value>
+2024-11-25T17:41:53.2357996Z   plugin_screenshot_mode: <default-value>
+2024-11-25T17:41:53.2358450Z   plugin_screenshot_viewport: <default-value>
+2024-11-25T17:41:53.2358866Z   plugin_screenshot_wait: <default-value>
+2024-11-25T17:41:53.2359412Z   plugin_screenshot_background: <default-value>
+2024-11-25T17:41:53.2359870Z   plugin_splatoon: <default-value>
+2024-11-25T17:41:53.2360368Z   plugin_splatoon_token: <default-value>
+2024-11-25T17:41:53.2360782Z   plugin_splatoon_sections: <default-value>
+2024-11-25T17:41:53.2361335Z   plugin_splatoon_versus_limit: <default-value>
+2024-11-25T17:41:53.2361914Z   plugin_splatoon_salmon_limit: <default-value>
+2024-11-25T17:41:53.2362383Z   plugin_splatoon_statink: <default-value>
+2024-11-25T17:41:53.2362822Z   plugin_splatoon_statink_token: <default-value>
+2024-11-25T17:41:53.2363433Z   plugin_splatoon_source: <default-value>
+2024-11-25T17:41:53.2363871Z   plugin_stock: <default-value>
+2024-11-25T17:41:53.2364293Z   plugin_stock_token: <default-value>
+2024-11-25T17:41:53.2364740Z   plugin_stock_symbol: <default-value>
+2024-11-25T17:41:53.2365172Z   plugin_stock_duration: <default-value>
+2024-11-25T17:41:53.2365631Z   plugin_stock_interval: <default-value>
+2024-11-25T17:41:53.2366070Z ##[endgroup]
+2024-11-25T17:41:53.2397618Z ##[group]Run # Check runner compatibility
+2024-11-25T17:41:53.2398311Z [36;1m# Check runner compatibility[0m
+2024-11-25T17:41:53.2398813Z [36;1mecho "::group::Metrics docker image setup"[0m
+2024-11-25T17:41:53.2399434Z [36;1mecho "GitHub action: $METRICS_ACTION ($METRICS_ACTION_PATH)"[0m
+2024-11-25T17:41:53.2400057Z [36;1mcd $METRICS_ACTION_PATH[0m
+2024-11-25T17:41:53.2400497Z [36;1mfor DEPENDENCY in docker jq; do[0m
+2024-11-25T17:41:53.2401062Z [36;1m  if ! which $DEPENDENCY > /dev/null 2>&1; then[0m
+2024-11-25T17:41:53.2401789Z [36;1m    echo "::error::\"$DEPENDENCY\" is not installed on current runner but is needed to run metrics"[0m
+2024-11-25T17:41:53.2402496Z [36;1m    MISSING_DEPENDENCIES=1[0m
+2024-11-25T17:41:53.2402954Z [36;1m  fi[0m
+2024-11-25T17:41:53.2403292Z [36;1mdone[0m
+2024-11-25T17:41:53.2403643Z [36;1mif [[ $MISSING_DEPENDENCIES == "1" ]]; then[0m
+2024-11-25T17:41:53.2404271Z [36;1m  echo "Runner compatibility: missing dependencies"[0m
+2024-11-25T17:41:53.2404782Z [36;1m  exit 1[0m
+2024-11-25T17:41:53.2405176Z [36;1melse[0m
+2024-11-25T17:41:53.2405574Z [36;1m  echo "Runner compatibility: compatible"[0m
+2024-11-25T17:41:53.2406040Z [36;1mfi[0m
+2024-11-25T17:41:53.2406349Z [36;1m[0m
+2024-11-25T17:41:53.2406863Z [36;1m# Create environment file from inputs and GitHub variables[0m
+2024-11-25T17:41:53.2407364Z [36;1mtouch .env[0m
+2024-11-25T17:41:53.2408002Z [36;1mfor INPUT in $(echo $INPUTS | jq -r 'to_entries|map("INPUT_\(.key|ascii_upcase)=\(.value|@uri)")|.[]'); do[0m
+2024-11-25T17:41:53.2408780Z [36;1m  echo $INPUT >> .env[0m
+2024-11-25T17:41:53.2409165Z [36;1mdone[0m
+2024-11-25T17:41:53.2409527Z [36;1menv | grep -E '^(GITHUB|ACTIONS|CI|TZ)' >> .env[0m
+2024-11-25T17:41:53.2410818Z [36;1mecho "Environment variables: loaded"[0m
+2024-11-25T17:41:53.2411294Z [36;1m[0m
+2024-11-25T17:41:53.2411709Z [36;1m# Renders output folder[0m
+2024-11-25T17:41:53.2412197Z [36;1mMETRICS_RENDERS="/metrics_renders"[0m
+2024-11-25T17:41:53.2412664Z [36;1msudo mkdir -p $METRICS_RENDERS[0m
+2024-11-25T17:41:53.2413176Z [36;1mecho "Renders output folder: $METRICS_RENDERS"[0m
+2024-11-25T17:41:53.2413704Z [36;1m[0m
+2024-11-25T17:41:53.2414054Z [36;1m# Source repository (picked from action name)[0m
+2024-11-25T17:41:53.2414761Z [36;1mMETRICS_SOURCE=$(echo $METRICS_ACTION | sed -E 's/metrics.*?$//g' | sed -E 's/_//g')[0m
+2024-11-25T17:41:53.2415461Z [36;1mecho "Source: $METRICS_SOURCE"[0m
+2024-11-25T17:41:53.2415885Z [36;1m[0m
+2024-11-25T17:41:53.2416204Z [36;1m# Version (picked from package.json)[0m
+2024-11-25T17:41:53.2416849Z [36;1mMETRICS_VERSION=$(grep -Po '(?<="version": ").*(?=")' package.json)[0m
+2024-11-25T17:41:53.2417635Z [36;1mecho "Version: $METRICS_VERSION"[0m
+2024-11-25T17:41:53.2418116Z [36;1m[0m
+2024-11-25T17:41:53.2418471Z [36;1m# Image tag (extracted from version or from env)[0m
+2024-11-25T17:41:53.2419137Z [36;1mMETRICS_TAG=v$(echo $METRICS_VERSION | sed -r 's/^([0-9]+[.][0-9]+).*/\1/')[0m
+2024-11-25T17:41:53.2419797Z [36;1mecho "Image tag: $METRICS_TAG"[0m
+2024-11-25T17:41:53.2420215Z [36;1m[0m
+2024-11-25T17:41:53.2420482Z [36;1m# Image name[0m
+2024-11-25T17:41:53.2420902Z [36;1m# Official action[0m
+2024-11-25T17:41:53.2421358Z [36;1mif [[ $METRICS_SOURCE == "lowlighter" ]]; then[0m
+2024-11-25T17:41:53.2421967Z [36;1m  # Use registry with pre-built images[0m
+2024-11-25T17:41:53.2422602Z [36;1m  if [[ ! $METRICS_USE_PREBUILT_IMAGE =~ ^([Ff]alse|[Oo]ff|[Nn]o|0)$ ]]; then[0m
+2024-11-25T17:41:53.2423261Z [36;1m    # Is released version[0m
+2024-11-25T17:41:53.2423660Z [36;1m    set +e[0m
+2024-11-25T17:41:53.2424239Z [36;1m    METRICS_IS_RELEASED=$(expr $(expr match $METRICS_VERSION .*-beta) == 0)[0m
+2024-11-25T17:41:53.2424774Z [36;1m    set -e[0m
+2024-11-25T17:41:53.2425198Z [36;1m    echo "Is released version: $METRICS_IS_RELEASED"[0m
+2024-11-25T17:41:53.2425840Z [36;1m    if [[ "$METRICS_IS_RELEASED" -eq "0" ]]; then[0m
+2024-11-25T17:41:53.2426344Z [36;1m      METRICS_TAG="$METRICS_TAG-beta"[0m
+2024-11-25T17:41:53.2426821Z [36;1m      echo "Image tag (updated): $METRICS_TAG"[0m
+2024-11-25T17:41:53.2427353Z [36;1m    fi[0m
+2024-11-25T17:41:53.2427793Z [36;1m    METRICS_IMAGE=ghcr.io/lowlighter/metrics:$METRICS_TAG[0m
+2024-11-25T17:41:53.2428574Z [36;1m    echo "Using pre-built version $METRICS_TAG, will pull docker image from GitHub registry"[0m
+2024-11-25T17:41:53.2429327Z [36;1m    if ! docker image pull $METRICS_IMAGE; then[0m
+2024-11-25T17:41:53.2430092Z [36;1m      echo "Failed to fetch docker image from GitHub registry, will rebuild it locally"[0m
+2024-11-25T17:41:53.2430788Z [36;1m      METRICS_IMAGE=metrics:$METRICS_VERSION[0m
+2024-11-25T17:41:53.2431300Z [36;1m    fi[0m
+2024-11-25T17:41:53.2431627Z [36;1m  # Rebuild image[0m
+2024-11-25T17:41:53.2431967Z [36;1m  else[0m
+2024-11-25T17:41:53.2432473Z [36;1m    echo "Using an unreleased version ($METRICS_VERSION)"[0m
+2024-11-25T17:41:53.2433053Z [36;1m    METRICS_IMAGE=metrics:$METRICS_VERSION[0m
+2024-11-25T17:41:53.2433458Z [36;1m  fi[0m
+2024-11-25T17:41:53.2433836Z [36;1m# Forked action[0m
+2024-11-25T17:41:53.2434201Z [36;1melse[0m
+2024-11-25T17:41:53.2434612Z [36;1m  echo "Using a forked version"[0m
+2024-11-25T17:41:53.2435141Z [36;1m  METRICS_IMAGE=metrics:forked-$METRICS_VERSION[0m
+2024-11-25T17:41:53.2435624Z [36;1mfi[0m
+2024-11-25T17:41:53.2436035Z [36;1mecho "Image name: $METRICS_IMAGE"[0m
+2024-11-25T17:41:53.2436452Z [36;1m[0m
+2024-11-25T17:41:53.2436756Z [36;1m# Build image if necessary[0m
+2024-11-25T17:41:53.2437219Z [36;1mset +e[0m
+2024-11-25T17:41:53.2437600Z [36;1mdocker image inspect $METRICS_IMAGE[0m
+2024-11-25T17:41:53.2438061Z [36;1mMETRICS_IMAGE_NEEDS_BUILD="$?"[0m
+2024-11-25T17:41:53.2438649Z [36;1mset -e[0m
+2024-11-25T17:41:53.2439074Z [36;1mif [[ "$METRICS_IMAGE_NEEDS_BUILD" -gt "0" ]]; then[0m
+2024-11-25T17:41:53.2439779Z [36;1m  echo "Image $METRICS_IMAGE is not present locally, rebuilding it from Dockerfile"[0m
+2024-11-25T17:41:53.2440581Z [36;1m  docker build -t $METRICS_IMAGE .[0m
+2024-11-25T17:41:53.2440964Z [36;1melse[0m
+2024-11-25T17:41:53.2441360Z [36;1m  echo "Image $METRICS_IMAGE is present locally"[0m
+2024-11-25T17:41:53.2441905Z [36;1mfi[0m
+2024-11-25T17:41:53.2442220Z [36;1mecho "::endgroup::"[0m
+2024-11-25T17:41:53.2442549Z [36;1m[0m
+2024-11-25T17:41:53.2443000Z [36;1m# Run docker image with current environment[0m
+2024-11-25T17:41:53.2443864Z [36;1mdocker run --init --rm --volume $GITHUB_EVENT_PATH:$GITHUB_EVENT_PATH --volume $METRICS_RENDERS:/renders --env-file .env $METRICS_IMAGE[0m
+2024-11-25T17:41:53.2444646Z [36;1mrm .env[0m
+2024-11-25T17:41:53.2501898Z shell: /usr/bin/bash --noprofile --norc -e -o pipefail {0}
+2024-11-25T17:41:53.2502561Z env:
+2024-11-25T17:41:53.2502873Z   METRICS_ACTION: __lowlighter_metrics_25
+2024-11-25T17:41:53.2503478Z   METRICS_ACTION_PATH: /home/runner/work/_actions/lowlighter/metrics/latest
+2024-11-25T17:41:53.2504111Z   METRICS_USE_PREBUILT_IMAGE: yes
+2024-11-25T17:41:53.2554510Z   INPUTS: {
+  "filename": "/generated/GitHub_Stats_B_GitHub_Languages.svg",
+  "token": "***",
+  "base": "header",
+  "base_indepth": "yes",
+  "config_order": "base.header, isocalendar, languages, notable, discussions, topics",
+  "output_action": "gist",
+  "committer_gist": "",
+  "plugin_isocalendar": "yes",
+  "plugin_languages": "yes",
+  "plugin_languages_details": "lines, bytes-size, percentage",
+  "plugin_languages_sections": "most-used, recently-used",
+  "plugin_languages_indepth": "yes",
+  "plugin_languages_limit": "2",
+  "plugin_topics": "yes",
+  "plugin_topics_limit": "0",
+  "plugin_topics_mode": "icons",
+  "plugin_notable": "yes",
+  "plugin_discussions": "yes",
+  "base_hireable": "<default-value>",
+  "base_skip": "<default-value>",
+  "repositories": "<default-value>",
+  "repositories_batch": "<default-value>",
+  "repositories_forks": "<default-value>",
+  "repositories_affiliations": "<default-value>",
+  "repositories_skipped": "<default-value>",
+  "users_ignored": "<default-value>",
+  "commits_authoring": "<default-value>",
+  "user": "<default-value>",
+  "repo": "<default-value>",
+  "committer_token": "***",
+  "committer_branch": "<default-value>",
+  "committer_message": "<default-value>",
+  "markdown": "<default-value>",
+  "markdown_cache": "<default-value>",
+  "output_condition": "<default-value>",
+  "optimize": "<default-value>",
+  "setup_community_templates": "<default-value>",
+  "template": "<default-value>",
+  "query": "<default-value>",
+  "extras_css": "<default-value>",
+  "extras_js": "<default-value>",
+  "github_api_rest": "<default-value>",
+  "github_api_graphql": "<default-value>",
+  "config_timezone": "",
+  "config_twemoji": "<default-value>",
+  "config_gemoji": "<default-value>",
+  "config_octicon": "<default-value>",
+  "config_display": "<default-value>",
+  "config_animations": "<default-value>",
+  "config_base64": "<default-value>",
+  "config_padding": "<default-value>",
+  "config_output": "<default-value>",
+  "config_presets": "",
+  "retries": "<default-value>",
+  "retries_delay": "<default-value>",
+  "retries_output_action": "<default-value>",
+  "retries_delay_output_action": "<default-value>",
+  "clean_workflows": "<default-value>",
+  "delay": "<default-value>",
+  "quota_required_rest": "<default-value>",
+  "quota_required_graphql": "<default-value>",
+  "quota_required_search": "<default-value>",
+  "notice_releases": "<default-value>",
+  "use_prebuilt_image": "yes",
+  "plugins_errors_fatal": "<default-value>",
+  "debug": "<default-value>",
+  "verify": "<default-value>",
+  "debug_flags": "<default-value>",
+  "debug_print": "<default-value>",
+  "dryrun": "<default-value>",
+  "experimental_features": "<default-value>",
+  "use_mocked_data": "<default-value>",
+  "plugin_isocalendar_duration": "<default-value>",
+  "plugin_languages_ignored": "<default-value>",
+  "plugin_languages_skipped": "<default-value>",
+  "plugin_languages_threshold": "<default-value>",
+  "plugin_languages_other": "<default-value>",
+  "plugin_languages_colors": "<default-value>",
+  "plugin_languages_aliases": "<default-value>",
+  "plugin_languages_indepth_custom": "<default-value>",
+  "plugin_languages_analysis_timeout": "<default-value>",
+  "plugin_languages_analysis_timeout_repositories": "<default-value>",
+  "plugin_languages_categories": "<default-value>",
+  "plugin_languages_recent_categories": "<default-value>",
+  "plugin_languages_recent_load": "<default-value>",
+  "plugin_languages_recent_days": "<default-value>",
+  "plugin_stargazers": "<default-value>",
+  "plugin_stargazers_days": "<default-value>",
+  "plugin_stargazers_charts": "<default-value>",
+  "plugin_stargazers_charts_type": "<default-value>",
+  "plugin_stargazers_worldmap": "<default-value>",
+  "plugin_stargazers_worldmap_token": "<default-value>",
+  "plugin_stargazers_worldmap_sample": "<default-value>",
+  "plugin_lines": "<default-value>",
+  "plugin_lines_skipped": "<default-value>",
+  "plugin_lines_sections": "<default-value>",
+  "plugin_lines_repositories_limit": "<default-value>",
+  "plugin_lines_history_limit": "<default-value>",
+  "plugin_lines_delay": "<default-value>",
+  "plugin_topics_sort": "<default-value>",
+  "plugin_stars": "<default-value>",
+  "plugin_stars_limit": "<default-value>",
+  "plugin_licenses": "<default-value>",
+  "plugin_licenses_setup": "<default-value>",
+  "plugin_licenses_ratio": "<default-value>",
+  "plugin_licenses_legal": "<default-value>",
+  "plugin_habits": "<default-value>",
+  "plugin_habits_from": "<default-value>",
+  "plugin_habits_skipped": "<default-value>",
+  "plugin_habits_days": "<default-value>",
+  "plugin_habits_facts": "<default-value>",
+  "plugin_habits_charts": "<default-value>",
+  "plugin_habits_charts_type": "<default-value>",
+  "plugin_habits_trim": "<default-value>",
+  "plugin_habits_languages_limit": "<default-value>",
+  "plugin_habits_languages_threshold": "<default-value>",
+  "plugin_contributors": "<default-value>",
+  "plugin_contributors_base": "<default-value>",
+  "plugin_contributors_head": "<default-value>",
+  "plugin_contributors_ignored": "<default-value>",
+  "plugin_contributors_contributions": "<default-value>",
+  "plugin_contributors_sections": "<default-value>",
+  "plugin_contributors_categories": "<default-value>",
+  "plugin_followup": "<default-value>",
+  "plugin_followup_sections": "<default-value>",
+  "plugin_followup_indepth": "<default-value>",
+  "plugin_followup_archived": "<default-value>",
+  "plugin_reactions": "<default-value>",
+  "plugin_reactions_limit": "<default-value>",
+  "plugin_reactions_limit_issues": "<default-value>",
+  "plugin_reactions_limit_discussions": "<default-value>",
+  "plugin_reactions_limit_discussions_comments": "<default-value>",
+  "plugin_reactions_days": "<default-value>",
+  "plugin_reactions_display": "<default-value>",
+  "plugin_reactions_details": "<default-value>",
+  "plugin_reactions_ignored": "<default-value>",
+  "plugin_people": "<default-value>",
+  "plugin_people_limit": "<default-value>",
+  "plugin_people_identicons": "<default-value>",
+  "plugin_people_identicons_hide": "<default-value>",
+  "plugin_people_size": "<default-value>",
+  "plugin_people_types": "<default-value>",
+  "plugin_people_thanks": "<default-value>",
+  "plugin_people_sponsors_custom": "<default-value>",
+  "plugin_people_shuffle": "<default-value>",
+  "plugin_sponsorships": "<default-value>",
+  "plugin_sponsorships_sections": "<default-value>",
+  "plugin_sponsorships_size": "<default-value>",
+  "plugin_sponsors": "<default-value>",
+  "plugin_sponsors_sections": "<default-value>",
+  "plugin_sponsors_past": "<default-value>",
+  "plugin_sponsors_size": "<default-value>",
+  "plugin_sponsors_title": "<default-value>",
+  "plugin_repositories": "<default-value>",
+  "plugin_repositories_featured": "<default-value>",
+  "plugin_repositories_pinned": "<default-value>",
+  "plugin_repositories_starred": "<default-value>",
+  "plugin_repositories_random": "<default-value>",
+  "plugin_repositories_order": "<default-value>",
+  "plugin_repositories_forks": "<default-value>",
+  "plugin_repositories_affiliations": "<default-value>",
+  "plugin_discussions_categories": "<default-value>",
+  "plugin_discussions_categories_limit": "<default-value>",
+  "plugin_starlists": "<default-value>",
+  "plugin_starlists_limit": "<default-value>",
+  "plugin_starlists_limit_repositories": "<default-value>",
+  "plugin_starlists_languages": "<default-value>",
+  "plugin_starlists_limit_languages": "<default-value>",
+  "plugin_starlists_languages_ignored": "<default-value>",
+  "plugin_starlists_languages_aliases": "<default-value>",
+  "plugin_starlists_shuffle_repositories": "<default-value>",
+  "plugin_starlists_ignored": "<default-value>",
+  "plugin_starlists_only": "<default-value>",
+  "plugin_calendar": "<default-value>",
+  "plugin_calendar_limit": "<default-value>",
+  "plugin_achievements": "<default-value>",
+  "plugin_achievements_threshold": "<default-value>",
+  "plugin_achievements_secrets": "<default-value>",
+  "plugin_achievements_display": "<default-value>",
+  "plugin_achievements_limit": "<default-value>",
+  "plugin_achievements_ignored": "<default-value>",
+  "plugin_achievements_only": "<default-value>",
+  "plugin_notable_filter": "<default-value>",
+  "plugin_notable_skipped": "<default-value>",
+  "plugin_notable_from": "<default-value>",
+  "plugin_notable_repositories": "<default-value>",
+  "plugin_notable_indepth": "<default-value>",
+  "plugin_notable_types": "<default-value>",
+  "plugin_notable_self": "<default-value>",
+  "plugin_activity": "<default-value>",
+  "plugin_activity_limit": "<default-value>",
+  "plugin_activity_load": "<default-value>",
+  "plugin_activity_days": "<default-value>",
+  "plugin_activity_visibility": "<default-value>",
+  "plugin_activity_timestamps": "<default-value>",
+  "plugin_activity_skipped": "<default-value>",
+  "plugin_activity_ignored": "<default-value>",
+  "plugin_activity_filter": "<default-value>",
+  "plugin_traffic": "<default-value>",
+  "plugin_traffic_skipped": "<default-value>",
+  "plugin_code": "<default-value>",
+  "plugin_code_lines": "<default-value>",
+  "plugin_code_load": "<default-value>",
+  "plugin_code_days": "<default-value>",
+  "plugin_code_visibility": "<default-value>",
+  "plugin_code_skipped": "<default-value>",
+  "plugin_code_languages": "<default-value>",
+  "plugin_gists": "<default-value>",
+  "plugin_projects": "<default-value>",
+  "plugin_projects_limit": "<default-value>",
+  "plugin_projects_repositories": "<default-value>",
+  "plugin_projects_descriptions": "<default-value>",
+  "plugin_introduction": "<default-value>",
+  "plugin_introduction_title": "<default-value>",
+  "plugin_skyline": "<default-value>",
+  "plugin_skyline_year": "<default-value>",
+  "plugin_skyline_frames": "<default-value>",
+  "plugin_skyline_quality": "<default-value>",
+  "plugin_skyline_compatibility": "<default-value>",
+  "plugin_skyline_settings": "<default-value>",
+  "plugin_support": "<default-value>",
+  "plugin_pagespeed": "<default-value>",
+  "plugin_pagespeed_token": "<default-value>",
+  "plugin_pagespeed_url": "<default-value>",
+  "plugin_pagespeed_detailed": "<default-value>",
+  "plugin_pagespeed_screenshot": "<default-value>",
+  "plugin_pagespeed_pwa": "<default-value>",
+  "plugin_tweets": "<default-value>",
+  "plugin_tweets_token": "<default-value>",
+  "plugin_tweets_user": "<default-value>",
+  "plugin_tweets_attachments": "<default-value>",
+  "plugin_tweets_limit": "<default-value>",
+  "plugin_stackoverflow": "<default-value>",
+  "plugin_stackoverflow_user": "<default-value>",
+  "plugin_stackoverflow_sections": "<default-value>",
+  "plugin_stackoverflow_limit": "<default-value>",
+  "plugin_stackoverflow_lines": "<default-value>",
+  "plugin_stackoverflow_lines_snippet": "<default-value>",
+  "plugin_anilist": "<default-value>",
+  "plugin_anilist_user": "<default-value>",
+  "plugin_anilist_medias": "<default-value>",
+  "plugin_anilist_sections": "<default-value>",
+  "plugin_anilist_limit": "<default-value>",
+  "plugin_anilist_limit_characters": "<default-value>",
+  "plugin_anilist_shuffle": "<default-value>",
+  "plugin_music": "<default-value>",
+  "plugin_music_provider": "<default-value>",
+  "plugin_music_token": "<default-value>",
+  "plugin_music_user": "<default-value>",
+  "plugin_music_mode": "<default-value>",
+  "plugin_music_playlist": "<default-value>",
+  "plugin_music_limit": "<default-value>",
+  "plugin_music_played_at": "<default-value>",
+  "plugin_music_time_range": "<default-value>",
+  "plugin_music_top_type": "<default-value>",
+  "plugin_posts": "<default-value>",
+  "plugin_posts_source": "<default-value>",
+  "plugin_posts_user": "<default-value>",
+  "plugin_posts_descriptions": "<default-value>",
+  "plugin_posts_covers": "<default-value>",
+  "plugin_posts_limit": "<default-value>",
+  "plugin_rss": "<default-value>",
+  "plugin_rss_source": "<default-value>",
+  "plugin_rss_limit": "<default-value>",
+  "plugin_wakatime": "<default-value>",
+  "plugin_wakatime_token": "<default-value>",
+  "plugin_wakatime_url": "<default-value>",
+  "plugin_wakatime_user": "<default-value>",
+  "plugin_wakatime_sections": "<default-value>",
+  "plugin_wakatime_days": "<default-value>",
+  "plugin_wakatime_limit": "<default-value>",
+  "plugin_wakatime_languages_other": "<default-value>",
+  "plugin_wakatime_languages_ignored": "<default-value>",
+  "plugin_wakatime_repositories_visibility": "<default-value>",
+  "plugin_leetcode": "<default-value>",
+  "plugin_leetcode_user": "<default-value>",
+  "plugin_leetcode_sections": "<default-value>",
+  "plugin_leetcode_limit_skills": "<default-value>",
+  "plugin_leetcode_ignored_skills": "<default-value>",
+  "plugin_leetcode_limit_recent": "<default-value>",
+  "plugin_steam": "<default-value>",
+  "plugin_steam_token": "<default-value>",
+  "plugin_steam_sections": "<default-value>",
+  "plugin_steam_user": "",
+  "plugin_steam_games_ignored": "<default-value>",
+  "plugin_steam_games_limit": "<default-value>",
+  "plugin_steam_recent_games_limit": "<default-value>",
+  "plugin_steam_achievements_limit": "<default-value>",
+  "plugin_steam_playtime_threshold": "<default-value>",
+  "plugin_16personalities": "<default-value>",
+  "plugin_16personalities_url": "<default-value>",
+  "plugin_16personalities_sections": "<default-value>",
+  "plugin_16personalities_scores": "<default-value>",
+  "plugin_chess": "<default-value>",
+  "plugin_chess_token": "<default-value>",
+  "plugin_chess_user": "<default-value>",
+  "plugin_chess_platform": "<default-value>",
+  "plugin_chess_animation": "<default-value>",
+  "plugin_fortune": "<default-value>",
+  "plugin_nightscout": "<default-value>",
+  "plugin_nightscout_url": "<default-value>",
+  "plugin_nightscout_datapoints": "<default-value>",
+  "plugin_nightscout_lowalert": "<default-value>",
+  "plugin_nightscout_highalert": "<default-value>",
+  "plugin_nightscout_urgentlowalert": "<default-value>",
+  "plugin_nightscout_urgenthighalert": "<default-value>",
+  "plugin_poopmap": "<default-value>",
+  "plugin_poopmap_token": "<default-value>",
+  "plugin_poopmap_days": "<default-value>",
+  "plugin_screenshot": "<default-value>",
+  "plugin_screenshot_title": "<default-value>",
+  "plugin_screenshot_url": "<default-value>",
+  "plugin_screenshot_selector": "<default-value>",
+  "plugin_screenshot_mode": "<default-value>",
+  "plugin_screenshot_viewport": "<default-value>",
+  "plugin_screenshot_wait": "<default-value>",
+  "plugin_screenshot_background": "<default-value>",
+  "plugin_splatoon": "<default-value>",
+  "plugin_splatoon_token": "<default-value>",
+  "plugin_splatoon_sections": "<default-value>",
+  "plugin_splatoon_versus_limit": "<default-value>",
+  "plugin_splatoon_salmon_limit": "<default-value>",
+  "plugin_splatoon_statink": "<default-value>",
+  "plugin_splatoon_statink_token": "<default-value>",
+  "plugin_splatoon_source": "<default-value>",
+  "plugin_stock": "<default-value>",
+  "plugin_stock_token": "<default-value>",
+  "plugin_stock_symbol": "<default-value>",
+  "plugin_stock_duration": "<default-value>",
+  "plugin_stock_interval": "<default-value>"
+}
+2024-11-25T17:41:53.2606749Z   TZ: 
+2024-11-25T17:41:53.2607073Z ##[endgroup]
+2024-11-25T17:41:53.2687286Z ##[group]Metrics docker image setup
+2024-11-25T17:41:53.2688135Z GitHub action: __lowlighter_metrics_25 (/home/runner/work/_actions/lowlighter/metrics/latest)
+2024-11-25T17:41:53.2709371Z Runner compatibility: compatible
+2024-11-25T17:41:53.3067236Z Environment variables: loaded
+2024-11-25T17:41:53.3155597Z Renders output folder: /metrics_renders
+2024-11-25T17:41:53.3185818Z Source: lowlighter
+2024-11-25T17:41:53.3206037Z Version: 3.34.0
+2024-11-25T17:41:53.3227801Z Image tag: v3.34
+2024-11-25T17:41:53.3257641Z Is released version: 1
+2024-11-25T17:41:53.3258874Z Using pre-built version v3.34, will pull docker image from GitHub registry
+2024-11-25T17:41:53.4372455Z v3.34: Pulling from lowlighter/metrics
+2024-11-25T17:41:53.4379948Z Digest: sha256:257392f90340f916cb8b815026f259399f6b246d3eb7de38b58bfe7a07bd5b65
+2024-11-25T17:41:53.4383732Z Status: Image is up to date for ghcr.io/lowlighter/metrics:v3.34
+2024-11-25T17:41:53.4388456Z ghcr.io/lowlighter/metrics:v3.34
+2024-11-25T17:41:53.4406559Z Image name: ghcr.io/lowlighter/metrics:v3.34
+2024-11-25T17:41:53.4554348Z [
+2024-11-25T17:41:53.4555052Z     {
+2024-11-25T17:41:53.4555856Z         "Id": "sha256:540609b0db04df4859a52809225568daef6f1ad4ecb031bd6f4854961fc965aa",
+2024-11-25T17:41:53.4557023Z         "RepoTags": [
+2024-11-25T17:41:53.4557631Z             "ghcr.io/lowlighter/metrics:v3.34"
+2024-11-25T17:41:53.4558333Z         ],
+2024-11-25T17:41:53.4558958Z         "RepoDigests": [
+2024-11-25T17:41:53.4559995Z             "ghcr.io/lowlighter/metrics@sha256:257392f90340f916cb8b815026f259399f6b246d3eb7de38b58bfe7a07bd5b65"
+2024-11-25T17:41:53.4561403Z         ],
+2024-11-25T17:41:53.4561978Z         "Parent": "",
+2024-11-25T17:41:53.4562668Z         "Comment": "buildkit.dockerfile.v0",
+2024-11-25T17:41:53.4563692Z         "Created": "2023-09-12T22:32:04.433116016Z",
+2024-11-25T17:41:53.4564573Z         "DockerVersion": "",
+2024-11-25T17:41:53.4565151Z         "Author": "",
+2024-11-25T17:41:53.4565793Z         "Config": {
+2024-11-25T17:41:53.4566273Z             "Hostname": "",
+2024-11-25T17:41:53.4566856Z             "Domainname": "",
+2024-11-25T17:41:53.4567689Z             "User": "",
+2024-11-25T17:41:53.4568234Z             "AttachStdin": false,
+2024-11-25T17:41:53.4568881Z             "AttachStdout": false,
+2024-11-25T17:41:53.4569542Z             "AttachStderr": false,
+2024-11-25T17:41:53.4570335Z             "Tty": false,
+2024-11-25T17:41:53.4571051Z             "OpenStdin": false,
+2024-11-25T17:41:53.4571682Z             "StdinOnce": false,
+2024-11-25T17:41:53.4572276Z             "Env": [
+2024-11-25T17:41:53.4573120Z                 "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+2024-11-25T17:41:53.4573998Z                 "NODE_VERSION=20.6.1",
+2024-11-25T17:41:53.4574798Z                 "YARN_VERSION=1.22.19",
+2024-11-25T17:41:53.4575604Z                 "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true",
+2024-11-25T17:41:53.4576612Z                 "PUPPETEER_BROWSER_PATH=google-chrome-stable"
+2024-11-25T17:41:53.4577379Z             ],
+2024-11-25T17:41:53.4577740Z             "Cmd": null,
+2024-11-25T17:41:53.4578098Z             "Image": "",
+2024-11-25T17:41:53.4578600Z             "Volumes": null,
+2024-11-25T17:41:53.4578945Z             "WorkingDir": "/metrics",
+2024-11-25T17:41:53.4579437Z             "Entrypoint": [
+2024-11-25T17:41:53.4579821Z                 "/bin/sh",
+2024-11-25T17:41:53.4580180Z                 "-c",
+2024-11-25T17:41:53.4580702Z                 "node /metrics/source/app/action/index.mjs"
+2024-11-25T17:41:53.4581173Z             ],
+2024-11-25T17:41:53.4581494Z             "OnBuild": null,
+2024-11-25T17:41:53.4581884Z             "Labels": null
+2024-11-25T17:41:53.4582253Z         },
+2024-11-25T17:41:53.4582572Z         "Architecture": "amd64",
+2024-11-25T17:41:53.4583021Z         "Os": "linux",
+2024-11-25T17:41:53.4583457Z         "Size": 2384506652,
+2024-11-25T17:41:53.4583804Z         "GraphDriver": {
+2024-11-25T17:41:53.4584236Z             "Data": {
+2024-11-25T17:41:53.4587890Z                 "LowerDir": "/var/lib/docker/overlay2/d4366c1201876e5de4942b4bcdb890d7c80bb45889c3c76e8f5c0a0a7fb874b2/diff:/var/lib/docker/overlay2/fc5a7472f9e6e6c2e03a285e6052da9e0a1bd7e165e9a8d2c8ca6694bd83ae08/diff:/var/lib/docker/overlay2/6a637aec4396dee08a40e383574465a39153645909a623fec3caef6167b0d812/diff:/var/lib/docker/overlay2/3d23cffe4087b676ebaad93f090672a87469bfffffca7a76fca2a23d33b39417/diff:/var/lib/docker/overlay2/f61e29e66ff68d475c8037812747a27930ba8f0ef97b9ecb2e2f1d763b31e733/diff:/var/lib/docker/overlay2/21dc3479878a224fb299a69ccab62f3d22a341de4eeb0973d81eeec778b074c8/diff:/var/lib/docker/overlay2/34d6a8e3ac54fef823be75506496e304ffe3c15f142f5cf12f956d9fb105ef8e/diff",
+2024-11-25T17:41:53.4591872Z                 "MergedDir": "/var/lib/docker/overlay2/910f97c55bd1bade907125ffc2adc21cdb1c60fc994d0cedf39ec0265ddc1243/merged",
+2024-11-25T17:41:53.4592990Z                 "UpperDir": "/var/lib/docker/overlay2/910f97c55bd1bade907125ffc2adc21cdb1c60fc994d0cedf39ec0265ddc1243/diff",
+2024-11-25T17:41:53.4594216Z                 "WorkDir": "/var/lib/docker/overlay2/910f97c55bd1bade907125ffc2adc21cdb1c60fc994d0cedf39ec0265ddc1243/work"
+2024-11-25T17:41:53.4595064Z             },
+2024-11-25T17:41:53.4595404Z             "Name": "overlay2"
+2024-11-25T17:41:53.4595728Z         },
+2024-11-25T17:41:53.4596108Z         "RootFS": {
+2024-11-25T17:41:53.4596508Z             "Type": "layers",
+2024-11-25T17:41:53.4596954Z             "Layers": [
+2024-11-25T17:41:53.4597438Z                 "sha256:a2d7501dfb3541f3d736125cdfd748618194f60cbb5c63f4de67a92530899628",
+2024-11-25T17:41:53.4598293Z                 "sha256:9a2a56d458ec3995558ce9da3f0d8c7fd4cbc4ea039dcac8a778faee26bb9787",
+2024-11-25T17:41:53.4599143Z                 "sha256:508bcd84547eb5a0418e3b2efbaf647c2b3e4e1671f58ebb81d5ec1e8c786eac",
+2024-11-25T17:41:53.4599905Z                 "sha256:5fe14a445b97fed5eb00a421d1b931a0d2da455000a4db073de09cc98e264971",
+2024-11-25T17:41:53.4600614Z                 "sha256:95db10d2666e11f72298fe18ba7cf28836d40778aa8844f9420668e2dcddc823",
+2024-11-25T17:41:53.4601433Z                 "sha256:fcebc26c326d62cb51b7f7782823af0fd3e6fdc68af0fec9ac99f5989336932f",
+2024-11-25T17:41:53.4602307Z                 "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef",
+2024-11-25T17:41:53.4603128Z                 "sha256:60b9b0e78db62f369d082ede1651154e620c33199afca076b2159cdb288fecff"
+2024-11-25T17:41:53.4603685Z             ]
+2024-11-25T17:41:53.4604034Z         },
+2024-11-25T17:41:53.4604417Z         "Metadata": {
+2024-11-25T17:41:53.4604867Z             "LastTagTime": "0001-01-01T00:00:00Z"
+2024-11-25T17:41:53.4605275Z         }
+2024-11-25T17:41:53.4605651Z     }
+2024-11-25T17:41:53.4605943Z ]
+2024-11-25T17:41:53.4606351Z Image ghcr.io/lowlighter/metrics:v3.34 is present locally
+2024-11-25T17:41:53.4607201Z ##[endgroup]
+2024-11-25T17:41:55.3526008Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-11-25T17:41:55.3527519Z [36mMetrics[0m                                                         │  
+2024-11-25T17:41:55.6352162Z Setup                                                           │ complete
+2024-11-25T17:41:55.6353439Z Version                                                         │ 3.34.0
+2024-11-25T17:41:55.7845332Z Using prebuilt image                                            │ true
+2024-11-25T17:41:55.7847110Z Debug mode                                                      │ false
+2024-11-25T17:41:55.7848658Z Debug flags                                                     │ (none)
+2024-11-25T17:41:55.7849895Z GitHub token                                                    │ (provided)
+2024-11-25T17:41:55.7851559Z GitHub token format                                             │ classic
+2024-11-25T17:41:55.7852778Z GitHub GraphQL API                                              │ ok
+2024-11-25T17:41:55.7854090Z GitHub GraphQL API endpoint                                     │ (default)
+2024-11-25T17:41:55.7905841Z GitHub REST API                                                 │ ok
+2024-11-25T17:41:55.7907657Z GitHub REST API endpoint                                        │ (default)
+2024-11-25T17:41:55.8772861Z API requests (REST)                                             │ 4985/5000 (200+ required)
+2024-11-25T17:41:55.8774691Z API requests (GraphQL)                                          │ 4951/5000 (200+ required)
+2024-11-25T17:41:55.8776621Z API requests (Search)                                           │ 30/30
+2024-11-25T17:41:55.9144083Z Token validity                                                  │ seems ok
+2024-11-25T17:41:55.9159347Z GitHub account                                                  │ seanpm2001
+2024-11-25T17:41:55.9160920Z Current repository                                              │ seanpm2001/GitHub_Stats_B
+2024-11-25T17:41:55.9162458Z Committer token                                                 │ (provided)
+2024-11-25T17:41:55.9164026Z Committer branch                                                │ GitHub_Stats_B_Main-dev
+2024-11-25T17:41:55.9165497Z Committer head branch                                           │ GitHub_Stats_B_Main-dev
+2024-11-25T17:41:55.9190828Z Committer REST API                                              │ ok
+2024-11-25T17:41:55.9714863Z Committer account                                               │ (github-actions)
+2024-11-25T17:41:56.0289918Z Committer head branch status                                    │ ok
+2024-11-25T17:41:56.1793720Z Previous render sha                                             │ (none)
+2024-11-25T17:41:56.1795760Z SVG output                                                      │ /generated/GitHub_Stats_B_GitHub_Languages.svg
+2024-11-25T17:41:56.1797618Z SVG optimization                                                │ css, xml
+2024-11-25T17:41:56.1799260Z SVG verification after generation                               │ false
+2024-11-25T17:41:56.1801034Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-11-25T17:41:56.1802674Z [36mTemplates[0m                                                       │  
+2024-11-25T17:41:56.1804178Z Community templates                                             │ (none)
+2024-11-25T17:41:56.1805427Z Template used                                                   │ classic
+2024-11-25T17:41:56.1806817Z Query additional params                                         │ {}
+2024-11-25T17:41:56.1808153Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-11-25T17:41:56.1809348Z [36mCore[0m                                                            │  
+2024-11-25T17:41:56.1810814Z Markdown template path                                          │ TEMPLATE.md
+2024-11-25T17:41:56.1811533Z Extra CSS                                                       │ 
+2024-11-25T17:41:56.1812248Z Extra JavaScript                                                │ 
+2024-11-25T17:41:56.1812863Z Timezone for dates                                              │ 
+2024-11-25T17:41:56.1813719Z Plugin order                                                    │ base.header,isocalendar,languages,notable,discussions,topics
+2024-11-25T17:41:56.1814580Z Use twemojis                                                    │ false
+2024-11-25T17:41:56.1815259Z Use GitHub custom emojis                                        │ true
+2024-11-25T17:41:56.1815891Z Use GitHub octicons                                             │ false
+2024-11-25T17:41:56.1816649Z Display width (for image output formats)                        │ regular
+2024-11-25T17:41:56.1817366Z Use CSS animations                                              │ true
+2024-11-25T17:41:56.1818028Z Base64-encoded images                                           │ true
+2024-11-25T17:41:56.1818750Z Output padding                                                  │ 0, 8 + 11%
+2024-11-25T17:41:56.1819422Z Output format                                                   │ auto
+2024-11-25T17:41:56.1820215Z Configuration presets                                           │ 
+2024-11-25T17:41:56.1821228Z Notice about new releases of metrics                            │ true
+2024-11-25T17:41:56.1821873Z Experimental features                                           │ 
+2024-11-25T17:41:56.1822577Z Plugin errors                                                   │ (displayed in generated image)
+2024-11-25T17:41:56.1823788Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-11-25T17:41:56.1825124Z [36mBase content[0m                                                    │  
+2024-11-25T17:41:56.1826359Z Fetched repositories                                            │ 100
+2024-11-25T17:41:56.1827527Z Indepth mode                                                    │ true
+2024-11-25T17:41:56.1828740Z Show `Available for hire!` in header section                    │ false
+2024-11-25T17:41:56.1830050Z Skip base content                                               │ false
+2024-11-25T17:41:56.1831507Z Fetched repositories per query                                  │ 100
+2024-11-25T17:41:56.1832617Z Include forks                                                   │ false
+2024-11-25T17:41:56.1833761Z Repositories affiliations                                       │ owner
+2024-11-25T17:41:56.1835179Z Default skipped repositories                                    │ 
+2024-11-25T17:41:56.1836904Z Default ignored users                                           │ github-actions[bot],dependabot[bot],dependabot-preview[bot],actions-user,action@github.com
+2024-11-25T17:41:56.1838831Z Identifiers that has been used for authoring commits            │ .user.login
+2024-11-25T17:41:56.1840260Z Base sections                                                   │ header
+2024-11-25T17:41:56.1841268Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-11-25T17:41:56.1842051Z [36mDiscussions[0m                                                     │  
+2024-11-25T17:41:56.1842753Z Discussion categories                                           │ true
+2024-11-25T17:41:56.1843436Z Display limit (categories)                                      │ 0
+2024-11-25T17:41:56.1844806Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-11-25T17:41:56.1846171Z [36mIsometric commit calendar[0m                                       │  
+2024-11-25T17:41:56.1847408Z Time range                                                      │ half-year
+2024-11-25T17:41:56.1848669Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-11-25T17:41:56.1849882Z [36mLanguages activity[0m                                              │  
+2024-11-25T17:41:56.1851261Z Ignored languages                                               │ 
+2024-11-25T17:41:56.1852681Z Skipped repositories                                            │ 
+2024-11-25T17:41:56.1853805Z Display limit                                                   │ 2
+2024-11-25T17:41:56.1854989Z Display threshold (percentage)                                  │ 0%
+2024-11-25T17:41:56.1855871Z Group unknown, ignored and over-limit languages into "Other" category │ false
+2024-11-25T17:41:56.1856650Z Custom languages colors                                         │ github
+2024-11-25T17:41:56.1857294Z Custom languages names                                          │ 
+2024-11-25T17:41:56.1858095Z Displayed sections                                              │ most-used,recently-used
+2024-11-25T17:41:56.1858848Z Additional details                                              │ lines,bytes-size,percentage
+2024-11-25T17:41:56.1859623Z Indepth mode                                                    │ true
+2024-11-25T17:41:56.1860263Z Indepth mode - Custom repositories                              │ 
+2024-11-25T17:41:56.1860936Z Indepth mode - Analysis timeout                                 │ 15
+2024-11-25T17:41:56.1861687Z Indepth mode - Analysis timeout (repositories)                  │ 7.5
+2024-11-25T17:41:56.1862624Z Indepth mode - Displayed categories (most-used section)         │ markup,programming
+2024-11-25T17:41:56.1863467Z Indepth mode - Displayed categories (recently-used section)     │ markup,programming
+2024-11-25T17:41:56.1864319Z Indepth mode - Events to load (recently-used section)           │ 300
+2024-11-25T17:41:56.1865052Z Indepth mode - Events maximum age (day, recently-used section)  │ 14
+2024-11-25T17:41:56.1866032Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-11-25T17:41:56.1867531Z [36mNotable contributions[0m                                           │  
+2024-11-25T17:41:56.1868876Z Query filter                                                    │ 
+2024-11-25T17:41:56.1869976Z Skipped repositories                                            │ 
+2024-11-25T17:41:56.1871307Z Repository owner account type filter                            │ organization
+2024-11-25T17:41:56.1872504Z Repository name                                                 │ false
+2024-11-25T17:41:56.1873637Z Indepth mode                                                    │ false
+2024-11-25T17:41:56.1875070Z Contribution types filter                                       │ commit
+2024-11-25T17:41:56.1876411Z Include own repositories                                        │ false
+2024-11-25T17:41:56.1877719Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-11-25T17:41:56.1878802Z [36mStarred topics[0m                                                  │  
+2024-11-25T17:41:56.1879465Z Display mode                                                    │ icons
+2024-11-25T17:41:56.1880154Z Sorting method                                                  │ stars
+2024-11-25T17:41:56.1880858Z Display limit                                                   │ 0
+2024-11-25T17:41:56.1881563Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-11-25T17:41:56.1882206Z [36mRendering[0m                                                       │  
+2024-11-25T17:44:24.4435587Z ##[group]1 error(s) occurred
+2024-11-25T17:44:24.4472822Z [
+2024-11-25T17:44:24.4473895Z   {
+2024-11-25T17:44:24.4474751Z     name: 'discussions',
+2024-11-25T17:44:24.4475325Z     result: {
+2024-11-25T17:44:24.4476045Z Status                                                          │ complete
+2024-11-25T17:44:24.4477211Z MIME type                                                       │ image/svg+xml
+2024-11-25T17:44:24.4510135Z       error: {
+2024-11-25T17:44:24.4511011Z         message: 'Unexpected error',
+2024-11-25T17:44:24.4513048Z         instance: RequestError [HttpError]: We couldn't respond to your request in time. Sorry about that. Please try resubmitting your request and contact us if the problem persists.
+2024-11-25T17:44:24.4515343Z             at /metrics/node_modules/@octokit/graphql/node_modules/@octokit/request/dist-node/index.js:112:21
+2024-11-25T17:44:24.4517165Z             at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-25T17:44:24.4518900Z             at async Object.default [as discussions] (file:///metrics/source/plugins/discussions/index.mjs:15:54)
+2024-11-25T17:44:24.4520245Z             at async file:///metrics/source/plugins/core/index.mjs:67:30
+2024-11-25T17:44:24.4521408Z             at async Promise.all (index 0)
+2024-11-25T17:44:24.4522321Z             at async metrics (file:///metrics/source/app/metrics/index.mjs:81:22)
+2024-11-25T17:44:24.4523577Z             at async retry.retries.retries (file:///metrics/source/app/action/index.mjs:407:40)
+2024-11-25T17:44:24.4525246Z             at async retry (file:///metrics/source/app/action/index.mjs:57:22)
+2024-11-25T17:44:24.4526315Z             at async file:///metrics/source/app/action/index.mjs:406:28 {
+2024-11-25T17:44:24.4527115Z           status: 504,
+2024-11-25T17:44:24.4527738Z           response: {
+2024-11-25T17:44:24.4528497Z             url: 'https://api.github.com/graphql',
+2024-11-25T17:44:24.4529426Z             status: 504,
+2024-11-25T17:44:24.4530001Z             headers: {
+2024-11-25T17:44:24.4531426Z               'access-control-allow-origin': '*;',
+2024-11-25T17:44:24.4534733Z               'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-RateLimit-Used, X-RateLimit-Resource, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset',
+2024-11-25T17:44:24.4537700Z               'cache-control': 'no-cache',
+2024-11-25T17:44:24.4538593Z               connection: 'close',
+2024-11-25T17:44:24.4539865Z               'content-security-policy': "default-src 'none'; style-src 'unsafe-inline'",
+2024-11-25T17:44:24.4541171Z               'content-type': 'application/json; charset=utf-8',
+2024-11-25T17:44:24.4542591Z               'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+2024-11-25T17:44:24.4544123Z               'strict-transport-security': 'max-age=31536000',
+2024-11-25T17:44:24.4545144Z               'x-content-type-options': 'nosniff',
+2024-11-25T17:44:24.4546120Z               'x-frame-options': 'deny',
+2024-11-25T17:44:24.4547286Z               'x-github-media-type': 'github.v3; format=json',
+2024-11-25T17:44:24.4548335Z               'x-xss-protection': '0'
+2024-11-25T17:44:24.4548973Z             },
+2024-11-25T17:44:24.4549627Z             data: {
+2024-11-25T17:44:24.4551378Z               message: "We couldn't respond to your request in time. Sorry about that. Please try resubmitting your request and contact us if the problem persists."
+2024-11-25T17:44:24.4553004Z             }
+2024-11-25T17:44:24.4553650Z           },
+2024-11-25T17:44:24.4554236Z           request: {
+2024-11-25T17:44:24.4555086Z             method: 'POST',
+2024-11-25T17:44:24.4555917Z             url: 'https://api.github.com/graphql',
+2024-11-25T17:44:24.4556773Z             headers: {
+2024-11-25T17:44:24.4557763Z               accept: 'application/vnd.github.v3+json',
+2024-11-25T17:44:24.4559067Z               'user-agent': 'octokit-graphql.js/7.0.1 Node.js/20.6.1 (linux; x64)',
+2024-11-25T17:44:24.4560209Z               authorization: 'token [REDACTED]',
+2024-11-25T17:44:24.4561429Z               'content-type': 'application/json; charset=utf-8'
+2024-11-25T17:44:24.4562325Z             },
+2024-11-25T17:44:24.4565089Z             body: '{"query":"query DiscussionsStatistics {\\n  user(login: \\"seanpm2001\\") {\\n    started: repositoryDiscussions {\\n      totalCount\\n    }\\n    comments: repositoryDiscussionComments {\\n      totalCount\\n    }\\n    answers: repositoryDiscussionComments(onlyAn'... 49 more characters
+2024-11-25T17:44:24.4567777Z           }
+2024-11-25T17:44:24.4568261Z         }
+2024-11-25T17:44:24.4568783Z       }
+2024-11-25T17:44:24.4569459Z     }
+2024-11-25T17:44:24.4569895Z   }
+2024-11-25T17:44:24.4571983Z ]
+2024-11-25T17:44:24.4572993Z ##[endgroup]
+2024-11-25T17:44:24.4575312Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-11-25T17:44:24.4579408Z [36mSaving[0m                                                          │  
+2024-11-25T17:44:24.4580627Z Output condition                                                │ always
+2024-11-25T17:44:24.4581797Z Save to /metrics_renders//generated/GitHub_Stats_B_GitHub_Languages.svg │ ok
+2024-11-25T17:44:24.4583045Z Output action                                                   │ gist
+2024-11-25T17:44:24.4723471Z Current render sha                                              │ d9e8043d6cd204b4be1641babfacf306072df5d4
+2024-11-25T17:54:25.3879354Z RequestError [HttpError]: Resource not accessible by integration
+2024-11-25T17:54:25.3880945Z     at /metrics/node_modules/@octokit/request/dist-node/index.js:86:21
+2024-11-25T17:54:25.3882384Z ────────────────────────────────────────────────────────────────────────────────────────
+2024-11-25T17:54:25.3885106Z undefined
+2024-11-25T17:54:25.3885550Z An error occurred, logging debug message :
+2024-11-25T17:54:25.3886464Z TypeError: Cannot read properties of null (reading 'oid')
+2024-11-25T17:54:25.3887351Z     at file:///metrics/source/app/action/index.mjs:307:38
+2024-11-25T17:54:25.3889934Z     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-25T17:54:25.3892488Z ##[group]Attempt 1/3
+2024-11-25T17:54:25.3892781Z metrics/compute/seanpm2001 > start
+2024-11-25T17:54:25.3893068Z {
+2024-11-25T17:54:25.3893337Z   template: 'classic',
+2024-11-25T17:54:25.3893738Z   'debug.flags': '',
+2024-11-25T17:54:25.3894173Z   markdown: 'TEMPLATE.md',
+2024-11-25T17:54:25.3894606Z   'extras.css': '',
+2024-11-25T17:54:25.3895018Z   'extras.js': '',
+2024-11-25T17:54:25.3895423Z   'config.timezone': '',
+2024-11-25T17:54:25.3895850Z   'config.order': [
+2024-11-25T17:54:25.3896242Z     'base.header',
+2024-11-25T17:54:25.3896628Z     'isocalendar',
+2024-11-25T17:54:25.3897013Z     'languages',
+2024-11-25T17:54:25.3897386Z     'notable',
+2024-11-25T17:54:25.3897761Z     'discussions',
+2024-11-25T17:54:25.3898126Z     'topics'
+2024-11-25T17:54:25.3898434Z   ],
+2024-11-25T17:54:25.3898789Z   'config.twemoji': false,
+2024-11-25T17:54:25.3899262Z   'config.gemoji': true,
+2024-11-25T17:54:25.3899708Z   'config.octicon': false,
+2024-11-25T17:54:25.3900189Z   'config.display': 'regular',
+2024-11-25T17:54:25.3900702Z   'config.animations': true,
+2024-11-25T17:54:25.3901178Z   'config.base64': true,
+2024-11-25T17:54:25.3901631Z   'config.padding': '0, 8 + 11%',
+2024-11-25T17:54:25.3902133Z   'config.output': 'auto',
+2024-11-25T17:54:25.3902611Z   'config.presets': [],
+2024-11-25T17:54:25.3903060Z   'notice.releases': true,
+2024-11-25T17:54:25.3903553Z   'experimental.features': [],
+2024-11-25T17:54:25.3904003Z   hireable: false,
+2024-11-25T17:54:25.3904363Z   skip: false,
+2024-11-25T17:54:25.3904784Z   'repositories.batch': 100,
+2024-11-25T17:54:25.3905268Z   'repositories.forks': false,
+2024-11-25T17:54:25.3905911Z   'repositories.affiliations': [ 'owner' ],
+2024-11-25T17:54:25.3906526Z   'repositories.skipped': [],
+2024-11-25T17:54:25.3907386Z   'users.ignored': [
+2024-11-25T17:54:25.3907820Z     'github-actions[bot]',
+2024-11-25T17:54:25.3908268Z     'dependabot[bot]',
+2024-11-25T17:54:25.3908727Z     'dependabot-preview[bot]',
+2024-11-25T17:54:25.3909205Z     'actions-user',
+2024-11-25T17:54:25.3909628Z     'action@github.com'
+2024-11-25T17:54:25.3909999Z   ],
+2024-11-25T17:54:25.3910390Z   'commits.authoring': [ '.user.login' ],
+2024-11-25T17:54:25.3910873Z   base: false,
+2024-11-25T17:54:25.3911243Z   'base.header': true,
+2024-11-25T17:54:25.3911679Z   'base.activity': false,
+2024-11-25T17:54:25.3912138Z   'base.community': false,
+2024-11-25T17:54:25.3912607Z   'base.repositories': false,
+2024-11-25T17:54:25.3913100Z   'base.metadata': false,
+2024-11-25T17:54:25.3913564Z   'base.indepth': true,
+2024-11-25T17:54:25.3913956Z   discussions: true,
+2024-11-25T17:54:25.3914409Z   'discussions.categories': true,
+2024-11-25T17:54:25.3914992Z   'discussions.categories.limit': 0,
+2024-11-25T17:54:25.3915732Z   isocalendar: true,
+2024-11-25T17:54:25.3916202Z   'isocalendar.duration': 'half-year',
+2024-11-25T17:54:25.3916671Z   languages: true,
+2024-11-25T17:54:25.3917094Z   'languages.ignored': [],
+2024-11-25T17:54:25.3917556Z   'languages.skipped': [],
+2024-11-25T17:54:25.3918014Z   'languages.limit': 2,
+2024-11-25T17:54:25.3918486Z   'languages.threshold': '0%',
+2024-11-25T17:54:25.3918986Z   'languages.other': false,
+2024-11-25T17:54:25.3919490Z   'languages.colors': [ 'github' ],
+2024-11-25T17:54:25.3920043Z   'languages.aliases': '',
+2024-11-25T17:54:25.3920657Z   'languages.sections': [ 'most-used', 'recently-used' ],
+2024-11-25T17:54:25.3921696Z   'languages.details': [ 'lines', 'bytes-size', 'percentage' ],
+2024-11-25T17:54:25.3922434Z   'languages.indepth': true,
+2024-11-25T17:54:25.3922975Z   'languages.indepth.custom': [],
+2024-11-25T17:54:25.3923559Z   'languages.analysis.timeout': 15,
+2024-11-25T17:54:25.3924251Z   'languages.analysis.timeout.repositories': 7.5,
+2024-11-25T17:54:25.3925027Z   'languages.categories': [ 'markup', 'programming' ],
+2024-11-25T17:54:25.3925885Z   'languages.recent.categories': [ 'markup', 'programming' ],
+2024-11-25T17:54:25.3926601Z   'languages.recent.load': 300,
+2024-11-25T17:54:25.3927134Z   'languages.recent.days': 14,
+2024-11-25T17:54:25.3927581Z   notable: true,
+2024-11-25T17:54:25.3927991Z   'notable.filter': '',
+2024-11-25T17:54:25.3928441Z   'notable.skipped': [],
+2024-11-25T17:54:25.3928917Z   'notable.from': 'organization',
+2024-11-25T17:54:25.3929464Z   'notable.repositories': false,
+2024-11-25T17:54:25.3929984Z   'notable.indepth': false,
+2024-11-25T17:54:25.3930690Z   'notable.types': [ 'commit' ],
+2024-11-25T17:54:25.3931194Z   'notable.self': false,
+2024-11-25T17:54:25.3931591Z   topics: true,
+2024-11-25T17:54:25.3931994Z   'topics.mode': 'icons',
+2024-11-25T17:54:25.3932431Z   'topics.sort': 'stars',
+2024-11-25T17:54:25.3932864Z   'topics.limit': 0
+2024-11-25T17:54:25.3933209Z }
+2024-11-25T17:54:25.3933649Z metrics/compute/seanpm2001 > output format set to svg
+2024-11-25T17:54:25.3941013Z metrics/compute/seanpm2001 > content order : base.header,isocalendar,languages,notable,discussions,topics,introduction,base.activity+community,base.repositories,lines,followup,projects,repositories,gists,pagespeed,habits,music,nightscout,posts,rss,tweets,calendar,stars,starlists,stargazers,people,activity,reactions,anilist,wakatime,skyline,support,stackoverflow,leetcode,stock,achievements,screenshot,code,chess,sponsors,sponsorships,poopmap,16personalities,fortune,splatoon,steam
+2024-11-25T17:54:25.3948290Z metrics/compute/seanpm2001 > compute
+2024-11-25T17:54:25.3948818Z metrics/compute/seanpm2001/base > started
+2024-11-25T17:54:25.3949875Z metrics/compute/seanpm2001/base > affiliations constraints , ownerAffiliations: [OWNER], affiliations: [OWNER]
+2024-11-25T17:54:25.3950969Z metrics/compute/seanpm2001/base > account user
+2024-11-25T17:54:25.3951662Z metrics/compute/seanpm2001/base > applying postprocessing
+2024-11-25T17:54:25.3952609Z metrics/compute/seanpm2001/base > failed to load bulk query, falling back to unit queries
+2024-11-25T17:54:25.3953965Z metrics/extras > base > base_indepth > require [metrics.api.github.overuse]
+2024-11-25T17:54:25.3954909Z metrics/extras > base > base_indepth > extras features is set to true
+2024-11-25T17:54:25.3956864Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalRepositoriesWithContributedCommits from "2020-05-26T02:35:34.000Z" to "2020-11-09T23:59:59.999Z"
+2024-11-25T17:54:25.3959527Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalRepositoriesWithContributedCommits from "2020-11-10T00:35:34.000Z" to "2021-04-26T23:59:59.999Z"
+2024-11-25T17:54:25.3962233Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalRepositoriesWithContributedCommits from "2021-04-27T00:35:34.000Z" to "2021-10-11T23:59:59.999Z"
+2024-11-25T17:54:25.3964876Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalRepositoriesWithContributedCommits from "2021-10-12T00:35:34.000Z" to "2022-03-28T23:59:59.999Z"
+2024-11-25T17:54:25.3967662Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalRepositoriesWithContributedCommits from "2022-03-29T00:35:34.000Z" to "2022-09-12T23:59:59.999Z"
+2024-11-25T17:54:25.3970664Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalRepositoriesWithContributedCommits from "2022-09-13T00:35:34.000Z" to "2023-02-27T23:59:59.999Z"
+2024-11-25T17:54:25.3973274Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalRepositoriesWithContributedCommits from "2023-02-28T00:35:34.000Z" to "2023-08-14T23:59:59.999Z"
+2024-11-25T17:54:25.3976079Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalRepositoriesWithContributedCommits from "2023-08-15T00:35:34.000Z" to "2024-01-29T23:59:59.999Z"
+2024-11-25T17:54:25.3978726Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalRepositoriesWithContributedCommits from "2024-01-30T00:35:34.000Z" to "2024-07-15T23:59:59.999Z"
+2024-11-25T17:54:25.3981439Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalRepositoriesWithContributedCommits from "2024-07-16T00:35:34.000Z" to "2024-11-24T23:59:59.999Z"
+2024-11-25T17:54:25.3983976Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalCommitContributions from "2020-05-26T02:35:34.000Z" to "2020-11-09T23:59:59.999Z"
+2024-11-25T17:54:25.3986358Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalCommitContributions from "2020-11-10T00:35:34.000Z" to "2021-04-26T23:59:59.999Z"
+2024-11-25T17:54:25.3988744Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalCommitContributions from "2021-04-27T00:35:34.000Z" to "2021-10-11T23:59:59.999Z"
+2024-11-25T17:54:25.3991152Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalCommitContributions from "2021-10-12T00:35:34.000Z" to "2022-03-28T23:59:59.999Z"
+2024-11-25T17:54:25.3993551Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalCommitContributions from "2022-03-29T00:35:34.000Z" to "2022-09-12T23:59:59.999Z"
+2024-11-25T17:54:25.3995965Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalCommitContributions from "2022-09-13T00:35:34.000Z" to "2023-02-27T23:59:59.999Z"
+2024-11-25T17:54:25.3998405Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalCommitContributions from "2023-02-28T00:35:34.000Z" to "2023-08-14T23:59:59.999Z"
+2024-11-25T17:54:25.4000895Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalCommitContributions from "2023-08-15T00:35:34.000Z" to "2024-01-29T23:59:59.999Z"
+2024-11-25T17:54:25.4003432Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalCommitContributions from "2024-01-30T00:35:34.000Z" to "2024-07-15T23:59:59.999Z"
+2024-11-25T17:54:25.4006219Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalCommitContributions from "2024-07-16T00:35:34.000Z" to "2024-11-24T23:59:59.999Z"
+2024-11-25T17:54:25.4008786Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for restrictedContributionsCount from "2020-05-26T02:35:34.000Z" to "2020-11-09T23:59:59.999Z"
+2024-11-25T17:54:25.4137603Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for restrictedContributionsCount from "2020-11-10T00:35:34.000Z" to "2021-04-26T23:59:59.999Z"
+2024-11-25T17:54:25.4140603Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for restrictedContributionsCount from "2021-04-27T00:35:34.000Z" to "2021-10-11T23:59:59.999Z"
+2024-11-25T17:54:25.4143307Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for restrictedContributionsCount from "2021-10-12T00:35:34.000Z" to "2022-03-28T23:59:59.999Z"
+2024-11-25T17:54:25.4146213Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for restrictedContributionsCount from "2022-03-29T00:35:34.000Z" to "2022-09-12T23:59:59.999Z"
+2024-11-25T17:54:25.4148745Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for restrictedContributionsCount from "2022-09-13T00:35:34.000Z" to "2023-02-27T23:59:59.999Z"
+2024-11-25T17:54:25.4151366Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for restrictedContributionsCount from "2023-02-28T00:35:34.000Z" to "2023-08-14T23:59:59.999Z"
+2024-11-25T17:54:25.4154025Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for restrictedContributionsCount from "2023-08-15T00:35:34.000Z" to "2024-01-29T23:59:59.999Z"
+2024-11-25T17:54:25.4156666Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for restrictedContributionsCount from "2024-01-30T00:35:34.000Z" to "2024-07-15T23:59:59.999Z"
+2024-11-25T17:54:25.4159378Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for restrictedContributionsCount from "2024-07-16T00:35:34.000Z" to "2024-11-24T23:59:59.999Z"
+2024-11-25T17:54:25.4161581Z     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-11-25T17:54:25.4162723Z     at async retry.retries (file:///metrics/source/app/action/index.mjs:553:11)
+2024-11-25T17:54:25.4163727Z     at async retry (file:///metrics/source/app/action/index.mjs:57:22)
+2024-11-25T17:54:25.4164618Z     at async file:///metrics/source/app/action/index.mjs:552:9 {
+2024-11-25T17:54:25.4165292Z   status: 403,
+2024-11-25T17:54:25.4165881Z   response: {
+2024-11-25T17:54:25.4167074Z     url: 'https://api.github.com/repos/seanpm2001/GitHub_Stats_B/contents/%2Fgenerated%2FGitHub_Stats_B_GitHub_Languages.svg',
+2024-11-25T17:54:25.4168258Z     status: 403,
+2024-11-25T17:54:25.4168641Z     headers: {
+2024-11-25T17:54:25.4169146Z       'access-control-allow-origin': '*',
+2024-11-25T17:54:25.4172463Z       'access-control-expose-headers': 'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset',
+2024-11-25T17:54:25.4175227Z       'content-encoding': 'gzip',
+2024-11-25T17:54:25.4175894Z       'content-security-policy': "default-src 'none'",
+2024-11-25T17:54:25.4176729Z       'content-type': 'application/json; charset=utf-8',
+2024-11-25T17:54:25.4177475Z       date: 'Mon, 25 Nov 2024 17:52:25 GMT',
+2024-11-25T17:54:25.4178470Z       'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+2024-11-25T17:54:25.4179401Z       server: 'github.com',
+2024-11-25T17:54:25.4180249Z       'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+2024-11-25T17:54:25.4181161Z       'transfer-encoding': 'chunked',
+2024-11-25T17:54:25.4182129Z       vary: 'Accept-Encoding, Accept, X-Requested-With',
+2024-11-25T17:54:25.4183260Z       'x-accepted-github-permissions': 'contents=write; contents=write,workflows=write',
+2024-11-25T17:54:25.4184254Z       'x-content-type-options': 'nosniff',
+2024-11-25T17:54:25.4184864Z       'x-frame-options': 'deny',
+2024-11-25T17:54:25.4185512Z       'x-github-api-version-selected': '2022-11-28',
+2024-11-25T17:54:25.4186303Z       'x-github-media-type': 'github.v3; format=json',
+2024-11-25T17:54:25.4187188Z       'x-github-request-id': '8C40:237494:B029DA:159C7F1:6744B959',
+2024-11-25T17:54:25.4187950Z       'x-ratelimit-limit': '5000',
+2024-11-25T17:54:25.4188503Z       'x-ratelimit-remaining': '4978',
+2024-11-25T17:54:25.4189094Z       'x-ratelimit-reset': '1732558669',
+2024-11-25T17:54:25.4189675Z       'x-ratelimit-resource': 'core',
+2024-11-25T17:54:25.4190219Z       'x-ratelimit-used': '22',
+2024-11-25T17:54:25.4190738Z       'x-xss-protection': '0'
+2024-11-25T17:54:25.4191285Z     },
+2024-11-25T17:54:25.4191589Z     data: {
+2024-11-25T17:54:25.4192119Z       message: 'Resource not accessible by integration',
+2024-11-25T17:54:25.4193348Z       documentation_url: 'https://docs.github.com/rest/repos/contents#create-or-update-file-contents',
+2024-11-25T17:54:25.4194353Z       status: '403'
+2024-11-25T17:54:25.4194704Z     }
+2024-11-25T17:54:25.4194990Z   },
+2024-11-25T17:54:25.4195286Z   request: {
+2024-11-25T17:54:25.4195672Z     method: 'PUT',
+2024-11-25T17:54:25.4196801Z     url: 'https://api.github.com/repos/seanpm2001/GitHub_Stats_B/contents/%2Fgenerated%2FGitHub_Stats_B_GitHub_Languages.svg',
+2024-11-25T17:54:25.4198004Z     headers: {
+2024-11-25T17:54:25.4198489Z       accept: 'application/vnd.github.v3+json',
+2024-11-25T17:54:25.4199341Z       'user-agent': 'octokit-core.js/3.6.0 Node.js/20.6.1 (linux; x64)',
+2024-11-25T17:54:25.4200174Z       authorization: 'token [REDACTED]',
+2024-11-25T17:54:25.4200858Z       'content-type': 'application/json; charset=utf-8'
+2024-11-25T17:54:25.4201444Z     },
+2024-11-25T17:54:25.5735768Z     body: '{"message":"Update /generated/GitHub_Stats_B_GitHub_Languages.svg - [Skip GitHub Action]","content":"PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0ODAiIGhlaWdodD0iNzMxIiBjbGFzcz0iIj4KICAgIDxkZWZzPgogICAgICAgIDxzdHlsZS8+CiAgICA8L2RlZnM+CiAgICA8c3R5bGU+QGtleWZyYW1lcyBhbmltYXRpb24tZ2F1Z2V7MCV7c3Ryb2tlLWRhc2hhcnJheTowIDMyOX19QGtleWZyYW1lcyBhbmltYXRpb24tcmFpbmJvd3swJSx0b3tjb2xvcjojN2YwMGZmO2ZpbGw6IzdmMDBmZn0xNCV7Y29sb3I6I2E5MzNmZjtmaWxsOiNhOTMzZmZ9Mjkle2NvbG9yOiMwMDdmZmY7ZmlsbDojMDA3ZmZmfTQzJXtjb2xvcjojMDBmZjdmO2ZpbGw6IzAwZmY3Zn01NyV7Y29sb3I6I2ZmMDtmaWxsOiNmZjB9NzEle2NvbG9yOiNmZjdmMDA7ZmlsbDojZmY3ZjAwfTg2JXtjb2xvcjpyZWQ7ZmlsbDpyZWR9fXN2Z3tmb250LWZhbWlseTotYXBwbGUtc3lzdGVtLEJsaW5rTWFjU3lzdGVtRm9udCxTZWdvZSBVSSxIZWx2ZXRpY2EsQXJpYWwsc2Fucy1zZXJpZixBcHBsZSBDb2xvciBFbW9qaSxTZWdvZSBVSSBFbW9qaTtmb250LXNpemU6MTRweDtjb2xvcjojNzc3fWgxLGgyLGgze21hcmdpbjo4cHggMCAycHg7cGFkZGluZzowO2NvbG9yOiMwMzY2ZDZ9aDF7Zm9udC1zaXplOjIwcHg7Zm9udC13ZWlnaHQ6NzAwfWgyLGgze2ZvbnQtd2VpZ2h0OjQwMH1oMSBzdmcsaDIgc3ZnLGgzIHN2Z3tmaWxsOmN1cnJlbnRDb2xvcn1oMntmb250LXNpemU6MTZweH1oM3tmb250LXNpemU6MTRweH1zZWN0aW9uJmd0Oy5maWVsZHttYXJnaW4tbGVmdDo1cHg7bWFyZ2luLXJpZ2h0OjVweH0uZmllbGR7ZGlzcGxheTpmbGV4O2FsaWduLWl0ZW1zOmNlbnRlcjttYXJnaW4tYm90dG9tOjJweDt3aGl0ZS1zcGFjZTpub3dyYXB9LmZpZWxkIHN2Z3ttYXJnaW46MCA4cHg7ZmlsbDojOTU5ZGE1O2ZsZXgtc2hyaW5rOjB9LmZpZWxkLmVycm9ye2NvbG9yOiNjYjI0MzF9LmZpZWxkLmVycm9yIHN2Z3tmaWxsOiNjYjI0MzF9LnJvd3tkaXNwbGF5OmZsZXg7ZmxleC13cmFwOndyYXB9LnJvdyBzZWN0aW9ue2ZsZXg6MSAxIDB9LmNvbHVtbntkaXNwbGF5OmZsZXg7ZmxleC1kaXJlY3Rpb246Y29sdW1uO2FsaWduLWl0ZW1zOmNlbnRlcn0jbWV0cmljcy1lbmQsLmZpbGwtd2lkdGh7d2lkdGg6MTAwJX0uYXZhdGFye2JvcmRlci1yYWRpdXM6NTAlO21hcmdpbjowIDZweH0uY2FsZW5kYXIuZmllbGR7bWFyZ2luOjRweCAwIDRweCA3cHh9LmNhbGVuZGFyIC5kYXl7b3V0bGluZToxcHggc29saWQgcmdiYSgyNywzMSwzNSwuMDQpO291dGxpbmUtb2Zmc2V0Oi0xcHh9LnRvcGljc3tkaXNwbGF5OmZsZXg7ZmxleC13cmFwOndyYXB9LnRvcGljcyBpbWd7Ym9yZGVyLXJhZGl1czo1cHg7bWFyZ2luOjRweH0uYWN0aXZpdHl7bWFyZ2luLWJvdHRvbToxMnB4fS5hY3Rpdml0eSAuZmllbGR7d2lkdGg6MTAwJTtvdmVyZmxvdzpoaWRkZW47dGV4dC1vdmVyZmxvdzplbGxpcHNpczttYXgtd2lkdGg6NDUwcHg7d2hpdGUtc3BhY2U6bm93cmFwO21hcmdpbi1ib3R0b206MH1zdmcuY2FsZW5kYXJ7bWFyZ2luLWxlZnQ6MTNweDttYXJnaW4tdG9wOjRweH06cm9vdHstLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1iZzojZWJlZGYwOy0tY29sb3ItY2FsZW5kYXItZ3JhcGgtZGF5LWJvcmRlcjpyZ2JhKDI3LDMxLDM1LDAuMDYpOy0tY29sb3ItY2FsZW5kYXItZ3JhcGgtZGF5LUwxLWJnOiM5YmU5YTg7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDItYmc6IzQwYzQ2MzstLWNvbG9yLWNhbGVuZGFyLWdyYXBoLWRheS1MMy1iZzojMzBhMTRlOy0tY29sb3ItY2FsZW5kYXItZ3JhcGgtZGF5LUw0LWJnOiMyMTZlMzk7LS1jb2xvci1jYWxlbmRhci1oYWxsb3dlZW4tZ3JhcGgtZGF5LUwxLWJnOiNmZmVlNGE7LS1jb2xvci1jYWxlbmRhci1oYWxsb3dlZW4tZ3JhcGgtZGF5LUwyLWJnOiNmZmM1MDE7LS1jb2xvci1jYWxlbmRhci1oYWxsb3dlZW4tZ3JhcGgtZGF5LUwzLWJnOiNmZTk2MDA7LS1jb2xvci1jYWxlbmRhci1oYWxsb3dlZW4tZ3JhcGgtZGF5LUw0LWJnOiMwMzAwMWM7LS1jb2xvci1jYWxlbmRhci13aW50ZXItZ3JhcGgtZGF5LUwxLWJnOiMwYTMwNjk7LS1jb2xvci1jYWxlbmRhci13aW50ZXItZ3JhcGgtZGF5LUwyLWJnOiMwOTY5ZGE7LS1jb2xvci1jYWxlbmRhci13aW50ZXItZ3JhcGgtZGF5LUwzLWJnOiM1NGFlZmY7LS1jb2xvci1jYWxlbmRhci13aW50ZXItZ3JhcGgtZGF5LUw0LWJnOiNiNmUzZmY7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDQtYm9yZGVyOnJnYmEoMjcsMzEsMzUsMC4wNik7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDMtYm9yZGVyOnJnYmEoMjcsMzEsMzUsMC4wNik7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDItYm9yZGVyOnJnYmEoMjcsMzEsMzUsMC4wNik7LS1jb2xvci1jYWxlbmRhci1ncmFwaC1kYXktTDEtYm9yZGVyOnJnYmEoMjcsMzEsMzUsMC4wNil9PC9zdHlsZT4KICAgIDxzdHlsZS8+CiAgICA8Zm9yZWlnbk9iamVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIj4KICAgICAgICA8ZGl2IHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hodG1sIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgY2xhc3M9Iml0ZW1zLXdyYXBwZXIiPgogICAgICAgICAgICA8c2VjdGlvbj4KICAgICAgICAgICAgICAgIDxoMSBjbGFzcz0iZmllbGQiPgogICAgICAgICAgICAgICAgICAgIDxpbWcgY2xhc3M9ImF2YXRhciIgc3JjPSJkYXRhOmltYWdlL2pwZztiYXNlNjQsLzlqLzJ3QkRBQVlFQlFZRkJBWUdCUVlIQndZSUNoQUtDZ2tKQ2hRT0R3d1FGeFFZR0JjVUZoWWFIU1VmR2hzakhCWVdJQ3dnSXlZbktTb3BHUjh0TUMwb01DVW9LU2ovMndCREFRY0hCd29JQ2hNS0NoTW9HaFlhS0Nnb0tDZ29LQ2dvS0Nnb0tDZ29LQ2dvS0Nnb0tDZ29LQ2dvS0Nnb0tDZ29LQ2dvS0Nnb0tDZ29LQ2dvS0Nnb0tDai93QUFSQ0FITUFjd0RBU0lBQWhFQkF4RUIvOFFBSEFBQUFnSURBUUVBQUFBQUFBQUFBQUFBQkFVQUJnRUNBd2NJLzhRQVRCQUFBUU1EQWdRREJBY0dCQVFGQXdNRkFRSURCQUFGRVJJaEJoTXhRVkZoY1JRaWdaRUhGU015b2JIUk0wSlNWSlBCRmlSaWNsT0M0ZkEwUTJPU29pV3k4VFZ6Z3pkRXM4TGkvOFFBR2dFQUF3RUJBUUVBQUFBQUFBQUFBQUFBQUFFQ0F3UUZCdi9FQURNUkFBSUNBZ0lCQkFFREF3TUNCd0FBQUFBQkFoRURJUkl4UVFRVElsRmhNbkdCQmFIQkZFTGhCbElqTTVHeDBmRHgvOW9BREFNQkFBSVJBeEVBUHdENWkrc1p2ODdKL3FuOWFuMWpOL25aUDlVL3JRTlNnQTc2eG0venNuK3FmMXFmV00zK2RrLzFUK3RBMUtBRHZyR2IvT3lmNnAvV3A5WXpmNTJUL1ZQNjBEVW9BTytzWnY4QU95ZjZwL1dwOVl6ZjUyVC9BRlQrdEExS0FEdnJHYi9PeWY2cC9XcDlZemY1MlQvVlA2MERVb0FPK3Nadjg3Si9xbjlhbjFqTi9uWlA5VS9yUU5TZ0E3NnhtL3pzbitxZjFxZldNMytkay8xVCt0QTFLQUR2ckdiL0FEc24rcWYxcWZXTTMrZGsvd0JVL3JRTlNnQTc2eG0venNuK3FmMXFmV00zK2RrLzFUK3RBMW5GQUJ2MWpOL25aUDhBVlA2MVByR2IvT3lmNnAvV2dhbEFCMzFqTi9uWlA5VS9yVStzWnY4QU95ZjZwL1dnYWxBQjMxak4vblpQOVUvclUrc1p2ODdKL3FuOWFCcVVBSGZXTTMrZGsvMVQrdFQ2eG0venNuK3FmMW9HcFFBZDlZemY1MlQvQUZUK3RUNnhtL3pzbitxZjFvR3BRQWQ5WXpmNTJUL1ZQNjFQckdiL0FEc24rcWYxb0dwUUFkOVl6ZjUyVC9WUDYxUHJHYi9PeWY2cC9XZ2FsQUIzMWpOL25aUDlVL3JVK3Nadjg3Si9xbjlhQnFVQUhmV00zK2RrL3dCVS9yVStzWnY4N0ovcW45YUJxVUFIZldNMytkay8xVCt0VDZ4bS93QTdKL3FuOWFCcVVBSGZXTTMrZGsvMVQrdFQ2eG0venNuK3FmMW9HcFFBZDlZemY1MlQvVlA2MVByR2IvT3lmNnAvV2dhbEFCMzFqTi9uWlA4QVZQNjFQckdiL095ZjZwL1dnYWxBQjMxak4vblpQOVUvclUrc1p2OEFPeWY2cC9XZ2FsQUIzMWpOL25aUDlVL3JVK3Nadjg3Si9xbjlhQnFVQUhmV00zK2RrLzFUK3RUNnhtL3pzbitxZjFvR3BRQWQ5WXpmNTJUL0FGVCt0VDZ4bS96c24rcWYxb0dwUUFkOVl6ZjUyVC9WUDYxUHJHYi9BRHNuK3FmMW9HcFFBZDlZemY1MlQvVlA2MVByR2IvT3lmNnAvV2dhbEFCMzFqTi9uWlA5VS9yVStzWnY4N0ovcW45YUJxVUFiVmlyQk1zZ1pkNVN5Nnk3L0E2bmVnbkxTOFAyWlM1K0ZPbVR6VEZkU2lYSWNoQjk1cFh3M3JnUVFjRUVHa1VhMUtsU2dDVktsU2dDVktsU2dDVktsU2dDVktsU2dDVktsU2dBMjNRak5jVWtMQ1NCbmZ2Ukxsa2x0bjNVcFgvdE85RWNJZ21ldlI5L1R0OHhYcjBQaHQrN3N0b24yRjYyTElHbWJHU0EwZk5iYWlQbURtdFl3VWtZNU1qZ3p3NTZISmFQMmpMZ1BtS0hJS1RnamV2V09JN0RJc1VvTXZTSVVrTCs2NUZlRG9QcjNCOGpYSnJodEZ6aUJ5Q3FQTmtBRXVSQTJlY2dlSUIrOFBUZnlvOXRqOTVkbmxaOGF3VFZ5ZXNrTWxZNUxqWkd4eHRqNTBKSjRiMDZTaHgxT3I3dk1UOTcwcWFaZk5QWldNMU0wNWVzRXBzWmJMYmc4amcwRS9iNVRPN2pMZytHYVZNcXdLcFd5a2xKd29FSHpyR0Q0VklHS2xTczRQaFFCaXBVcVVBU3BVcVVBU3BVcVVBU3BVcVVBU3BVcVVBU3BVcVVBU3BVcVVBU21Wa3Q2cm5LTENGaEIwazVJelMyckp3UC93RHE1UDhBNlo3WnBvVE5IK0Y3a2xYMmFXM2gyMEsvV2x6OXJuc2Z0WWp5ZitYSXI2UHQ5Z2Z2TVpoTjA0YWtRU1FBbTVRd0d3dnc1amFqb1VQTUVIMXF2OFUyQ1J3N0pRMDlNaFRXbGZzM0l6d1gvd0M4ZFUxVFRSbkhLbTZQQWlDRHVEV085ZTV4T0hHTDVESmlQd1pOdzMxUUhrNkhsanhRVHNyNWcxVkpmRGx0NWkwT1JuR0hFSFNvQWxKQjh3YWw2MFVwcHVqemFwVjJrOEhOSmFTNDIrODJoZjNTNjNzZlEwcmY0WG10RDdOYlRnUFRDc1pwRmxkcVV3ZnRVNk9mdEl6ZzlCbWdscFVnNFVrZytCRkFHbFNwVW9BbFNwVW9BbFNwVW9BOUNqWGhqbGhpNUdSUGliRGx2TkFGUCt4eldTbjh2S2s4cDFreUYreUpjUXgrNkhDRmtmR2kxV3BNajNyVStKZTJlVmpRNlA4QWs2SytHYVdxQlNyQ3dRUWNFSHRYU3pseDhlMGJwYzhhNk1wUzg4aExpbTIwSFl1S0IwRDVBbXVGZFlydnM3eUhrTnRMS2V6cld0QitGTFJxL3dBQmJ2Qzh0MThzdFFWdjdjd09zSExhaDRoZlEwbWV0YUF0U2RTbTFwT0NEdlZuL3dBUlRYa0ZpNGZiMjgvL0FOcWs4dHRQZ1VBREFQbmcvd0I2VVBjcm1rTWN3SXpsSWN4cng4T3REVVNJeWwvdUZmMVNzL2NkU1Q2VnlYYXBJR1VBT0QvU2FkSXh0dFZnNGZoVzZhMittZEk1TG9VT1g5c0c4ajBVTUg1aXBXUGt5cFpPSFo1NjVFZmIrK3lzRHh4WEJRSTY3VjZ0Y2VGL1o0TGt5TEpkZGJiN0tZQnovd0E2U29WV1ZNc09iRnNIMUZKNHFISE1taW40UGhVNlZhRjJ1SXMvY3dmSTExYTRQa1Nva2lSRE9wdGo3NlZLU2twK0JPVDhCUzl0bGU0aXBiMXJUWnl5eUUvc3kyNTM2NE5DdXdaTFo5OWxlM1hHOVJSWUhXM2FzNkZkeGoxcVlJRklCMXdzY1RIUDltUHhGVys1eDU4TXRKdVRFaEd0T1crWnVDUEk5NnBuRDMvaUhNOU1WNkxhcnJhTFUwR3Zicm5OanIvYXduSXJmSlY2aFJQekFCcldGVWMyYTA5S3l2OEF0QXdjSEE4alRxMzhRTTI5cHBURmxndVRHem4ybHptTFB5QndEUzIreXJaS2w4MnpRWkVGZ2pkcHgvbVlQbHRzUEttMWx0RDkyaE5Ja1dWeHByUDJkeVlTQmcvNjhrQlErSVA1VTBuNEpsSlZjZ1hpSGlhYnhCTGJrWEVSZWVnWURqVENFRWp3SkhYOFRSVnF2eVlzRVJwYzFjaUpuZUU5RTV5RWVhRHJCU2ZNRWVlYVY4UVdaMnp6UFpsellVd0xHVXVSSHc0ZytvN0dwQ3RBdUxEWnRzeU83TE9jd3llVTZmOEFaMlY4ODBLdytMV2p0ZVg3U3A0T1dOTTFwczdscVRnaEI4bGc1STllbmpTMFBrZW5wWEo1bDVpUXRpUzA0MCtnNFUyNG5Rc2ZDdE42RFdHbFNkblphbW5kbkcwTEgrcE9hN1hQaGJsUm8wZ1IyNUVhVHMwL0VVRm9LdjROdWl2SWlnMG5CUWZEdDQxYXJmeHpQdGFBMWFZY0NBMFJoOUxEWkJlMi9mVVZFNTlNSHpwcmkreUp5bXVpbFhEaHR5RytXNUxjbUk1alBMZmIwSDVHZ0ZXVlkrNDhnK29xMlgyUkZtU3ZhSWprNEZ3WmRibE9jM1FmQU9iWkhobkI5YVc0ejNxR2thUWsydGxkY3RVbE9jQkN2UTBLdU04Z1pXMm9EeHhWN3NjT1BObUlZbHZGbG90a2hXcHRHL3FvZ2ZETldGN2doOVNDNUdtdUxSakk1c2R6SC92YjFEOFJUOXBrUFBUbzhkcldybS9GYkRxMjNrTnJLU1Iwb1IyMlJYTW5RVUh4QnFPTE5Wa1RLdldhczl1NFhrWFNjaUpha3VTSks4NldrZ0ZTOGRjZU5MNUZqbHNPcmJXZ0J4SndVcTJJUGhpazAwUG1oUmlzVVk1Qmt0akttVjR6aklHUlFwU2ZDa1VhMUsySUk3VmpGQUdLbGJZTmEwQVNwVXFVQVpxeDhELy9BS3lSNHRIKzFWeXJEd1VRTHVmL0FOcGVmd3ArUWZSNlhlTGRkTGV6SFZjbUpDR25VNjJWT0VyUVI1RUhCcFV0UWIyOXdlbTFYT3pYcXlXVmxITHU5NmtzT0RMMXZFUnYyZGZrUW9rSDF4VmM0c3VGam5UZzl3L2FwRnNiT2VZMjQrSEFmOWd4N3Z6UHBWT2tZUms3cHFqdEF2ME9GRmJiWFliZEtrdHExaCtVWEZuUGIzTlFHUlhQaWppNjQ4U3V0dTNRUStZM3NsVFRBUXNEd1dlcEhyVExodXp5YnBhMm1aZkNzaVJESndtNnc4TXVOK3BQdU9BZUJ4NmlrL0dIRFR2RGNwRFM3bGJwN1RuN055SklDeUIvclIrNmZ3cVduNUNFb2N2eUhXSGlJVytBV0pGeVc1RUtzdVc1K0Q3UTJUNGpLaGdueEJCb0hpR1ZZWG5BN3crMWNZNVh1NjAvZ296NG9Pb25Ia2NuenJuYmJFaTZSRUdCYzRwdWVjZXdQRXN1SzgybG4zRkh5eURTcWJEa3daYnNXY3c3R2t0SERqVHFTaFNmVUdtN0dsSG4zc25PT25yOEs1dkJMd3c0bEN4NWlzVlBQR2ZVVkpzRjNUZzB0V3FQY21vMGVWYjNpRUNUQ1hyRGEvNFhBTjBIeUkzcEZkZURub0R5RVMySmNKYmlkYVVQdEZKSThkNjlDdFgwZ1hHeXRCbmgrRGJMVVRqbk9Nc2xiaitQNDFxSjI5S1U4VDNLRGQzeE5pdTNFU0hEcmZZbHZlMEliWC82YmhPU2oxR1JWT24wWkp6dXBkRkFYdzI2TTZKRFo5UVJRN3RpbUlTY2FGRHlWVnQ2ZzRvNnlSV0psMVlqeTNTMHc1c1hBNGhCQjlWYmZPcFd6UnVsYlBOWElVbHJPdGx3WTZuRkQ0UGhYdnpuMGVPdUkxd3JpNFcreGVpcUlIL08wWEFQWE5VcVhEREVwNWgxQ0hYR2xsQ2xwVnNTUDkyOU5xaVZraXhaOWVUV3lESDluakVEcXd3aEIrZldnWk1oMlk4WHBUcTNYVmJsU2prbjFORUl0TTVkdU05REd1SURndUJRT1BVWnlQbFFBTmJ1L0pDaXJ0R2NDbjNDRUdGY3JtL0FtSlR6NURDa1JqcXhoNGRCOFJ0U0hJNzFNWkdEdU80UGVoQTAycVErL3dBTnZOb1FnTDVrOExDWG9xRzhxYUJPQW9rZFJtbmxzNFFodTNLK1c1Y3JuT1FJK3B0eG9odEJjN2c1N1oycW53WnNtRElEOEtROUdkSFJUVGhRZncvNzJvbUZlWjBNekZNdkFybHRGdDdtQUwxQW5KMzY5YXEwWVNobGYrNExhNGR1TGlIRlJVUnBSU05iamNWOUxpd0IxOXdiMEhFWlZKZENBTWI0S2w5Ry9VOXVuZXUvQzE0K29MOUV1S0k2WkhJSncyVmFNZ2pwbXV0dnZCWXVqc3hFaVhHSzNBc3BZSU9vWnpnNUlvU1EyNXJrYzdqQmN0MG9zUGxrbkgzbVhRNGhZOVIxb2ZtQUl5Y0FlUFFVMTRzdVZ2dk40bDNDRVZ4eTdnaU9wa0E1eHY'... 2814810 more characters,
+2024-11-25T17:54:25.7150975Z     request: { agent: [Agent], hook: [Function: bound bound register] }
+2024-11-25T17:54:25.7151455Z   }
+2024-11-25T17:54:25.7152000Z }
+2024-11-25T17:54:25.7153125Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalIssueContributions from "2020-05-26T02:35:34.000Z" to "2020-11-09T23:59:59.999Z"
+2024-11-25T17:54:25.7154658Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalIssueContributions from "2020-11-10T00:35:34.000Z" to "2021-04-26T23:59:59.999Z"
+2024-11-25T17:54:25.7156129Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalIssueContributions from "2021-04-27T00:35:34.000Z" to "2021-10-11T23:59:59.999Z"
+2024-11-25T17:54:25.7157593Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalIssueContributions from "2021-10-12T00:35:34.000Z" to "2022-03-28T23:59:59.999Z"
+2024-11-25T17:54:25.7159048Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalIssueContributions from "2022-03-29T00:35:34.000Z" to "2022-09-12T23:59:59.999Z"
+2024-11-25T17:54:25.7160630Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalIssueContributions from "2022-09-13T00:35:34.000Z" to "2023-02-27T23:59:59.999Z"
+2024-11-25T17:54:25.7162098Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalIssueContributions from "2023-02-28T00:35:34.000Z" to "2023-08-14T23:59:59.999Z"
+2024-11-25T17:54:25.7163567Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalIssueContributions from "2023-08-15T00:35:34.000Z" to "2024-01-29T23:59:59.999Z"
+2024-11-25T17:54:25.7165025Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalIssueContributions from "2024-01-30T00:35:34.000Z" to "2024-07-15T23:59:59.999Z"
+2024-11-25T17:54:25.7166584Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalIssueContributions from "2024-07-16T00:35:34.000Z" to "2024-11-24T23:59:59.999Z"
+2024-11-25T17:54:25.7168089Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalPullRequestContributions from "2020-05-26T02:35:34.000Z" to "2020-11-09T23:59:59.999Z"
+2024-11-25T17:54:25.7169632Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalPullRequestContributions from "2020-11-10T00:35:34.000Z" to "2021-04-26T23:59:59.999Z"
+2024-11-25T17:54:25.7171474Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalPullRequestContributions from "2021-04-27T00:35:34.000Z" to "2021-10-11T23:59:59.999Z"
+2024-11-25T17:54:25.7173046Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalPullRequestContributions from "2021-10-12T00:35:34.000Z" to "2022-03-28T23:59:59.999Z"
+2024-11-25T17:54:25.7174590Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalPullRequestContributions from "2022-03-29T00:35:34.000Z" to "2022-09-12T23:59:59.999Z"
+2024-11-25T17:54:25.7176119Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalPullRequestContributions from "2022-09-13T00:35:34.000Z" to "2023-02-27T23:59:59.999Z"
+2024-11-25T17:54:25.7177672Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalPullRequestContributions from "2023-02-28T00:35:34.000Z" to "2023-08-14T23:59:59.999Z"
+2024-11-25T17:54:25.7179200Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalPullRequestContributions from "2023-08-15T00:35:34.000Z" to "2024-01-29T23:59:59.999Z"
+2024-11-25T17:54:25.7180733Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalPullRequestContributions from "2024-01-30T00:35:34.000Z" to "2024-07-15T23:59:59.999Z"
+2024-11-25T17:54:25.7182272Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalPullRequestContributions from "2024-07-16T00:35:34.000Z" to "2024-11-24T23:59:59.999Z"
+2024-11-25T17:54:25.7183845Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalPullRequestReviewContributions from "2020-05-26T02:35:34.000Z" to "2020-11-09T23:59:59.999Z"
+2024-11-25T17:54:25.7185635Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalPullRequestReviewContributions from "2020-11-10T00:35:34.000Z" to "2021-04-26T23:59:59.999Z"
+2024-11-25T17:54:25.7187242Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalPullRequestReviewContributions from "2021-04-27T00:35:34.000Z" to "2021-10-11T23:59:59.999Z"
+2024-11-25T17:54:25.7188839Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalPullRequestReviewContributions from "2021-10-12T00:35:34.000Z" to "2022-03-28T23:59:59.999Z"
+2024-11-25T17:54:25.7190450Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalPullRequestReviewContributions from "2022-03-29T00:35:34.000Z" to "2022-09-12T23:59:59.999Z"
+2024-11-25T17:54:25.7192167Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalPullRequestReviewContributions from "2022-09-13T00:35:34.000Z" to "2023-02-27T23:59:59.999Z"
+2024-11-25T17:54:25.7193767Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalPullRequestReviewContributions from "2023-02-28T00:35:34.000Z" to "2023-08-14T23:59:59.999Z"
+2024-11-25T17:54:25.7195371Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalPullRequestReviewContributions from "2023-08-15T00:35:34.000Z" to "2024-01-29T23:59:59.999Z"
+2024-11-25T17:54:25.7196981Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalPullRequestReviewContributions from "2024-01-30T00:35:34.000Z" to "2024-07-15T23:59:59.999Z"
+2024-11-25T17:54:25.7198661Z metrics/compute/seanpm2001/plugins > base > loading contributions collections for totalPullRequestReviewContributions from "2024-07-16T00:35:34.000Z" to "2024-11-24T23:59:59.999Z"
+2024-11-25T17:54:25.7199711Z metrics/compute/seanpm2001/base > retrieving repositories after null
+2024-11-25T17:54:25.7200614Z metrics/compute/seanpm2001/base > failed to retrieve 100 repositories after null, this is probably due to an API timeout, halving batch
+2024-11-25T17:54:25.7201464Z metrics/compute/seanpm2001/base > keeping only 100 repositories
+2024-11-25T17:54:25.7201978Z metrics/compute/seanpm2001/base > loaded 0 repositories
+2024-11-25T17:54:25.7202586Z metrics/compute/seanpm2001/base > retrieving repositoriesContributedTo after null
+2024-11-25T17:54:25.7203340Z metrics/compute/seanpm2001/base > retrieved 0 repositoriesContributedTo after undefined
+2024-11-25T17:54:25.7204182Z metrics/compute/seanpm2001/base > retrieved less repositories than expected, probably no more to fetch
+2024-11-25T17:54:25.7204965Z metrics/compute/seanpm2001/base > keeping only 100 repositoriesContributedTo
+2024-11-25T17:54:25.7205607Z metrics/compute/seanpm2001/base > loaded 0 repositoriesContributedTo
+2024-11-25T17:54:25.7206216Z metrics/compute/seanpm2001/base > patching packages count if possible
+2024-11-25T17:54:25.7206873Z metrics/compute/seanpm2001/base > patched packages count (added 0 from ghcr.io)
+2024-11-25T17:54:25.7208404Z metrics/compute/seanpm2001/base > shared options > {"repositories.skipped":[],"users.ignored":["github-actions[bot]","dependabot[bot]","dependabot-preview[bot]","actions-user","action@github.com"],"commits.authoring":["seanpm2001"],"repositories.batch":50}
+2024-11-25T17:54:25.7209724Z metrics/compute/seanpm2001/base > graphql query > account user > success
+2024-11-25T17:54:25.7210500Z metrics/compute/seanpm2001 > formatting common metrics
+2024-11-25T17:54:25.7210947Z metrics/compute/seanpm2001 > animations enabled
+2024-11-25T17:54:25.7211330Z metrics/compute/seanpm2001 > extras > true
+2024-11-25T17:54:25.7211758Z metrics/compute/seanpm2001/plugins > discussions > started
+2024-11-25T17:54:25.7212247Z metrics/compute/seanpm2001/plugins > isocalendar > started
+2024-11-25T17:54:25.7212771Z metrics/compute/seanpm2001/plugins > isocalendar > computing stats
+2024-11-25T17:54:25.7213884Z metrics/compute/seanpm2001/plugins > isocalendar > loading calendar from "2024-05-26T00:00:00.000Z" to "2024-06-22T23:59:59.999Z"
+2024-11-25T17:54:25.7214651Z metrics/compute/seanpm2001/plugins > languages > started
+2024-11-25T17:54:25.7215113Z metrics/compute/seanpm2001/plugins > notable > started
+2024-11-25T17:54:25.7215745Z metrics/compute/seanpm2001/plugins > notable > retrieving contributed repositories after null
+2024-11-25T17:54:25.7216374Z metrics/compute/seanpm2001/plugins > topics > started
+2024-11-25T17:54:25.7216953Z metrics/extras > topics > plugin_topics > require [metrics.run.puppeteer.scrapping]
+2024-11-25T17:54:25.7217607Z metrics/extras > topics > plugin_topics > extras features is set to true
+2024-11-25T17:54:25.7218220Z metrics/compute/seanpm2001/plugins > topics > searching starred topics
+2024-11-25T17:54:25.7218795Z metrics/compute/seanpm2001/plugins > topics > starting browser
+2024-11-25T17:54:25.7219428Z metrics/compute/seanpm2001/plugins > languages > custom colors {}
+2024-11-25T17:54:25.7220027Z metrics/compute/seanpm2001/plugins > languages > processing 0 repositories
+2024-11-25T17:54:25.7220893Z metrics/extras > languages > plugin_languages_indepth > require [metrics.cpu.overuse,metrics.run.tempdir,metrics.run.git]
+2024-11-25T17:54:25.7221776Z metrics/extras > languages > plugin_languages_indepth > extras features is set to true
+2024-11-25T17:54:25.7222442Z metrics/compute/seanpm2001/plugins > languages > using recent analyzer
+2024-11-25T17:54:25.7223181Z metrics/compute/seanpm2001/plugins > languages > recent analyzer > instantiated a new RecentAnalyzer
+2024-11-25T17:54:25.7224056Z metrics/compute/seanpm2001/plugins > languages > recent analyzer > timeout set to 15m
+2024-11-25T17:54:25.7224930Z metrics/compute/seanpm2001/plugins > languages > recent analyzer > fetching patches from last 14 days up to 300 events
+2024-11-25T17:54:25.7225812Z metrics/compute/seanpm2001/plugins > languages > recent analyzer > fetching events page 1
+2024-11-25T17:54:25.7226578Z metrics/compute/seanpm2001/plugins > languages > recent analyzer > fetching events page 2
+2024-11-25T17:54:25.7227274Z metrics/compute/seanpm2001/plugins > topics > started Chrome/117.0.5938.62
+2024-11-25T17:54:25.7227889Z metrics/compute/seanpm2001/plugins > topics > loading page 1
+2024-11-25T17:54:25.7228525Z metrics/compute/seanpm2001/plugins > languages > recent analyzer > fetching events page 3
+2024-11-25T17:54:25.7229271Z metrics/compute/seanpm2001/plugins > languages > recent analyzer > fetched 73 commits
+2024-11-25T17:54:25.7229982Z metrics/compute/seanpm2001/plugins > languages > recent analyzer > fetching patches
+2024-11-25T17:54:25.7230981Z metrics/compute/seanpm2001/plugins > isocalendar > loading calendar from "2024-06-23T00:00:00.000Z" to "2024-07-20T23:59:59.999Z"
+2024-11-25T17:54:25.7231989Z metrics/compute/seanpm2001/plugins > languages > recent analyzer > timeout for repository analysis set to 7.5m
+2024-11-25T17:54:25.7232910Z metrics/compute/seanpm2001/plugins > languages > recent analyzer > at commit 50/73 (68.49%, 0.01m elapsed)
+2024-11-25T17:54:25.7233814Z metrics/compute/seanpm2001/plugins > languages > recent analyzer > at commit 73/73 (100.00%, 0.01m elapsed)
+2024-11-25T17:54:25.7234789Z metrics/extras > languages > plugin_languages_indepth > require [metrics.cpu.overuse,metrics.run.tempdir,metrics.run.git]
+2024-11-25T17:54:25.7235664Z metrics/extras > languages > plugin_languages_indepth > extras features is set to true
+2024-11-25T17:54:25.7236453Z metrics/compute/seanpm2001/plugins > languages > switching to indepth mode (this may take some time)
+2024-11-25T17:54:25.7237336Z metrics/compute/seanpm2001/plugins > languages > indepth analyzer > instantiated a new IndepthAnalyzer
+2024-11-25T17:54:25.7238147Z metrics/compute/seanpm2001/plugins > languages > indepth analyzer > timeout set to 15m
+2024-11-25T17:54:25.7238887Z metrics/compute/seanpm2001/plugins > languages > indepth analyzer > fetching gpg keys
+2024-11-25T17:54:25.7239580Z metrics/compute/seanpm2001/plugins > topics > extracted 30 starred topics
+2024-11-25T17:54:25.7240290Z metrics/compute/seanpm2001/plugins > topics > loading page 2
+2024-11-25T17:54:25.7240914Z metrics/compute/seanpm2001/plugins > languages > indepth analyzer > fetched 2 gpg keys
+2024-11-25T17:54:25.7241860Z metrics/compute/seanpm2001/plugins > languages > indepth analyzer > saving gpg 4AEE18F83AFDEB23 to /tmp/65933340.4AEE18F83AFDEB23.gpg
+2024-11-25T17:54:25.7242665Z metrics/command/run > gpg /tmp/65933340.4AEE18F83AFDEB23.gpg
+2024-11-25T17:54:25.7243253Z metrics/command/run > gpg /tmp/65933340.4AEE18F83AFDEB23.gpg > exited with code 0
+2024-11-25T17:54:25.7243846Z pub   rsa2048 2017-08-16 [SC] [expired: 2024-01-16]
+2024-11-25T17:54:25.7244241Z       5DE3E0509C47EA3CF04A42D34AEE18F83AFDEB23
+2024-11-25T17:54:25.7244738Z uid           GitHub (web-flow commit signing) <noreply@github.com>
+2024-11-25T17:54:25.7245057Z 
+2024-11-25T17:54:25.7245297Z gpg: WARNING: no command supplied.  Trying to guess what you mean ...
+2024-11-25T17:54:25.7245721Z 
+2024-11-25T17:54:25.7246107Z metrics/compute/seanpm2001/plugins > languages > indepth analyzer > importing gpg 4AEE18F83AFDEB23
+2024-11-25T17:54:25.7246875Z metrics/command/run > gpg --import /tmp/65933340.4AEE18F83AFDEB23.gpg
+2024-11-25T17:54:25.7247598Z metrics/command/run > gpg --import /tmp/65933340.4AEE18F83AFDEB23.gpg > exited with code 0
+2024-11-25T17:54:25.7248037Z 
+2024-11-25T17:54:25.7248470Z gpg: key 4AEE18F83AFDEB23: public key "GitHub (web-flow commit signing) <noreply@github.com>" imported
+2024-11-25T17:54:25.7249057Z gpg: Total number processed: 1
+2024-11-25T17:54:25.7249342Z gpg:               imported: 1
+2024-11-25T17:54:25.7249597Z 
+2024-11-25T17:54:25.7250017Z metrics/compute/seanpm2001/plugins > languages > indepth analyzer > cleaning /tmp/65933340.4AEE18F83AFDEB23.gpg
+2024-11-25T17:54:25.7251415Z metrics/compute/seanpm2001/plugins > isocalendar > loading calendar from "2024-07-21T00:00:00.000Z" to "2024-08-17T23:59:59.999Z"
+2024-11-25T17:54:25.7252510Z metrics/compute/seanpm2001/plugins > languages > indepth analyzer > saving gpg B5690EEEBB952194 to /tmp/65933340.B5690EEEBB952194.gpg
+2024-11-25T17:54:25.7253309Z metrics/command/run > gpg /tmp/65933340.B5690EEEBB952194.gpg
+2024-11-25T17:54:25.7253881Z metrics/command/run > gpg /tmp/65933340.B5690EEEBB952194.gpg > exited with code 0
+2024-11-25T17:54:25.7254402Z pub   rsa4096 2024-01-16 [SC]
+2024-11-25T17:54:25.7254723Z       968479A1AFF927E37D1A566BB5690EEEBB952194
+2024-11-25T17:54:25.7255096Z uid           GitHub <noreply@github.com>
+2024-11-25T17:54:25.7255329Z 
+2024-11-25T17:54:25.7255559Z gpg: WARNING: no command supplied.  Trying to guess what you mean ...
+2024-11-25T17:54:25.7255921Z 
+2024-11-25T17:54:25.7256292Z metrics/compute/seanpm2001/plugins > languages > indepth analyzer > importing gpg B5690EEEBB952194
+2024-11-25T17:54:25.7257062Z metrics/command/run > gpg --import /tmp/65933340.B5690EEEBB952194.gpg
+2024-11-25T17:54:25.7257779Z metrics/command/run > gpg --import /tmp/65933340.B5690EEEBB952194.gpg > exited with code 0
+2024-11-25T17:54:25.7258210Z 
+2024-11-25T17:54:25.7258463Z gpg: key B5690EEEBB952194: public key "GitHub <noreply@github.com>" imported
+2024-11-25T17:54:25.7258933Z gpg: Total number processed: 1
+2024-11-25T17:54:25.7259221Z gpg:               imported: 1
+2024-11-25T17:54:25.7259405Z 
+2024-11-25T17:54:25.7259825Z metrics/compute/seanpm2001/plugins > languages > indepth analyzer > cleaning /tmp/65933340.B5690EEEBB952194.gpg
+2024-11-25T17:54:25.7260819Z metrics/compute/seanpm2001/plugins > languages > indepth analysis processed successfully 0 and missed 0 commits in 0.00m
+2024-11-25T17:54:25.7261661Z metrics/compute/seanpm2001/plugins > languages > formatting stats favorites
+2024-11-25T17:54:25.7262308Z metrics/compute/seanpm2001/plugins > languages > formatting stats recent
+2024-11-25T17:54:25.7262867Z metrics/compute/seanpm2001/plugins > languages > completed
+2024-11-25T17:54:25.7263248Z {
+2024-11-25T17:54:25.7263466Z   name: 'languages',
+2024-11-25T17:54:25.7263706Z   result: {
+2024-11-25T17:54:25.7263917Z     unique: 0,
+2024-11-25T17:54:25.7264393Z     sections: [ 'most-used', 'recently-used' ],
+2024-11-25T17:54:25.7264837Z     details: [ 'lines', 'bytes-size', 'percentage' ],
+2024-11-25T17:54:25.7265200Z     indepth: true,
+2024-11-25T17:54:25.7265541Z     colors: { Text: undefined, Markdown: '#083fa1' },
+2024-11-25T17:54:25.7265881Z     total: 0,
+2024-11-25T17:54:25.7266092Z     stats: {},
+2024-11-25T17:54:25.7266339Z     'stats.recent': {
+2024-11-25T17:54:25.7266651Z       partial: { global: false, repositories: false },
+2024-11-25T17:54:25.7267007Z       total: 38274,
+2024-11-25T17:54:25.7267235Z       lines: {},
+2024-11-25T17:54:25.7267457Z       stats: {},
+2024-11-25T17:54:25.7267788Z       colors: { Text: undefined, Markdown: '#083fa1' },
+2024-11-25T17:54:25.7268153Z       commits: 146,
+2024-11-25T17:54:25.7268380Z       files: 73,
+2024-11-25T17:54:25.7268644Z       missed: { lines: 390, bytes: 0, commits: 0 },
+2024-11-25T17:54:25.7268993Z       elapsed: 0.5675666666666668,
+2024-11-25T17:54:25.7269363Z       days: 14,
+2024-11-25T17:54:25.7269578Z       latest: 0
+2024-11-25T17:54:25.7269787Z     },
+2024-11-25T17:54:25.7270050Z     partial: { global: false, repositories: false },
+2024-11-25T17:54:25.7270415Z     lines: {},
+2024-11-25T17:54:25.7270632Z     commits: 0,
+2024-11-25T17:54:25.7270840Z     files: 0,
+2024-11-25T17:54:25.7271101Z     missed: { lines: 0, bytes: 0, commits: 0 },
+2024-11-25T17:54:25.7271441Z     elapsed: 0,
+2024-11-25T17:54:25.7271675Z     verified: { signature: 0 },
+2024-11-25T17:54:25.7271954Z     favorites: [],
+2024-11-25T17:54:25.7272177Z     recent: []
+2024-11-25T17:54:25.7272382Z   }
+2024-11-25T17:54:25.7272647Z }
+2024-11-25T17:54:25.7273024Z metrics/compute/seanpm2001/plugins > notable > found 0 notable contributions
+2024-11-25T17:54:25.7273650Z metrics/compute/seanpm2001/plugins > notable > aggregating results
+2024-11-25T17:54:25.7274176Z metrics/compute/seanpm2001/plugins > notable > completed
+2024-11-25T17:54:25.7274751Z { name: 'notable', result: { contributions: [], types: [ 'commit' ] } }
+2024-11-25T17:54:25.7275371Z metrics/compute/seanpm2001/plugins > topics > extracted 30 starred topics
+2024-11-25T17:54:25.7275968Z metrics/compute/seanpm2001/plugins > topics > loading page 3
+2024-11-25T17:54:25.7276864Z metrics/compute/seanpm2001/plugins > isocalendar > loading calendar from "2024-08-18T00:00:00.000Z" to "2024-09-14T23:59:59.999Z"
+2024-11-25T17:54:25.7277714Z metrics/compute/seanpm2001/plugins > topics > extracted 30 starred topics
+2024-11-25T17:54:25.7278288Z metrics/compute/seanpm2001/plugins > topics > loading page 4
+2024-11-25T17:54:25.7279177Z metrics/compute/seanpm2001/plugins > isocalendar > loading calendar from "2024-09-15T00:00:00.000Z" to "2024-10-12T23:59:59.999Z"
+2024-11-25T17:54:25.7280020Z metrics/compute/seanpm2001/plugins > topics > extracted 30 starred topics
+2024-11-25T17:54:25.7280598Z metrics/compute/seanpm2001/plugins > topics > loading page 5
+2024-11-25T17:54:25.7281498Z metrics/compute/seanpm2001/plugins > isocalendar > loading calendar from "2024-10-13T00:00:00.000Z" to "2024-11-09T23:59:59.999Z"
+2024-11-25T17:54:25.7282361Z metrics/compute/seanpm2001/plugins > topics > extracted 30 starred topics
+2024-11-25T17:54:25.7282942Z metrics/compute/seanpm2001/plugins > topics > loading page 6
+2024-11-25T17:54:25.7283834Z metrics/compute/seanpm2001/plugins > isocalendar > loading calendar from "2024-11-10T00:00:00.000Z" to "2024-11-24T23:59:59.999Z"
+2024-11-25T17:54:25.7284678Z metrics/compute/seanpm2001/plugins > isocalendar > computing svg render
+2024-11-25T17:54:25.7285260Z metrics/compute/seanpm2001/plugins > isocalendar > completed
+2024-11-25T17:54:25.7285651Z {
+2024-11-25T17:54:25.7285877Z   name: 'isocalendar',
+2024-11-25T17:54:25.7286116Z   result: {
+2024-11-25T17:54:25.7286349Z     streak: { max: 183, current: 183 },
+2024-11-25T17:54:25.7286658Z     max: 590,
+2024-11-25T17:54:25.7286905Z     average: '276.23',
+2024-11-25T17:54:25.7287162Z     svg: '\n' +
+2024-11-25T17:54:25.7287783Z       '            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="margin-top: -130px;" viewBox="0,0 480,170">\n' +
+2024-11-25T17:54:25.7288608Z       '              \n' +
+2024-11-25T17:54:25.7288958Z       '                <filter id="brightness1">\n' +
+2024-11-25T17:54:25.7289382Z       '                  <feComponentTransfer>\n' +
+2024-11-25T17:54:25.7289862Z       '                    <feFuncR type="linear'... 81836 more characters,
+2024-11-25T17:54:25.7290528Z     duration: 'half-year'
+2024-11-25T17:54:25.7290782Z   }
+2024-11-25T17:54:25.7290965Z }
+2024-11-25T17:54:25.7291334Z metrics/compute/seanpm2001/plugins > topics > extracted 30 starred topics
+2024-11-25T17:54:25.7291925Z metrics/compute/seanpm2001/plugins > topics > loading page 7
+2024-11-25T17:54:25.7292497Z metrics/compute/seanpm2001/plugins > topics > extracted 30 starred topics
+2024-11-25T17:54:25.7293072Z metrics/compute/seanpm2001/plugins > topics > loading page 8
+2024-11-25T17:54:25.7293647Z metrics/compute/seanpm2001/plugins > topics > extracted 0 starred topics
+2024-11-25T17:54:25.7294353Z metrics/compute/seanpm2001/plugins > topics > no more page to load
+2024-11-25T17:54:25.7294915Z metrics/compute/seanpm2001/plugins > topics > closing browser
+2024-11-25T17:54:25.7295448Z metrics/compute/seanpm2001/plugins > topics > loading artworks
+2024-11-25T17:54:25.7295998Z metrics/compute/seanpm2001/plugins > topics > processing Python
+2024-11-25T17:54:25.7296571Z metrics/compute/seanpm2001/plugins > topics > processing JavaScript
+2024-11-25T17:54:25.7297126Z metrics/compute/seanpm2001/plugins > topics > processing Java
+2024-11-25T17:54:25.7297671Z metrics/compute/seanpm2001/plugins > topics > processing Android
+2024-11-25T17:54:25.7298289Z metrics/compute/seanpm2001/plugins > topics > processing C++
+2024-11-25T17:54:25.7298826Z metrics/compute/seanpm2001/plugins > topics > processing Linux
+2024-11-25T17:54:25.7299348Z metrics/compute/seanpm2001/plugins > topics > processing HTML
+2024-11-25T17:54:25.7299860Z metrics/compute/seanpm2001/plugins > topics > processing C
+2024-11-25T17:54:25.7300374Z metrics/compute/seanpm2001/plugins > topics > processing CSS
+2024-11-25T17:54:25.7300908Z metrics/compute/seanpm2001/plugins > topics > processing React
+2024-11-25T17:54:25.7301452Z metrics/compute/seanpm2001/plugins > topics > processing Database
+2024-11-25T17:54:25.7301990Z metrics/compute/seanpm2001/plugins > topics > processing Git
+2024-11-25T17:54:25.7302525Z metrics/compute/seanpm2001/plugins > topics > processing Docker
+2024-11-25T17:54:25.7303079Z metrics/compute/seanpm2001/plugins > topics > processing Node.js
+2024-11-25T17:54:25.7303627Z metrics/compute/seanpm2001/plugins > topics > processing Arduino
+2024-11-25T17:54:25.7304168Z metrics/compute/seanpm2001/plugins > topics > processing SQL
+2024-11-25T17:54:25.7304682Z metrics/compute/seanpm2001/plugins > topics > processing C#
+2024-11-25T17:54:25.7305201Z metrics/compute/seanpm2001/plugins > topics > processing PHP
+2024-11-25T17:54:25.7305715Z metrics/compute/seanpm2001/plugins > topics > processing Bash
+2024-11-25T17:54:25.7306244Z metrics/compute/seanpm2001/plugins > topics > processing JSON
+2024-11-25T17:54:25.7306944Z metrics/compute/seanpm2001/plugins > topics > processing TypeScript
+2024-11-25T17:54:25.7307491Z metrics/compute/seanpm2001/plugins > topics > processing R
+2024-11-25T17:54:25.7307996Z metrics/compute/seanpm2001/plugins > topics > processing Rust
+2024-11-25T17:54:25.7308524Z metrics/compute/seanpm2001/plugins > topics > processing Ajax
+2024-11-25T17:54:25.7309110Z metrics/compute/seanpm2001/plugins > topics > processing Jupyter Notebook
+2024-11-25T17:54:25.7309720Z metrics/compute/seanpm2001/plugins > topics > processing Tensorflow
+2024-11-25T17:54:25.7310286Z metrics/compute/seanpm2001/plugins > topics > processing Kotlin
+2024-11-25T17:54:25.7310855Z metrics/compute/seanpm2001/plugins > topics > processing PostgreSQL
+2024-11-25T17:54:25.7311418Z metrics/compute/seanpm2001/plugins > topics > processing Firefox
+2024-11-25T17:54:25.7312003Z metrics/compute/seanpm2001/plugins > topics > processing Hacktoberfest
+2024-11-25T17:54:25.7312585Z metrics/compute/seanpm2001/plugins > topics > processing jQuery
+2024-11-25T17:54:25.7313265Z metrics/compute/seanpm2001/plugins > topics > processing npm
+2024-11-25T17:54:25.7313799Z metrics/compute/seanpm2001/plugins > topics > processing Swift
+2024-11-25T17:54:25.7314345Z metrics/compute/seanpm2001/plugins > topics > processing Markdown
+2024-11-25T17:54:25.7314886Z metrics/compute/seanpm2001/plugins > topics > processing LaTeX
+2024-11-25T17:54:25.7315420Z metrics/compute/seanpm2001/plugins > topics > processing Ruby
+2024-11-25T17:54:25.7315945Z metrics/compute/seanpm2001/plugins > topics > processing Sass
+2024-11-25T17:54:25.7316490Z metrics/compute/seanpm2001/plugins > topics > processing OpenGL
+2024-11-25T17:54:25.7317022Z metrics/compute/seanpm2001/plugins > topics > processing Lua
+2024-11-25T17:54:25.7317538Z metrics/compute/seanpm2001/plugins > topics > processing Qt
+2024-11-25T17:54:25.7318068Z metrics/compute/seanpm2001/plugins > topics > processing Gradle
+2024-11-25T17:54:25.7318734Z metrics/compute/seanpm2001/plugins > topics > processing The Julia Language
+2024-11-25T17:54:25.7319333Z metrics/compute/seanpm2001/plugins > topics > processing Elixir
+2024-11-25T17:54:25.7319880Z metrics/compute/seanpm2001/plugins > topics > processing Haskell
+2024-11-25T17:54:25.7320428Z metrics/compute/seanpm2001/plugins > topics > processing Scala
+2024-11-25T17:54:25.7321026Z metrics/compute/seanpm2001/plugins > topics > processing Objective-C
+2024-11-25T17:54:25.7321585Z metrics/compute/seanpm2001/plugins > topics > processing Perl
+2024-11-25T17:54:25.7322119Z metrics/compute/seanpm2001/plugins > topics > processing Jekyll
+2024-11-25T17:54:25.7322741Z metrics/compute/seanpm2001/plugins > topics > processing Mastodon
+2024-11-25T17:54:25.7323283Z metrics/compute/seanpm2001/plugins > topics > processing Nim
+2024-11-25T17:54:25.7323799Z metrics/compute/seanpm2001/plugins > topics > processing Dart
+2024-11-25T17:54:25.7324337Z metrics/compute/seanpm2001/plugins > topics > processing GitHub
+2024-11-25T17:54:25.7324884Z metrics/compute/seanpm2001/plugins > topics > processing Godot
+2024-11-25T17:54:25.7325454Z metrics/compute/seanpm2001/plugins > topics > processing Mathematics
+2024-11-25T17:54:25.7326012Z metrics/compute/seanpm2001/plugins > topics > processing Lisp
+2024-11-25T17:54:25.7326596Z metrics/compute/seanpm2001/plugins > topics > processing Quantum Computing
+2024-11-25T17:54:25.7327209Z metrics/compute/seanpm2001/plugins > topics > processing Fortran
+2024-11-25T17:54:25.7327762Z metrics/compute/seanpm2001/plugins > topics > processing Assembly
+2024-11-25T17:54:25.7328333Z metrics/compute/seanpm2001/plugins > topics > processing F#
+2024-11-25T17:54:25.7328843Z metrics/compute/seanpm2001/plugins > topics > processing SVG
+2024-11-25T17:54:25.7329368Z metrics/compute/seanpm2001/plugins > topics > processing Ada
+2024-11-25T17:54:25.7329927Z metrics/compute/seanpm2001/plugins > topics > processing ActionScript
+2024-11-25T17:54:25.7330748Z metrics/compute/seanpm2001/plugins > topics > completed
+2024-11-25T17:54:25.7331124Z {
+2024-11-25T17:54:25.7331356Z   name: 'topics',
+2024-11-25T17:54:25.7331587Z   result: {
+2024-11-25T17:54:25.7331815Z     mode: 'icons',
+2024-11-25T17:54:25.7332065Z     type: 'icons',
+2024-11-25T17:54:25.7332287Z     list: [
+2024-11-25T17:54:25.7332482Z       {
+2024-11-25T17:54:25.7332701Z         name: 'Python',
+2024-11-25T17:54:25.7333158Z         description: 'Python is a dynamically typed programming language.',
+2024-11-25T17:54:25.7335346Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOydB1QUV9vHd0ER7ChYEBUVK9Lbskvv1YK9iwqiSBcVGzZU1CTmtXcUxV6x95gYjR0QBAV711jpsHvfc2dnYXaZmZ1tiOH+z/kf837JZwjCj+e5T2OxkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJ'... 31374 more characters,
+2024-11-25T17:54:25.7337255Z         url: 'https://github.com/topics/python',
+2024-11-25T17:54:25.7339515Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEQ0lEQVR4nM1Va0xTBxQuuMxsy5KZ7JWFsBfz16YQ2lJKCxSKheHmsxE3BYZEwQo00MJA4CIYcZMtwceUhwHGa+PR8hJhsNWZLQK64HgIFigUWhg00tCAoL33fkuhKEs3g8KPneTm3tx7zved8333nstg/G+CIO'... 1326 more characters
+2024-11-25T17:54:25.7341692Z       },
+2024-11-25T17:54:25.7341887Z       {
+2024-11-25T17:54:25.7342125Z         name: 'JavaScript',
+2024-11-25T17:54:25.7342782Z         description: 'JavaScript (JS) is a lightweight interpreted programming language with first-class functions.',
+2024-11-25T17:54:25.7344930Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAIAAACb4TnXAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nO2d93cTR9fH3//nDdb2Ve9d2pUwGOxQY3p46CV0Qgg1AULvNbRgWiBU23SDDcbGvckyIaEXrwvPz++ZXeAliQMuK428vud8T04SMEjfO5+d2Zk79/6P1BABgQPggJQYEP4HnAUHwAEpYdMMAAbDCx'... 14630 more characters,
+2024-11-25T17:54:25.7346651Z         url: 'https://github.com/topics/javascript',
+2024-11-25T17:54:25.7348591Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAACXBIWXMAAAsTAAALEwEAmpwYAAACmElEQVR4nO2T70sTcRzH/TsCraUUtt19724n2+62cpu66d3t+z2f+ECoBz5IyJSyQOpJPSvoQVCgIBSIQRRRlNEPgsAfpDPMlkmeu91ucyoJ29wPt1Vo3U7EJJlBPRM+D75fvl9en/fn/fl8ypLz8J9E2T4oue'... 758 more characters
+2024-11-25T17:54:25.7350387Z       },
+2024-11-25T17:54:25.7350582Z       {
+2024-11-25T17:54:25.7350802Z         name: 'Java',
+2024-11-25T17:54:25.7351667Z         description: 'Java is an object-oriented programming language used mainly for web, desktop, embedded devices and mobile applications.',
+2024-11-25T17:54:25.7354486Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nO2dB3QdxdXHVdy7cdHOygVM7wmdADEBDNjWzsp0CCEQCCUECARrZ+X6ZmVTQii2d1Y2PbQkQEgBEkoC5KMlkAIJIbTQezFYOyt3f+eurhJFkd7b1/Se5Ps7Z04OsbQ7O0/7fzO3VlQQRBmgpTlIS/'... 19470 more characters,
+2024-11-25T17:54:25.7356583Z         url: 'https://github.com/topics/java',
+2024-11-25T17:54:25.7358527Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAADcUlEQVR4nK1VbW/TVhQ2LyuZJlQYAvvedJQWSkFoUNahbWhaCoyXtdhOK1kgJNqtTICEGKqa5F4nVDe+TpsWjXUluQ5pq1ZsfEBFQnza532dtJ8Av6BCfYntNJEmo5umo5+2vHAk69jnnvM85/G5vhaEKszzhC'... 1046 more characters
+2024-11-25T17:54:25.7360213Z       },
+2024-11-25T17:54:25.7360407Z       {
+2024-11-25T17:54:25.7360632Z         name: 'Android',
+2024-11-25T17:54:25.7361208Z         description: 'Android is an operating system built by Google designed for mobile devices.',
+2024-11-25T17:54:25.7363696Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAPMUlEQVR4nO3dLXAby5YAYMHAwMDAwEADK9XQ0NAw0NAwcID2VUNBQ0PDwAsDAw0NtFUNBQ3DtHXsuff6ZZ1kxtKoR6Pvq+qqrbe7L+Mzp49mpv9mMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'... 5058 more characters,
+2024-11-25T17:54:25.7365834Z         url: 'https://github.com/topics/android',
+2024-11-25T17:54:25.7367735Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAACbklEQVR4nO2Uz2sTQRTHN/6od8WTf4GCJxGEztukQWjv2mtP/Td0aebtJkZTWtSDJwUvIhR61KvozVMJUnZmsyTaqFD1IJSUZDPynd20IUlLKnrrg5eZnfl+P7PzZjaOcxonDmNyjuMgTxq5zDvNIn+xgJnCc+'... 702 more characters
+2024-11-25T17:54:25.7369372Z       },
+2024-11-25T17:54:25.7369563Z       {
+2024-11-25T17:54:25.7369775Z         name: 'C++',
+2024-11-25T17:54:25.7370588Z         description: 'C++ is a general purpose and object-oriented programming language.',
+2024-11-25T17:54:25.7372738Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsSAAALEgHS3X78AAAZGElEQVR4nO1d/Y9V13XlT8jPPPNVJ8FfiUlpgxNHwlKdGQTYGdejMGNPErvU2I6iZBpP+Ah2GONCHOp5GAVMKE5DIKksnJJJbDlAX9WpFeG0CQmWAvnoJKWhCYotGdzaENUSu1rjefA6M2/m3vfuPXvvc9aWls'... 8438 more characters,
+2024-11-25T17:54:25.7374493Z         url: 'https://github.com/topics/cpp',
+2024-11-25T17:54:25.7376516Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsSAAALEgHS3X78AAAFCklEQVR4nJ1WbWxTVRjuFk3URD4G2UdvO3+o8Yf+GKEhkcBwcWs7QDIZ+7z92ogxfE623YEdWIHgWHt7224DpjgxwT/GCSrRsN6ug20MIRorEMcSjR9Dx8Qx+RAm672PeU/Xsk2GxDd507fv+5znOec995x7NZ'... 1590 more characters
+2024-11-25T17:54:25.7378446Z       },
+2024-11-25T17:54:25.7378647Z       {
+2024-11-25T17:54:25.7378873Z         name: 'Linux',
+2024-11-25T17:54:25.7379235Z         description: 'Linux is an open source kernel.',
+2024-11-25T17:54:25.7381209Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOydB1STVxvHWwdJAEVAURTce++9d62jtra2dc/W2lrbr3bY1l33Fvfee0/cde8JCrj3QlEQ1Nr2/53/TS6+xCSEGaz3Oec5QBJCeHPvL8++77yjRIkSJUqUKFGiRIkSkwB4F4ALgKwAqtmhlU2P16'... 47958 more characters,
+2024-11-25T17:54:25.7382997Z         url: 'https://github.com/topics/linux',
+2024-11-25T17:54:25.7385103Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAE7ElEQVR4nKVUC0xTZxS+2BahUkmrBRUCwUwlIImCKHQMJxPIYDOL2GyzuulUMEqZwz1AwLoEho4pTubmFBYhCyE1ZurQMaC8lIebTCbTCSKwMV1EmMijz/vfb/lvW6yPMHFf8ue/NznnfOd855yfYSYAACfbLU'... 1550 more characters
+2024-11-25T17:54:25.7387035Z       },
+2024-11-25T17:54:25.7387231Z       {
+2024-11-25T17:54:25.7387453Z         name: 'HTML',
+2024-11-25T17:54:25.7387905Z         description: 'HTML is the fundamental markup language for webpages.',
+2024-11-25T17:54:25.7390093Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOydB3ibRdLHX47vjt7TE9KzdhI6hBogJKRn03svpNA7hF6PXo5eQ4cjXIBQQwu9dwgtDYi16rItybJsSZbme2Z3XluYFPXm3eeZk3IhliW/78+zszP/v2G0nPUPwzDaGoYx2DCMZwzDqDcMAwzDqD'... 33858 more characters,
+2024-11-25T17:54:25.7392003Z         url: 'https://github.com/topics/html',
+2024-11-25T17:54:25.7393968Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFNklEQVR4nJVVe2xTVRz+tcNIRARRQQyDQXvPbdcBGhJcIIqAbKO3t+0ebIWxDcZE/cv5HCGEhw/iTFCXaOSPiSJIRA0PBUFYJEYiRIliIgnjpeu9fb/LtrK1vZ/pbRfLHkR/yZdz7jn3fN89v9cl+tc0uXECEX'... 1650 more characters
+2024-11-25T17:54:25.7396034Z       },
+2024-11-25T17:54:25.7396235Z       {
+2024-11-25T17:54:25.7396473Z         name: 'C',
+2024-11-25T17:54:25.7397013Z         description: 'C is a general purpose programming language that first appeared in 1972.',
+2024-11-25T17:54:25.7399118Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsSAAALEgHS3X78AAAYmUlEQVR4nO1dbYxdZ3G+v/IPyVKkSvnVlagsVXXBEog2UYqNsjgs2PLnSXKMqk1ptihRA05ogkmAbLeY1Kt82JvYkZ0tOFRJcFLHBic1sRJnY4hx4xK7BiSTmrIlLQFi1TbQUHDLVLPeJdfXu/fznPPMvPOM9E'... 8266 more characters,
+2024-11-25T17:54:25.7400861Z         url: 'https://github.com/topics/c',
+2024-11-25T17:54:25.7402780Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsSAAALEgHS3X78AAAEk0lEQVR4nK1Va0wcZRS9M9RooiYmxkhiFH74S6M/mjTW2kqA8ii+Qu2WslDey9Mao6bhUTrdghaKba1ddpmdXRZIH9HWxEaFSBtMbWuFAPtgNzxCILEEahFLsWV57HzHzLC7Li1VWr3JzHyPO+fce8/9ZohWYQ'... 1434 more characters
+2024-11-25T17:54:25.7404443Z       },
+2024-11-25T17:54:25.7404635Z       {
+2024-11-25T17:54:25.7404847Z         name: 'CSS',
+2024-11-25T17:54:25.7405552Z         description: 'Cascading Style Sheets (CSS) is a language used most often to style and improve upon the appearance of views.',
+2024-11-25T17:54:25.7407912Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nO2dB1RUV9eGD5jeRRgcIEBADIJiV4g9MWpijUaNxsQSTVFjTDMxMgMMHREVERUVC9hFBGJDudOHztB7GZAm1V6B869zkXxq/JPImZk75bxr7ZXwfVl4vXPPM/ues/d+ASBSmaKjo0F6ejqYM2cOGD'... 24054 more characters,
+2024-11-25T17:54:25.7409766Z         url: 'https://github.com/topics/css',
+2024-11-25T17:54:25.7411909Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFiUlEQVR4nJVWfVAUZRw+v4ZAMXFvP4E7FSzRKUTU/JjRcqyxf5ymGZ2pTB2n0XHKqSZTuWN38VCpFJ3KzK/8jinxI1Ma5G53D+iEAc5QUFABAQUTiERETm5vn2b30DkRy34zz+57N/u+z/t7nmffO5Op/xqkXx'... 1762 more characters
+2024-11-25T17:54:25.7413530Z       },
+2024-11-25T17:54:25.7413730Z       {
+2024-11-25T17:54:25.7413953Z         name: 'React',
+2024-11-25T17:54:25.7414529Z         description: 'React is an open source JavaScript library used for designing user interfaces.',
+2024-11-25T17:54:25.7416751Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOx9CZgcRdl/zW42CTlIIEAIyCFHBDnkEBAQ8OASQSABkuzuTFdVz8zmgASQQwXFA0VEvPBTP/3wAvH4I3J44oECgkg4kuxOd1X1zO5mc5KLQI7dequn/89b3ZOEkD0SEpJo/57n90yeZHezU9P96/'... 62430 more characters,
+2024-11-25T17:54:25.7418371Z         url: 'https://github.com/topics/react',
+2024-11-25T17:54:25.7420591Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAD60lEQVR4nMVV32scVRRe0xRRjBiQCEUt5iG2tSixVZ80CCqV4uOCxqRzz501JojFPlTyIN0+iP+AvikFFUGjILH1R1rjprGbKLZVt0l27p07s1Z9aE0fisF059w7PXJnd9bddKspPvTCZWfPj+/c+53vzGQy12'... 1210 more characters
+2024-11-25T17:54:25.7422540Z       },
+2024-11-25T17:54:25.7422733Z       {
+2024-11-25T17:54:25.7422958Z         name: 'Database',
+2024-11-25T17:54:25.7423609Z         description: 'A database is a structured set of data held in a computer, usually a server.',
+2024-11-25T17:54:25.7426004Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nO2dCXRc53meSZEgwVUURe0URUkUKVILtZBaKJqSSK1ctO8iJdGSo9iO48ZJHMdxnNPlyG6cpo2dunXSNm2dpE3anpw0aXN6YhHcKe7Evi+zYfYFFwNgVrw933+BwQww2DG4F/e+zznfsSxS5OC/3/'... 12114 more characters,
+2024-11-25T17:54:25.7428081Z         url: 'https://github.com/topics/database',
+2024-11-25T17:54:25.7430000Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAADRUlEQVR4nJWWu2/bVhTGFVurhaCPf6VDF2/1K0CctHadOrItp7YkKhqCIkDRDgL8SmIr7iNrOnYJUHTpUqCAtk5FM6RD4aHoS1Ks0CIvKVGORd5fcUjaVR+CaQIfdO693znf4Tn38iqVOueByghU0tQqaUiNRJ'... 986 more characters
+2024-11-25T17:54:25.7431719Z       },
+2024-11-25T17:54:25.7431919Z       {
+2024-11-25T17:54:25.7432143Z         name: 'Git',
+2024-11-25T17:54:25.7432578Z         description: 'Git is the most widely used version control system.',
+2024-11-25T17:54:25.7434643Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAUGElEQVR4nO2dC6wtZ1XHp/QFVlqMQdAittraNufMmlNO2ss9s+a4aWrJtSotelMBrQ+sBg3yUKhSjBiQR0JNRKOVR0QEEVsUA0jRkGosbYAWRIwlbdP0YeHS3nvmm3Nb27t7TreZe+8u9PQ+zmPvWeub7/dL/i'... 6730 more characters,
+2024-11-25T17:54:25.7436432Z         url: 'https://github.com/topics/git',
+2024-11-25T17:54:25.7438277Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA3XAAAN1wFCKJt4AAAC20lEQVR4nKWV32vTUBTHi/rsk08KzokgrrvnpAhjzT33Zj66ocLGHv0HpoKPosL+H/8Dn8QH/wVBFMFt6tyaH02TtF2bXjlp0m013doZKCXpzfeTcz7nppXKOYepVC7xt0soA4I9n+BrJC3MftvcvHze/VOGV2'... 846 more characters
+2024-11-25T17:54:25.7439863Z       },
+2024-11-25T17:54:25.7440058Z       {
+2024-11-25T17:54:25.7440274Z         name: 'Docker',
+2024-11-25T17:54:25.7440826Z         description: 'Docker is a platform built for developers to build and run applications.',
+2024-11-25T17:54:25.7442947Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAABYlAAAWJQFJUiTwAAAgAElEQVR4nOx9B5Qb13X2LilczKzcW2zHTmI7iWMnLvkdl9hJ7DiOnT/O7xI7dmzLslVI7gIYLHsRRVISRVJi79t3sQAGyyKSYpcoqpIUxSZS7EXsfXvvwP3Pd98MMLtcUssmieTcc+7B7sNg3sxg8M19t31paa'... 53486 more characters,
+2024-11-25T17:54:25.7444719Z         url: 'https://github.com/topics/docker',
+2024-11-25T17:54:25.7446895Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAABYlAAAWJQFJUiTwAAAE90lEQVR4nM1Va2wUVRS+2859zBQh6A8DPwQfURMxJkYNRg2PH1oTNJFkNdEgKFps585seZSqQJe2dClbJFtAsS27LZ07s9sFeQkUlXYRpRV5tEBDooQSUCA8+sBqkO7sXjOzs215Cok/PMnJvTfz3XO/c+537g'... 1566 more characters
+2024-11-25T17:54:25.7448801Z       },
+2024-11-25T17:54:25.7448996Z       {
+2024-11-25T17:54:25.7449225Z         name: 'Node.js',
+2024-11-25T17:54:25.7449770Z         description: 'Node.js is a tool for executing JavaScript in a variety of environments.',
+2024-11-25T17:54:25.7452511Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOy9CXhb53XnTdlp0qRJ48ZWNsc203iVd8uOI5EEwH0nQRIgCZAgdm7iKu6yU2oSSyJFUhQpUgtFiZso7rQla9+dpG2+aaf9mrTp13baTqczzaRp0zRNk0ws4HzPee+9wL0X92IhAeICuOd53keO4k'... 34262 more characters,
+2024-11-25T17:54:25.7454936Z         url: 'https://github.com/topics/nodejs',
+2024-11-25T17:54:25.7457125Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAE1UlEQVR4nJXW+09aZxgHcNtftv0FuzT7G7Yla+OEw1UECkhRoYBcDngERQQRRFxt3KZwpF6GNtpWsVXA67TTeqlVq9uSdT8sTfZzs+ynpdlfsG6Qc77LwQvW0pY9yZtAeN/n875PXs5zyspeE0DZuR70nD/6ei'... 1522 more characters
+2024-11-25T17:54:25.7459033Z       },
+2024-11-25T17:54:25.7459228Z       {
+2024-11-25T17:54:25.7459468Z         name: 'Machine learning',
+2024-11-25T17:54:25.7460275Z         description: 'Machine learning is a way of modeling and interpreting data that allows a piece of software to respond intelligently.',
+2024-11-25T17:54:25.7461061Z         icon: null,
+2024-11-25T17:54:25.7461418Z         url: 'https://github.com/topics/machine-learning'
+2024-11-25T17:54:25.7461778Z       },
+2024-11-25T17:54:25.7461970Z       {
+2024-11-25T17:54:25.7462209Z         name: 'Arduino',
+2024-11-25T17:54:25.7462729Z         description: 'Arduino is an open source platform for building electronic devices.',
+2024-11-25T17:54:25.7464706Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOydB3zTdf7/P0mnreXa2vYKB5zIgRwofxVPQT33OQ/PiQP9KaLn6aG4cJ6KExFRRmf23knT3SadaZPuprvpTjezzDLa0vf/8f4kKYVTz1FKge/78Xg9kpY2NE2/z7zf7897EMIYY4wxxhhjjDHGGG'... 64310 more characters,
+2024-11-25T17:54:25.7466431Z         url: 'https://github.com/topics/arduino',
+2024-11-25T17:54:25.7468364Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFwUlEQVR4nJVWW2wUVRg+2/sVuu1uu7utF7SCckkQgahR0cQLT8aY+OAl+qovGuOTiaaJT8ZERUXp7uzc55yZPTO725aytYiWEC8geAlXsUEoiCACtkBbLjPzmRlKpQQE/+RkZk7O+b/v//9zvn8IuZoBEdLVVf'... 1834 more characters
+2024-11-25T17:54:25.7470020Z       },
+2024-11-25T17:54:25.7470215Z       {
+2024-11-25T17:54:25.7470429Z         name: 'SQL',
+2024-11-25T17:54:25.7471028Z         description: 'SQL is a standard language for storing, retrieving and manipulating data in databases.',
+2024-11-25T17:54:25.7473332Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAIAAACb4TnXAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nO19h1cU2fb1+5++93vzno6JZA6jYxp1HEedGR1BcpIgoCBgxiyKYlbMOaMo0DnSOedA55yKb9263UXTomOghW7uXmf1QqS7qm/Vrnvuuefs868hBASEpOFfyftoBAQERDAEhCQCEQwBIYlABENASC'... 24114 more characters,
+2024-11-25T17:54:25.7475224Z         url: 'https://github.com/topics/sql',
+2024-11-25T17:54:25.7477068Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAACXBIWXMAAAsTAAALEwEAmpwYAAADKklEQVR4nK2U/U9SYRTH/XNqLbc2pTB1KTBtmtoPra0tK7OGiJJy1UJyWW2my5WVrebUskXmxtTyfYibwr3cC0iKoIDiC1ckXgWvV0TgtgvFzIC0dXZ+uc/znO9zzuc59yQQ/8kS4m8Hg7/8H4SCQSIQOy4Y0j'... 950 more characters
+2024-11-25T17:54:25.7478658Z       },
+2024-11-25T17:54:25.7478850Z       {
+2024-11-25T17:54:25.7479067Z         name: 'C#',
+2024-11-25T17:54:25.7479624Z         description: 'C# (&quot;C sharp&quot;) is an object-oriented and type-safe programming language.',
+2024-11-25T17:54:25.7481969Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElEQVR4nOy9CZhcZ3kmarMGkhBCyITkRsmQmQkzl5tMlnufTDIBzGZsMN43edW+q9Wb1F2ntFj72lLXaWNIICEkgDNJWLNOAiSsQyBAWBIsdXd1nao6Jcm75VWWdM59vv//1v+clgGVcRvqf57/qVPVQmrJ0s'... 75926 more characters,
+2024-11-25T17:54:25.7483945Z         url: 'https://github.com/topics/csharp',
+2024-11-25T17:54:25.7485891Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAC4jAAAuIwF4pT92AAAF5UlEQVR4nJWW+VOTRxjH0Rn/gfpPVKgNFVREPBCEgi13EoFwhCPcJBCOQAIvFBAFqSBFsTPa6dSpA85YW3r4Qx21zPSwdqYFcrw53jd5E8CAIEZa8SXv83T2jVy2duzO7Owm7+7n++x3n3f3DQp6RcEg3IYUbl'... 1882 more characters
+2024-11-25T17:54:25.7487573Z       },
+2024-11-25T17:54:25.7487893Z       {
+2024-11-25T17:54:25.7488107Z         name: 'vue',
+2024-11-25T17:54:25.7488376Z         description: '',
+2024-11-25T17:54:25.7488634Z         icon: null,
+2024-11-25T17:54:25.7488933Z         url: 'https://github.com/topics/vue'
+2024-11-25T17:54:25.7489260Z       },
+2024-11-25T17:54:25.7489449Z       {
+2024-11-25T17:54:25.7489685Z         name: 'PHP',
+2024-11-25T17:54:25.7490695Z         description: 'PHP is a popular general-purpose scripting language that works particularly well for server-side web development.',
+2024-11-25T17:54:25.7493022Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOx9CVhb15m2srUz03SddtJ02r+Ztmk7bZp2kraTttOpp2nTJW1qkCW8xM5qO/ESb5gdLBZjwNgGJMxi4wWDDWLfJJBYjPd93wA7ju3Y8b4vMSCd/3nPvefqSggbXQkQ9vme57MAC3HvPfe89/veb1'... 36210 more characters,
+2024-11-25T17:54:25.7494778Z         url: 'https://github.com/topics/php',
+2024-11-25T17:54:25.7497189Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAElklEQVR4nO1U+09TZxg+gHFuKsIIKl6SzUhixgy6XxCsKUItEJzrktVdIBgwgi0ICjgBKYeW09PT0xstvUAZyEVwdo4ooHRtobTlogKiM9uyLCT7xcXsD5gLlvMs7bywxTmS7Uef5M13zfO835vvfQjiFf4PAI'... 1438 more characters
+2024-11-25T17:54:25.7499250Z       },
+2024-11-25T17:54:25.7499436Z       {
+2024-11-25T17:54:25.7499658Z         name: 'Bash',
+2024-11-25T17:54:25.7500219Z         description: 'Bash is a shell and command language interpreter for the GNU operating system.',
+2024-11-25T17:54:25.7502308Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAIAAACb4TnXAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElEQVR4nO29h1sTW9f371/xvr/fc9/POUpPIL0XWui9SQep0qRYsPcuYgMLRcACdrFhwd67gmKviCKgWFCQTnivmQ1jDElIkFHQ9bnmnEsxTGb27O/stddea+0R3QAAkMYI8k4NAAAIDABIBAQGACQCAgMAEg'... 21834 more characters,
+2024-11-25T17:54:25.7504103Z         url: 'https://github.com/topics/bash',
+2024-11-25T17:54:25.7506120Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAACXBIWXMAAC4jAAAuIwF4pT92AAAClElEQVR4nO2T3UuTYRjG3z+jkw6KoA5GRYEngpSMFKWm2TLT6Qwr0tDyK5euJqZr6pYaEZ3VQWn4WZmKptGnH/tuy6nbXuecmu+76ebeteme573DrUQJScNDr6ObB+4f13VxPwTskIhd0FY7YkNaP2xXBBtaBg'... 750 more characters
+2024-11-25T17:54:25.7507889Z       },
+2024-11-25T17:54:25.7508082Z       {
+2024-11-25T17:54:25.7508302Z         name: 'JSON',
+2024-11-25T17:54:25.7509018Z         description: 'JSON (JavaScript Object Notation) allows for easy interchange of data, often between a program and a database.',
+2024-11-25T17:54:25.7511190Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOydB1hUV/r/750GM3QQRLBrLNEktmhs0dh7RVEU7AKKIopKUwEVEVGkiDQp0gaYhiDYS6yJyWazm82WbMtmk80m/1/abhIr9/98z841hKB0uHfmvM/zfYbOcOfcD9/zvu85h2FomFQ4Ojoy9vb2TK'... 32746 more characters,
+2024-11-25T17:54:25.7512859Z         url: 'https://github.com/topics/json',
+2024-11-25T17:54:25.7514770Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFx0lEQVR4nH1Wa0xTZxg+li2nLqTVLCk/Ng7L0mo2iw681BsuiPRH6QBbICggFolcWqSWZCstrIsRGwEFFKTdLJdpFKopt4yLwoxRSfSPf8x+Lf7Y5twlbnNzc4bT712esx5Sme5LDv1+nPN8z/e+z/O8cNx/l4'... 1842 more characters
+2024-11-25T17:54:25.7516441Z       },
+2024-11-25T17:54:25.7516634Z       {
+2024-11-25T17:54:25.7516871Z         name: 'TypeScript',
+2024-11-25T17:54:25.7517474Z         description: 'TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.',
+2024-11-25T17:54:25.7519995Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAIAAACb4TnXAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAaIElEQVR4nO2deXRb1Z3HnY1AWZJSOoTSKQVaKMzQDoVhmZZCaSkNpWUglB4IbQ+lQ1sobZlOwbpektjZSJyE0CQO2ZzNSeyQnZCQFRKy6smyLUeyJUu2bNmWLW+yJMvSk57mPCkxgSzY8n3v9+59v3s+hz/aEL'... 8790 more characters,
+2024-11-25T17:54:25.7522130Z         url: 'https://github.com/topics/typescript',
+2024-11-25T17:54:25.7524014Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAACXBIWXMAAA3XAAAN1wFCKJt4AAACYklEQVR4nO2UTU8TURSGz7SgUMEQjUFl68K14S/oD3Djmp1uwNCv6XeBhtREoiZioyFoNMYNGtka60aUztyZaRtITVAkxdK0tThMKTKdzvSY26JR2xJNWJK8i5m5OU/e+55zBsAtHIzgEOQ+zMh94HPkEoAlLe'... 686 more characters
+2024-11-25T17:54:25.7525774Z       },
+2024-11-25T17:54:25.7525969Z       {
+2024-11-25T17:54:25.7526188Z         name: 'R',
+2024-11-25T17:54:25.7526832Z         description: 'R is a free programming language and software environment for statistical computing and graphics.',
+2024-11-25T17:54:25.7529026Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOydd3hcV5n/j1zTiGOnW5Y0I9eUpe0uEMrSf+yCWWrKEiCxVUaSbTqbbJYaIGEJqVafGU3v7fbe78xIcovj9IQ0SkiAkBDHcdf8nnNHkiVZ0syoeSTf7/N8niscwh8gPnnPe855DwBmzJgxY8aMGT'... 46882 more characters,
+2024-11-25T17:54:25.7531017Z         url: 'https://github.com/topics/r',
+2024-11-25T17:54:25.7532837Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAF0klEQVR4nKVVe2xTVRi/PI0EnSgy1j36WhkQNaImxmgUFo0a/Ufi0KjAtq63j000aiAatTEmxsQXBNioa8PYq9vt7V1ve9/nPnrbMjosKtHE4B8iGt8oipHQsd3PnI7xMKgkfMmXc25yzu/3ve7vEMRlGgDMCY'... 1858 more characters
+2024-11-25T17:54:25.7534492Z       },
+2024-11-25T17:54:25.7534689Z       {
+2024-11-25T17:54:25.7534906Z         name: 'Rust',
+2024-11-25T17:54:25.7535382Z         description: 'Rust is a systems programming language created by Mozilla.',
+2024-11-25T17:54:25.7537461Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nO1dB7RVxdW+gNKkKSqdGRmJhaioCFgiFjRWJGpQjCYxJrbEEqO/YEliojHGRKLGFhU1il2iEUuk2pWYUAVUEEXpvTza4737r8HvPOYN5957+sw5Z++1vpWocM6ZPXt/d8ouhQIJiU8RjLuChISEJD'... 17710 more characters,
+2024-11-25T17:54:25.7539329Z         url: 'https://github.com/topics/rust',
+2024-11-25T17:54:25.7541221Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEO0lEQVR4nI1VW4iVVRT+zaabUiCWTJ5/feuyzxk7hS+D0I2IogephyR6qd6akESKngoFh4TAsZ7CCKKbZUE95IMwGJpkWRSkFmSpJelDYBRllpccZ058+//PmcMwDW1Y/Ovfe61vr/suiv9Yo0VxCYAryJvYIy'... 1314 more characters
+2024-11-25T17:54:25.7542862Z       },
+2024-11-25T17:54:25.7543058Z       {
+2024-11-25T17:54:25.7543281Z         name: 'Ajax',
+2024-11-25T17:54:25.7543770Z         description: 'Ajax is a technique for creating interactive web applications.',
+2024-11-25T17:54:25.7545737Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAgAElEQVR4nO29B3dUR7b37e/wrOd9771O5KgsdVTOWUIi5yRyDhKgAEI5Z4GINhgbHDDGgG0cMGCEsmQRDQaP07U99njG4zi2597/s3adPq2W6CSpW+d0d+219mpQn66qs0/V7+zalR4DFy5cuEgkj0mVMRcuXL'... 25898 more characters,
+2024-11-25T17:54:25.7547377Z         url: 'https://github.com/topics/ajax',
+2024-11-25T17:54:25.7549670Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEFUlEQVR4nI1WS09bRxT2X+miEvbFNtf33nn4df2ok+CahrSlQBPnoZBAqkgkIBQSG5ygpBVYVGqRXAl1AS0SVXg3XRQW3cGGHWxgg4p4LIpYIFYgwRfNwPUjxLgjHd15nJnvnDNzvnNtKNNOT0+lVGqV9GzlNl'... 1266 more characters
+2024-11-25T17:54:25.7551736Z       },
+2024-11-25T17:54:25.7551930Z       {
+2024-11-25T17:54:25.7552172Z         name: 'Jupyter Notebook',
+2024-11-25T17:54:25.7552845Z         description: 'Jupyter Notebooks are documents that contain live code, visualizations, and narrative text.',
+2024-11-25T17:54:25.7554928Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOydB3hb1fn/v7Sl/XcDBVookGVL8swmey/HlnUlecd2vEc84yHde7Usj9iZQCAJSdiUUQIUCKtQRveA8qOldNBf21833SXWthOf//Ne6wZFkRwnsWMrued5vo/koSvp3nM+9z3ved/3AEpTmtKUpj'... 50698 more characters,
+2024-11-25T17:54:25.7556619Z         url: 'https://github.com/topics/jupyter-notebook',
+2024-11-25T17:54:25.7558797Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAE00lEQVR4nI1WTWwbRRRe16kQCTSkET+VqlRNvGPHIU0gFMSPiCpiycjzs16xCLWBRknqip9Aqtiz6zjJpoikErQHKi4psa2atkJLVIlKcAFUxK2iBzhzQeqhalrS7q7jND/yoNl4XSdxCiM9z+y8mffe9+abNx'... 1518 more characters
+2024-11-25T17:54:25.7560832Z       },
+2024-11-25T17:54:25.7561026Z       {
+2024-11-25T17:54:25.7561258Z         name: 'Tensorflow',
+2024-11-25T17:54:25.7561822Z         description: 'TensorFlow is an open source software library for numerical computation.',
+2024-11-25T17:54:25.7564070Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOydB3hU15n3sTEYbEyxcQMbGDpDb+OOjY27ccHGNsU2Zew4ye4mm02yu1822c1ukk02xZad5t1UO9gW6r2MeheoISHUe+9Xmj5XcL/nf865d+6MRiCEpBlJ532e89BB3Ln3d9/3/7YZM7hx48aNGz'... 43146 more characters,
+2024-11-25T17:54:25.7565981Z         url: 'https://github.com/topics/tensorflow',
+2024-11-25T17:54:25.7568327Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFO0lEQVR4nM1WfUxTVxRvBWEOwbjE+cc0KBTpe7VkDoFqnGyZJFM3nSRufjCxfbWWblWZxukmaaZbNj+IukH2IaK09Ou2pS30g9JCgQp+RAEJGVm1WTCZjghtKQgU6TvLK9SgTJ1LluwkN+++c889v3vP+Z3zHo'... 1658 more characters
+2024-11-25T17:54:25.7570956Z       },
+2024-11-25T17:54:25.7571156Z       {
+2024-11-25T17:54:25.7571392Z         name: 'Kotlin',
+2024-11-25T17:54:25.7571992Z         description: 'Kotlin is a statically typed programming language for multiplatform applications.',
+2024-11-25T17:54:25.7574145Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAYtUlEQVR4nO3d/39V9X3A8c+f0IYkIEJIAmKIiBERESlFpNR9a9f9sLnOuc51Xde5ruu6znVNT6m1aq1VRFREinyNIUDAEEKAEMIxJjGNIcQ0pjGGcBJAQAut1nbr9t7jc77ce27UCiHnnHvvef3w+gc+Dz7Px/'... 8306 more characters,
+2024-11-25T17:54:25.7576006Z         url: 'https://github.com/topics/kotlin',
+2024-11-25T17:54:25.7577893Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAACZElEQVR4nLXU3U9SYQDH8VP9BxQNz1Tmy0ozyjCSJCtqWVtr6w/ovrrpKm7ywmQ13ZrURmtDWuVW0VqszXSzN2AYpIIiiNJRgSGCYqHW7NXO82uHw3Sl6aF1fn/A97PneXYO1S2Nwy2JoUcSQa/0HfpkfnhpL/'... 686 more characters
+2024-11-25T17:54:25.7579496Z       },
+2024-11-25T17:54:25.7579689Z       {
+2024-11-25T17:54:25.7579929Z         name: 'PostgreSQL',
+2024-11-25T17:54:25.7580369Z         description: 'PostgreSQL is an open source database system.',
+2024-11-25T17:54:25.7582392Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOydBXRdx9WFJ23KbfqXkrRN0zCjAw0zM6MZkjhmiO2QY2ZmZmZmZmZmZmZbss+/vnPPPF1dPdlOYluy5bvWLNnS09V7c2f2HNhnH+cuXhev078ucc79wjn3SxuXOud+ZePXJxm/stdeGvrdX9q9fm'... 86590 more characters,
+2024-11-25T17:54:25.7584184Z         url: 'https://github.com/topics/postgresql',
+2024-11-25T17:54:25.7586447Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAGcElEQVR4nJVWbVCTVxa+FRjGVtrpjNoP264Wg1AtKBHEZcRU5EsZpogUbRMQNYGguCh+Qqc4oQWSECABSlC+gxCQShrAgAIJX1KRUgGtXVrbyk67s+O24+zKznZ5k2fnXvMybGd/tHfmzp05773P85xzzzn3JY'... 2070 more characters
+2024-11-25T17:54:25.7588438Z       },
+2024-11-25T17:54:25.7588631Z       {
+2024-11-25T17:54:25.7588849Z         name: 'Firefox',
+2024-11-25T17:54:25.7589300Z         description: 'Firefox is an open source web browser from Mozilla.',
+2024-11-25T17:54:25.7591659Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOydB3hc1Zm/Z5Psbvaf7AK23Du2sY17kVWmaNS7bDZhQ0glyZKQkCyQQggBTAmhF2OasY27epdcAYNx701u6r24F4qm3N//+c45986dqztFsgw23PM873NHkm3NjHVffd93zvmOyWQMY3zFBnD7N4'... 95478 more characters,
+2024-11-25T17:54:25.7593321Z         url: 'https://github.com/topics/firefox',
+2024-11-25T17:54:25.7595441Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAGF0lEQVR4nJWVC1BU5xXH1zpjEyCYiA1mRtEYQjUBISzsLs9dlr27LLvLQ7ogYEAjNoogEhNp0iiZJq2kmalPahNMnaCtGRSmNr6SSn1WrVOJ8ZEGMhJ5LU8FJKJk7/1+HdmAdpqMzX/mzJ1z73d+55zvfg+V6g'... 1950 more characters
+2024-11-25T17:54:25.7597283Z       },
+2024-11-25T17:54:25.7597477Z       {
+2024-11-25T17:54:25.7597886Z         name: 'Hacktoberfest',
+2024-11-25T17:54:25.7598733Z         description: 'Hacktoberfest is a month-long celebration of open source projects, their maintainers, and the entire community of contributors.',
+2024-11-25T17:54:25.7601108Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAIAAACb4TnXAAAACXBIWXMAAAsTAAALEwEAmpwYAAALU0lEQVR4nO2dTW9cdx2F8y08aWI7tseO48Q1EKwxty8mjj2eGV+7p42KlNJWEdCqtKpUiRcRNmxYIMEGdUE/AAIJsaArBEhFDZVpSENStUilnwZFbUAgYru3vnNmzn2kZx/POb9nfv/5z0tO6OMSSIAEVI8IJ0'... 3738 more characters,
+2024-11-25T17:54:25.7602945Z         url: 'https://github.com/topics/hacktoberfest',
+2024-11-25T17:54:25.7605033Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAACXBIWXMAAAsTAAALEwEAmpwYAAACiElEQVR4nLWUS08TURiG+QvOpS20CwIilEKGCnaunZa2E2aYOXPOnBm6YOHShJ17N2pi3BlXRmm5GYNIIhIv8QcAJgZiEGOkFFoKRRIi/8EAJVbbclFM3tVZPPne9/vOW4fWjAtR3f8BZQy4qp9RKFMLlDGsHL'... 734 more characters
+2024-11-25T17:54:25.7606912Z       },
+2024-11-25T17:54:25.7607133Z       {
+2024-11-25T17:54:25.7607359Z         name: 'jQuery',
+2024-11-25T17:54:25.7607925Z         description: 'jQuery is a lightweight library that simplifies programming with JavaScript.',
+2024-11-25T17:54:25.7610060Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAIAAACb4TnXAAAACXBIWXMAAC4jAAAuIwF4pT92AAAgAElEQVR4nO2dh1cUV9vA33/i+768J++bKGwFtrGwIEU0KqLGWCgCFlCDGDWJLXZFRZS+gEgRO0Ys2BAraowNsKIUkQ5Lkyq9L9+ZfWAcZ2kpN1nM8ztzPAizs7Oz9zf33uc+986/ehEEIca/yB0aQRAUDEEIgo'... 14158 more characters,
+2024-11-25T17:54:25.7612039Z         url: 'https://github.com/topics/jquery',
+2024-11-25T17:54:25.7614042Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAACXBIWXMAAC4jAAAuIwF4pT92AAABVUlEQVR4nO2STUsCURSG/ZPVH2hwG+6SNIVcW5KgqzRykjRnI21CjSSmGMeiaxM02oSoRNMHxTjOnbkf4diH4YgL20Q+3MWBc+7LOec9LvpLuGZCE/kvOyL2+4ht6GdACME2hBCE0Fd2bEfDWQhhp9NGCDm2YJ'... 326 more characters
+2024-11-25T17:54:25.7615679Z       },
+2024-11-25T17:54:25.7615867Z       {
+2024-11-25T17:54:25.7616093Z         name: 'npm',
+2024-11-25T17:54:25.7616579Z         description: 'npm is a package manager for JavaScript included with Node.js.',
+2024-11-25T17:54:25.7618616Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAIAAACb4TnXAAAACXBIWXMAAAsTAAALEwEAmpwYAAAI3UlEQVR4nO3dPW5jVxBEYS/Kkq5WQGoH9pbdARU41hLEbAIS/oEEODCcGfPUt3q+g4IWUH3PlIKB3k+1nkQDGqhjRPhJsxrQQB02MwTzvDTwRDCPQANPiUtrwfpvIDW3BIL130BqbgkE67+B1NwSCNZ/A6m5JR'... 2898 more characters,
+2024-11-25T17:54:25.7620354Z         url: 'https://github.com/topics/npm',
+2024-11-25T17:54:25.7622395Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAACXBIWXMAAAsTAAALEwEAmpwYAAABWUlEQVR4nO2VW07CQBiF2YVuQKclKiWh0HYQHzDsBbYDmnTaknDZiYmltMVX3mHsq4okbXoZAwXCZVoN0cQYJ+dpcvLl5M/8ZzKmUPoWZX4EZEmiBaWvShITQKJg5DmdATrLfC4GGHnOFIUDkCQaXG7cqDv9Hk'... 330 more characters
+2024-11-25T17:54:25.7624178Z       },
+2024-11-25T17:54:25.7624371Z       {
+2024-11-25T17:54:25.7624587Z         name: 'Swift',
+2024-11-25T17:54:25.7625212Z         description: 'Swift is a modern programming language focused on safety, performance, and expressivity.',
+2024-11-25T17:54:25.7627378Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nO19a7BVVXbuTndyb5JKblWSm8qtusmP3E6lKzd1K8mPVOba5/BQW9PGV6+12R4BFTwiou37bRORVlpFRaV94BMVDbYPxFZbUVEUn6ggKiqCKD5ARXHNtd/veWvMIwc47H3Ofqy1xnp8X9VX8sOqM9'... 12622 more characters,
+2024-11-25T17:54:25.7629148Z         url: 'https://github.com/topics/swift',
+2024-11-25T17:54:25.7631425Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAADw0lEQVR4nK2W64vcVBjGo3+I31fXXnbd3WQGXWjt3rczycy069bWrYKU0i3r1i3UUgZrUXFRKcVLaxUvSFW8fNJW0CoiBRGhiBVUpGq7pdruOUlmMmkmmTzyvplbdrIopYFDziQ5v+e9nfeMUiwWb1cURVnODY'... 1154 more characters
+2024-11-25T17:54:25.7633446Z       },
+2024-11-25T17:54:25.7633633Z       {
+2024-11-25T17:54:25.7633863Z         name: 'Markdown',
+2024-11-25T17:54:25.7634280Z         description: 'Markdown is a lightweight markup language.',
+2024-11-25T17:54:25.7636451Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAIAAACb4TnXAAAACXBIWXMAAC4jAAAuIwF4pT92AAAQcklEQVR4nO3dT2wU5f/A8dndlhbRNNh8BZOWtlORABVDox4gAURRSmJEkYMm0pUmBCP+C6URkUDjSS8mekDBgn9qolHBBI7WxH+JgAcMHLQnNXqQVCwKS3d3dueX7gPPb9hCu919ntlnZt6vg9FUtjO7+96Z+T'... 5486 more characters,
+2024-11-25T17:54:25.7638257Z         url: 'https://github.com/topics/markdown',
+2024-11-25T17:54:25.7640135Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAACXBIWXMAAC4jAAAuIwF4pT92AAAB+0lEQVR4nN2Uv64pURTG1/wxM5JRSVDwDuIVFKZXaCW0Eg0eQBCFRsKM0kwjCKUQjcQLiEZB6FSTkSgYTqybY8u+B/eewlGdr5ji22v/1tp71l6AbxK8E/TxY+E7KzJNU9d1TdMaL0nTNF3XTdOESCQCACzLwk'... 546 more characters
+2024-11-25T17:54:25.7641741Z       },
+2024-11-25T17:54:25.7641936Z       {
+2024-11-25T17:54:25.7642151Z         name: 'Shell',
+2024-11-25T17:54:25.7642671Z         description: 'A shell is a command-line tool, designed to be run by the Unix shell.',
+2024-11-25T17:54:25.7643269Z         icon: null,
+2024-11-25T17:54:25.7643586Z         url: 'https://github.com/topics/shell'
+2024-11-25T17:54:25.7643909Z       },
+2024-11-25T17:54:25.7644103Z       {
+2024-11-25T17:54:25.7644338Z         name: 'Documentation',
+2024-11-25T17:54:25.7644928Z         description: 'Documentation is a set of information that describes a product to its users.',
+2024-11-25T17:54:25.7645460Z         icon: null,
+2024-11-25T17:54:25.7645797Z         url: 'https://github.com/topics/documentation'
+2024-11-25T17:54:25.7646149Z       },
+2024-11-25T17:54:25.7646407Z       {
+2024-11-25T17:54:25.7646652Z         name: 'Operating system',
+2024-11-25T17:54:25.7647346Z         description: 'An operating system is a program that manages a computer&apos;s programs and applications.',
+2024-11-25T17:54:25.7647934Z         icon: null,
+2024-11-25T17:54:25.7648276Z         url: 'https://github.com/topics/operating-system'
+2024-11-25T17:54:25.7648641Z       },
+2024-11-25T17:54:25.7648840Z       {
+2024-11-25T17:54:25.7649058Z         name: 'vim',
+2024-11-25T17:54:25.7649320Z         description: '',
+2024-11-25T17:54:25.7649573Z         icon: null,
+2024-11-25T17:54:25.7649878Z         url: 'https://github.com/topics/vim'
+2024-11-25T17:54:25.7650314Z       },
+2024-11-25T17:54:25.7650501Z       {
+2024-11-25T17:54:25.7650723Z         name: 'LaTeX',
+2024-11-25T17:54:25.7651115Z         description: 'LaTeX is a document preparation system.',
+2024-11-25T17:54:25.7653064Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAgAElEQVR4nO1dCbhNVRv+rqGEKDQKDRqoqDRICtFE/RpoTpPQgMo83nWuIX5EUpHMRBqlMkSEIvwyJGUeEpF5Htf/vOus7e577hn2dM4+597vfZ7v+f/cc/Y5Z+21vv2N70eUKPTvfzqNH583YZ/HYDAYpyBEPh'... 24458 more characters,
+2024-11-25T17:54:25.7654787Z         url: 'https://github.com/topics/latex',
+2024-11-25T17:54:25.7656778Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAEZElEQVR4nKVVW0scZxh+RjfRGI3oxjONJlmPMQvBNqm0aYptCKRKoWU9ERGWZDWbsl3NhnVN19mD7tbRcY/uVAml9CYgKb3qRaEt9KYQ0sMPKL1pb0ppITdNC+7MW97ZUde4Ekte+Phm5nu/53mfd575BiASwH'... 1370 more characters
+2024-11-25T17:54:25.7658504Z       },
+2024-11-25T17:54:25.7658697Z       {
+2024-11-25T17:54:25.7658910Z         name: 'Ruby',
+2024-11-25T17:54:25.7659495Z         description: 'Ruby is a scripting language designed for simplified object-oriented programming.',
+2024-11-25T17:54:25.7661569Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOydB1RUd/7F3zRgypvyZuiiaKxJND0xvWs2m143PdmNySab9t9kTUws2HtvFMGKHRtib4i9oFgAQSwgIr3D1Hf/5/fmzTAzzFBsoPI7557RHM+ePR7m4733+ysU1bba1g1aADxJAuAeAN8DWAngII'... 84878 more characters,
+2024-11-25T17:54:25.7663244Z         url: 'https://github.com/topics/ruby',
+2024-11-25T17:54:25.7665160Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAHPklEQVR4nH2VeWwU5xnG35mdmZ3d/WZmZ/bwgcHGIagOkFbNQdRSEikNIVGbtE1po1KhKmmqpCFpmlZtlNISTmNj44v1Yq9PfBtjYyPwgZXG3AQoR8FQQkm4cXFIKaGF3ZnvqdY1NJHajPRovr+e3/M+82o+oi'... 2342 more characters
+2024-11-25T17:54:25.7666974Z       },
+2024-11-25T17:54:25.7667162Z       {
+2024-11-25T17:54:25.7667391Z         name: 'Library',
+2024-11-25T17:54:25.7668015Z         description: 'A library is a collection of resources, often created to make programming a task simpler.',
+2024-11-25T17:54:25.7668595Z         icon: null,
+2024-11-25T17:54:25.7668915Z         url: 'https://github.com/topics/library'
+2024-11-25T17:54:25.7669265Z       },
+2024-11-25T17:54:25.7669462Z       {
+2024-11-25T17:54:25.7669675Z         name: 'xml',
+2024-11-25T17:54:25.7669946Z         description: '',
+2024-11-25T17:54:25.7670198Z         icon: null,
+2024-11-25T17:54:25.7670498Z         url: 'https://github.com/topics/xml'
+2024-11-25T17:54:25.7670825Z       },
+2024-11-25T17:54:25.7671017Z       {
+2024-11-25T17:54:25.7671238Z         name: 'Sass',
+2024-11-25T17:54:25.7671735Z         description: 'Sass is a stable extension to classic CSS.',
+2024-11-25T17:54:25.7673689Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOxdB3RcxdUedxvTTO8hkISEhJAEAoE/dBJIaKGYYhsXaXdm3q6KCwZTA4HEYIqtsvtm5klyN4TewYBtMFbZfTOzK8m90XsNves/d/YZDNgqq5VVPN85c2SDvPvKvPtu+e53EbKwsLCwsLCwsLCwsL'... 37826 more characters,
+2024-11-25T17:54:25.7675397Z         url: 'https://github.com/topics/sass',
+2024-11-25T17:54:25.7677370Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEP0lEQVR4nMVVa2hcRRTeZBPqsyKWSvFRwV8qFvSHv6Q2CiL+UARXbasN5nFm5iYbSX2BEq8o/lGriaa799y5dzdpDbUrbaW1qVLsVrR57M7cu3ezTRot1GIQiSKiII22jMzdh2nSEisWBy73zMy955zvfN+ZiU'... 1322 more characters
+2024-11-25T17:54:25.7679164Z       },
+2024-11-25T17:54:25.7679349Z       {
+2024-11-25T17:54:25.7679598Z         name: 'Project management',
+2024-11-25T17:54:25.7680261Z         description: 'Project management is about building scope and executing on the project&apos;s goals.',
+2024-11-25T17:54:25.7680844Z         icon: null,
+2024-11-25T17:54:25.7681201Z         url: 'https://github.com/topics/project-management'
+2024-11-25T17:54:25.7681572Z       },
+2024-11-25T17:54:25.7681769Z       {
+2024-11-25T17:54:25.7681998Z         name: 'OpenGL',
+2024-11-25T17:54:25.7682639Z         description: 'OpenGL is a software interface that allows a programmer to communicate with graphics hardware.',
+2024-11-25T17:54:25.7684778Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAIAAACb4TnXAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nO1dB1hT1/vuv9ZZlY2r29r212GnHSqE7ORmswXr3nuhOBBwICqEkJBBwLqKs1q1DpyEDEYYTtx7bwQFZf+fc04SIyAurtV63uc8PhjCzc29573fd77zfe/3Vg0GBgZpeIu8Q2NgYGCCYWCQCEwwDA'... 27986 more characters,
+2024-11-25T17:54:25.7686488Z         url: 'https://github.com/topics/opengl',
+2024-11-25T17:54:25.7688414Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAACXBIWXMAAAsTAAALEwEAmpwYAAACaElEQVR4nGP4TyXAMGoQmWH07///v//+//337+8/EJtkg/6BNGNX9/cfCBBlENyIb3/+Xnj7fcP9j8vuvF9z/+OxV9/f/oa79B8BgyDyV998KTx8X232EZGOjcoty3Ua55s2z7NoXejUvzpn7dE9d1/8hTkcu0'... 694 more characters
+2024-11-25T17:54:25.7690068Z       },
+2024-11-25T17:54:25.7690365Z       {
+2024-11-25T17:54:25.7690592Z         name: 'Lua',
+2024-11-25T17:54:25.7691034Z         description: 'Lua is a lightweight, embeddable scripting language.',
+2024-11-25T17:54:25.7693204Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAARlAAAEZQAGA43XUAAAgAElEQVR4nO19B5QUVfb+JUhUMIGoqLCgru6KOeCKmHfdNa3713WN+zOuccNxdeahoJJEUZhvAAETiAgGMAdQXDArShAVRUAkS84Z3v/cmttDTU/PTM90d9Wr6vudc8/sjkN3ddV7X993w3eJFAqFQqFQKBQKhU'... 19174 more characters,
+2024-11-25T17:54:25.7695095Z         url: 'https://github.com/topics/lua',
+2024-11-25T17:54:25.7697186Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAARlAAAEZQAGA43XUAAAFfElEQVR4nH1WXYwTVRQ+d9rS7v9PlxZ22aWCKL+GBIIJz2x4IAK+8ALxYVUIYEDZ395pO6Xd7na325m5d9wVdlkFQUACAtFEAwYQDPEnxhfii/hiMITEmOgD4rbbY85Mp+wS400m9/TOvd93znfOPVOA/xiapt'... 1742 more characters
+2024-11-25T17:54:25.7699156Z       },
+2024-11-25T17:54:25.7699350Z       {
+2024-11-25T17:54:25.7699571Z         name: 'Qt',
+2024-11-25T17:54:25.7700155Z         description: 'Qt, pronounced &quot;cute&quot;, is a cross-platform application development framework.',
+2024-11-25T17:54:25.7702359Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nO29B3hU553vP0l205xg3PLYj4kdGwzSjArFwSWJS5Kbzd292WT3v/nn/u//brJ7Yyex13G8mzhuSNPOFAkEuOJOsSnGNgYbMJhqwGA66lPO+56ZURlJMxpJ08s5573Pe86MNAIBAs4w7fd9np8FMt'... 21386 more characters,
+2024-11-25T17:54:25.7704144Z         url: 'https://github.com/topics/qt',
+2024-11-25T17:54:25.7706026Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAECklEQVR4nL1W308jVRSu+ug/oBBc6lKgnWm7EDf8BUazPigP+7Zm9c2nNTHZRAuUdmemDGDhYdFVo0ZD1my6JsRsfPDBqGtWkUBwozFK596hpUVYoJ1pO7/vnWNuCxuC/PBh8STfw7339Hz3nO/OOQ0E/i8bhd'... 1250 more characters
+2024-11-25T17:54:25.7707731Z       },
+2024-11-25T17:54:25.7707917Z       {
+2024-11-25T17:54:25.7708148Z         name: 'webpack',
+2024-11-25T17:54:25.7708436Z         description: '',
+2024-11-25T17:54:25.7708679Z         icon: null,
+2024-11-25T17:54:25.7709002Z         url: 'https://github.com/topics/webpack'
+2024-11-25T17:54:25.7709338Z       },
+2024-11-25T17:54:25.7709530Z       {
+2024-11-25T17:54:25.7709747Z         name: 'Gradle',
+2024-11-25T17:54:25.7710447Z         description: 'Gradle is an open-source build tool that helps teams build, automate and deliver better software, faster.',
+2024-11-25T17:54:25.7713041Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nO29CZhc51km2hDIxgAJmbgXbZbU6pbc2lpqtdRaW3biYBKHzB3MDGQIgdwkkwUuAe6QwL1DgDDAvZCQIc4kOAHmZrjgXtX7Vr1VnVOnTlVJik10yY0JJiSxA7FNFseW7cg1z1n+83/bf6okS6rurv'... 35978 more characters,
+2024-11-25T17:54:25.7715079Z         url: 'https://github.com/topics/gradle',
+2024-11-25T17:54:25.7717021Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEmElEQVR4nNVV22sjVRhPW1fcRUFYtLc0TTdp06ZpkiZpm97StBX3Zb0gW1lQEPZR3Rf/APOi4pMXfFoQRESh6WbSJNPJPZnMzJkzM5mZXqlFLcKiIiqy4K3dNPPJJKn2ossKLuIPho9zmd/5zu+7HIPhfwOAJk'... 1438 more characters
+2024-11-25T17:54:25.7718678Z       },
+2024-11-25T17:54:25.7718873Z       {
+2024-11-25T17:54:25.7719119Z         name: 'The Julia Language',
+2024-11-25T17:54:25.7719825Z         description: 'Julia is a high-level, high-performance dynamic programming language for numerical computing.',
+2024-11-25T17:54:25.7722183Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nO2dCZgV1ZmG26hxiRo1UZOoiQn9lTpRoxTKBQoodmS32YpVoEAFFUUlKmaSTEwmk8nELFrhogIuKOBCYrlFVBSzTGKBioAWIDCJicZJzOKYRFw48/x1z22KDg23+1bdW933e5/nPGJ307fuqeK9//'... 13410 more characters,
+2024-11-25T17:54:25.7724097Z         url: 'https://github.com/topics/julia',
+2024-11-25T17:54:25.7726095Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAADVUlEQVR4nO1VXWgUVxS+k9gm0JSWVgmNq3ece865dyfZagiCgdpRoZBqqxLZYmKsqDQPqxsEgz/YdAJWAumWIn1pITbUNolJax4sQtOXamsrPvhTQqH+IdiACIJIKfog3nI2d5c1rJAXH4Re2Jlzz/nO+c537s'... 1010 more characters
+2024-11-25T17:54:25.7727831Z       },
+2024-11-25T17:54:25.7728048Z       {
+2024-11-25T17:54:25.7728267Z         name: 'Elixir',
+2024-11-25T17:54:25.7728959Z         description: 'Elixir is a dynamic, functional language designed for building scalable and maintainable applications.',
+2024-11-25T17:54:25.7731420Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOydB5Qc1ZX+B2mmu3J190jAYuz12ixgpOnuylWdc3dVp4mSyDjAGiewMSY5gG1sgwkGDJgcjEA5BySRRJSEAOU0yhklktOG/9n/ue9Vz7REMF7YtRHvO+eeagkYSd2jH99333v3tbQQERERERERER'... 45462 more characters,
+2024-11-25T17:54:25.7733318Z         url: 'https://github.com/topics/elixir',
+2024-11-25T17:54:25.7735529Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAC3ElEQVR4nLVUW2sTQRTeJG2T7G429uYVK61F67ZJZuac2dxNmzS3Nm3aatpaW6ReKiiCDz6IWCJSKD4KFdFSRBEfpFLBgiKK9kF8qdAHoYgU/AG+CP4A2TSB+CJJGj+YM8PuOd93vsMwglA6DPn1/xAVJiUuTD'... 846 more characters
+2024-11-25T17:54:25.7737308Z       },
+2024-11-25T17:54:25.7737496Z       {
+2024-11-25T17:54:25.7737722Z         name: 'Haskell',
+2024-11-25T17:54:25.7738391Z         description: 'Haskell is a functional programming language with non-strict semantics, and strong static typing.',
+2024-11-25T17:54:25.7740586Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAbO0lEQVR4nO3de5BcVZ0H8CbK+ynvBR/4FhVEEJGHOCI+BqlUVFoD4yTdfc/5nW5YQFmKRV2WESkkDsyEnr73nt+53QmUoDjLUixSrAIiIssiiAiCvARFeb8hQEgIZOswN7UpzCBnMpP+dff3U3Ur/97zmJPz7X'... 9166 more characters,
+2024-11-25T17:54:25.7742413Z         url: 'https://github.com/topics/haskell',
+2024-11-25T17:54:25.7744280Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAACzElEQVR4nO2VTWgTQRTH29oi3vSs6E0FpSooSg/m4N16qV8k65KdeTObhNBdCi1GiKDQq73tZGb2IxtLiZ4UCrYq1YueSsGrKH7cvIgWQS0dmZItq02KsR774DHM5vH+k99/9m1Pz3ZsIXrTG6XUb/uuo1qt9q'... 826 more characters
+2024-11-25T17:54:25.7745864Z       },
+2024-11-25T17:54:25.7746062Z       {
+2024-11-25T17:54:25.7746278Z         name: 'Scala',
+2024-11-25T17:54:25.7746708Z         description: 'Scala is an object-oriented programming language.',
+2024-11-25T17:54:25.7748765Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOydB3wcxfXH9xRw792WdHXvTr1LrrIsy71QDKFDSAi9BAL/0AmYFgIESAgmgUAIxQQCAUIoDmCwce+9yEW2LDfJkizZ6tLv/9m9O91qNbs7u7d7Rbr5fN5Hq3ezb/ZWO1+9eW9nhmH8xeQVRkJnkh'... 36026 more characters,
+2024-11-25T17:54:25.7750482Z         url: 'https://github.com/topics/scala',
+2024-11-25T17:54:25.7752629Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEDElEQVR4nKWWbUxTVxjHq7xks2Dcxkvf4J7e3nNbrZitbkyigFm2uBizaDI+LLq4RMerpcIkWcKgmejCh21qshibbGGy4ofGbL59csaysYwNWJHSAgJepIUKs0phJDORe//LrWVxAyvdTnLul+fm/zvP8z/3ea'... 1254 more characters
+2024-11-25T17:54:25.7754529Z       },
+2024-11-25T17:54:25.7754717Z       {
+2024-11-25T17:54:25.7754954Z         name: 'Objective-C',
+2024-11-25T17:54:25.7755714Z         description: 'Objective-C is general purpose, object-oriented programming language used for macOS and iOS operating systems.',
+2024-11-25T17:54:25.7758180Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAIAAACb4TnXAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOy951cb2bY9+vtL3rf34b1xx7vh3HTu6XNP6Gh328bkHAw4dLvbHd222xGTTDA555xzzjlJSCCQEJIQksgggXIOvFG1S4UQUklgc2w3e449sAxSSSrV1FprrrD/zyEEBMS54f+c36EhICAgwSAgzh'... 29078 more characters,
+2024-11-25T17:54:25.7760141Z         url: 'https://github.com/topics/objective-c',
+2024-11-25T17:54:25.7762161Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAACXBIWXMAAAsTAAALEwEAmpwYAAACjElEQVR4nM2UX0/TUBjG+W5emWgMJlMK++OCfgKN0QuNiVwYZUCmAo6FKSKwC0PiiOBggoO5bKtbYWNsbmNsY90oXWm7lbXdaWta5sCtkKFceNKctOd9+jvv876n7ZAuaHS0JxOV6wJAkgh4gWf+FiSKkiBIkg'... 742 more characters
+2024-11-25T17:54:25.7763898Z       },
+2024-11-25T17:54:25.7764093Z       {
+2024-11-25T17:54:25.7764313Z         name: 'Perl',
+2024-11-25T17:54:25.7764803Z         description: 'Perl is a highly capable and feature-rich programming language.',
+2024-11-25T17:54:25.7767098Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nO1dB5hcZdV+Z3cTQhJCQgsptIC00Hsn1NCSQCAkgZRtM7ObhPojoqCiCBZQFBVUilgQBRFREQWRXkWKUqQllFDTQ9ru7M73P+e758ycubmzU3fn7s73Ps/37OzulDt37vfOqe8BHBwcHBwcHBwcHB'... 29618 more characters,
+2024-11-25T17:54:25.7769079Z         url: 'https://github.com/topics/perl',
+2024-11-25T17:54:25.7771291Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAADYUlEQVR4nKWWZ2gUQRiGn8udSTRGU7AXbOAZSyQi9kKwCyJCNKJRo3d7iZoYVCwo2EBFVLBgCygqIhr9J6JofokgIigYuyjYsPywJ6TsfjJ7s3FzyV2UDAxzO/vN+37vV2YPGo84wBvx3KKRBRwFjgPHgBPAfm'... 1026 more characters
+2024-11-25T17:54:25.7773290Z       },
+2024-11-25T17:54:25.7773478Z       {
+2024-11-25T17:54:25.7773709Z         name: 'Jekyll',
+2024-11-25T17:54:25.7774168Z         description: 'Jekyll is a simple, blog-aware static site generator.',
+2024-11-25T17:54:25.7776291Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nOydB1hUx9qAz1IFRFTEHjVqNNh7i8YSO2KNsZtYMWo0YiUYTewauxi72DtI77333mFhWVjYwnY66vzPd5zDPaygptzo/TPv84xI2T1lZ77z9aEoAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBA'... 37002 more characters,
+2024-11-25T17:54:25.7778140Z         url: 'https://github.com/topics/jekyll',
+2024-11-25T17:54:25.7780236Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAACqklEQVR4nO2Tb0gTYRzHby0VIsrEzDAUSwSDwDfqi4j2Kl+k2Ysueu9YkOQbexGzuCBDDaTmi+DwjeKfjaexMbmdm8d2w+ltc3PH7Y/buZvGmiJOdpDsVS+euMsL0zLzVZBfeLiH53e/z/N9fs/vQZATneg4Ql'... 782 more characters
+2024-11-25T17:54:25.7782161Z       },
+2024-11-25T17:54:25.7782360Z       {
+2024-11-25T17:54:25.7782587Z         name: 'Mastodon',
+2024-11-25T17:54:25.7783131Z         description: 'Mastodon is a free, decentralized, open source microblogging network.',
+2024-11-25T17:54:25.7785187Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAADXSAAA10gHeZqGTAAAgAElEQVR4nO2dCXRT153/adppm5l2Mp3OdP6d7pm2M13+3dKmxTbIxrLZd6S3yNreE2bJQqAkEBISwtKkgSaELITSNCFpkgZCaAJNaEggbfYiG1ve5N3G2AbbeJe16zfnGujQBGMtT/q9J/3uOd+TnIOP9H7f+7'... 14022 more characters,
+2024-11-25T17:54:25.7786982Z         url: 'https://github.com/topics/mastodon',
+2024-11-25T17:54:25.7788915Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAADXSAAA10gHeZqGTAAAGNklEQVR4nIVVa2wcVxUeKkCgIuAPQkICCfUPBQQ/KrXUqdePfXjXaztrr+c9s/Pa2GmoqAxNmjYtTlIIUWulebQFS0WUKlJVVUkrIFSlQFXEDySch+MkXr+fa3ud9XrXu/bO7szcD82uvXYQtEf6dO45597z3X'... 1990 more characters
+2024-11-25T17:54:25.7790559Z       },
+2024-11-25T17:54:25.7790747Z       {
+2024-11-25T17:54:25.7790968Z         name: 'Nim',
+2024-11-25T17:54:25.7791564Z         description: 'Nim is a statically typed, compiled, garbage-collected systems programming language.',
+2024-11-25T17:54:25.7793929Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAIAAACb4TnXAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAgAElEQVR4nO2dB1RT2dbHpYiioiLgpd0kN2IwUgVDEWmRHiAk2MauYxkdn32wjtiwiw0cGxYEHcWCAooovYO0xEqXbkPAmbGOfuskfozjKDXhJpfz1n99661vzZsV9j6/u8/ZZ5+9eyAaGBS0ALQAIh4QekDLQg'... 18714 more characters,
+2024-11-25T17:54:25.7795872Z         url: 'https://github.com/topics/nim',
+2024-11-25T17:54:25.7797728Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAEHUlEQVR4nMWUf0wbZRjH33Mwoe3dtUevvXuvvR/vFdCBWyIw2A8myDYYrKtybdHMP/yDzRnZhgYyFhN/RkUlRmeyP4iyRGaM0UX/NCQui4lO4xJkpfwKzhnCWoiM0pbCCO1r3oJxiRM1MZo8f1zueZ/P+zz3fe'... 1274 more characters
+2024-11-25T17:54:25.7799324Z       },
+2024-11-25T17:54:25.7799517Z       {
+2024-11-25T17:54:25.7799749Z         name: 'language',
+2024-11-25T17:54:25.7800031Z         description: '',
+2024-11-25T17:54:25.7800287Z         icon: null,
+2024-11-25T17:54:25.7800609Z         url: 'https://github.com/topics/language'
+2024-11-25T17:54:25.7800943Z       },
+2024-11-25T17:54:25.7801138Z       {
+2024-11-25T17:54:25.7801357Z         name: 'Dart',
+2024-11-25T17:54:25.7802150Z         description: 'Dart is a general-purpose programming language developed by Google to build web, server, desktop, and mobile applications.',
+2024-11-25T17:54:25.7804813Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nO3de3RdVZ0H8H1O0jYVHwhtKQiKQFtKKejiGUrh3pbH8NA2Tdp7a1Wsg+JjOTqj4wgjoH2kddSljjRNu8OMNG2RCiNDgb55pLdJCjoDTVR8TB+MOotiQZE0IUnzm7XPvefm3uTe5D7OOXufvb9//J'... 11758 more characters,
+2024-11-25T17:54:25.7807067Z         url: 'https://github.com/topics/dart',
+2024-11-25T17:54:25.7809293Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAADrUlEQVR4nKXVT2zbVBwH8OeXZGwSBxJRykCKOHBqne2wy7p1ivOHCYkJNKVu7IwhMbhx6DKYkJBQLrAydoJDGjdJM4pAooe1GiPpRNFE4rVJlwKbOAAbiCEhNqTyvxlh8fsi23H+NVFbsPSV5Zfo9/H7+dmPkI'... 1126 more characters
+2024-11-25T17:54:25.7811367Z       },
+2024-11-25T17:54:25.7811562Z       {
+2024-11-25T17:54:25.7811785Z         name: 'GitHub',
+2024-11-25T17:54:25.7812158Z         description: 'You’re lookin’ at it.',
+2024-11-25T17:54:25.7814301Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAXEYAAFxGAHswbAIAAAcSklEQVR4nO2dd7ReRdXGT0IJJCG07L0Bo0BCCxEEpUVEigakfKgINhBFEBEQdSkWPlQgoGIDI8WGICwVl0ovIs1QLJ+EIkiP1FBCDD0hkOR8a8hceLm8997zvu/M2XvmPL+1nr9yk8zsefa+58yZUhQAAAAAAA'... 9526 more characters,
+2024-11-25T17:54:25.7816365Z         url: 'https://github.com/topics/github',
+2024-11-25T17:54:25.7818689Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAXEYAAFxGAHswbAIAAADL0lEQVR4nJ1VPWtVQRDdGIkfoDG5e87slfAuSGxeYSMIdqaJIGgaERtFEDQqFmJhpSAi+JFKG7WwlCjiHxDRTgOChXYKaiFqkWjEaMynzLy9l81LeAlZmHfv3T1zZvfM7DznFo810Vzh3HrJsr5AXgrAA4E8Vd'... 958 more characters
+2024-11-25T17:54:25.7820725Z       },
+2024-11-25T17:54:25.7820919Z       {
+2024-11-25T17:54:25.7821163Z         name: 'Image processing',
+2024-11-25T17:54:25.7821881Z         description: 'Digital image processing is the use of algorithms to make computers understand the image content.',
+2024-11-25T17:54:25.7822581Z         icon: null,
+2024-11-25T17:54:25.7822941Z         url: 'https://github.com/topics/image-processing'
+2024-11-25T17:54:25.7823309Z       },
+2024-11-25T17:54:25.7823502Z       {
+2024-11-25T17:54:25.7823718Z         name: 'html5',
+2024-11-25T17:54:25.7823997Z         description: '',
+2024-11-25T17:54:25.7824252Z         icon: null,
+2024-11-25T17:54:25.7824565Z         url: 'https://github.com/topics/html5'
+2024-11-25T17:54:25.7824900Z       },
+2024-11-25T17:54:25.7825095Z       {
+2024-11-25T17:54:25.7825318Z         name: 'Godot',
+2024-11-25T17:54:25.7825808Z         description: 'An advanced, multi-platform 2D and 3D open source game engine.',
+2024-11-25T17:54:25.7827879Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nO19B3QUR7b24Ljet//uszent+nt874N599/k20wGXW1wGAwxgEvOOKAWS+21zmsE0HqapGTwSTbgI3BYGNjkKarJSEQQWRQAiEhgoSQRJJQpP5zSzO2jDVSz2hmqnrmfud8B4MJ3V/de7vCrXs9Hg'... 17414 more characters,
+2024-11-25T17:54:25.7829651Z         url: 'https://github.com/topics/godot',
+2024-11-25T17:54:25.7831530Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFoklEQVR4nJVWa2yTVRiuEIkkxqh/1F9K/GfQODCADNZtrN/3re3GJRnBEFD8gXIxkR9IArKqoWvX73zd2t2DgCBKtihDhmxd+1267tquZWxs7ILLYOwShQ0GE0K3PeacsouigF/ypuec932f5z3vec97qtM94R'... 1794 more characters
+2024-11-25T17:54:25.7833146Z       },
+2024-11-25T17:54:25.7833334Z       {
+2024-11-25T17:54:25.7833570Z         name: 'Mathematics',
+2024-11-25T17:54:25.7834233Z         description: 'Mathematics is a subject that deals with numbers, shapes, logic, quantity, and arrangements.',
+2024-11-25T17:54:25.7837135Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAEJwAABCcAFu8l9tAAAgAElEQVR4nOxdBXQVVxOeJMSN4O5FW5xAcIq7u1txC+5W3N3dKVDc3Vu0tLjT4hTXyPv+M3dnk80jCYEIr/xvzrmH8GT37n07334jd4bIKlaxilWsYhWrWMUqVrGKVaxiFatY5auLTQSGVaxiFatEWnRAsZVhR0'... 66378 more characters,
+2024-11-25T17:54:25.7839232Z         url: 'https://github.com/topics/mathematics',
+2024-11-25T17:54:25.7841381Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAEJwAABCcAFu8l9tAAAHL0lEQVR4nG1VCVgUVxIuZnBguGYGgQGJDBjECchNuJFLbgQhyxUWyAiC3McgcplWMYsajOLFsjHCggIOQUBuUce4xJV8xEQjbCJLWHQlEgVN0CVo99R+PThGo//3vX5d79Wr6vqrXhfA71CSP+MJLW5mUxgnRx'... 2322 more characters
+2024-11-25T17:54:25.7843487Z       },
+2024-11-25T17:54:25.7843689Z       {
+2024-11-25T17:54:25.7843914Z         name: 'Lisp',
+2024-11-25T17:54:25.7844505Z         description: 'Lisp is the second-oldest high-level programming language in widespread use today.',
+2024-11-25T17:54:25.7847018Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nO1dB3hUVbedZNKG9IT03gjpjYQUCCGNAKGFDCEJgQBJqAktNEVHaYIoIIIQUBDEFgtgQcWCDbBgwQIqAioq71dQpJck533rPmfeJD8l5Zx770zO+r79veevSe49955999l77bUVCg4ODg4ODg4ODg'... 25690 more characters,
+2024-11-25T17:54:25.7849128Z         url: 'https://github.com/topics/lisp',
+2024-11-25T17:54:25.7851352Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAEpUlEQVR4nI1WaUgrVxSemSxjRpO4ITa4EkOe0cCTIFQs4kJBkIKCIijm+aO0D/0hJZUiioK494fQH2JsVCwWVNBWqEgrgsYNEVQUxAXUKkRciuLSumTmlnPezBCD9vXA5N453HO+s3z3TCjqZWGkTWxs7JuSkp'... 1458 more characters
+2024-11-25T17:54:25.7853207Z       },
+2024-11-25T17:54:25.7853399Z       {
+2024-11-25T17:54:25.7853661Z         name: 'Quantum Computing',
+2024-11-25T17:54:25.7854389Z         description: 'Quantum computing is a field of computing that uses quantum phenomena to perform operations on data.',
+2024-11-25T17:54:25.7856626Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAIAAACb4TnXAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nKS9C0yU97b/3Zy/UKnxupVIoQKKBCrKxQooUC7Bw1gnZYpGVEAhNBAQvJQyxgtQD8ymkhErNIIyyS4ci3G2rdBAArwhKi3kpanNKDX17IOW6o6Jp0psd4wXSvvm93yG5eOMet43b/KEDMMwt+f5/t'... 132138 more characters,
+2024-11-25T17:54:25.7858500Z         url: 'https://github.com/topics/quantum-computing',
+2024-11-25T17:54:25.7860852Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAIAAABvFaqvAAAACXBIWXMAAAsTAAALEwEAmpwYAAAG40lEQVR4nAHYBif5ANSKKM+KLXpXNIFvWIFuV5VwTJFsQLJ0HduoWMGRS2I0BWw8CMubVNqhSqNlFpFjMI1kNTkjC1Y2EnlNGNahQuGeNLhrGK9uGwDNhCXJhyiYZS2Qd1mEe22LdFmUaTfEhCfUmkW+hzaDUB'... 2222 more characters
+2024-11-25T17:54:25.7862918Z       },
+2024-11-25T17:54:25.7863111Z       {
+2024-11-25T17:54:25.7863337Z         name: 'Fortran',
+2024-11-25T17:54:25.7864021Z         description: 'Fortran is a statically typed, compiled, parallel programming language focussing on array operations.',
+2024-11-25T17:54:25.7866134Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAA7/AAAO/wHHJBZNAAAa5ElEQVR4nO2daXQU153Fe2ZyTuJ8zmSS8SxZPiYzSc5kPky2cWZyZk5yTFeDLS/xZPPMeI7jEKOuFmBjQCaxgwFjA+p/SWwCsSMQm1hkLLGDEIsAIbaS2cQiC4Ek9kXSf85rg53YEuoW6vq/V+/ec+73qvtu/f'... 9050 more characters,
+2024-11-25T17:54:25.7867776Z         url: 'https://github.com/topics/fortran',
+2024-11-25T17:54:25.7869709Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7/AAAO/wHHJBZNAAADUklEQVR4nKWWaU8TURSG5yfoD/KDooi2tFMTo4kfNDEYQW3pxgdD3AKxiQpKOzNURRGMgQZiRMUlCrIoiiziyiJYUYwLEkWMifbe15zTRYYtrdzmpMmdmfeZc+97zxlFURQl36Kv9Nj0gM9hTPgdBpYTPocx4b'... 1006 more characters
+2024-11-25T17:54:25.7871372Z       },
+2024-11-25T17:54:25.7871562Z       {
+2024-11-25T17:54:25.7871788Z         name: 'Assembly',
+2024-11-25T17:54:25.7872219Z         description: 'Assembly is a low-level programming language.',
+2024-11-25T17:54:25.7874128Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsSAAALEgHS3X78AAARNElEQVR4nO2dv49kRxWF60/YCrC0RqwmwAhZBBMgGQtkt4QQAQETbGARoE5IYSMHyEgVkCLUIRKBA0KEJifoP4BkY6KJHXVKdFGtZtazvT39Xne/qlNV9wuOZO/2dt86c+/Xp96vCWYWEB7QA/SACTyg8Wg8eo'... 5742 more characters,
+2024-11-25T17:54:25.7875807Z         url: 'https://github.com/topics/assembly',
+2024-11-25T17:54:25.7877664Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsSAAALEgHS3X78AAAD3UlEQVR4nN1V628UVRS/GB+1u3sfMzv7nN2ZfbXd3T6AqWVbiLVIS1GhfJCmSTUFutsQ0pUmiKWkcRMDxkdiGzRpF1CpUlDQL0Y/880o9ZsmGkyI+i/4iezjmDPbqUOXtOWTiSc5c8+9d+7v3PO45xDyv6TPz4'... 1190 more characters
+2024-11-25T17:54:25.7879240Z       },
+2024-11-25T17:54:25.7879435Z       {
+2024-11-25T17:54:25.7879807Z         name: 'F#',
+2024-11-25T17:54:25.7880317Z         description: 'F# (&quot;F sharp&quot;) is a functional programming language for .NET.',
+2024-11-25T17:54:25.7882374Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAADHTAAAx0wH/Z8+4AAAW/klEQVR4nO2dwYvkRxXH8yesYS4SAnED4m4PEoMXb3MwXl2QXKWTQ04i4QcuIUGnC5NhDduT8RCXgISRwK7iZfGwKCgO4mqIoAOu6CHC6CCIh9DjRT2VVO9vdju7vT3161/V772q9yn45pLZ/v2mut5nXr1679'... 7718 more characters,
+2024-11-25T17:54:25.7884082Z         url: 'https://github.com/topics/fsharp',
+2024-11-25T17:54:25.7886031Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAADHTAAAx0wH/Z8+4AAAEVUlEQVR4nJ1W709bZRS+0fhlGt3ovVuMUeePibT3totLTDRm/g1+QD/olxk0mbBBb7tBofT+6miBtrd1MJgaM8UtxIrMAVu2MYYBERmbyhhhc7pFHAP5QsYXSdY+5rxw28LKWHaTk74573PO857znnPectyqT+'... 1350 more characters
+2024-11-25T17:54:25.7887696Z       },
+2024-11-25T17:54:25.7887955Z       {
+2024-11-25T17:54:25.7888177Z         name: 'SVG',
+2024-11-25T17:54:25.7888823Z         description: 'SVG is an XML-based markup language for describing two-dimensional based vector graphics.',
+2024-11-25T17:54:25.7891264Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAAsTAAALEwEAmpwYAAAgAElEQVR4nO1dCZiOZRc+M2PMDLPYt7ENRsYYMsgyZI8QWUJEKf2KXxtRWhBSlmj5pURUFAmFQrYQZUtEdrJESihkifNf5/VOjTHffNt53ud9v+/c13Vf13/9v3/e5znPOff3rOcACAQCgUAgEAgEAoFAIBAIBA'... 17374 more characters,
+2024-11-25T17:54:25.7893161Z         url: 'https://github.com/topics/svg',
+2024-11-25T17:54:25.7895194Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFGUlEQVR4nJVVa0wUVxS+MxN2URRcRGkKBioL7i6PuAK66AJSi1UpxAeoSW3qD9SmIRTxEYuiaRtNq0ltFWhQjC3U1lhh5aG2toaW1tBS6UN/NGkTrT9wV1NtwWjA3ZmvOWdnViA1ppOcmW/O+c537j333hkhnn'... 1610 more characters
+2024-11-25T17:54:25.7897073Z       },
+2024-11-25T17:54:25.7897271Z       {
+2024-11-25T17:54:25.7897504Z         name: 'wiki',
+2024-11-25T17:54:25.7897781Z         description: '',
+2024-11-25T17:54:25.7898037Z         icon: null,
+2024-11-25T17:54:25.7898349Z         url: 'https://github.com/topics/wiki'
+2024-11-25T17:54:25.7898676Z       },
+2024-11-25T17:54:25.7898864Z       {
+2024-11-25T17:54:25.7899090Z         name: 'history',
+2024-11-25T17:54:25.7899369Z         description: '',
+2024-11-25T17:54:25.7899608Z         icon: null,
+2024-11-25T17:54:25.7899922Z         url: 'https://github.com/topics/history'
+2024-11-25T17:54:25.7900255Z       },
+2024-11-25T17:54:25.7900445Z       {
+2024-11-25T17:54:25.7900675Z         name: 'github-pages',
+2024-11-25T17:54:25.7900983Z         description: '',
+2024-11-25T17:54:25.7901231Z         icon: null,
+2024-11-25T17:54:25.7901565Z         url: 'https://github.com/topics/github-pages'
+2024-11-25T17:54:25.7901913Z       },
+2024-11-25T17:54:25.7902107Z       {
+2024-11-25T17:54:25.7902337Z         name: 'cplusplus',
+2024-11-25T17:54:25.7902622Z         description: '',
+2024-11-25T17:54:25.7902876Z         icon: null,
+2024-11-25T17:54:25.7903201Z         url: 'https://github.com/topics/cplusplus'
+2024-11-25T17:54:25.7903540Z       },
+2024-11-25T17:54:25.7903725Z       {
+2024-11-25T17:54:25.7903948Z         name: 'Image',
+2024-11-25T17:54:25.7904555Z         description: 'Images encompass photographs, illustrations, and visual content used in various media.',
+2024-11-25T17:54:25.7905141Z         icon: null,
+2024-11-25T17:54:25.7905445Z         url: 'https://github.com/topics/image'
+2024-11-25T17:54:25.7905772Z       },
+2024-11-25T17:54:25.7905964Z       {
+2024-11-25T17:54:25.7906176Z         name: 'foss',
+2024-11-25T17:54:25.7906444Z         description: '',
+2024-11-25T17:54:25.7906693Z         icon: null,
+2024-11-25T17:54:25.7906995Z         url: 'https://github.com/topics/foss'
+2024-11-25T17:54:25.7907313Z       },
+2024-11-25T17:54:25.7907502Z       {
+2024-11-25T17:54:25.7907739Z         name: 'applescript',
+2024-11-25T17:54:25.7908034Z         description: '',
+2024-11-25T17:54:25.7908286Z         icon: null,
+2024-11-25T17:54:25.7908767Z         url: 'https://github.com/topics/applescript'
+2024-11-25T17:54:25.7909117Z       },
+2024-11-25T17:54:25.7909303Z       {
+2024-11-25T17:54:25.7909521Z         name: 'md',
+2024-11-25T17:54:25.7909780Z         description: '',
+2024-11-25T17:54:25.7910024Z         icon: null,
+2024-11-25T17:54:25.7910319Z         url: 'https://github.com/topics/md'
+2024-11-25T17:54:25.7910644Z       },
+2024-11-25T17:54:25.7910840Z       {
+2024-11-25T17:54:25.7911051Z         name: 'Ada',
+2024-11-25T17:54:25.7911733Z         description: 'Ada is a structured, statically typed, imperative, and object-oriented high-level programming language.',
+2024-11-25T17:54:25.7914092Z         icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAYAAAAUg66AAAAACXBIWXMAAB9AAAAfQAGTqFunAAAgAElEQVR4nOydB5QVVfLGZ1CCiutfxUAYQBBwRcEECAbArKiY0VVXDKhgBDMoQYKCIqigYABFRRAVUCROzkOGIWeQHASFVXTV+p/fhTvbNC/1e69fvHXOPcowzPTr7vvdqq++qkoRY8aMuWo7d+6Uli1bSvfu3c'... 44754 more characters,
+2024-11-25T17:54:25.7916054Z         url: 'https://github.com/topics/ada',
+2024-11-25T17:54:25.7918185Z         icon24: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAB9AAAAfQAGTqFunAAAEt0lEQVR4nK1VayykVxgeJWnZsZg1DMGuYcftx5ioBnFLXIrKRGLLYpHdNhLV7CoNKZXdRkRC3EVaS6RUlZC1rusWcb+nromyRBNFSBojfuy6Pc17ut9XU9P2x/YkX8453/ed93mf9/IcAd5iXFxcsHlnZwft7e'... 1482 more characters
+2024-11-25T17:54:25.7920038Z       },
+2024-11-25T17:54:25.7920230Z       {
+2024-11-25T17:54:25.7920457Z         name: 'simulator',
+2024-11-25T17:54:25.7920805Z         description: 'A genre of video game.',
+2024-11-25T17:54:25.7921199Z         icon: null,
+2024-11-25T17:54:25.7921525Z         url: 'https://github.com/topics/simulator'
+2024-11-25T17:54:25.7921868Z       },
+2024-11-25T17:54:25.7922059Z       {
+2024-11-25T17:54:25.7922281Z         name: 'gdscript',
+2024-11-25T17:54:25.7922570Z         description: '',
+2024-11-25T17:54:25.7922824Z         icon: null,
+2024-11-25T17:54:25.7923134Z         url: 'https://github.com/topics/gdscript'
+2024-11-25T17:54:25.7923483Z       },
+2024-11-25T17:54:25.7923675Z       {
+2024-11-25T17:54:25.7923900Z         name: 'scratch',
+2024-11-25T17:54:25.7924174Z         description: '',
+2024-11-25T17:54:25.7924422Z         icon: null,
+2024-11-25T17:54:25.7924735Z         url: 'https://github.com/topics/scratch'
+2024-11-25T17:54:25.7925064Z       },
+2024-11-25T17:54:25.7925257Z       {
+2024-11-25T17:54:25.7925487Z         name: 'screenshot',
+2024-11-25T17:54:25.7925781Z         description: '',
+2024-11-25T17:54:25.7926023Z         icon: null,
+2024-11-25T17:54:25.7926340Z         url: 'https://github.com/topics/screenshot'
+2024-11-25T17:54:25.7926689Z       },
+2024-11-25T17:54:25.7926873Z       {
+2024-11-25T17:54:25.7927105Z         name: 'video-games',
+2024-11-25T17:54:25.7927403Z         description: '',
+2024-11-25T17:54:25.7927656Z         icon: null,
+2024-11-25T17:54:25.7928008Z         url: 'https://github.com/topics/video-games'
+2024-11-25T17:54:25.7928355Z       },
+2024-11-25T17:54:25.7928550Z       {
+2024-11-25T17:54:25.7928775Z         name: 'clang',
+2024-11-25T17:54:25.7929042Z         description: '',
+2024-11-25T17:54:25.7929289Z         icon: null,
+2024-11-25T17:54:25.7929596Z         url: 'https://github.com/topics/clang'
+2024-11-25T17:54:25.7929918Z       },
+2024-11-25T17:54:25.7930291Z       {
+2024-11-25T17:54:25.7930621Z         name: 'images',
+2024-11-25T17:54:25.7930902Z         description: '',
+2024-11-25T17:54:25.7931147Z         icon: null,
+2024-11-25T17:54:25.7931461Z         url: 'https://github.com/topics/images'
+2024-11-25T17:54:25.7931794Z       },
+2024-11-25T17:54:25.7931980Z       {
+2024-11-25T17:54:25.7932203Z         name: 'gnu',
+2024-11-25T17:54:25.7932470Z         description: '',
+2024-11-25T17:54:25.7932719Z         icon: null,
+2024-11-25T17:54:25.7933014Z         url: 'https://github.com/topics/gnu'
+2024-11-25T17:54:25.7933337Z       },
+2024-11-25T17:54:25.7933529Z       {
+2024-11-25T17:54:25.7933755Z         name: 'youtube-api',
+2024-11-25T17:54:25.7934057Z         description: '',
+2024-11-25T17:54:25.7934495Z         icon: null,
+2024-11-25T17:54:25.7934825Z         url: 'https://github.com/topics/youtube-api'
+2024-11-25T17:54:25.7935163Z       },
+2024-11-25T17:54:25.7935355Z       {
+2024-11-25T17:54:25.7935582Z         name: 'makefile',
+2024-11-25T17:54:25.7935870Z         description: '',
+2024-11-25T17:54:25.7936118Z         icon: null,
+2024-11-25T17:54:25.7936435Z         url: 'https://github.com/topics/makefile'
+2024-11-25T17:54:25.7936788Z      
+2024-11-25T17:54:25.7937842Z ##[error]Process completed with exit code 1.
